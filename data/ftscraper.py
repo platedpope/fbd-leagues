@@ -313,7 +313,7 @@ async def request_player_data() -> dict[str, Player]:
 async def request_league_info(league_ids: list[str]) -> dict[str, LeagueInfo]:
     league_info_results = {}
 
-    info_requests = []
+    info_requests = {}
     for league_id in league_ids:
         league_info_cache_file = f'data/.cache/league_info/league_info_{league_id}.json'
         try:
@@ -328,11 +328,11 @@ async def request_league_info(league_ids: list[str]) -> dict[str, LeagueInfo]:
             pass
 
         url = f'/fxea/general/getLeagueInfo?leagueId={league_id}'
-        info_requests.append(_fantrax_api_request(url, 'GET'))
+        info_requests[league_id] = _fantrax_api_request(url, 'GET')
 
     if info_requests:
-        responses = await asyncio.gather(*info_requests, return_exceptions=True)
-        for league_id, resp in zip(league_ids, responses):
+        responses = await asyncio.gather(*info_requests.values(), return_exceptions=True)
+        for league_id, resp in zip(info_requests.keys(), responses):
             league_info_cache_file = f'data/.cache/league_info/league_info_{league_id}.json'
             try:
                 _dump_to_cache_file(resp, league_info_cache_file)
@@ -349,7 +349,7 @@ async def request_league_standings(
     league_standings_adapter = TypeAdapter(list[TeamStandings])
     league_standings_results = {}
 
-    standings_requests = []
+    standings_requests = {}
     for league_id in league_ids:
         league_standings_cache_file = f'data/.cache/league_standings/league_standings_{league_id}.json'
         try:
@@ -367,11 +367,11 @@ async def request_league_standings(
             pass
 
         url = f'/fxea/general/getStandings?leagueId={league_id}'
-        standings_requests.append(_fantrax_api_request(url, 'GET'))
+        standings_requests[league_id] = _fantrax_api_request(url, 'GET')
 
     if standings_requests:
-        responses = await asyncio.gather(*standings_requests, return_exceptions=True)
-        for league_id, resp in zip(league_ids, responses):
+        responses = await asyncio.gather(*standings_requests.values(), return_exceptions=True)
+        for league_id, resp in zip(standings_requests.keys(), responses):
             league_standings_cache_file = f'data/.cache/league_standings/league_standings_{league_id}.json'
             try:
                 _dump_to_cache_file(league_standings_results, league_standings_cache_file)
@@ -385,7 +385,7 @@ async def request_league_standings(
 async def request_league_draft_results(league_ids: list[str], league_info: dict[str, LeagueInfo]) -> dict[str, Draft]:
     draft_results = {}
 
-    draft_requests = []
+    draft_requests = {}
     for league_id in league_ids:
         league_draft_results_cache_file = f'data/.cache/draft_results/draft_results_{league_id}.json'
         try:
@@ -404,11 +404,11 @@ async def request_league_draft_results(league_ids: list[str], league_info: dict[
             pass
 
         url = f'/fxea/general/getDraftResults?leagueId={league_id}'
-        draft_requests.append(_fantrax_api_request(url, 'GET'))
+        draft_requests[league_id] = _fantrax_api_request(url, 'GET')
 
     if draft_requests:
-        responses = await asyncio.gather(*draft_requests, return_exceptions=True)
-        for league_id, resp in zip(league_ids, responses):
+        responses = await asyncio.gather(*draft_requests.values(), return_exceptions=True)
+        for league_id, resp in zip(draft_requests.keys(), responses):
             league_draft_results_cache_file = f'data/.cache/draft_results/draft_results_{league_id}.json'
             try:
                 _dump_to_cache_file(resp, league_draft_results_cache_file)
