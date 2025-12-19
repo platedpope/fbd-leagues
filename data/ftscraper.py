@@ -2,6 +2,7 @@ import asyncio
 import json
 import os
 import time
+from datetime import datetime, timedelta
 from typing import Union
 
 import aiohttp
@@ -131,6 +132,14 @@ class LeagueInfo(BaseModel):
     scoringSystem: ScoringSystem
     poolSettings: PoolSettings
 
+    def has_league_ended(self) -> bool:
+        """Utility function for checking if a league has ended (based on the end date in the league info)."""
+
+        # Convert the end date string to a datetime object.
+        end_date = datetime.strptime(self.endDate, '%Y-%m-%d')
+        # Check if the current date is past the end date, plus one day to account for any late updates.
+        return datetime.now() > end_date + timedelta(days=1)
+
 
 # endregion
 
@@ -245,10 +254,15 @@ async def request_player_data() -> dict[str, Player]:
                 pass
 
     url = '/fxea/general/getPlayerIds?sport=MLB'
+    player_info_cache_file = 'data/.cache/player_data.json'
     try:
         player_data = player_data_adapter.validate_python(await _fantrax_api_request(url, 'GET'))
-        with open('data/.cache/player_data.json', 'w') as f:
+        with open(player_info_cache_file, 'w') as f:
             json.dump({player_id: player.model_dump() for player_id, player in player_data.items()}, f, indent=2)
+        # Update the file's last modified time to now to make sure it's not considered old.
+        # This is necessary because if the new API response is the same as the cached file contents, the file's last modified time won't be updated.
+        os.utime(player_info_cache_file, (time.time(), time.time()))
+
         return player_data
     except Exception as e:
         print(f'Error fetching player data: {e}')
@@ -260,15 +274,17 @@ async def request_league_info(league_ids: list[str]) -> dict[str, LeagueInfo]:
 
     info_requests = []
     for league_id in league_ids:
-        if not _is_cache_file_too_old(f'data/.cache/league_info_{league_id}.json'):
-            with open(f'data/.cache/league_info_{league_id}.json', 'r') as f:
-                try:
-                    league_info = json.load(f)
+        league_info_cache_file = f'data/.cache/league_info_{league_id}.json'
+        with open(league_info_cache_file, 'r') as f:
+            try:
+                league_info = json.load(f)
+                # Load from cache in two cases: if the cache file is not too old, or if the league has already ended (and we don't expect it to change).
+                if not _is_cache_file_too_old(league_info_cache_file) or league_info.has_league_ended():
                     print(f'Using cached league info for {league_id}.')
                     league_info = LeagueInfo.model_validate(league_info)
                     league_info_results[league_id] = league_info
-                except Exception:
-                    pass
+            except Exception:
+                pass
             continue
 
         url = f'/fxea/general/getLeagueInfo?leagueId={league_id}'
@@ -276,11 +292,16 @@ async def request_league_info(league_ids: list[str]) -> dict[str, LeagueInfo]:
 
     responses = await asyncio.gather(*info_requests, return_exceptions=True)
     for league_id, resp in zip(league_ids, responses):
+        league_info_cache_file = f'data/.cache/league_info_{league_id}.json'
         try:
             league_info = LeagueInfo.model_validate(resp)
-            with open(f'data/.cache/league_info_{league_id}.json', 'w') as f:
+            with open(league_info_cache_file, 'w') as f:
                 json.dump(league_info.model_dump(), f, indent=2)
                 print(f'Wrote league info to cache for {league_info.leagueName} ({league_id}).')
+            # Update the file's last modified time to now to make sure it's not considered old.
+            # This is necessary because if the new API response is the same as the cached file contents, the file's last modified time won't be updated.
+            os.utime(league_info_cache_file, (time.time(), time.time()))
+
             league_info_results[league_id] = resp
         except Exception as e:
             print(f'Error fetching league info for {league_id}: {e}')
