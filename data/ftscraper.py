@@ -6,6 +6,7 @@ from datetime import datetime, timedelta
 from typing import Union
 
 import aiohttp
+from aiolimiter import AsyncLimiter
 from pydantic import BaseModel, TypeAdapter
 
 # region Pydantic Models
@@ -225,7 +226,7 @@ _knownLeagues = [
     # 'i8a6jclykmefo93i',  # Pujols League
 ]
 _ft_session = None
-_request_sem = asyncio.Semaphore(5)  # Limit concurrent requests to 5.
+_rate_limiter = AsyncLimiter(5, 1)  # Limit to 5 requests per second.
 
 
 def _is_cache_file_too_old(filepath: str, max_age_seconds: int = 86400) -> bool:
@@ -263,25 +264,25 @@ async def _fantrax_api_request(url: str, method: str, headers: dict = {}, params
         retry_count = 0
         max_retries = 3
 
-        async with _request_sem:
-            while retry_count < max_retries:
-                try:
+        while retry_count < max_retries:
+            try:
+                async with _rate_limiter:
                     print(f'Sending request - ({method.upper()} to {url})')
                     resp = await api.request(
                         method.upper(), url, headers=headers, params=params, timeout=aiohttp.ClientTimeout(total=10)
                     )
-                    json_resp = await resp.json(content_type=resp.content_type)
-                    # Fantrax sometimes returns errors with response code 200...
-                    if 'error' in json_resp:
-                        raise Exception(f'Fantrax API error: {json_resp["error"]}')
-                    return json_resp
-                except asyncio.TimeoutError:
-                    # Retry requests that time out... Fantrax can be very finicky and slow, so we don't want to assume our first requests work.
-                    retry_count += 1
-                except Exception as e:
-                    raise Exception(f'Fantrax API request failed: {e}')
-            # If we reach here, all retries have failed.
-            raise Exception(f'Fantrax API request ({method.upper()} for {url}) timed out after multiple retries.')
+                json_resp = await resp.json(content_type=resp.content_type)
+                # Fantrax sometimes returns errors with response code 200...
+                if 'error' in json_resp:
+                    raise Exception(f'Fantrax API error: {json_resp["error"]}')
+                return json_resp
+            except asyncio.TimeoutError:
+                # Retry requests that time out... Fantrax can be very finicky and slow, so we don't want to assume our first requests work.
+                retry_count += 1
+            except Exception as e:
+                raise Exception(f'Fantrax API request failed: {e}')
+        # If we reach here, all retries have failed.
+        raise Exception(f'Fantrax API request ({method.upper()} for {url}) timed out after multiple retries.')
 
 
 async def request_player_data() -> dict[str, Player]:
