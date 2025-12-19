@@ -141,6 +141,15 @@ class LeagueInfo(BaseModel):
         return datetime.now() > end_date + timedelta(days=1)
 
 
+class TeamStandings(BaseModel):
+    teamName: str
+    teamId: str
+    gamesBack: float
+    rank: int
+    points: str
+    winPercentage: float
+
+
 # endregion
 
 _knownLeagues = [
@@ -274,25 +283,25 @@ async def request_league_info(league_ids: list[str]) -> dict[str, LeagueInfo]:
 
     info_requests = []
     for league_id in league_ids:
-        league_info_cache_file = f'data/.cache/league_info_{league_id}.json'
-        with open(league_info_cache_file, 'r') as f:
-            try:
+        league_info_cache_file = f'data/.cache/league_info/league_info_{league_id}.json'
+        try:
+            with open(league_info_cache_file, 'r') as f:
                 league_info = json.load(f)
                 # Load from cache in two cases: if the cache file is not too old, or if the league has already ended (and we don't expect it to change).
                 if not _is_cache_file_too_old(league_info_cache_file) or league_info.has_league_ended():
                     print(f'Using cached league info for {league_id}.')
                     league_info = LeagueInfo.model_validate(league_info)
                     league_info_results[league_id] = league_info
-            except Exception:
-                pass
-            continue
+                    continue
+        except Exception:
+            pass
 
         url = f'/fxea/general/getLeagueInfo?leagueId={league_id}'
         info_requests.append(_fantrax_api_request(url, 'GET'))
 
     responses = await asyncio.gather(*info_requests, return_exceptions=True)
     for league_id, resp in zip(league_ids, responses):
-        league_info_cache_file = f'data/.cache/league_info_{league_id}.json'
+        league_info_cache_file = f'data/.cache/league_info/league_info_{league_id}.json'
         try:
             league_info = LeagueInfo.model_validate(resp)
             with open(league_info_cache_file, 'w') as f:
@@ -309,6 +318,46 @@ async def request_league_info(league_ids: list[str]) -> dict[str, LeagueInfo]:
     return league_info_results
 
 
+async def request_league_standings(league_ids: list[str], league_info: dict[str, LeagueInfo]) -> list[TeamStandings]:
+    league_standings_adapter = TypeAdapter(list[TeamStandings])
+    league_standings_results = []
+
+    standings_requests = []
+    for league_id in league_ids:
+        league_standings_cache_file = f'data/.cache/league_standings/league_standings_{league_id}.json'
+        try:
+            with open(league_standings_cache_file, 'r') as f:
+                league_standings = json.load(f)
+                # Load from cache in two cases: if the cache file is not too old, or if the league has already ended (and we don't expect it to change).
+                if not _is_cache_file_too_old(league_standings_cache_file) or (
+                    league_id in league_info and league_info[league_id].has_league_ended()
+                ):
+                    print(f'Using cached league standings for {league_id}.')
+                    league_standings_results = league_standings_adapter.validate_python(league_standings)
+                    continue
+        except Exception:
+            pass
+
+        url = f'/fxea/general/getStandings?leagueId={league_id}'
+        standings_requests.append(_fantrax_api_request(url, 'GET'))
+
+    responses = await asyncio.gather(*standings_requests, return_exceptions=True)
+    for league_id, resp in zip(league_ids, responses):
+        league_standings_cache_file = f'data/.cache/league_standings/league_standings_{league_id}.json'
+        try:
+            league_standings_results = league_standings_adapter.validate_python(resp)
+            with open(league_standings_cache_file, 'w') as f:
+                json.dump([standing.model_dump() for standing in league_standings_results], f, indent=2)
+                print(f'Wrote league standings to cache for {league_id}.')
+            # Update the file's last modified time to now to make sure it's not considered old.
+            # This is necessary because if the new API response is the same as the cached file contents, the file's last modified time won't be updated.
+            os.utime(league_standings_cache_file, (time.time(), time.time()))
+        except Exception as e:
+            print(f'Error fetching league standings for {league_id}: {e}')
+
+    return league_standings_results
+
+
 async def main():
     try:
         player_data = await request_player_data()
@@ -319,6 +368,9 @@ async def main():
 
         print(f'Fetching league info for {len(_knownLeagues)} leagues...')
         league_info = await request_league_info(_knownLeagues)
+
+        print(f'Fetching league standings for {len(_knownLeagues)} leagues...')
+        league_standings = await request_league_standings(_knownLeagues, league_info)
     except Exception as e:
         if _ft_session is not None:
             await _ft_session.close()
