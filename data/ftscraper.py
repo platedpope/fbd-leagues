@@ -154,7 +154,7 @@ class DraftPick(BaseModel):
     pick: int
     round: int
     pickInRound: int
-    playerId: str
+    playerId: str | None = None
 
     teamId: str
     time: int
@@ -218,14 +218,14 @@ _knownLeagues = [
     'vhioum1ll0r8rpqw',  # Gibson League
     'jxoa9dq9l0r8rgli',  # McCovey League
     '8k8at6ill0q94oyc',  # Ortiz League
-    # 2021
-    'y8q1j409kmeel9cp',  # Bonds League
-    'h0nia07fkmedpvk2',  # Griffey League
-    '6qy7dqwakmici8im',  # Ichiro League
-    'i8a6jclykmefo93i',  # Pujols League
+    # 2021 - omitting these because I believe they're so old that they produce unreliable API responses that are missing data.
+    # 'y8q1j409kmeel9cp',  # Bonds League
+    # 'h0nia07fkmedpvk2',  # Griffey League
+    # '6qy7dqwakmici8im',  # Ichiro League
+    # 'i8a6jclykmefo93i',  # Pujols League
 ]
 _ft_session = None
-_request_sem = asyncio.Semaphore(5)  # Limit concurrent requests to 5
+_request_sem = asyncio.Semaphore(5)  # Limit concurrent requests to 5.
 
 
 def _is_cache_file_too_old(filepath: str, max_age_seconds: int = 86400) -> bool:
@@ -374,7 +374,7 @@ async def request_league_standings(
         for league_id, resp in zip(standings_requests.keys(), responses):
             league_standings_cache_file = f'data/.cache/league_standings/league_standings_{league_id}.json'
             try:
-                _dump_to_cache_file(league_standings_results, league_standings_cache_file)
+                _dump_to_cache_file(resp, league_standings_cache_file)
                 league_standings_results[league_id] = league_standings_adapter.validate_python(resp)
             except Exception as e:
                 print(f'Error fetching league standings for {league_id}: {e}')
