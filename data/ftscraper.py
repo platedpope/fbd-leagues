@@ -150,6 +150,32 @@ class TeamStandings(BaseModel):
     winPercentage: float
 
 
+class DraftPick(BaseModel):
+    pick: int
+    round: int
+    pickInRound: int
+    playerId: str
+
+    teamId: str
+    time: int
+
+
+class Draft(BaseModel):
+    draftType: str
+    draftState: str
+    draftOrder: list[str]
+
+    draftDate: str
+    startDate: str
+    endDate: str
+
+    draftPicks: list[DraftPick]
+
+    def is_draft_completed(self) -> bool:
+        """Utility function for checking if a draft has been completed (based on the draft state in the draft info)."""
+        return self.draftState == 'completed'
+
+
 # endregion
 
 _knownLeagues = [
@@ -212,6 +238,15 @@ def _is_cache_file_too_old(filepath: str, max_age_seconds: int = 86400) -> bool:
     return (current_time - file_mod_time) > max_age_seconds
 
 
+def _dump_to_cache_file(data, filepath: str):
+    """Utility function for writing data to a cache file, ensuring the file's last modified time is updated to now."""
+    with open(filepath, 'w') as f:
+        json.dump(data, f, indent=2)
+    # Update the file's last modified time to now to make sure it's not considered old.
+    # This is necessary because if the new API response is the same as the cached file contents, the file's last modified time won't be updated.
+    os.utime(filepath, (time.time(), time.time()))
+
+
 async def _fantrax_api_request(url: str, method: str, headers: dict = {}, params: dict = {}) -> dict:
     """Utility function for querying the Fantrax API with a rate-limiter attached to avoid spamming requests."""
 
@@ -256,8 +291,8 @@ async def request_player_data() -> dict[str, Player]:
         with open('data/.cache/player_data.json', 'r') as f:
             try:
                 player_data = json.load(f)
-                print('Using cached player data.')
                 player_data = player_data_adapter.validate_python(player_data)
+                print('Using cached player data.')
                 return player_data
             except Exception:
                 pass
@@ -265,12 +300,9 @@ async def request_player_data() -> dict[str, Player]:
     url = '/fxea/general/getPlayerIds?sport=MLB'
     player_info_cache_file = 'data/.cache/player_data.json'
     try:
-        player_data = player_data_adapter.validate_python(await _fantrax_api_request(url, 'GET'))
-        with open(player_info_cache_file, 'w') as f:
-            json.dump({player_id: player.model_dump() for player_id, player in player_data.items()}, f, indent=2)
-        # Update the file's last modified time to now to make sure it's not considered old.
-        # This is necessary because if the new API response is the same as the cached file contents, the file's last modified time won't be updated.
-        os.utime(player_info_cache_file, (time.time(), time.time()))
+        resp = await _fantrax_api_request(url, 'GET')
+        _dump_to_cache_file(resp, player_info_cache_file)
+        player_data = player_data_adapter.validate_python(resp)
 
         return player_data
     except Exception as e:
@@ -290,8 +322,7 @@ async def request_league_info(league_ids: list[str]) -> dict[str, LeagueInfo]:
                 # Load from cache in two cases: if the cache file is not too old, or if the league has already ended (and we don't expect it to change).
                 if not _is_cache_file_too_old(league_info_cache_file) or league_info.has_league_ended():
                     print(f'Using cached league info for {league_id}.')
-                    league_info = LeagueInfo.model_validate(league_info)
-                    league_info_results[league_id] = league_info
+                    league_info_results[league_id] = LeagueInfo.model_validate(league_info)
                     continue
         except Exception:
             pass
@@ -299,28 +330,24 @@ async def request_league_info(league_ids: list[str]) -> dict[str, LeagueInfo]:
         url = f'/fxea/general/getLeagueInfo?leagueId={league_id}'
         info_requests.append(_fantrax_api_request(url, 'GET'))
 
-    responses = await asyncio.gather(*info_requests, return_exceptions=True)
-    for league_id, resp in zip(league_ids, responses):
-        league_info_cache_file = f'data/.cache/league_info/league_info_{league_id}.json'
-        try:
-            league_info = LeagueInfo.model_validate(resp)
-            with open(league_info_cache_file, 'w') as f:
-                json.dump(league_info.model_dump(), f, indent=2)
-                print(f'Wrote league info to cache for {league_info.leagueName} ({league_id}).')
-            # Update the file's last modified time to now to make sure it's not considered old.
-            # This is necessary because if the new API response is the same as the cached file contents, the file's last modified time won't be updated.
-            os.utime(league_info_cache_file, (time.time(), time.time()))
-
-            league_info_results[league_id] = resp
-        except Exception as e:
-            print(f'Error fetching league info for {league_id}: {e}')
+    if info_requests:
+        responses = await asyncio.gather(*info_requests, return_exceptions=True)
+        for league_id, resp in zip(league_ids, responses):
+            league_info_cache_file = f'data/.cache/league_info/league_info_{league_id}.json'
+            try:
+                _dump_to_cache_file(resp, league_info_cache_file)
+                league_info_results[league_id] = LeagueInfo.model_validate(resp)
+            except Exception as e:
+                print(f'Error fetching league info for {league_id}: {e}')
 
     return league_info_results
 
 
-async def request_league_standings(league_ids: list[str], league_info: dict[str, LeagueInfo]) -> list[TeamStandings]:
+async def request_league_standings(
+    league_ids: list[str], league_info: dict[str, LeagueInfo]
+) -> dict[str, list[TeamStandings]]:
     league_standings_adapter = TypeAdapter(list[TeamStandings])
-    league_standings_results = []
+    league_standings_results = {}
 
     standings_requests = []
     for league_id in league_ids:
@@ -333,7 +360,8 @@ async def request_league_standings(league_ids: list[str], league_info: dict[str,
                     league_id in league_info and league_info[league_id].has_league_ended()
                 ):
                     print(f'Using cached league standings for {league_id}.')
-                    league_standings_results = league_standings_adapter.validate_python(league_standings)
+                    league_standings = league_standings_adapter.validate_python(league_standings)
+                    league_standings_results[league_id] = league_standings
                     continue
         except Exception:
             pass
@@ -341,21 +369,55 @@ async def request_league_standings(league_ids: list[str], league_info: dict[str,
         url = f'/fxea/general/getStandings?leagueId={league_id}'
         standings_requests.append(_fantrax_api_request(url, 'GET'))
 
-    responses = await asyncio.gather(*standings_requests, return_exceptions=True)
-    for league_id, resp in zip(league_ids, responses):
-        league_standings_cache_file = f'data/.cache/league_standings/league_standings_{league_id}.json'
-        try:
-            league_standings_results = league_standings_adapter.validate_python(resp)
-            with open(league_standings_cache_file, 'w') as f:
-                json.dump([standing.model_dump() for standing in league_standings_results], f, indent=2)
-                print(f'Wrote league standings to cache for {league_id}.')
-            # Update the file's last modified time to now to make sure it's not considered old.
-            # This is necessary because if the new API response is the same as the cached file contents, the file's last modified time won't be updated.
-            os.utime(league_standings_cache_file, (time.time(), time.time()))
-        except Exception as e:
-            print(f'Error fetching league standings for {league_id}: {e}')
+    if standings_requests:
+        responses = await asyncio.gather(*standings_requests, return_exceptions=True)
+        for league_id, resp in zip(league_ids, responses):
+            league_standings_cache_file = f'data/.cache/league_standings/league_standings_{league_id}.json'
+            try:
+                _dump_to_cache_file(league_standings_results, league_standings_cache_file)
+                league_standings_results[league_id] = league_standings_adapter.validate_python(resp)
+            except Exception as e:
+                print(f'Error fetching league standings for {league_id}: {e}')
 
     return league_standings_results
+
+
+async def request_league_draft_results(league_ids: list[str], league_info: dict[str, LeagueInfo]) -> dict[str, Draft]:
+    draft_results = {}
+
+    draft_requests = []
+    for league_id in league_ids:
+        league_draft_results_cache_file = f'data/.cache/draft_results/draft_results_{league_id}.json'
+        try:
+            with open(league_draft_results_cache_file, 'r') as f:
+                league_draft_results = json.load(f)
+                # Load from cache in three cases: if the cache file is not too old, if the league has already ended, or if the draft has completed.
+                if (
+                    not _is_cache_file_too_old(league_draft_results_cache_file)
+                    or (league_id in league_info and league_info[league_id].has_league_ended())
+                    or league_draft_results.is_draft_completed()
+                ):
+                    print(f'Using cached league draft results for {league_id}.')
+                    draft_results[league_id] = Draft.model_validate(league_draft_results)
+                    continue
+        except Exception:
+            pass
+
+        url = f'/fxea/general/getDraftResults?leagueId={league_id}'
+        draft_requests.append(_fantrax_api_request(url, 'GET'))
+
+    if draft_requests:
+        responses = await asyncio.gather(*draft_requests, return_exceptions=True)
+        for league_id, resp in zip(league_ids, responses):
+            league_draft_results_cache_file = f'data/.cache/draft_results/draft_results_{league_id}.json'
+            try:
+                _dump_to_cache_file(resp, league_draft_results_cache_file)
+                draft_results[league_id] = Draft.model_validate(resp)
+            except Exception as e:
+                print(f'Error fetching league draft results for {league_id}: {e}')
+                print(f'Error fetching league draft results for {league_id}.')
+
+    return draft_results
 
 
 async def main():
@@ -371,6 +433,9 @@ async def main():
 
         print(f'Fetching league standings for {len(_knownLeagues)} leagues...')
         league_standings = await request_league_standings(_knownLeagues, league_info)
+
+        print(f'Fetching league draft results for {len(_knownLeagues)} leagues...')
+        league_draft_results = await request_league_draft_results(_knownLeagues, league_info)
     except Exception as e:
         if _ft_session is not None:
             await _ft_session.close()
