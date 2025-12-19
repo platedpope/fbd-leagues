@@ -2,8 +2,137 @@ import asyncio
 import json
 import os
 import time
+from typing import Union
 
 import aiohttp
+from pydantic import BaseModel, TypeAdapter
+
+# region Pydantic Models
+
+
+class Player(BaseModel):
+    """
+    Model representing the structure of the API response for getPlayerIds,
+    as returned by an HTTP get to: https://www.fantrax.com/fxea/general/getPlayerIds?sport=MLB
+    """
+
+    name: str
+    fantraxId: str
+    position: str
+    team: str | None = None
+    teamName: str | None = None
+    shortName: str | None = None
+    rotowireId: int | None = None
+    statsIncId: int | None = None
+    sportRadarId: str | None = None
+
+
+class FantraxTeam(BaseModel):
+    name: str
+    id: str
+    shortName: str
+
+
+class Bye(BaseModel):
+    bye: bool = True
+
+
+TeamOrBye = Union[FantraxTeam, Bye]
+
+
+class Matchup(BaseModel):
+    away: TeamOrBye
+    home: TeamOrBye
+
+
+class MatchupPeriod(BaseModel):
+    period: int
+    matchupList: list[Matchup]
+
+
+class PositionConstraint(BaseModel):
+    maxActive: int
+
+
+class RosterInfo(BaseModel):
+    positionConstraints: dict[str, PositionConstraint]
+    maxTotalPlayers: int
+    maxTotalActivePlayers: int
+
+
+class PlayerInfo(BaseModel):
+    eligiblePos: str
+    status: str
+
+
+class DraftSettings(BaseModel):
+    draftType: str
+
+
+class PoolSettings(BaseModel):
+    duplicatePlayerType: str
+    playerSourceType: str
+
+
+class TeamInfo(BaseModel):
+    name: str
+    id: str
+
+
+class ScoringCategoryDetails(BaseModel):
+    Default: str
+
+
+class ScoringDetails(BaseModel):
+    code: str
+    name: str
+    id: str
+    shortName: str
+
+
+class ScoringConfig(BaseModel):
+    weight: float
+    position: ScoringDetails
+    scoringCategory: ScoringDetails
+
+
+class ScoringCategorySetting(BaseModel):
+    configs: list[ScoringConfig]
+    group: ScoringDetails
+
+
+class ScoringSystem(BaseModel):
+    scoringCategories: dict[str, dict[str, ScoringCategoryDetails]]
+    scoringCategorySettings: list[ScoringCategorySetting]
+    type: str
+
+
+class LeagueInfo(BaseModel):
+    """
+    Model representing the structure of the API response for getLeagueInfo,
+    as returned by an HTTP get to: https://www.fantrax.com/fxea/general/getLeagueInfo?leagueId=<league_id>
+    """
+
+    leagueName: str
+    leagueHistoryId: str | None = None
+
+    draftType: str
+    draftSettings: DraftSettings
+
+    seasonYear: int
+    startDate: str
+    endDate: str
+
+    teamInfo: dict[str, TeamInfo]
+    matchups: list[MatchupPeriod]
+    playerInfo: dict[str, PlayerInfo]
+    rosterInfo: RosterInfo
+
+    scoringSystem: ScoringSystem
+    poolSettings: PoolSettings
+
+
+# endregion
 
 _knownLeagues = [
     # 2025
@@ -51,8 +180,8 @@ _knownLeagues = [
     '6qy7dqwakmici8im',  # Ichiro League
     'i8a6jclykmefo93i',  # Pujols League
 ]
-ft_session = None
-request_sem = asyncio.Semaphore(5)  # Limit concurrent requests to 5
+_ft_session = None
+_request_sem = asyncio.Semaphore(5)  # Limit concurrent requests to 5
 
 
 def _is_cache_file_too_old(filepath: str, max_age_seconds: int = 86400) -> bool:
@@ -68,8 +197,8 @@ def _is_cache_file_too_old(filepath: str, max_age_seconds: int = 86400) -> bool:
 async def _fantrax_api_request(url: str, method: str, headers: dict = {}, params: dict = {}) -> dict:
     """Utility function for querying the Fantrax API with a rate-limiter attached to avoid spamming requests."""
 
-    global ft_session
-    ft_session = aiohttp.ClientSession('https://www.fantrax.com')
+    global _ft_session
+    _ft_session = aiohttp.ClientSession('https://www.fantrax.com')
 
     if not headers:
         headers = {
@@ -77,11 +206,11 @@ async def _fantrax_api_request(url: str, method: str, headers: dict = {}, params
             'Content-Type': 'application/json',
         }
 
-    async with ft_session as api:
+    async with _ft_session as api:
         retry_count = 0
         max_retries = 3
 
-        async with request_sem:
+        async with _request_sem:
             while retry_count < max_retries:
                 try:
                     print(f'Sending request - ({method.upper()} to {url})')
@@ -102,49 +231,59 @@ async def _fantrax_api_request(url: str, method: str, headers: dict = {}, params
             raise Exception(f'Fantrax API request ({method.upper()} for {url}) timed out after multiple retries.')
 
 
-async def request_player_data() -> dict:
+async def request_player_data() -> dict[str, Player]:
+    player_data_adapter = TypeAdapter(dict[str, Player])
+
     if not _is_cache_file_too_old('data/.cache/player_data.json'):
         with open('data/.cache/player_data.json', 'r') as f:
             try:
                 player_data = json.load(f)
                 print('Using cached player data.')
+                player_data = player_data_adapter.validate_python(player_data)
                 return player_data
             except Exception:
                 pass
 
     url = '/fxea/general/getPlayerIds?sport=MLB'
     try:
-        player_data = await _fantrax_api_request(url, 'GET')
+        player_data = player_data_adapter.validate_python(await _fantrax_api_request(url, 'GET'))
         with open('data/.cache/player_data.json', 'w') as f:
-            json.dump(player_data, f, indent=2)
+            json.dump({player_id: player.model_dump() for player_id, player in player_data.items()}, f, indent=2)
         return player_data
     except Exception as e:
         print(f'Error fetching player data: {e}')
         return {}
 
 
-async def request_league_info(league_ids: list[str]) -> dict:
+async def request_league_info(league_ids: list[str]) -> dict[str, LeagueInfo]:
     league_info_results = {}
 
-    info_requests = {}
+    info_requests = []
     for league_id in league_ids:
         if not _is_cache_file_too_old(f'data/.cache/league_info_{league_id}.json'):
             with open(f'data/.cache/league_info_{league_id}.json', 'r') as f:
                 try:
-                    league_info_results[league_id] = json.load(f)
+                    league_info = json.load(f)
                     print(f'Using cached league info for {league_id}.')
+                    league_info = LeagueInfo.model_validate(league_info)
+                    league_info_results[league_id] = league_info
                 except Exception:
                     pass
             continue
 
         url = f'/fxea/general/getLeagueInfo?leagueId={league_id}'
-        info_requests[league_id] = _fantrax_api_request(url, 'GET')
+        info_requests.append(_fantrax_api_request(url, 'GET'))
 
-    responses = await asyncio.gather(*info_requests.values(), return_exceptions=True)
+    responses = await asyncio.gather(*info_requests, return_exceptions=True)
     for league_id, resp in zip(league_ids, responses):
-        with open(f'data/.cache/league_info_{league_id}.json', 'w') as f:
-            json.dump(resp, f, indent=2)
-        league_info_results[league_id] = resp
+        try:
+            league_info = LeagueInfo.model_validate(resp)
+            with open(f'data/.cache/league_info_{league_id}.json', 'w') as f:
+                json.dump(league_info.model_dump(), f, indent=2)
+                print(f'Wrote league info to cache for {league_info.leagueName} ({league_id}).')
+            league_info_results[league_id] = resp
+        except Exception as e:
+            print(f'Error fetching league info for {league_id}: {e}')
 
     return league_info_results
 
@@ -160,7 +299,8 @@ async def main():
         print(f'Fetching league info for {len(_knownLeagues)} leagues...')
         league_info = await request_league_info(_knownLeagues)
     except Exception as e:
-        await ft_session.close()
+        if _ft_session is not None:
+            await _ft_session.close()
         raise e
 
 
