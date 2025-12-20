@@ -143,6 +143,11 @@ class LeagueInfo(BaseModel):
 
 
 class TeamStandings(BaseModel):
+    """
+    Model representing the structure of the API response for getStandings,
+    as returned by an HTTP get to: https://www.fantrax.com/fxea/general/getStandings?leagueId=<league_id>
+    """
+
     teamName: str
     teamId: str
     gamesBack: float
@@ -162,6 +167,11 @@ class DraftPick(BaseModel):
 
 
 class Draft(BaseModel):
+    """
+    Model representing the structure of the API response for getDraftResults,
+    as returned by an HTTP get to: https://www.fantrax.com/fxea/general/getDraftResults?leagueId=<league_id>
+    """
+
     draftType: str
     draftState: str
     draftOrder: list[str]
@@ -175,6 +185,27 @@ class Draft(BaseModel):
     def is_draft_completed(self) -> bool:
         """Utility function for checking if a draft has been completed (based on the draft state in the draft info)."""
         return self.draftState == 'completed'
+
+
+class FBDLeague(BaseModel):
+    """
+    Model representing all relevant data for a Fantasy Baseball Discord league.
+    It is formed from a consolidation of the LeagueInfo, TeamStandings, and Draft models, associated by league ID
+    and condensed to only the fields we care about.
+    """
+
+    fantrax_id: str
+    name: str
+    season_year: int
+    start_date: str
+    end_date: str
+    scoring_settings: ScoringSystem
+
+    teams: dict[str, TeamInfo]
+    matchups: list[MatchupPeriod]
+    standings: list[TeamStandings]
+
+    draft: Draft
 
 
 # endregion
@@ -248,6 +279,39 @@ def _dump_to_cache_file(data, filepath: str):
     os.utime(filepath, (time.time(), time.time()))
 
 
+def _consolidate_league_data(
+    league_info: dict[str, LeagueInfo], standings_data: dict[str, list[TeamStandings]], draft_data: dict[str, Draft]
+) -> dict[str, FBDLeague]:
+    """Utility function for consolidating league info, standings, and draft data into a single FBDLeague model."""
+    league_data = {}
+
+    for league_id, info in league_info.items():
+        fbd_league = FBDLeague.model_construct(
+            fantrax_id=league_id,
+            name=info.leagueName,
+            season_year=info.seasonYear,
+            start_date=info.startDate,
+            end_date=info.endDate,
+            scoring_settings=info.scoringSystem,
+            teams=info.teamInfo,
+            matchups=info.matchups,
+        )
+
+        if league_id in standings_data:
+            fbd_league.standings = standings_data[league_id]
+        else:
+            print(f'Warning: No standings data found for league {fbd_league.name} ({league_id}).')
+
+        if league_id in draft_data:
+            fbd_league.draft = draft_data[league_id]
+        else:
+            print(f'Warning: No draft data found for league {fbd_league.name} ({league_id}).')
+
+        league_data[league_id] = fbd_league
+
+    return league_data
+
+
 async def _fantrax_api_request(url: str, method: str, headers: dict = {}, params: dict = {}) -> dict:
     """Utility function for querying the Fantrax API with a rate-limiter attached to avoid spamming requests."""
 
@@ -319,11 +383,11 @@ async def request_league_info(league_ids: list[str]) -> dict[str, LeagueInfo]:
         league_info_cache_file = f'data/.cache/league_info/league_info_{league_id}.json'
         try:
             with open(league_info_cache_file, 'r') as f:
-                league_info = json.load(f)
+                league_info = LeagueInfo.model_validate(json.load(f))
                 # Load from cache in two cases: if the cache file is not too old, or if the league has already ended (and we don't expect it to change).
                 if not _is_cache_file_too_old(league_info_cache_file) or league_info.has_league_ended():
                     print(f'Using cached league info for {league_id}.')
-                    league_info_results[league_id] = LeagueInfo.model_validate(league_info)
+                    league_info_results[league_id] = league_info
                     continue
         except Exception:
             pass
@@ -391,7 +455,7 @@ async def request_league_draft_results(league_ids: list[str], league_info: dict[
         league_draft_results_cache_file = f'data/.cache/draft_results/draft_results_{league_id}.json'
         try:
             with open(league_draft_results_cache_file, 'r') as f:
-                league_draft_results = json.load(f)
+                league_draft_results = Draft.model_validate(json.load(f))
                 # Load from cache in three cases: if the cache file is not too old, if the league has already ended, or if the draft has completed.
                 if (
                     not _is_cache_file_too_old(league_draft_results_cache_file)
@@ -399,7 +463,7 @@ async def request_league_draft_results(league_ids: list[str], league_info: dict[
                     or league_draft_results.is_draft_completed()
                 ):
                     print(f'Using cached league draft results for {league_id}.')
-                    draft_results[league_id] = Draft.model_validate(league_draft_results)
+                    draft_results[league_id] = league_draft_results
                     continue
         except Exception:
             pass
@@ -415,7 +479,7 @@ async def request_league_draft_results(league_ids: list[str], league_info: dict[
                 _dump_to_cache_file(resp, league_draft_results_cache_file)
                 draft_results[league_id] = Draft.model_validate(resp)
             except Exception as e:
-                print(f'Error fetching league draft results for {league_id}: {e}')
+                print(e)
                 print(f'Error fetching league draft results for {league_id}.')
 
     return draft_results
@@ -437,6 +501,12 @@ async def main():
 
         print(f'Fetching league draft results for {len(_knownLeagues)} leagues...')
         league_draft_results = await request_league_draft_results(_knownLeagues, league_info)
+
+        league_data = _consolidate_league_data(league_info, league_standings, league_draft_results)
+        for league_id, league in league_data.items():
+            with open(f'data/leagues/fbd_league_{league_id}.json', 'w') as f:
+                json.dump(league.model_dump(), f, indent=2)
+
     except Exception as e:
         if _ft_session is not None:
             await _ft_session.close()

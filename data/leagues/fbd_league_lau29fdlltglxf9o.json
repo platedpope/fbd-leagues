@@ -1,0 +1,4710 @@
+{
+  "fantrax_id": "lau29fdlltglxf9o",
+  "name": "FBD Dave Stieb League",
+  "season_year": 2024,
+  "start_date": "2024-03-20",
+  "end_date": "2024-09-22",
+  "scoring_settings": {
+    "scoringCategories": {
+      "HITTING": {
+        "R": {
+          "Default": "1.0"
+        },
+        "RBI": {
+          "Default": "1.0"
+        },
+        "HR": {
+          "Default": "1.0"
+        },
+        "OBP": {
+          "Default": "1.0"
+        },
+        "SB": {
+          "Default": "1.0"
+        }
+      },
+      "PITCHING": {
+        "WHIP": {
+          "Default": "1.0"
+        },
+        "SVH": {
+          "Default": "1.0"
+        },
+        "ERA": {
+          "Default": "1.0"
+        },
+        "K": {
+          "Default": "1.0"
+        },
+        "W+QS": {
+          "Default": "1.0"
+        }
+      }
+    },
+    "scoringCategorySettings": [
+      {
+        "configs": [
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_HOME_RUNS",
+              "name": "Home Runs",
+              "id": "0200",
+              "shortName": "HR"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_RBIS",
+              "name": "RBI",
+              "id": "0310",
+              "shortName": "RBI"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_RUNS_SCORED",
+              "name": "Runs Scored",
+              "id": "0330",
+              "shortName": "R"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_STOLEN_BASES",
+              "name": "Stolen Bases",
+              "id": "0380",
+              "shortName": "SB"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_ON_BASE_PERCENTAGE",
+              "name": "On Base Percentage",
+              "id": "0510",
+              "shortName": "OBP"
+            }
+          }
+        ],
+        "group": {
+          "code": "BASEBALL_HITTING",
+          "name": "Hitting",
+          "id": "10",
+          "shortName": "Hit"
+        }
+      },
+      {
+        "configs": [
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_STRIKE_OUTS_PITCHED",
+              "name": "Strikeouts Pitched",
+              "id": "0410",
+              "shortName": "K"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_EARNED_RUN_AVERAGE",
+              "name": "Earned Run Average",
+              "id": "0490",
+              "shortName": "ERA"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_SAVES_PLUS_HOLDS",
+              "name": "Saves + Holds",
+              "id": "051i",
+              "shortName": "SVH"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_WHIP_RATIO",
+              "name": "WHIP Ratio",
+              "id": "0580",
+              "shortName": "WHIP"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_WINS_PLUS_QUALITY_STARTS",
+              "name": "Wins + Quality Starts",
+              "id": "0593",
+              "shortName": "W+QS"
+            }
+          }
+        ],
+        "group": {
+          "code": "BASEBALL_PITCHING",
+          "name": "Pitching",
+          "id": "20",
+          "shortName": "Pit"
+        }
+      }
+    ],
+    "type": "rotisserie"
+  },
+  "teams": {
+    "9w4p0krkltgmlh4q": {
+      "name": "fsFarmerC",
+      "id": "9w4p0krkltgmlh4q"
+    },
+    "y9ynobgnltgoeucx": {
+      "name": "Rags 2 Rutsches",
+      "id": "y9ynobgnltgoeucx"
+    },
+    "cjb7bp2klthf7po3": {
+      "name": "Enjoyingcarp650",
+      "id": "cjb7bp2klthf7po3"
+    },
+    "1tt6sk6dlti5h60f": {
+      "name": "Frost Layleigh",
+      "id": "1tt6sk6dlti5h60f"
+    },
+    "8wwxog8sltgmj4g9": {
+      "name": "LI Bombers",
+      "id": "8wwxog8sltgmj4g9"
+    },
+    "r3gve8qqltgt9fla": {
+      "name": "Mookies N' Cream",
+      "id": "r3gve8qqltgt9fla"
+    },
+    "t0p4cu19ltgm55gz": {
+      "name": "Polar Pete & the Noot Crew",
+      "id": "t0p4cu19ltgm55gz"
+    },
+    "zilor28gltgs6khl": {
+      "name": "justTheShotgun",
+      "id": "zilor28gltgs6khl"
+    },
+    "u8846kl5ltgs4w3l": {
+      "name": "Riley Greeneday",
+      "id": "u8846kl5ltgs4w3l"
+    },
+    "7933gdmpltgmbujv": {
+      "name": "Air Yordan",
+      "id": "7933gdmpltgmbujv"
+    },
+    "ta4yujxdltgmmg51": {
+      "name": "B.O",
+      "id": "ta4yujxdltgmmg51"
+    },
+    "e5i9qm01lthlo8pi": {
+      "name": "Kant Spel Scabz",
+      "id": "e5i9qm01lthlo8pi"
+    }
+  },
+  "matchups": [
+    {
+      "period": 1,
+      "matchupList": [
+        {
+          "away": {
+            "name": "fsFarmerC",
+            "id": "9w4p0krkltgmlh4q",
+            "shortName": "FarmC"
+          },
+          "home": {
+            "name": "Riley Greeneday",
+            "id": "u8846kl5ltgs4w3l",
+            "shortName": "Ass"
+          }
+        },
+        {
+          "away": {
+            "name": "Mookies N' Cream",
+            "id": "r3gve8qqltgt9fla",
+            "shortName": "<3LA"
+          },
+          "home": {
+            "name": "Frost Layleigh",
+            "id": "1tt6sk6dlti5h60f",
+            "shortName": "Web_Gems"
+          }
+        },
+        {
+          "away": {
+            "name": "B.O",
+            "id": "ta4yujxdltgmmg51",
+            "shortName": "Beacons1"
+          },
+          "home": {
+            "name": "Kant Spel Scabz",
+            "id": "e5i9qm01lthlo8pi",
+            "shortName": "KSS"
+          }
+        },
+        {
+          "away": {
+            "name": "LI Bombers",
+            "id": "8wwxog8sltgmj4g9",
+            "shortName": "LIB"
+          },
+          "home": {
+            "name": "Air Yordan",
+            "id": "7933gdmpltgmbujv",
+            "shortName": "Skiman22"
+          }
+        },
+        {
+          "away": {
+            "name": "justTheShotgun",
+            "id": "zilor28gltgs6khl",
+            "shortName": "justTheS"
+          },
+          "home": {
+            "name": "Enjoyingcarp650",
+            "id": "cjb7bp2klthf7po3",
+            "shortName": "Enjoying"
+          }
+        },
+        {
+          "away": {
+            "name": "Polar Pete & the Noot Crew",
+            "id": "t0p4cu19ltgm55gz",
+            "shortName": "Sonny"
+          },
+          "home": {
+            "name": "Rags 2 Rutsches",
+            "id": "y9ynobgnltgoeucx",
+            "shortName": "R2R"
+          }
+        }
+      ]
+    },
+    {
+      "period": 2,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Riley Greeneday",
+            "id": "u8846kl5ltgs4w3l",
+            "shortName": "Ass"
+          },
+          "home": {
+            "name": "Mookies N' Cream",
+            "id": "r3gve8qqltgt9fla",
+            "shortName": "<3LA"
+          }
+        },
+        {
+          "away": {
+            "name": "fsFarmerC",
+            "id": "9w4p0krkltgmlh4q",
+            "shortName": "FarmC"
+          },
+          "home": {
+            "name": "B.O",
+            "id": "ta4yujxdltgmmg51",
+            "shortName": "Beacons1"
+          }
+        },
+        {
+          "away": {
+            "name": "Frost Layleigh",
+            "id": "1tt6sk6dlti5h60f",
+            "shortName": "Web_Gems"
+          },
+          "home": {
+            "name": "LI Bombers",
+            "id": "8wwxog8sltgmj4g9",
+            "shortName": "LIB"
+          }
+        },
+        {
+          "away": {
+            "name": "Kant Spel Scabz",
+            "id": "e5i9qm01lthlo8pi",
+            "shortName": "KSS"
+          },
+          "home": {
+            "name": "justTheShotgun",
+            "id": "zilor28gltgs6khl",
+            "shortName": "justTheS"
+          }
+        },
+        {
+          "away": {
+            "name": "Air Yordan",
+            "id": "7933gdmpltgmbujv",
+            "shortName": "Skiman22"
+          },
+          "home": {
+            "name": "Polar Pete & the Noot Crew",
+            "id": "t0p4cu19ltgm55gz",
+            "shortName": "Sonny"
+          }
+        },
+        {
+          "away": {
+            "name": "Enjoyingcarp650",
+            "id": "cjb7bp2klthf7po3",
+            "shortName": "Enjoying"
+          },
+          "home": {
+            "name": "Rags 2 Rutsches",
+            "id": "y9ynobgnltgoeucx",
+            "shortName": "R2R"
+          }
+        }
+      ]
+    },
+    {
+      "period": 3,
+      "matchupList": [
+        {
+          "away": {
+            "name": "B.O",
+            "id": "ta4yujxdltgmmg51",
+            "shortName": "Beacons1"
+          },
+          "home": {
+            "name": "Riley Greeneday",
+            "id": "u8846kl5ltgs4w3l",
+            "shortName": "Ass"
+          }
+        },
+        {
+          "away": {
+            "name": "LI Bombers",
+            "id": "8wwxog8sltgmj4g9",
+            "shortName": "LIB"
+          },
+          "home": {
+            "name": "Mookies N' Cream",
+            "id": "r3gve8qqltgt9fla",
+            "shortName": "<3LA"
+          }
+        },
+        {
+          "away": {
+            "name": "justTheShotgun",
+            "id": "zilor28gltgs6khl",
+            "shortName": "justTheS"
+          },
+          "home": {
+            "name": "fsFarmerC",
+            "id": "9w4p0krkltgmlh4q",
+            "shortName": "FarmC"
+          }
+        },
+        {
+          "away": {
+            "name": "Polar Pete & the Noot Crew",
+            "id": "t0p4cu19ltgm55gz",
+            "shortName": "Sonny"
+          },
+          "home": {
+            "name": "Frost Layleigh",
+            "id": "1tt6sk6dlti5h60f",
+            "shortName": "Web_Gems"
+          }
+        },
+        {
+          "away": {
+            "name": "Rags 2 Rutsches",
+            "id": "y9ynobgnltgoeucx",
+            "shortName": "R2R"
+          },
+          "home": {
+            "name": "Kant Spel Scabz",
+            "id": "e5i9qm01lthlo8pi",
+            "shortName": "KSS"
+          }
+        },
+        {
+          "away": {
+            "name": "Enjoyingcarp650",
+            "id": "cjb7bp2klthf7po3",
+            "shortName": "Enjoying"
+          },
+          "home": {
+            "name": "Air Yordan",
+            "id": "7933gdmpltgmbujv",
+            "shortName": "Skiman22"
+          }
+        }
+      ]
+    },
+    {
+      "period": 4,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Riley Greeneday",
+            "id": "u8846kl5ltgs4w3l",
+            "shortName": "Ass"
+          },
+          "home": {
+            "name": "LI Bombers",
+            "id": "8wwxog8sltgmj4g9",
+            "shortName": "LIB"
+          }
+        },
+        {
+          "away": {
+            "name": "B.O",
+            "id": "ta4yujxdltgmmg51",
+            "shortName": "Beacons1"
+          },
+          "home": {
+            "name": "justTheShotgun",
+            "id": "zilor28gltgs6khl",
+            "shortName": "justTheS"
+          }
+        },
+        {
+          "away": {
+            "name": "Mookies N' Cream",
+            "id": "r3gve8qqltgt9fla",
+            "shortName": "<3LA"
+          },
+          "home": {
+            "name": "Polar Pete & the Noot Crew",
+            "id": "t0p4cu19ltgm55gz",
+            "shortName": "Sonny"
+          }
+        },
+        {
+          "away": {
+            "name": "fsFarmerC",
+            "id": "9w4p0krkltgmlh4q",
+            "shortName": "FarmC"
+          },
+          "home": {
+            "name": "Rags 2 Rutsches",
+            "id": "y9ynobgnltgoeucx",
+            "shortName": "R2R"
+          }
+        },
+        {
+          "away": {
+            "name": "Frost Layleigh",
+            "id": "1tt6sk6dlti5h60f",
+            "shortName": "Web_Gems"
+          },
+          "home": {
+            "name": "Enjoyingcarp650",
+            "id": "cjb7bp2klthf7po3",
+            "shortName": "Enjoying"
+          }
+        },
+        {
+          "away": {
+            "name": "Kant Spel Scabz",
+            "id": "e5i9qm01lthlo8pi",
+            "shortName": "KSS"
+          },
+          "home": {
+            "name": "Air Yordan",
+            "id": "7933gdmpltgmbujv",
+            "shortName": "Skiman22"
+          }
+        }
+      ]
+    },
+    {
+      "period": 5,
+      "matchupList": [
+        {
+          "away": {
+            "name": "justTheShotgun",
+            "id": "zilor28gltgs6khl",
+            "shortName": "justTheS"
+          },
+          "home": {
+            "name": "Riley Greeneday",
+            "id": "u8846kl5ltgs4w3l",
+            "shortName": "Ass"
+          }
+        },
+        {
+          "away": {
+            "name": "Polar Pete & the Noot Crew",
+            "id": "t0p4cu19ltgm55gz",
+            "shortName": "Sonny"
+          },
+          "home": {
+            "name": "LI Bombers",
+            "id": "8wwxog8sltgmj4g9",
+            "shortName": "LIB"
+          }
+        },
+        {
+          "away": {
+            "name": "Rags 2 Rutsches",
+            "id": "y9ynobgnltgoeucx",
+            "shortName": "R2R"
+          },
+          "home": {
+            "name": "B.O",
+            "id": "ta4yujxdltgmmg51",
+            "shortName": "Beacons1"
+          }
+        },
+        {
+          "away": {
+            "name": "Enjoyingcarp650",
+            "id": "cjb7bp2klthf7po3",
+            "shortName": "Enjoying"
+          },
+          "home": {
+            "name": "Mookies N' Cream",
+            "id": "r3gve8qqltgt9fla",
+            "shortName": "<3LA"
+          }
+        },
+        {
+          "away": {
+            "name": "Air Yordan",
+            "id": "7933gdmpltgmbujv",
+            "shortName": "Skiman22"
+          },
+          "home": {
+            "name": "fsFarmerC",
+            "id": "9w4p0krkltgmlh4q",
+            "shortName": "FarmC"
+          }
+        },
+        {
+          "away": {
+            "name": "Kant Spel Scabz",
+            "id": "e5i9qm01lthlo8pi",
+            "shortName": "KSS"
+          },
+          "home": {
+            "name": "Frost Layleigh",
+            "id": "1tt6sk6dlti5h60f",
+            "shortName": "Web_Gems"
+          }
+        }
+      ]
+    },
+    {
+      "period": 6,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Riley Greeneday",
+            "id": "u8846kl5ltgs4w3l",
+            "shortName": "Ass"
+          },
+          "home": {
+            "name": "Polar Pete & the Noot Crew",
+            "id": "t0p4cu19ltgm55gz",
+            "shortName": "Sonny"
+          }
+        },
+        {
+          "away": {
+            "name": "justTheShotgun",
+            "id": "zilor28gltgs6khl",
+            "shortName": "justTheS"
+          },
+          "home": {
+            "name": "Rags 2 Rutsches",
+            "id": "y9ynobgnltgoeucx",
+            "shortName": "R2R"
+          }
+        },
+        {
+          "away": {
+            "name": "LI Bombers",
+            "id": "8wwxog8sltgmj4g9",
+            "shortName": "LIB"
+          },
+          "home": {
+            "name": "Enjoyingcarp650",
+            "id": "cjb7bp2klthf7po3",
+            "shortName": "Enjoying"
+          }
+        },
+        {
+          "away": {
+            "name": "B.O",
+            "id": "ta4yujxdltgmmg51",
+            "shortName": "Beacons1"
+          },
+          "home": {
+            "name": "Air Yordan",
+            "id": "7933gdmpltgmbujv",
+            "shortName": "Skiman22"
+          }
+        },
+        {
+          "away": {
+            "name": "Mookies N' Cream",
+            "id": "r3gve8qqltgt9fla",
+            "shortName": "<3LA"
+          },
+          "home": {
+            "name": "Kant Spel Scabz",
+            "id": "e5i9qm01lthlo8pi",
+            "shortName": "KSS"
+          }
+        },
+        {
+          "away": {
+            "name": "fsFarmerC",
+            "id": "9w4p0krkltgmlh4q",
+            "shortName": "FarmC"
+          },
+          "home": {
+            "name": "Frost Layleigh",
+            "id": "1tt6sk6dlti5h60f",
+            "shortName": "Web_Gems"
+          }
+        }
+      ]
+    },
+    {
+      "period": 7,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Rags 2 Rutsches",
+            "id": "y9ynobgnltgoeucx",
+            "shortName": "R2R"
+          },
+          "home": {
+            "name": "Riley Greeneday",
+            "id": "u8846kl5ltgs4w3l",
+            "shortName": "Ass"
+          }
+        },
+        {
+          "away": {
+            "name": "Enjoyingcarp650",
+            "id": "cjb7bp2klthf7po3",
+            "shortName": "Enjoying"
+          },
+          "home": {
+            "name": "Polar Pete & the Noot Crew",
+            "id": "t0p4cu19ltgm55gz",
+            "shortName": "Sonny"
+          }
+        },
+        {
+          "away": {
+            "name": "Air Yordan",
+            "id": "7933gdmpltgmbujv",
+            "shortName": "Skiman22"
+          },
+          "home": {
+            "name": "justTheShotgun",
+            "id": "zilor28gltgs6khl",
+            "shortName": "justTheS"
+          }
+        },
+        {
+          "away": {
+            "name": "Kant Spel Scabz",
+            "id": "e5i9qm01lthlo8pi",
+            "shortName": "KSS"
+          },
+          "home": {
+            "name": "LI Bombers",
+            "id": "8wwxog8sltgmj4g9",
+            "shortName": "LIB"
+          }
+        },
+        {
+          "away": {
+            "name": "Frost Layleigh",
+            "id": "1tt6sk6dlti5h60f",
+            "shortName": "Web_Gems"
+          },
+          "home": {
+            "name": "B.O",
+            "id": "ta4yujxdltgmmg51",
+            "shortName": "Beacons1"
+          }
+        },
+        {
+          "away": {
+            "name": "fsFarmerC",
+            "id": "9w4p0krkltgmlh4q",
+            "shortName": "FarmC"
+          },
+          "home": {
+            "name": "Mookies N' Cream",
+            "id": "r3gve8qqltgt9fla",
+            "shortName": "<3LA"
+          }
+        }
+      ]
+    },
+    {
+      "period": 8,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Riley Greeneday",
+            "id": "u8846kl5ltgs4w3l",
+            "shortName": "Ass"
+          },
+          "home": {
+            "name": "Enjoyingcarp650",
+            "id": "cjb7bp2klthf7po3",
+            "shortName": "Enjoying"
+          }
+        },
+        {
+          "away": {
+            "name": "Rags 2 Rutsches",
+            "id": "y9ynobgnltgoeucx",
+            "shortName": "R2R"
+          },
+          "home": {
+            "name": "Air Yordan",
+            "id": "7933gdmpltgmbujv",
+            "shortName": "Skiman22"
+          }
+        },
+        {
+          "away": {
+            "name": "Polar Pete & the Noot Crew",
+            "id": "t0p4cu19ltgm55gz",
+            "shortName": "Sonny"
+          },
+          "home": {
+            "name": "Kant Spel Scabz",
+            "id": "e5i9qm01lthlo8pi",
+            "shortName": "KSS"
+          }
+        },
+        {
+          "away": {
+            "name": "justTheShotgun",
+            "id": "zilor28gltgs6khl",
+            "shortName": "justTheS"
+          },
+          "home": {
+            "name": "Frost Layleigh",
+            "id": "1tt6sk6dlti5h60f",
+            "shortName": "Web_Gems"
+          }
+        },
+        {
+          "away": {
+            "name": "LI Bombers",
+            "id": "8wwxog8sltgmj4g9",
+            "shortName": "LIB"
+          },
+          "home": {
+            "name": "fsFarmerC",
+            "id": "9w4p0krkltgmlh4q",
+            "shortName": "FarmC"
+          }
+        },
+        {
+          "away": {
+            "name": "B.O",
+            "id": "ta4yujxdltgmmg51",
+            "shortName": "Beacons1"
+          },
+          "home": {
+            "name": "Mookies N' Cream",
+            "id": "r3gve8qqltgt9fla",
+            "shortName": "<3LA"
+          }
+        }
+      ]
+    },
+    {
+      "period": 9,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Air Yordan",
+            "id": "7933gdmpltgmbujv",
+            "shortName": "Skiman22"
+          },
+          "home": {
+            "name": "Riley Greeneday",
+            "id": "u8846kl5ltgs4w3l",
+            "shortName": "Ass"
+          }
+        },
+        {
+          "away": {
+            "name": "Kant Spel Scabz",
+            "id": "e5i9qm01lthlo8pi",
+            "shortName": "KSS"
+          },
+          "home": {
+            "name": "Enjoyingcarp650",
+            "id": "cjb7bp2klthf7po3",
+            "shortName": "Enjoying"
+          }
+        },
+        {
+          "away": {
+            "name": "Frost Layleigh",
+            "id": "1tt6sk6dlti5h60f",
+            "shortName": "Web_Gems"
+          },
+          "home": {
+            "name": "Rags 2 Rutsches",
+            "id": "y9ynobgnltgoeucx",
+            "shortName": "R2R"
+          }
+        },
+        {
+          "away": {
+            "name": "fsFarmerC",
+            "id": "9w4p0krkltgmlh4q",
+            "shortName": "FarmC"
+          },
+          "home": {
+            "name": "Polar Pete & the Noot Crew",
+            "id": "t0p4cu19ltgm55gz",
+            "shortName": "Sonny"
+          }
+        },
+        {
+          "away": {
+            "name": "Mookies N' Cream",
+            "id": "r3gve8qqltgt9fla",
+            "shortName": "<3LA"
+          },
+          "home": {
+            "name": "justTheShotgun",
+            "id": "zilor28gltgs6khl",
+            "shortName": "justTheS"
+          }
+        },
+        {
+          "away": {
+            "name": "B.O",
+            "id": "ta4yujxdltgmmg51",
+            "shortName": "Beacons1"
+          },
+          "home": {
+            "name": "LI Bombers",
+            "id": "8wwxog8sltgmj4g9",
+            "shortName": "LIB"
+          }
+        }
+      ]
+    },
+    {
+      "period": 10,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Riley Greeneday",
+            "id": "u8846kl5ltgs4w3l",
+            "shortName": "Ass"
+          },
+          "home": {
+            "name": "Kant Spel Scabz",
+            "id": "e5i9qm01lthlo8pi",
+            "shortName": "KSS"
+          }
+        },
+        {
+          "away": {
+            "name": "Air Yordan",
+            "id": "7933gdmpltgmbujv",
+            "shortName": "Skiman22"
+          },
+          "home": {
+            "name": "Frost Layleigh",
+            "id": "1tt6sk6dlti5h60f",
+            "shortName": "Web_Gems"
+          }
+        },
+        {
+          "away": {
+            "name": "Enjoyingcarp650",
+            "id": "cjb7bp2klthf7po3",
+            "shortName": "Enjoying"
+          },
+          "home": {
+            "name": "fsFarmerC",
+            "id": "9w4p0krkltgmlh4q",
+            "shortName": "FarmC"
+          }
+        },
+        {
+          "away": {
+            "name": "Rags 2 Rutsches",
+            "id": "y9ynobgnltgoeucx",
+            "shortName": "R2R"
+          },
+          "home": {
+            "name": "Mookies N' Cream",
+            "id": "r3gve8qqltgt9fla",
+            "shortName": "<3LA"
+          }
+        },
+        {
+          "away": {
+            "name": "Polar Pete & the Noot Crew",
+            "id": "t0p4cu19ltgm55gz",
+            "shortName": "Sonny"
+          },
+          "home": {
+            "name": "B.O",
+            "id": "ta4yujxdltgmmg51",
+            "shortName": "Beacons1"
+          }
+        },
+        {
+          "away": {
+            "name": "justTheShotgun",
+            "id": "zilor28gltgs6khl",
+            "shortName": "justTheS"
+          },
+          "home": {
+            "name": "LI Bombers",
+            "id": "8wwxog8sltgmj4g9",
+            "shortName": "LIB"
+          }
+        }
+      ]
+    },
+    {
+      "period": 11,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Frost Layleigh",
+            "id": "1tt6sk6dlti5h60f",
+            "shortName": "Web_Gems"
+          },
+          "home": {
+            "name": "Riley Greeneday",
+            "id": "u8846kl5ltgs4w3l",
+            "shortName": "Ass"
+          }
+        },
+        {
+          "away": {
+            "name": "fsFarmerC",
+            "id": "9w4p0krkltgmlh4q",
+            "shortName": "FarmC"
+          },
+          "home": {
+            "name": "Kant Spel Scabz",
+            "id": "e5i9qm01lthlo8pi",
+            "shortName": "KSS"
+          }
+        },
+        {
+          "away": {
+            "name": "Mookies N' Cream",
+            "id": "r3gve8qqltgt9fla",
+            "shortName": "<3LA"
+          },
+          "home": {
+            "name": "Air Yordan",
+            "id": "7933gdmpltgmbujv",
+            "shortName": "Skiman22"
+          }
+        },
+        {
+          "away": {
+            "name": "B.O",
+            "id": "ta4yujxdltgmmg51",
+            "shortName": "Beacons1"
+          },
+          "home": {
+            "name": "Enjoyingcarp650",
+            "id": "cjb7bp2klthf7po3",
+            "shortName": "Enjoying"
+          }
+        },
+        {
+          "away": {
+            "name": "LI Bombers",
+            "id": "8wwxog8sltgmj4g9",
+            "shortName": "LIB"
+          },
+          "home": {
+            "name": "Rags 2 Rutsches",
+            "id": "y9ynobgnltgoeucx",
+            "shortName": "R2R"
+          }
+        },
+        {
+          "away": {
+            "name": "justTheShotgun",
+            "id": "zilor28gltgs6khl",
+            "shortName": "justTheS"
+          },
+          "home": {
+            "name": "Polar Pete & the Noot Crew",
+            "id": "t0p4cu19ltgm55gz",
+            "shortName": "Sonny"
+          }
+        }
+      ]
+    },
+    {
+      "period": 12,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Riley Greeneday",
+            "id": "u8846kl5ltgs4w3l",
+            "shortName": "Ass"
+          },
+          "home": {
+            "name": "fsFarmerC",
+            "id": "9w4p0krkltgmlh4q",
+            "shortName": "FarmC"
+          }
+        },
+        {
+          "away": {
+            "name": "Frost Layleigh",
+            "id": "1tt6sk6dlti5h60f",
+            "shortName": "Web_Gems"
+          },
+          "home": {
+            "name": "Mookies N' Cream",
+            "id": "r3gve8qqltgt9fla",
+            "shortName": "<3LA"
+          }
+        },
+        {
+          "away": {
+            "name": "Kant Spel Scabz",
+            "id": "e5i9qm01lthlo8pi",
+            "shortName": "KSS"
+          },
+          "home": {
+            "name": "B.O",
+            "id": "ta4yujxdltgmmg51",
+            "shortName": "Beacons1"
+          }
+        },
+        {
+          "away": {
+            "name": "Air Yordan",
+            "id": "7933gdmpltgmbujv",
+            "shortName": "Skiman22"
+          },
+          "home": {
+            "name": "LI Bombers",
+            "id": "8wwxog8sltgmj4g9",
+            "shortName": "LIB"
+          }
+        },
+        {
+          "away": {
+            "name": "Enjoyingcarp650",
+            "id": "cjb7bp2klthf7po3",
+            "shortName": "Enjoying"
+          },
+          "home": {
+            "name": "justTheShotgun",
+            "id": "zilor28gltgs6khl",
+            "shortName": "justTheS"
+          }
+        },
+        {
+          "away": {
+            "name": "Rags 2 Rutsches",
+            "id": "y9ynobgnltgoeucx",
+            "shortName": "R2R"
+          },
+          "home": {
+            "name": "Polar Pete & the Noot Crew",
+            "id": "t0p4cu19ltgm55gz",
+            "shortName": "Sonny"
+          }
+        }
+      ]
+    },
+    {
+      "period": 13,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Mookies N' Cream",
+            "id": "r3gve8qqltgt9fla",
+            "shortName": "<3LA"
+          },
+          "home": {
+            "name": "Riley Greeneday",
+            "id": "u8846kl5ltgs4w3l",
+            "shortName": "Ass"
+          }
+        },
+        {
+          "away": {
+            "name": "B.O",
+            "id": "ta4yujxdltgmmg51",
+            "shortName": "Beacons1"
+          },
+          "home": {
+            "name": "fsFarmerC",
+            "id": "9w4p0krkltgmlh4q",
+            "shortName": "FarmC"
+          }
+        },
+        {
+          "away": {
+            "name": "LI Bombers",
+            "id": "8wwxog8sltgmj4g9",
+            "shortName": "LIB"
+          },
+          "home": {
+            "name": "Frost Layleigh",
+            "id": "1tt6sk6dlti5h60f",
+            "shortName": "Web_Gems"
+          }
+        },
+        {
+          "away": {
+            "name": "justTheShotgun",
+            "id": "zilor28gltgs6khl",
+            "shortName": "justTheS"
+          },
+          "home": {
+            "name": "Kant Spel Scabz",
+            "id": "e5i9qm01lthlo8pi",
+            "shortName": "KSS"
+          }
+        },
+        {
+          "away": {
+            "name": "Polar Pete & the Noot Crew",
+            "id": "t0p4cu19ltgm55gz",
+            "shortName": "Sonny"
+          },
+          "home": {
+            "name": "Air Yordan",
+            "id": "7933gdmpltgmbujv",
+            "shortName": "Skiman22"
+          }
+        },
+        {
+          "away": {
+            "name": "Rags 2 Rutsches",
+            "id": "y9ynobgnltgoeucx",
+            "shortName": "R2R"
+          },
+          "home": {
+            "name": "Enjoyingcarp650",
+            "id": "cjb7bp2klthf7po3",
+            "shortName": "Enjoying"
+          }
+        }
+      ]
+    },
+    {
+      "period": 14,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Riley Greeneday",
+            "id": "u8846kl5ltgs4w3l",
+            "shortName": "Ass"
+          },
+          "home": {
+            "name": "B.O",
+            "id": "ta4yujxdltgmmg51",
+            "shortName": "Beacons1"
+          }
+        },
+        {
+          "away": {
+            "name": "Mookies N' Cream",
+            "id": "r3gve8qqltgt9fla",
+            "shortName": "<3LA"
+          },
+          "home": {
+            "name": "LI Bombers",
+            "id": "8wwxog8sltgmj4g9",
+            "shortName": "LIB"
+          }
+        },
+        {
+          "away": {
+            "name": "fsFarmerC",
+            "id": "9w4p0krkltgmlh4q",
+            "shortName": "FarmC"
+          },
+          "home": {
+            "name": "justTheShotgun",
+            "id": "zilor28gltgs6khl",
+            "shortName": "justTheS"
+          }
+        },
+        {
+          "away": {
+            "name": "Frost Layleigh",
+            "id": "1tt6sk6dlti5h60f",
+            "shortName": "Web_Gems"
+          },
+          "home": {
+            "name": "Polar Pete & the Noot Crew",
+            "id": "t0p4cu19ltgm55gz",
+            "shortName": "Sonny"
+          }
+        },
+        {
+          "away": {
+            "name": "Kant Spel Scabz",
+            "id": "e5i9qm01lthlo8pi",
+            "shortName": "KSS"
+          },
+          "home": {
+            "name": "Rags 2 Rutsches",
+            "id": "y9ynobgnltgoeucx",
+            "shortName": "R2R"
+          }
+        },
+        {
+          "away": {
+            "name": "Air Yordan",
+            "id": "7933gdmpltgmbujv",
+            "shortName": "Skiman22"
+          },
+          "home": {
+            "name": "Enjoyingcarp650",
+            "id": "cjb7bp2klthf7po3",
+            "shortName": "Enjoying"
+          }
+        }
+      ]
+    },
+    {
+      "period": 15,
+      "matchupList": [
+        {
+          "away": {
+            "name": "LI Bombers",
+            "id": "8wwxog8sltgmj4g9",
+            "shortName": "LIB"
+          },
+          "home": {
+            "name": "Riley Greeneday",
+            "id": "u8846kl5ltgs4w3l",
+            "shortName": "Ass"
+          }
+        },
+        {
+          "away": {
+            "name": "justTheShotgun",
+            "id": "zilor28gltgs6khl",
+            "shortName": "justTheS"
+          },
+          "home": {
+            "name": "B.O",
+            "id": "ta4yujxdltgmmg51",
+            "shortName": "Beacons1"
+          }
+        },
+        {
+          "away": {
+            "name": "Polar Pete & the Noot Crew",
+            "id": "t0p4cu19ltgm55gz",
+            "shortName": "Sonny"
+          },
+          "home": {
+            "name": "Mookies N' Cream",
+            "id": "r3gve8qqltgt9fla",
+            "shortName": "<3LA"
+          }
+        },
+        {
+          "away": {
+            "name": "Rags 2 Rutsches",
+            "id": "y9ynobgnltgoeucx",
+            "shortName": "R2R"
+          },
+          "home": {
+            "name": "fsFarmerC",
+            "id": "9w4p0krkltgmlh4q",
+            "shortName": "FarmC"
+          }
+        },
+        {
+          "away": {
+            "name": "Enjoyingcarp650",
+            "id": "cjb7bp2klthf7po3",
+            "shortName": "Enjoying"
+          },
+          "home": {
+            "name": "Frost Layleigh",
+            "id": "1tt6sk6dlti5h60f",
+            "shortName": "Web_Gems"
+          }
+        },
+        {
+          "away": {
+            "name": "Air Yordan",
+            "id": "7933gdmpltgmbujv",
+            "shortName": "Skiman22"
+          },
+          "home": {
+            "name": "Kant Spel Scabz",
+            "id": "e5i9qm01lthlo8pi",
+            "shortName": "KSS"
+          }
+        }
+      ]
+    },
+    {
+      "period": 16,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Riley Greeneday",
+            "id": "u8846kl5ltgs4w3l",
+            "shortName": "Ass"
+          },
+          "home": {
+            "name": "justTheShotgun",
+            "id": "zilor28gltgs6khl",
+            "shortName": "justTheS"
+          }
+        },
+        {
+          "away": {
+            "name": "LI Bombers",
+            "id": "8wwxog8sltgmj4g9",
+            "shortName": "LIB"
+          },
+          "home": {
+            "name": "Polar Pete & the Noot Crew",
+            "id": "t0p4cu19ltgm55gz",
+            "shortName": "Sonny"
+          }
+        },
+        {
+          "away": {
+            "name": "B.O",
+            "id": "ta4yujxdltgmmg51",
+            "shortName": "Beacons1"
+          },
+          "home": {
+            "name": "Rags 2 Rutsches",
+            "id": "y9ynobgnltgoeucx",
+            "shortName": "R2R"
+          }
+        },
+        {
+          "away": {
+            "name": "Mookies N' Cream",
+            "id": "r3gve8qqltgt9fla",
+            "shortName": "<3LA"
+          },
+          "home": {
+            "name": "Enjoyingcarp650",
+            "id": "cjb7bp2klthf7po3",
+            "shortName": "Enjoying"
+          }
+        },
+        {
+          "away": {
+            "name": "fsFarmerC",
+            "id": "9w4p0krkltgmlh4q",
+            "shortName": "FarmC"
+          },
+          "home": {
+            "name": "Air Yordan",
+            "id": "7933gdmpltgmbujv",
+            "shortName": "Skiman22"
+          }
+        },
+        {
+          "away": {
+            "name": "Frost Layleigh",
+            "id": "1tt6sk6dlti5h60f",
+            "shortName": "Web_Gems"
+          },
+          "home": {
+            "name": "Kant Spel Scabz",
+            "id": "e5i9qm01lthlo8pi",
+            "shortName": "KSS"
+          }
+        }
+      ]
+    },
+    {
+      "period": 17,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Polar Pete & the Noot Crew",
+            "id": "t0p4cu19ltgm55gz",
+            "shortName": "Sonny"
+          },
+          "home": {
+            "name": "Riley Greeneday",
+            "id": "u8846kl5ltgs4w3l",
+            "shortName": "Ass"
+          }
+        },
+        {
+          "away": {
+            "name": "Rags 2 Rutsches",
+            "id": "y9ynobgnltgoeucx",
+            "shortName": "R2R"
+          },
+          "home": {
+            "name": "justTheShotgun",
+            "id": "zilor28gltgs6khl",
+            "shortName": "justTheS"
+          }
+        },
+        {
+          "away": {
+            "name": "Enjoyingcarp650",
+            "id": "cjb7bp2klthf7po3",
+            "shortName": "Enjoying"
+          },
+          "home": {
+            "name": "LI Bombers",
+            "id": "8wwxog8sltgmj4g9",
+            "shortName": "LIB"
+          }
+        },
+        {
+          "away": {
+            "name": "Air Yordan",
+            "id": "7933gdmpltgmbujv",
+            "shortName": "Skiman22"
+          },
+          "home": {
+            "name": "B.O",
+            "id": "ta4yujxdltgmmg51",
+            "shortName": "Beacons1"
+          }
+        },
+        {
+          "away": {
+            "name": "Kant Spel Scabz",
+            "id": "e5i9qm01lthlo8pi",
+            "shortName": "KSS"
+          },
+          "home": {
+            "name": "Mookies N' Cream",
+            "id": "r3gve8qqltgt9fla",
+            "shortName": "<3LA"
+          }
+        },
+        {
+          "away": {
+            "name": "Frost Layleigh",
+            "id": "1tt6sk6dlti5h60f",
+            "shortName": "Web_Gems"
+          },
+          "home": {
+            "name": "fsFarmerC",
+            "id": "9w4p0krkltgmlh4q",
+            "shortName": "FarmC"
+          }
+        }
+      ]
+    },
+    {
+      "period": 18,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Riley Greeneday",
+            "id": "u8846kl5ltgs4w3l",
+            "shortName": "Ass"
+          },
+          "home": {
+            "name": "Rags 2 Rutsches",
+            "id": "y9ynobgnltgoeucx",
+            "shortName": "R2R"
+          }
+        },
+        {
+          "away": {
+            "name": "Polar Pete & the Noot Crew",
+            "id": "t0p4cu19ltgm55gz",
+            "shortName": "Sonny"
+          },
+          "home": {
+            "name": "Enjoyingcarp650",
+            "id": "cjb7bp2klthf7po3",
+            "shortName": "Enjoying"
+          }
+        },
+        {
+          "away": {
+            "name": "justTheShotgun",
+            "id": "zilor28gltgs6khl",
+            "shortName": "justTheS"
+          },
+          "home": {
+            "name": "Air Yordan",
+            "id": "7933gdmpltgmbujv",
+            "shortName": "Skiman22"
+          }
+        },
+        {
+          "away": {
+            "name": "LI Bombers",
+            "id": "8wwxog8sltgmj4g9",
+            "shortName": "LIB"
+          },
+          "home": {
+            "name": "Kant Spel Scabz",
+            "id": "e5i9qm01lthlo8pi",
+            "shortName": "KSS"
+          }
+        },
+        {
+          "away": {
+            "name": "B.O",
+            "id": "ta4yujxdltgmmg51",
+            "shortName": "Beacons1"
+          },
+          "home": {
+            "name": "Frost Layleigh",
+            "id": "1tt6sk6dlti5h60f",
+            "shortName": "Web_Gems"
+          }
+        },
+        {
+          "away": {
+            "name": "Mookies N' Cream",
+            "id": "r3gve8qqltgt9fla",
+            "shortName": "<3LA"
+          },
+          "home": {
+            "name": "fsFarmerC",
+            "id": "9w4p0krkltgmlh4q",
+            "shortName": "FarmC"
+          }
+        }
+      ]
+    },
+    {
+      "period": 19,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Enjoyingcarp650",
+            "id": "cjb7bp2klthf7po3",
+            "shortName": "Enjoying"
+          },
+          "home": {
+            "name": "Riley Greeneday",
+            "id": "u8846kl5ltgs4w3l",
+            "shortName": "Ass"
+          }
+        },
+        {
+          "away": {
+            "name": "Air Yordan",
+            "id": "7933gdmpltgmbujv",
+            "shortName": "Skiman22"
+          },
+          "home": {
+            "name": "Rags 2 Rutsches",
+            "id": "y9ynobgnltgoeucx",
+            "shortName": "R2R"
+          }
+        },
+        {
+          "away": {
+            "name": "Kant Spel Scabz",
+            "id": "e5i9qm01lthlo8pi",
+            "shortName": "KSS"
+          },
+          "home": {
+            "name": "Polar Pete & the Noot Crew",
+            "id": "t0p4cu19ltgm55gz",
+            "shortName": "Sonny"
+          }
+        },
+        {
+          "away": {
+            "name": "Frost Layleigh",
+            "id": "1tt6sk6dlti5h60f",
+            "shortName": "Web_Gems"
+          },
+          "home": {
+            "name": "justTheShotgun",
+            "id": "zilor28gltgs6khl",
+            "shortName": "justTheS"
+          }
+        },
+        {
+          "away": {
+            "name": "fsFarmerC",
+            "id": "9w4p0krkltgmlh4q",
+            "shortName": "FarmC"
+          },
+          "home": {
+            "name": "LI Bombers",
+            "id": "8wwxog8sltgmj4g9",
+            "shortName": "LIB"
+          }
+        },
+        {
+          "away": {
+            "name": "Mookies N' Cream",
+            "id": "r3gve8qqltgt9fla",
+            "shortName": "<3LA"
+          },
+          "home": {
+            "name": "B.O",
+            "id": "ta4yujxdltgmmg51",
+            "shortName": "Beacons1"
+          }
+        }
+      ]
+    },
+    {
+      "period": 20,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Riley Greeneday",
+            "id": "u8846kl5ltgs4w3l",
+            "shortName": "Ass"
+          },
+          "home": {
+            "name": "Air Yordan",
+            "id": "7933gdmpltgmbujv",
+            "shortName": "Skiman22"
+          }
+        },
+        {
+          "away": {
+            "name": "Enjoyingcarp650",
+            "id": "cjb7bp2klthf7po3",
+            "shortName": "Enjoying"
+          },
+          "home": {
+            "name": "Kant Spel Scabz",
+            "id": "e5i9qm01lthlo8pi",
+            "shortName": "KSS"
+          }
+        },
+        {
+          "away": {
+            "name": "Rags 2 Rutsches",
+            "id": "y9ynobgnltgoeucx",
+            "shortName": "R2R"
+          },
+          "home": {
+            "name": "Frost Layleigh",
+            "id": "1tt6sk6dlti5h60f",
+            "shortName": "Web_Gems"
+          }
+        },
+        {
+          "away": {
+            "name": "Polar Pete & the Noot Crew",
+            "id": "t0p4cu19ltgm55gz",
+            "shortName": "Sonny"
+          },
+          "home": {
+            "name": "fsFarmerC",
+            "id": "9w4p0krkltgmlh4q",
+            "shortName": "FarmC"
+          }
+        },
+        {
+          "away": {
+            "name": "justTheShotgun",
+            "id": "zilor28gltgs6khl",
+            "shortName": "justTheS"
+          },
+          "home": {
+            "name": "Mookies N' Cream",
+            "id": "r3gve8qqltgt9fla",
+            "shortName": "<3LA"
+          }
+        },
+        {
+          "away": {
+            "name": "LI Bombers",
+            "id": "8wwxog8sltgmj4g9",
+            "shortName": "LIB"
+          },
+          "home": {
+            "name": "B.O",
+            "id": "ta4yujxdltgmmg51",
+            "shortName": "Beacons1"
+          }
+        }
+      ]
+    },
+    {
+      "period": 21,
+      "matchupList": [
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "name": "LI Bombers",
+            "id": "8wwxog8sltgmj4g9",
+            "shortName": "LIB"
+          }
+        },
+        {
+          "away": {
+            "name": "Air Yordan",
+            "id": "7933gdmpltgmbujv",
+            "shortName": "Skiman22"
+          },
+          "home": {
+            "name": "Polar Pete & the Noot Crew",
+            "id": "t0p4cu19ltgm55gz",
+            "shortName": "Sonny"
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "name": "Mookies N' Cream",
+            "id": "r3gve8qqltgt9fla",
+            "shortName": "<3LA"
+          }
+        },
+        {
+          "away": {
+            "name": "Riley Greeneday",
+            "id": "u8846kl5ltgs4w3l",
+            "shortName": "Ass"
+          },
+          "home": {
+            "name": "justTheShotgun",
+            "id": "zilor28gltgs6khl",
+            "shortName": "justTheS"
+          }
+        }
+      ]
+    },
+    {
+      "period": 22,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Air Yordan",
+            "id": "7933gdmpltgmbujv",
+            "shortName": "Skiman22"
+          },
+          "home": {
+            "name": "LI Bombers",
+            "id": "8wwxog8sltgmj4g9",
+            "shortName": "LIB"
+          }
+        },
+        {
+          "away": {
+            "name": "justTheShotgun",
+            "id": "zilor28gltgs6khl",
+            "shortName": "justTheS"
+          },
+          "home": {
+            "name": "Mookies N' Cream",
+            "id": "r3gve8qqltgt9fla",
+            "shortName": "<3LA"
+          }
+        }
+      ]
+    },
+    {
+      "period": 23,
+      "matchupList": [
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    }
+  ],
+  "standings": [
+    {
+      "teamName": "LI Bombers",
+      "teamId": "8wwxog8sltgmj4g9",
+      "gamesBack": 0.0,
+      "rank": 1,
+      "points": "115-71-14",
+      "winPercentage": 0.61
+    },
+    {
+      "teamName": "Mookies N' Cream",
+      "teamId": "r3gve8qqltgt9fla",
+      "gamesBack": 2.5,
+      "rank": 2,
+      "points": "114-75-11",
+      "winPercentage": 0.598
+    },
+    {
+      "teamName": "justTheShotgun",
+      "teamId": "zilor28gltgs6khl",
+      "gamesBack": 3.5,
+      "rank": 3,
+      "points": "114-77-9",
+      "winPercentage": 0.593
+    },
+    {
+      "teamName": "Polar Pete & the Noot Crew",
+      "teamId": "t0p4cu19ltgm55gz",
+      "gamesBack": 11.0,
+      "rank": 4,
+      "points": "103-81-16",
+      "winPercentage": 0.555
+    },
+    {
+      "teamName": "Air Yordan",
+      "teamId": "7933gdmpltgmbujv",
+      "gamesBack": 12.5,
+      "rank": 5,
+      "points": "101-82-17",
+      "winPercentage": 0.548
+    },
+    {
+      "teamName": "Riley Greeneday",
+      "teamId": "u8846kl5ltgs4w3l",
+      "gamesBack": 15.5,
+      "rank": 6,
+      "points": "101-88-11",
+      "winPercentage": 0.533
+    },
+    {
+      "teamName": "Kant Spel Scabz",
+      "teamId": "e5i9qm01lthlo8pi",
+      "gamesBack": 31.0,
+      "rank": 7,
+      "points": "86-104-10",
+      "winPercentage": 0.455
+    },
+    {
+      "teamName": "Rags 2 Rutsches",
+      "teamId": "y9ynobgnltgoeucx",
+      "gamesBack": 32.0,
+      "rank": 8,
+      "points": "84-104-12",
+      "winPercentage": 0.45
+    },
+    {
+      "teamName": "fsFarmerC",
+      "teamId": "9w4p0krkltgmlh4q",
+      "gamesBack": 34.0,
+      "rank": 9,
+      "points": "83-107-10",
+      "winPercentage": 0.44
+    },
+    {
+      "teamName": "B.O",
+      "teamId": "ta4yujxdltgmmg51",
+      "gamesBack": 36.5,
+      "rank": 10,
+      "points": "82-111-7",
+      "winPercentage": 0.428
+    },
+    {
+      "teamName": "Frost Layleigh",
+      "teamId": "1tt6sk6dlti5h60f",
+      "gamesBack": 38.5,
+      "rank": 11,
+      "points": "77-110-13",
+      "winPercentage": 0.418
+    },
+    {
+      "teamName": "Enjoyingcarp650",
+      "teamId": "cjb7bp2klthf7po3",
+      "gamesBack": 47.0,
+      "rank": 12,
+      "points": "72-122-6",
+      "winPercentage": 0.375
+    }
+  ],
+  "draft": {
+    "draftType": "snake",
+    "draftState": "completed",
+    "draftOrder": [
+      "e5i9qm01lthlo8pi",
+      "t0p4cu19ltgm55gz",
+      "8wwxog8sltgmj4g9",
+      "u8846kl5ltgs4w3l",
+      "1tt6sk6dlti5h60f",
+      "zilor28gltgs6khl",
+      "y9ynobgnltgoeucx",
+      "r3gve8qqltgt9fla",
+      "9w4p0krkltgmlh4q",
+      "ta4yujxdltgmmg51",
+      "cjb7bp2klthf7po3",
+      "7933gdmpltgmbujv"
+    ],
+    "draftDate": "2024-03-09T11:00:00.0-0500",
+    "startDate": "2024-03-09T11:00:04.0-0500",
+    "endDate": "2024-03-15T15:19:52.0-0400",
+    "draftPicks": [
+      {
+        "pick": 145,
+        "round": 13,
+        "pickInRound": 1,
+        "playerId": "000dp",
+        "teamId": "e5i9qm01lthlo8pi",
+        "time": 1710269018000
+      },
+      {
+        "pick": 263,
+        "round": 22,
+        "pickInRound": 11,
+        "playerId": "004ee",
+        "teamId": "t0p4cu19ltgm55gz",
+        "time": 1710382324000
+      },
+      {
+        "pick": 210,
+        "round": 18,
+        "pickInRound": 6,
+        "playerId": "005jn",
+        "teamId": "y9ynobgnltgoeucx",
+        "time": 1710352211000
+      },
+      {
+        "pick": 312,
+        "round": 26,
+        "pickInRound": 12,
+        "playerId": "005m0",
+        "teamId": "e5i9qm01lthlo8pi",
+        "time": 1710517862000
+      },
+      {
+        "pick": 165,
+        "round": 14,
+        "pickInRound": 9,
+        "playerId": "01c5l",
+        "teamId": "u8846kl5ltgs4w3l",
+        "time": 1710285327000
+      },
+      {
+        "pick": 306,
+        "round": 26,
+        "pickInRound": 6,
+        "playerId": "01cdf",
+        "teamId": "y9ynobgnltgoeucx",
+        "time": 1710506947000
+      },
+      {
+        "pick": 12,
+        "round": 1,
+        "pickInRound": 12,
+        "playerId": "01cgo",
+        "teamId": "7933gdmpltgmbujv",
+        "time": 1710021300000
+      },
+      {
+        "pick": 16,
+        "round": 2,
+        "pickInRound": 4,
+        "playerId": "01fh9",
+        "teamId": "9w4p0krkltgmlh4q",
+        "time": 1710021604000
+      },
+      {
+        "pick": 295,
+        "round": 25,
+        "pickInRound": 7,
+        "playerId": "01lum",
+        "teamId": "y9ynobgnltgoeucx",
+        "time": 1710450663000
+      },
+      {
+        "pick": 45,
+        "round": 4,
+        "pickInRound": 9,
+        "playerId": "01s8u",
+        "teamId": "u8846kl5ltgs4w3l",
+        "time": 1710096605000
+      },
+      {
+        "pick": 278,
+        "round": 24,
+        "pickInRound": 2,
+        "playerId": "01s94",
+        "teamId": "cjb7bp2klthf7po3",
+        "time": 1710430228000
+      },
+      {
+        "pick": 246,
+        "round": 21,
+        "pickInRound": 6,
+        "playerId": "01s9k",
+        "teamId": "zilor28gltgs6khl",
+        "time": 1710373328000
+      },
+      {
+        "pick": 33,
+        "round": 3,
+        "pickInRound": 9,
+        "playerId": "01sb3",
+        "teamId": "9w4p0krkltgmlh4q",
+        "time": 1710049679000
+      },
+      {
+        "pick": 213,
+        "round": 18,
+        "pickInRound": 9,
+        "playerId": "01scl",
+        "teamId": "u8846kl5ltgs4w3l",
+        "time": 1710352908000
+      },
+      {
+        "pick": 243,
+        "round": 21,
+        "pickInRound": 3,
+        "playerId": "01sea",
+        "teamId": "8wwxog8sltgmj4g9",
+        "time": 1710369433000
+      },
+      {
+        "pick": 265,
+        "round": 23,
+        "pickInRound": 1,
+        "playerId": "01sfi",
+        "teamId": "e5i9qm01lthlo8pi",
+        "time": 1710382492000
+      },
+      {
+        "pick": 17,
+        "round": 2,
+        "pickInRound": 5,
+        "playerId": "01spo",
+        "teamId": "r3gve8qqltgt9fla",
+        "time": 1710021851000
+      },
+      {
+        "pick": 59,
+        "round": 5,
+        "pickInRound": 11,
+        "playerId": "01svq",
+        "teamId": "cjb7bp2klthf7po3",
+        "time": 1710122098000
+      },
+      {
+        "pick": 222,
+        "round": 19,
+        "pickInRound": 6,
+        "playerId": "01svz",
+        "teamId": "zilor28gltgs6khl",
+        "time": 1710356533000
+      },
+      {
+        "pick": 83,
+        "round": 7,
+        "pickInRound": 11,
+        "playerId": "01sy3",
+        "teamId": "cjb7bp2klthf7po3",
+        "time": 1710178541000
+      },
+      {
+        "pick": 201,
+        "round": 17,
+        "pickInRound": 9,
+        "playerId": "01u75",
+        "teamId": "9w4p0krkltgmlh4q",
+        "time": 1710342850000
+      },
+      {
+        "pick": 66,
+        "round": 6,
+        "pickInRound": 6,
+        "playerId": "01ual",
+        "teamId": "y9ynobgnltgoeucx",
+        "time": 1710129817000
+      },
+      {
+        "pick": 14,
+        "round": 2,
+        "pickInRound": 2,
+        "playerId": "01ub6",
+        "teamId": "cjb7bp2klthf7po3",
+        "time": 1710021333000
+      },
+      {
+        "pick": 252,
+        "round": 21,
+        "pickInRound": 12,
+        "playerId": "01ubo",
+        "teamId": "7933gdmpltgmbujv",
+        "time": 1710375717000
+      },
+      {
+        "pick": 90,
+        "round": 8,
+        "pickInRound": 6,
+        "playerId": "01uc9",
+        "teamId": "y9ynobgnltgoeucx",
+        "time": 1710181603000
+      },
+      {
+        "pick": 142,
+        "round": 12,
+        "pickInRound": 10,
+        "playerId": "01uca",
+        "teamId": "8wwxog8sltgmj4g9",
+        "time": 1710268710000
+      },
+      {
+        "pick": 151,
+        "round": 13,
+        "pickInRound": 7,
+        "playerId": "01usi",
+        "teamId": "y9ynobgnltgoeucx",
+        "time": 1710270483000
+      },
+      {
+        "pick": 176,
+        "round": 15,
+        "pickInRound": 8,
+        "playerId": "01ut7",
+        "teamId": "r3gve8qqltgt9fla",
+        "time": 1710288033000
+      },
+      {
+        "pick": 266,
+        "round": 23,
+        "pickInRound": 2,
+        "playerId": "01vja",
+        "teamId": "t0p4cu19ltgm55gz",
+        "time": 1710382551000
+      },
+      {
+        "pick": 219,
+        "round": 19,
+        "pickInRound": 3,
+        "playerId": "02334",
+        "teamId": "8wwxog8sltgmj4g9",
+        "time": 1710355595000
+      },
+      {
+        "pick": 40,
+        "round": 4,
+        "pickInRound": 4,
+        "playerId": "024m0",
+        "teamId": "9w4p0krkltgmlh4q",
+        "time": 1710096266000
+      },
+      {
+        "pick": 75,
+        "round": 7,
+        "pickInRound": 3,
+        "playerId": "025dn",
+        "teamId": "8wwxog8sltgmj4g9",
+        "time": 1710165631000
+      },
+      {
+        "pick": 99,
+        "round": 9,
+        "pickInRound": 3,
+        "playerId": "025gb",
+        "teamId": "8wwxog8sltgmj4g9",
+        "time": 1710184923000
+      },
+      {
+        "pick": 86,
+        "round": 8,
+        "pickInRound": 2,
+        "playerId": "025he",
+        "teamId": "cjb7bp2klthf7po3",
+        "time": 1710180228000
+      },
+      {
+        "pick": 105,
+        "round": 9,
+        "pickInRound": 9,
+        "playerId": "025i9",
+        "teamId": "9w4p0krkltgmlh4q",
+        "time": 1710199617000
+      },
+      {
+        "pick": 279,
+        "round": 24,
+        "pickInRound": 3,
+        "playerId": "025it",
+        "teamId": "ta4yujxdltgmmg51",
+        "time": 1710430229000
+      },
+      {
+        "pick": 129,
+        "round": 11,
+        "pickInRound": 9,
+        "playerId": "0260v",
+        "teamId": "9w4p0krkltgmlh4q",
+        "time": 1710245747000
+      },
+      {
+        "pick": 21,
+        "round": 2,
+        "pickInRound": 9,
+        "playerId": "02611",
+        "teamId": "u8846kl5ltgs4w3l",
+        "time": 1710036912000
+      },
+      {
+        "pick": 276,
+        "round": 23,
+        "pickInRound": 12,
+        "playerId": "026lz",
+        "teamId": "7933gdmpltgmbujv",
+        "time": 1710427513000
+      },
+      {
+        "pick": 194,
+        "round": 17,
+        "pickInRound": 2,
+        "playerId": "027fx",
+        "teamId": "t0p4cu19ltgm55gz",
+        "time": 1710331286000
+      },
+      {
+        "pick": 177,
+        "round": 15,
+        "pickInRound": 9,
+        "playerId": "029si",
+        "teamId": "9w4p0krkltgmlh4q",
+        "time": 1710289252000
+      },
+      {
+        "pick": 160,
+        "round": 14,
+        "pickInRound": 4,
+        "playerId": "02bq2",
+        "teamId": "9w4p0krkltgmlh4q",
+        "time": 1710273270000
+      },
+      {
+        "pick": 286,
+        "round": 24,
+        "pickInRound": 10,
+        "playerId": "02bq7",
+        "teamId": "8wwxog8sltgmj4g9",
+        "time": 1710443540000
+      },
+      {
+        "pick": 179,
+        "round": 15,
+        "pickInRound": 11,
+        "playerId": "02bqh",
+        "teamId": "cjb7bp2klthf7po3",
+        "time": 1710292457000
+      },
+      {
+        "pick": 87,
+        "round": 8,
+        "pickInRound": 3,
+        "playerId": "02bqr",
+        "teamId": "ta4yujxdltgmmg51",
+        "time": 1710180534000
+      },
+      {
+        "pick": 95,
+        "round": 8,
+        "pickInRound": 11,
+        "playerId": "02bqy",
+        "teamId": "t0p4cu19ltgm55gz",
+        "time": 1710183215000
+      },
+      {
+        "pick": 8,
+        "round": 1,
+        "pickInRound": 8,
+        "playerId": "02btf",
+        "teamId": "r3gve8qqltgt9fla",
+        "time": 1710020292000
+      },
+      {
+        "pick": 38,
+        "round": 4,
+        "pickInRound": 2,
+        "playerId": "02btx",
+        "teamId": "cjb7bp2klthf7po3",
+        "time": 1710088851000
+      },
+      {
+        "pick": 27,
+        "round": 3,
+        "pickInRound": 3,
+        "playerId": "02bu9",
+        "teamId": "8wwxog8sltgmj4g9",
+        "time": 1710038070000
+      },
+      {
+        "pick": 205,
+        "round": 18,
+        "pickInRound": 1,
+        "playerId": "02bx4",
+        "teamId": "7933gdmpltgmbujv",
+        "time": 1710351283000
+      },
+      {
+        "pick": 315,
+        "round": 27,
+        "pickInRound": 3,
+        "playerId": "02bxv",
+        "teamId": "8wwxog8sltgmj4g9",
+        "time": 1710517886000
+      },
+      {
+        "pick": 118,
+        "round": 10,
+        "pickInRound": 10,
+        "playerId": "02c2h",
+        "teamId": "8wwxog8sltgmj4g9",
+        "time": 1710215615000
+      },
+      {
+        "pick": 203,
+        "round": 17,
+        "pickInRound": 11,
+        "playerId": "02c2r",
+        "teamId": "cjb7bp2klthf7po3",
+        "time": 1710350953000
+      },
+      {
+        "pick": 18,
+        "round": 2,
+        "pickInRound": 6,
+        "playerId": "02c68",
+        "teamId": "y9ynobgnltgoeucx",
+        "time": 1710036270000
+      },
+      {
+        "pick": 238,
+        "round": 20,
+        "pickInRound": 10,
+        "playerId": "02hg4",
+        "teamId": "8wwxog8sltgmj4g9",
+        "time": 1710367955000
+      },
+      {
+        "pick": 24,
+        "round": 2,
+        "pickInRound": 12,
+        "playerId": "02hi7",
+        "teamId": "e5i9qm01lthlo8pi",
+        "time": 1710037980000
+      },
+      {
+        "pick": 120,
+        "round": 10,
+        "pickInRound": 12,
+        "playerId": "02hj7",
+        "teamId": "e5i9qm01lthlo8pi",
+        "time": 1710215893000
+      },
+      {
+        "pick": 221,
+        "round": 19,
+        "pickInRound": 5,
+        "playerId": "02hlw",
+        "teamId": "1tt6sk6dlti5h60f",
+        "time": 1710356435000
+      },
+      {
+        "pick": 144,
+        "round": 12,
+        "pickInRound": 12,
+        "playerId": "02i11",
+        "teamId": "e5i9qm01lthlo8pi",
+        "time": 1710268962000
+      },
+      {
+        "pick": 53,
+        "round": 5,
+        "pickInRound": 5,
+        "playerId": "02i2j",
+        "teamId": "1tt6sk6dlti5h60f",
+        "time": 1710104959000
+      },
+      {
+        "pick": 198,
+        "round": 17,
+        "pickInRound": 6,
+        "playerId": "02i2k",
+        "teamId": "zilor28gltgs6khl",
+        "time": 1710342667000
+      },
+      {
+        "pick": 249,
+        "round": 21,
+        "pickInRound": 9,
+        "playerId": "02i2q",
+        "teamId": "9w4p0krkltgmlh4q",
+        "time": 1710373467000
+      },
+      {
+        "pick": 48,
+        "round": 4,
+        "pickInRound": 12,
+        "playerId": "02i3o",
+        "teamId": "e5i9qm01lthlo8pi",
+        "time": 1710100546000
+      },
+      {
+        "pick": 319,
+        "round": 27,
+        "pickInRound": 7,
+        "playerId": "02iug",
+        "teamId": "y9ynobgnltgoeucx",
+        "time": 1710526191000
+      },
+      {
+        "pick": 327,
+        "round": 28,
+        "pickInRound": 3,
+        "playerId": "02j77",
+        "teamId": "ta4yujxdltgmmg51",
+        "time": 1710527389000
+      },
+      {
+        "pick": 226,
+        "round": 19,
+        "pickInRound": 10,
+        "playerId": "02jh6",
+        "teamId": "ta4yujxdltgmmg51",
+        "time": 1710356947000
+      },
+      {
+        "pick": 72,
+        "round": 6,
+        "pickInRound": 12,
+        "playerId": "02mw3",
+        "teamId": "e5i9qm01lthlo8pi",
+        "time": 1710159422000
+      },
+      {
+        "pick": 20,
+        "round": 2,
+        "pickInRound": 8,
+        "playerId": "02mw6",
+        "teamId": "1tt6sk6dlti5h60f",
+        "time": 1710036803000
+      },
+      {
+        "pick": 148,
+        "round": 13,
+        "pickInRound": 4,
+        "playerId": "02mwk",
+        "teamId": "u8846kl5ltgs4w3l",
+        "time": 1710269408000
+      },
+      {
+        "pick": 15,
+        "round": 2,
+        "pickInRound": 3,
+        "playerId": "02mwm",
+        "teamId": "ta4yujxdltgmmg51",
+        "time": 1710021525000
+      },
+      {
+        "pick": 76,
+        "round": 7,
+        "pickInRound": 4,
+        "playerId": "02mwq",
+        "teamId": "u8846kl5ltgs4w3l",
+        "time": 1710166882000
+      },
+      {
+        "pick": 81,
+        "round": 7,
+        "pickInRound": 9,
+        "playerId": "02my5",
+        "teamId": "9w4p0krkltgmlh4q",
+        "time": 1710172564000
+      },
+      {
+        "pick": 111,
+        "round": 10,
+        "pickInRound": 3,
+        "playerId": "02mzg",
+        "teamId": "ta4yujxdltgmmg51",
+        "time": 1710204446000
+      },
+      {
+        "pick": 170,
+        "round": 15,
+        "pickInRound": 2,
+        "playerId": "02n2x",
+        "teamId": "t0p4cu19ltgm55gz",
+        "time": 1710285833000
+      },
+      {
+        "pick": 94,
+        "round": 8,
+        "pickInRound": 10,
+        "playerId": "02n96",
+        "teamId": "8wwxog8sltgmj4g9",
+        "time": 1710183102000
+      },
+      {
+        "pick": 123,
+        "round": 11,
+        "pickInRound": 3,
+        "playerId": "02w16",
+        "teamId": "8wwxog8sltgmj4g9",
+        "time": 1710216348000
+      },
+      {
+        "pick": 49,
+        "round": 5,
+        "pickInRound": 1,
+        "playerId": "02w7p",
+        "teamId": "e5i9qm01lthlo8pi",
+        "time": 1710100558000
+      },
+      {
+        "pick": 110,
+        "round": 10,
+        "pickInRound": 2,
+        "playerId": "02xic",
+        "teamId": "cjb7bp2klthf7po3",
+        "time": 1710203394000
+      },
+      {
+        "pick": 4,
+        "round": 1,
+        "pickInRound": 4,
+        "playerId": "02yc4",
+        "teamId": "u8846kl5ltgs4w3l",
+        "time": 1710001988000
+      },
+      {
+        "pick": 184,
+        "round": 16,
+        "pickInRound": 4,
+        "playerId": "02yd1",
+        "teamId": "9w4p0krkltgmlh4q",
+        "time": 1710293817000
+      },
+      {
+        "pick": 255,
+        "round": 22,
+        "pickInRound": 3,
+        "playerId": "02yk4",
+        "teamId": "ta4yujxdltgmmg51",
+        "time": 1710375977000
+      },
+      {
+        "pick": 9,
+        "round": 1,
+        "pickInRound": 9,
+        "playerId": "02z0s",
+        "teamId": "9w4p0krkltgmlh4q",
+        "time": 1710020556000
+      },
+      {
+        "pick": 225,
+        "round": 19,
+        "pickInRound": 9,
+        "playerId": "02z93",
+        "teamId": "9w4p0krkltgmlh4q",
+        "time": 1710356861000
+      },
+      {
+        "pick": 268,
+        "round": 23,
+        "pickInRound": 4,
+        "playerId": "02zif",
+        "teamId": "u8846kl5ltgs4w3l",
+        "time": 1710382666000
+      },
+      {
+        "pick": 26,
+        "round": 3,
+        "pickInRound": 2,
+        "playerId": "030uc",
+        "teamId": "t0p4cu19ltgm55gz",
+        "time": 1710038023000
+      },
+      {
+        "pick": 200,
+        "round": 17,
+        "pickInRound": 8,
+        "playerId": "030ud",
+        "teamId": "r3gve8qqltgt9fla",
+        "time": 1710342739000
+      },
+      {
+        "pick": 299,
+        "round": 25,
+        "pickInRound": 11,
+        "playerId": "030x2",
+        "teamId": "cjb7bp2klthf7po3",
+        "time": 1710460691000
+      },
+      {
+        "pick": 291,
+        "round": 25,
+        "pickInRound": 3,
+        "playerId": "0310c",
+        "teamId": "8wwxog8sltgmj4g9",
+        "time": 1710448955000
+      },
+      {
+        "pick": 240,
+        "round": 20,
+        "pickInRound": 12,
+        "playerId": "0310n",
+        "teamId": "e5i9qm01lthlo8pi",
+        "time": 1710368313000
+      },
+      {
+        "pick": 223,
+        "round": 19,
+        "pickInRound": 7,
+        "playerId": "0310z",
+        "teamId": "y9ynobgnltgoeucx",
+        "time": 1710356537000
+      },
+      {
+        "pick": 101,
+        "round": 9,
+        "pickInRound": 5,
+        "playerId": "0311c",
+        "teamId": "1tt6sk6dlti5h60f",
+        "time": 1710184974000
+      },
+      {
+        "pick": 55,
+        "round": 5,
+        "pickInRound": 7,
+        "playerId": "03120",
+        "teamId": "y9ynobgnltgoeucx",
+        "time": 1710119462000
+      },
+      {
+        "pick": 186,
+        "round": 16,
+        "pickInRound": 6,
+        "playerId": "0316j",
+        "teamId": "y9ynobgnltgoeucx",
+        "time": 1710293825000
+      },
+      {
+        "pick": 301,
+        "round": 26,
+        "pickInRound": 1,
+        "playerId": "031b2",
+        "teamId": "7933gdmpltgmbujv",
+        "time": 1710460810000
+      },
+      {
+        "pick": 241,
+        "round": 21,
+        "pickInRound": 1,
+        "playerId": "031cd",
+        "teamId": "e5i9qm01lthlo8pi",
+        "time": 1710368351000
+      },
+      {
+        "pick": 262,
+        "round": 22,
+        "pickInRound": 10,
+        "playerId": "031d4",
+        "teamId": "8wwxog8sltgmj4g9",
+        "time": 1710382310000
+      },
+      {
+        "pick": 82,
+        "round": 7,
+        "pickInRound": 10,
+        "playerId": "031t0",
+        "teamId": "ta4yujxdltgmmg51",
+        "time": 1710178224000
+      },
+      {
+        "pick": 91,
+        "round": 8,
+        "pickInRound": 7,
+        "playerId": "0326s",
+        "teamId": "zilor28gltgs6khl",
+        "time": 1710181963000
+      },
+      {
+        "pick": 313,
+        "round": 27,
+        "pickInRound": 1,
+        "playerId": "0374m",
+        "teamId": "e5i9qm01lthlo8pi",
+        "time": 1710517864000
+      },
+      {
+        "pick": 336,
+        "round": 28,
+        "pickInRound": 12,
+        "playerId": "039vx",
+        "teamId": "e5i9qm01lthlo8pi",
+        "time": 1710530390000
+      },
+      {
+        "pick": 103,
+        "round": 9,
+        "pickInRound": 7,
+        "playerId": "03aac",
+        "teamId": "y9ynobgnltgoeucx",
+        "time": 1710185077000
+      },
+      {
+        "pick": 187,
+        "round": 16,
+        "pickInRound": 7,
+        "playerId": "03aay",
+        "teamId": "zilor28gltgs6khl",
+        "time": 1710293907000
+      },
+      {
+        "pick": 242,
+        "round": 21,
+        "pickInRound": 2,
+        "playerId": "03ab0",
+        "teamId": "t0p4cu19ltgm55gz",
+        "time": 1710368464000
+      },
+      {
+        "pick": 88,
+        "round": 8,
+        "pickInRound": 4,
+        "playerId": "03ae8",
+        "teamId": "9w4p0krkltgmlh4q",
+        "time": 1710181383000
+      },
+      {
+        "pick": 133,
+        "round": 12,
+        "pickInRound": 1,
+        "playerId": "03aoy",
+        "teamId": "7933gdmpltgmbujv",
+        "time": 1710250853000
+      },
+      {
+        "pick": 139,
+        "round": 12,
+        "pickInRound": 7,
+        "playerId": "03aqv",
+        "teamId": "zilor28gltgs6khl",
+        "time": 1710266632000
+      },
+      {
+        "pick": 230,
+        "round": 20,
+        "pickInRound": 2,
+        "playerId": "03aqz",
+        "teamId": "cjb7bp2klthf7po3",
+        "time": 1710361917000
+      },
+      {
+        "pick": 285,
+        "round": 24,
+        "pickInRound": 9,
+        "playerId": "03aru",
+        "teamId": "u8846kl5ltgs4w3l",
+        "time": 1710441054000
+      },
+      {
+        "pick": 182,
+        "round": 16,
+        "pickInRound": 2,
+        "playerId": "03atq",
+        "teamId": "cjb7bp2klthf7po3",
+        "time": 1710293175000
+      },
+      {
+        "pick": 287,
+        "round": 24,
+        "pickInRound": 11,
+        "playerId": "03avk",
+        "teamId": "t0p4cu19ltgm55gz",
+        "time": 1710443553000
+      },
+      {
+        "pick": 231,
+        "round": 20,
+        "pickInRound": 3,
+        "playerId": "03bin",
+        "teamId": "ta4yujxdltgmmg51",
+        "time": 1710362051000
+      },
+      {
+        "pick": 273,
+        "round": 23,
+        "pickInRound": 9,
+        "playerId": "03btm",
+        "teamId": "9w4p0krkltgmlh4q",
+        "time": 1710418370000
+      },
+      {
+        "pick": 326,
+        "round": 28,
+        "pickInRound": 2,
+        "playerId": "03btu",
+        "teamId": "cjb7bp2klthf7po3",
+        "time": 1710527351000
+      },
+      {
+        "pick": 43,
+        "round": 4,
+        "pickInRound": 7,
+        "playerId": "03cag",
+        "teamId": "zilor28gltgs6khl",
+        "time": 1710096392000
+      },
+      {
+        "pick": 318,
+        "round": 27,
+        "pickInRound": 6,
+        "playerId": "03d6n",
+        "teamId": "zilor28gltgs6khl",
+        "time": 1710526187000
+      },
+      {
+        "pick": 275,
+        "round": 23,
+        "pickInRound": 11,
+        "playerId": "03d6s",
+        "teamId": "cjb7bp2klthf7po3",
+        "time": 1710422769000
+      },
+      {
+        "pick": 305,
+        "round": 26,
+        "pickInRound": 5,
+        "playerId": "03d7g",
+        "teamId": "r3gve8qqltgt9fla",
+        "time": 1710506944000
+      },
+      {
+        "pick": 125,
+        "round": 11,
+        "pickInRound": 5,
+        "playerId": "03d7h",
+        "teamId": "1tt6sk6dlti5h60f",
+        "time": 1710217196000
+      },
+      {
+        "pick": 46,
+        "round": 4,
+        "pickInRound": 10,
+        "playerId": "03dbm",
+        "teamId": "8wwxog8sltgmj4g9",
+        "time": 1710099990000
+      },
+      {
+        "pick": 127,
+        "round": 11,
+        "pickInRound": 7,
+        "playerId": "03dbo",
+        "teamId": "y9ynobgnltgoeucx",
+        "time": 1710217250000
+      },
+      {
+        "pick": 56,
+        "round": 5,
+        "pickInRound": 8,
+        "playerId": "03dc4",
+        "teamId": "r3gve8qqltgt9fla",
+        "time": 1710120533000
+      },
+      {
+        "pick": 124,
+        "round": 11,
+        "pickInRound": 4,
+        "playerId": "03de9",
+        "teamId": "u8846kl5ltgs4w3l",
+        "time": 1710216354000
+      },
+      {
+        "pick": 79,
+        "round": 7,
+        "pickInRound": 7,
+        "playerId": "03deg",
+        "teamId": "y9ynobgnltgoeucx",
+        "time": 1710172229000
+      },
+      {
+        "pick": 128,
+        "round": 11,
+        "pickInRound": 8,
+        "playerId": "03dei",
+        "teamId": "r3gve8qqltgt9fla",
+        "time": 1710217251000
+      },
+      {
+        "pick": 85,
+        "round": 8,
+        "pickInRound": 1,
+        "playerId": "03df2",
+        "teamId": "7933gdmpltgmbujv",
+        "time": 1710180073000
+      },
+      {
+        "pick": 188,
+        "round": 16,
+        "pickInRound": 8,
+        "playerId": "03dfa",
+        "teamId": "1tt6sk6dlti5h60f",
+        "time": 1710297156000
+      },
+      {
+        "pick": 298,
+        "round": 25,
+        "pickInRound": 10,
+        "playerId": "03dgs",
+        "teamId": "ta4yujxdltgmmg51",
+        "time": 1710460081000
+      },
+      {
+        "pick": 134,
+        "round": 12,
+        "pickInRound": 2,
+        "playerId": "03di6",
+        "teamId": "cjb7bp2klthf7po3",
+        "time": 1710251012000
+      },
+      {
+        "pick": 247,
+        "round": 21,
+        "pickInRound": 7,
+        "playerId": "03dim",
+        "teamId": "y9ynobgnltgoeucx",
+        "time": 1710373332000
+      },
+      {
+        "pick": 73,
+        "round": 7,
+        "pickInRound": 1,
+        "playerId": "03e5m",
+        "teamId": "e5i9qm01lthlo8pi",
+        "time": 1710159430000
+      },
+      {
+        "pick": 293,
+        "round": 25,
+        "pickInRound": 5,
+        "playerId": "03et8",
+        "teamId": "1tt6sk6dlti5h60f",
+        "time": 1710450489000
+      },
+      {
+        "pick": 29,
+        "round": 3,
+        "pickInRound": 5,
+        "playerId": "03fi0",
+        "teamId": "1tt6sk6dlti5h60f",
+        "time": 1710038491000
+      },
+      {
+        "pick": 137,
+        "round": 12,
+        "pickInRound": 5,
+        "playerId": "03m6o",
+        "teamId": "r3gve8qqltgt9fla",
+        "time": 1710266470000
+      },
+      {
+        "pick": 154,
+        "round": 13,
+        "pickInRound": 10,
+        "playerId": "03mew",
+        "teamId": "ta4yujxdltgmmg51",
+        "time": 1710270789000
+      },
+      {
+        "pick": 229,
+        "round": 20,
+        "pickInRound": 1,
+        "playerId": "03mnq",
+        "teamId": "7933gdmpltgmbujv",
+        "time": 1710361493000
+      },
+      {
+        "pick": 112,
+        "round": 10,
+        "pickInRound": 4,
+        "playerId": "03nmw",
+        "teamId": "9w4p0krkltgmlh4q",
+        "time": 1710204521000
+      },
+      {
+        "pick": 216,
+        "round": 18,
+        "pickInRound": 12,
+        "playerId": "03nri",
+        "teamId": "e5i9qm01lthlo8pi",
+        "time": 1710354668000
+      },
+      {
+        "pick": 28,
+        "round": 3,
+        "pickInRound": 4,
+        "playerId": "03nuc",
+        "teamId": "u8846kl5ltgs4w3l",
+        "time": 1710038116000
+      },
+      {
+        "pick": 190,
+        "round": 16,
+        "pickInRound": 10,
+        "playerId": "03oh0",
+        "teamId": "8wwxog8sltgmj4g9",
+        "time": 1710297255000
+      },
+      {
+        "pick": 32,
+        "round": 3,
+        "pickInRound": 8,
+        "playerId": "03ojr",
+        "teamId": "r3gve8qqltgt9fla",
+        "time": 1710049442000
+      },
+      {
+        "pick": 10,
+        "round": 1,
+        "pickInRound": 10,
+        "playerId": "03pir",
+        "teamId": "ta4yujxdltgmmg51",
+        "time": 1710020891000
+      },
+      {
+        "pick": 132,
+        "round": 11,
+        "pickInRound": 12,
+        "playerId": "03pjd",
+        "teamId": "7933gdmpltgmbujv",
+        "time": 1710250343000
+      },
+      {
+        "pick": 258,
+        "round": 22,
+        "pickInRound": 6,
+        "playerId": "03pje",
+        "teamId": "y9ynobgnltgoeucx",
+        "time": 1710376925000
+      },
+      {
+        "pick": 141,
+        "round": 12,
+        "pickInRound": 9,
+        "playerId": "03pji",
+        "teamId": "u8846kl5ltgs4w3l",
+        "time": 1710267533000
+      },
+      {
+        "pick": 257,
+        "round": 22,
+        "pickInRound": 5,
+        "playerId": "03pjl",
+        "teamId": "r3gve8qqltgt9fla",
+        "time": 1710376921000
+      },
+      {
+        "pick": 22,
+        "round": 2,
+        "pickInRound": 10,
+        "playerId": "03pom",
+        "teamId": "8wwxog8sltgmj4g9",
+        "time": 1710037757000
+      },
+      {
+        "pick": 196,
+        "round": 17,
+        "pickInRound": 4,
+        "playerId": "03pon",
+        "teamId": "u8846kl5ltgs4w3l",
+        "time": 1710340688000
+      },
+      {
+        "pick": 122,
+        "round": 11,
+        "pickInRound": 2,
+        "playerId": "03pzn",
+        "teamId": "t0p4cu19ltgm55gz",
+        "time": 1710216266000
+      },
+      {
+        "pick": 217,
+        "round": 19,
+        "pickInRound": 1,
+        "playerId": "03qjy",
+        "teamId": "e5i9qm01lthlo8pi",
+        "time": 1710354721000
+      },
+      {
+        "pick": 192,
+        "round": 16,
+        "pickInRound": 12,
+        "playerId": "03ql5",
+        "teamId": "e5i9qm01lthlo8pi",
+        "time": 1710304133000
+      },
+      {
+        "pick": 296,
+        "round": 25,
+        "pickInRound": 8,
+        "playerId": "03qmh",
+        "teamId": "r3gve8qqltgt9fla",
+        "time": 1710459579000
+      },
+      {
+        "pick": 166,
+        "round": 14,
+        "pickInRound": 10,
+        "playerId": "03qo0",
+        "teamId": "8wwxog8sltgmj4g9",
+        "time": 1710285433000
+      },
+      {
+        "pick": 320,
+        "round": 27,
+        "pickInRound": 8,
+        "playerId": "03qpi",
+        "teamId": "r3gve8qqltgt9fla",
+        "time": 1710526637000
+      },
+      {
+        "pick": 152,
+        "round": 13,
+        "pickInRound": 8,
+        "playerId": "03qqf",
+        "teamId": "r3gve8qqltgt9fla",
+        "time": 1710270483000
+      },
+      {
+        "pick": 89,
+        "round": 8,
+        "pickInRound": 5,
+        "playerId": "03qr0",
+        "teamId": "r3gve8qqltgt9fla",
+        "time": 1710181530000
+      },
+      {
+        "pick": 202,
+        "round": 17,
+        "pickInRound": 10,
+        "playerId": "03qto",
+        "teamId": "ta4yujxdltgmmg51",
+        "time": 1710349502000
+      },
+      {
+        "pick": 330,
+        "round": 28,
+        "pickInRound": 6,
+        "playerId": "03rmz",
+        "teamId": "y9ynobgnltgoeucx",
+        "time": 1710527472000
+      },
+      {
+        "pick": 272,
+        "round": 23,
+        "pickInRound": 8,
+        "playerId": "03sef",
+        "teamId": "r3gve8qqltgt9fla",
+        "time": 1710385775000
+      },
+      {
+        "pick": 329,
+        "round": 28,
+        "pickInRound": 5,
+        "playerId": "03vcw",
+        "teamId": "r3gve8qqltgt9fla",
+        "time": 1710527467000
+      },
+      {
+        "pick": 1,
+        "round": 1,
+        "pickInRound": 1,
+        "playerId": "03wha",
+        "teamId": "e5i9qm01lthlo8pi",
+        "time": 1710000018000
+      },
+      {
+        "pick": 5,
+        "round": 1,
+        "pickInRound": 5,
+        "playerId": "03ynj",
+        "teamId": "1tt6sk6dlti5h60f",
+        "time": 1710002359000
+      },
+      {
+        "pick": 96,
+        "round": 8,
+        "pickInRound": 12,
+        "playerId": "03yrz",
+        "teamId": "e5i9qm01lthlo8pi",
+        "time": 1710184377000
+      },
+      {
+        "pick": 288,
+        "round": 24,
+        "pickInRound": 12,
+        "playerId": "03yso",
+        "teamId": "e5i9qm01lthlo8pi",
+        "time": 1710443615000
+      },
+      {
+        "pick": 220,
+        "round": 19,
+        "pickInRound": 4,
+        "playerId": "03yui",
+        "teamId": "u8846kl5ltgs4w3l",
+        "time": 1710355678000
+      },
+      {
+        "pick": 11,
+        "round": 1,
+        "pickInRound": 11,
+        "playerId": "03zbh",
+        "teamId": "cjb7bp2klthf7po3",
+        "time": 1710021201000
+      },
+      {
+        "pick": 290,
+        "round": 25,
+        "pickInRound": 2,
+        "playerId": "03zcx",
+        "teamId": "t0p4cu19ltgm55gz",
+        "time": 1710443688000
+      },
+      {
+        "pick": 50,
+        "round": 5,
+        "pickInRound": 2,
+        "playerId": "03zlh",
+        "teamId": "t0p4cu19ltgm55gz",
+        "time": 1710100565000
+      },
+      {
+        "pick": 159,
+        "round": 14,
+        "pickInRound": 3,
+        "playerId": "0403o",
+        "teamId": "ta4yujxdltgmmg51",
+        "time": 1710273154000
+      },
+      {
+        "pick": 183,
+        "round": 16,
+        "pickInRound": 3,
+        "playerId": "0406v",
+        "teamId": "ta4yujxdltgmmg51",
+        "time": 1710293559000
+      },
+      {
+        "pick": 136,
+        "round": 12,
+        "pickInRound": 4,
+        "playerId": "04071",
+        "teamId": "9w4p0krkltgmlh4q",
+        "time": 1710266469000
+      },
+      {
+        "pick": 34,
+        "round": 3,
+        "pickInRound": 10,
+        "playerId": "040b5",
+        "teamId": "ta4yujxdltgmmg51",
+        "time": 1710053894000
+      },
+      {
+        "pick": 78,
+        "round": 7,
+        "pickInRound": 6,
+        "playerId": "041ah",
+        "teamId": "zilor28gltgs6khl",
+        "time": 1710172035000
+      },
+      {
+        "pick": 324,
+        "round": 27,
+        "pickInRound": 12,
+        "playerId": "041ai",
+        "teamId": "7933gdmpltgmbujv",
+        "time": 1710527146000
+      },
+      {
+        "pick": 332,
+        "round": 28,
+        "pickInRound": 8,
+        "playerId": "041e2",
+        "teamId": "1tt6sk6dlti5h60f",
+        "time": 1710529908000
+      },
+      {
+        "pick": 214,
+        "round": 18,
+        "pickInRound": 10,
+        "playerId": "041e3",
+        "teamId": "8wwxog8sltgmj4g9",
+        "time": 1710354363000
+      },
+      {
+        "pick": 236,
+        "round": 20,
+        "pickInRound": 8,
+        "playerId": "041m2",
+        "teamId": "1tt6sk6dlti5h60f",
+        "time": 1710366259000
+      },
+      {
+        "pick": 69,
+        "round": 6,
+        "pickInRound": 9,
+        "playerId": "041ma",
+        "teamId": "u8846kl5ltgs4w3l",
+        "time": 1710132288000
+      },
+      {
+        "pick": 228,
+        "round": 19,
+        "pickInRound": 12,
+        "playerId": "041ps",
+        "teamId": "7933gdmpltgmbujv",
+        "time": 1710361280000
+      },
+      {
+        "pick": 23,
+        "round": 2,
+        "pickInRound": 11,
+        "playerId": "041pz",
+        "teamId": "t0p4cu19ltgm55gz",
+        "time": 1710037802000
+      },
+      {
+        "pick": 57,
+        "round": 5,
+        "pickInRound": 9,
+        "playerId": "041q6",
+        "teamId": "9w4p0krkltgmlh4q",
+        "time": 1710121747000
+      },
+      {
+        "pick": 41,
+        "round": 4,
+        "pickInRound": 5,
+        "playerId": "041qb",
+        "teamId": "r3gve8qqltgt9fla",
+        "time": 1710096283000
+      },
+      {
+        "pick": 292,
+        "round": 25,
+        "pickInRound": 4,
+        "playerId": "041qd",
+        "teamId": "u8846kl5ltgs4w3l",
+        "time": 1710448956000
+      },
+      {
+        "pick": 39,
+        "round": 4,
+        "pickInRound": 3,
+        "playerId": "041qo",
+        "teamId": "ta4yujxdltgmmg51",
+        "time": 1710096107000
+      },
+      {
+        "pick": 211,
+        "round": 18,
+        "pickInRound": 7,
+        "playerId": "041qr",
+        "teamId": "zilor28gltgs6khl",
+        "time": 1710352415000
+      },
+      {
+        "pick": 74,
+        "round": 7,
+        "pickInRound": 2,
+        "playerId": "041r1",
+        "teamId": "t0p4cu19ltgm55gz",
+        "time": 1710160968000
+      },
+      {
+        "pick": 19,
+        "round": 2,
+        "pickInRound": 7,
+        "playerId": "041rd",
+        "teamId": "zilor28gltgs6khl",
+        "time": 1710036280000
+      },
+      {
+        "pick": 153,
+        "round": 13,
+        "pickInRound": 9,
+        "playerId": "041rf",
+        "teamId": "9w4p0krkltgmlh4q",
+        "time": 1710270569000
+      },
+      {
+        "pick": 256,
+        "round": 22,
+        "pickInRound": 4,
+        "playerId": "041sq",
+        "teamId": "9w4p0krkltgmlh4q",
+        "time": 1710376088000
+      },
+      {
+        "pick": 195,
+        "round": 17,
+        "pickInRound": 3,
+        "playerId": "041wv",
+        "teamId": "8wwxog8sltgmj4g9",
+        "time": 1710340532000
+      },
+      {
+        "pick": 317,
+        "round": 27,
+        "pickInRound": 5,
+        "playerId": "041x9",
+        "teamId": "1tt6sk6dlti5h60f",
+        "time": 1710524816000
+      },
+      {
+        "pick": 212,
+        "round": 18,
+        "pickInRound": 8,
+        "playerId": "041xv",
+        "teamId": "1tt6sk6dlti5h60f",
+        "time": 1710352884000
+      },
+      {
+        "pick": 328,
+        "round": 28,
+        "pickInRound": 4,
+        "playerId": "041yb",
+        "teamId": "9w4p0krkltgmlh4q",
+        "time": 1710527466000
+      },
+      {
+        "pick": 207,
+        "round": 18,
+        "pickInRound": 3,
+        "playerId": "041z2",
+        "teamId": "ta4yujxdltgmmg51",
+        "time": 1710352053000
+      },
+      {
+        "pick": 130,
+        "round": 11,
+        "pickInRound": 10,
+        "playerId": "0425t",
+        "teamId": "ta4yujxdltgmmg51",
+        "time": 1710249101000
+      },
+      {
+        "pick": 65,
+        "round": 6,
+        "pickInRound": 5,
+        "playerId": "042sz",
+        "teamId": "r3gve8qqltgt9fla",
+        "time": 1710123189000
+      },
+      {
+        "pick": 13,
+        "round": 2,
+        "pickInRound": 1,
+        "playerId": "04355",
+        "teamId": "7933gdmpltgmbujv",
+        "time": 1710021326000
+      },
+      {
+        "pick": 35,
+        "round": 3,
+        "pickInRound": 11,
+        "playerId": "043f9",
+        "teamId": "cjb7bp2klthf7po3",
+        "time": 1710075597000
+      },
+      {
+        "pick": 168,
+        "round": 14,
+        "pickInRound": 12,
+        "playerId": "045gu",
+        "teamId": "e5i9qm01lthlo8pi",
+        "time": 1710285820000
+      },
+      {
+        "pick": 155,
+        "round": 13,
+        "pickInRound": 11,
+        "playerId": "045kb",
+        "teamId": "cjb7bp2klthf7po3",
+        "time": 1710271000000
+      },
+      {
+        "pick": 62,
+        "round": 6,
+        "pickInRound": 2,
+        "playerId": "045qo",
+        "teamId": "cjb7bp2klthf7po3",
+        "time": 1710122596000
+      },
+      {
+        "pick": 30,
+        "round": 3,
+        "pickInRound": 6,
+        "playerId": "047l7",
+        "teamId": "zilor28gltgs6khl",
+        "time": 1710038504000
+      },
+      {
+        "pick": 104,
+        "round": 9,
+        "pickInRound": 8,
+        "playerId": "04a2t",
+        "teamId": "r3gve8qqltgt9fla",
+        "time": 1710199545000
+      },
+      {
+        "pick": 113,
+        "round": 10,
+        "pickInRound": 5,
+        "playerId": "04aea",
+        "teamId": "r3gve8qqltgt9fla",
+        "time": 1710213041000
+      },
+      {
+        "pick": 58,
+        "round": 5,
+        "pickInRound": 10,
+        "playerId": "04aeb",
+        "teamId": "ta4yujxdltgmmg51",
+        "time": 1710121781000
+      },
+      {
+        "pick": 261,
+        "round": 22,
+        "pickInRound": 9,
+        "playerId": "04aeh",
+        "teamId": "u8846kl5ltgs4w3l",
+        "time": 1710382017000
+      },
+      {
+        "pick": 180,
+        "round": 15,
+        "pickInRound": 12,
+        "playerId": "04ai4",
+        "teamId": "7933gdmpltgmbujv",
+        "time": 1710292589000
+      },
+      {
+        "pick": 281,
+        "round": 24,
+        "pickInRound": 5,
+        "playerId": "04ali",
+        "teamId": "r3gve8qqltgt9fla",
+        "time": 1710439469000
+      },
+      {
+        "pick": 119,
+        "round": 10,
+        "pickInRound": 11,
+        "playerId": "04apj",
+        "teamId": "t0p4cu19ltgm55gz",
+        "time": 1710215696000
+      },
+      {
+        "pick": 37,
+        "round": 4,
+        "pickInRound": 1,
+        "playerId": "04aq4",
+        "teamId": "7933gdmpltgmbujv",
+        "time": 1710088316000
+      },
+      {
+        "pick": 162,
+        "round": 14,
+        "pickInRound": 6,
+        "playerId": "04aqc",
+        "teamId": "y9ynobgnltgoeucx",
+        "time": 1710280895000
+      },
+      {
+        "pick": 51,
+        "round": 5,
+        "pickInRound": 3,
+        "playerId": "04auj",
+        "teamId": "8wwxog8sltgmj4g9",
+        "time": 1710100695000
+      },
+      {
+        "pick": 150,
+        "round": 13,
+        "pickInRound": 6,
+        "playerId": "04azv",
+        "teamId": "zilor28gltgs6khl",
+        "time": 1710270479000
+      },
+      {
+        "pick": 297,
+        "round": 25,
+        "pickInRound": 9,
+        "playerId": "04b00",
+        "teamId": "9w4p0krkltgmlh4q",
+        "time": 1710459998000
+      },
+      {
+        "pick": 106,
+        "round": 9,
+        "pickInRound": 10,
+        "playerId": "04b02",
+        "teamId": "ta4yujxdltgmmg51",
+        "time": 1710199773000
+      },
+      {
+        "pick": 274,
+        "round": 23,
+        "pickInRound": 10,
+        "playerId": "04cd5",
+        "teamId": "ta4yujxdltgmmg51",
+        "time": 1710421320000
+      },
+      {
+        "pick": 235,
+        "round": 20,
+        "pickInRound": 7,
+        "playerId": "04cwf",
+        "teamId": "zilor28gltgs6khl",
+        "time": 1710362647000
+      },
+      {
+        "pick": 67,
+        "round": 6,
+        "pickInRound": 7,
+        "playerId": "04de1",
+        "teamId": "zilor28gltgs6khl",
+        "time": 1710130067000
+      },
+      {
+        "pick": 289,
+        "round": 25,
+        "pickInRound": 1,
+        "playerId": "04e2u",
+        "teamId": "e5i9qm01lthlo8pi",
+        "time": 1710443682000
+      },
+      {
+        "pick": 322,
+        "round": 27,
+        "pickInRound": 10,
+        "playerId": "04ee7",
+        "teamId": "ta4yujxdltgmmg51",
+        "time": 1710526737000
+      },
+      {
+        "pick": 254,
+        "round": 22,
+        "pickInRound": 2,
+        "playerId": "04eek",
+        "teamId": "cjb7bp2klthf7po3",
+        "time": 1710375782000
+      },
+      {
+        "pick": 264,
+        "round": 22,
+        "pickInRound": 12,
+        "playerId": "04eey",
+        "teamId": "e5i9qm01lthlo8pi",
+        "time": 1710382455000
+      },
+      {
+        "pick": 199,
+        "round": 17,
+        "pickInRound": 7,
+        "playerId": "04efa",
+        "teamId": "y9ynobgnltgoeucx",
+        "time": 1710342671000
+      },
+      {
+        "pick": 284,
+        "round": 24,
+        "pickInRound": 8,
+        "playerId": "04eh9",
+        "teamId": "1tt6sk6dlti5h60f",
+        "time": 1710440950000
+      },
+      {
+        "pick": 316,
+        "round": 27,
+        "pickInRound": 4,
+        "playerId": "04en7",
+        "teamId": "u8846kl5ltgs4w3l",
+        "time": 1710517890000
+      },
+      {
+        "pick": 321,
+        "round": 27,
+        "pickInRound": 9,
+        "playerId": "04enw",
+        "teamId": "9w4p0krkltgmlh4q",
+        "time": 1710526679000
+      },
+      {
+        "pick": 197,
+        "round": 17,
+        "pickInRound": 5,
+        "playerId": "04ep8",
+        "teamId": "1tt6sk6dlti5h60f",
+        "time": 1710342227000
+      },
+      {
+        "pick": 156,
+        "round": 13,
+        "pickInRound": 12,
+        "playerId": "04esz",
+        "teamId": "7933gdmpltgmbujv",
+        "time": 1710271834000
+      },
+      {
+        "pick": 2,
+        "round": 1,
+        "pickInRound": 2,
+        "playerId": "04fhb",
+        "teamId": "t0p4cu19ltgm55gz",
+        "time": 1710000085000
+      },
+      {
+        "pick": 234,
+        "round": 20,
+        "pickInRound": 6,
+        "playerId": "04ggr",
+        "teamId": "y9ynobgnltgoeucx",
+        "time": 1710362576000
+      },
+      {
+        "pick": 115,
+        "round": 10,
+        "pickInRound": 7,
+        "playerId": "04k0w",
+        "teamId": "zilor28gltgs6khl",
+        "time": 1710213068000
+      },
+      {
+        "pick": 6,
+        "round": 1,
+        "pickInRound": 6,
+        "playerId": "04lgp",
+        "teamId": "zilor28gltgs6khl",
+        "time": 1710002560000
+      },
+      {
+        "pick": 267,
+        "round": 23,
+        "pickInRound": 3,
+        "playerId": "04ml0",
+        "teamId": "8wwxog8sltgmj4g9",
+        "time": 1710382629000
+      },
+      {
+        "pick": 300,
+        "round": 25,
+        "pickInRound": 12,
+        "playerId": "04mlf",
+        "teamId": "7933gdmpltgmbujv",
+        "time": 1710460756000
+      },
+      {
+        "pick": 163,
+        "round": 14,
+        "pickInRound": 7,
+        "playerId": "04mn5",
+        "teamId": "zilor28gltgs6khl",
+        "time": 1710280982000
+      },
+      {
+        "pick": 224,
+        "round": 19,
+        "pickInRound": 8,
+        "playerId": "04mra",
+        "teamId": "r3gve8qqltgt9fla",
+        "time": 1710356786000
+      },
+      {
+        "pick": 294,
+        "round": 25,
+        "pickInRound": 6,
+        "playerId": "04mrn",
+        "teamId": "zilor28gltgs6khl",
+        "time": 1710450660000
+      },
+      {
+        "pick": 175,
+        "round": 15,
+        "pickInRound": 7,
+        "playerId": "04my4",
+        "teamId": "y9ynobgnltgoeucx",
+        "time": 1710287924000
+      },
+      {
+        "pick": 61,
+        "round": 6,
+        "pickInRound": 1,
+        "playerId": "04n0m",
+        "teamId": "7933gdmpltgmbujv",
+        "time": 1710122595000
+      },
+      {
+        "pick": 93,
+        "round": 8,
+        "pickInRound": 9,
+        "playerId": "04nb2",
+        "teamId": "u8846kl5ltgs4w3l",
+        "time": 1710182983000
+      },
+      {
+        "pick": 138,
+        "round": 12,
+        "pickInRound": 6,
+        "playerId": "04nx3",
+        "teamId": "y9ynobgnltgoeucx",
+        "time": 1710266576000
+      },
+      {
+        "pick": 109,
+        "round": 10,
+        "pickInRound": 1,
+        "playerId": "04p10",
+        "teamId": "7933gdmpltgmbujv",
+        "time": 1710202621000
+      },
+      {
+        "pick": 189,
+        "round": 16,
+        "pickInRound": 9,
+        "playerId": "04pbp",
+        "teamId": "u8846kl5ltgs4w3l",
+        "time": 1710297169000
+      },
+      {
+        "pick": 63,
+        "round": 6,
+        "pickInRound": 3,
+        "playerId": "04pko",
+        "teamId": "ta4yujxdltgmmg51",
+        "time": 1710122734000
+      },
+      {
+        "pick": 60,
+        "round": 5,
+        "pickInRound": 12,
+        "playerId": "04pkr",
+        "teamId": "7933gdmpltgmbujv",
+        "time": 1710122530000
+      },
+      {
+        "pick": 70,
+        "round": 6,
+        "pickInRound": 10,
+        "playerId": "04pks",
+        "teamId": "8wwxog8sltgmj4g9",
+        "time": 1710132557000
+      },
+      {
+        "pick": 251,
+        "round": 21,
+        "pickInRound": 11,
+        "playerId": "04pmn",
+        "teamId": "cjb7bp2klthf7po3",
+        "time": 1710375684000
+      },
+      {
+        "pick": 277,
+        "round": 24,
+        "pickInRound": 1,
+        "playerId": "04pn3",
+        "teamId": "7933gdmpltgmbujv",
+        "time": 1710427559000
+      },
+      {
+        "pick": 271,
+        "round": 23,
+        "pickInRound": 7,
+        "playerId": "04ppj",
+        "teamId": "y9ynobgnltgoeucx",
+        "time": 1710384599000
+      },
+      {
+        "pick": 114,
+        "round": 10,
+        "pickInRound": 6,
+        "playerId": "04pq4",
+        "teamId": "y9ynobgnltgoeucx",
+        "time": 1710213044000
+      },
+      {
+        "pick": 171,
+        "round": 15,
+        "pickInRound": 3,
+        "playerId": "04pr1",
+        "teamId": "8wwxog8sltgmj4g9",
+        "time": 1710285947000
+      },
+      {
+        "pick": 282,
+        "round": 24,
+        "pickInRound": 6,
+        "playerId": "04pr8",
+        "teamId": "y9ynobgnltgoeucx",
+        "time": 1710439472000
+      },
+      {
+        "pick": 80,
+        "round": 7,
+        "pickInRound": 8,
+        "playerId": "04ps7",
+        "teamId": "r3gve8qqltgt9fla",
+        "time": 1710172374000
+      },
+      {
+        "pick": 280,
+        "round": 24,
+        "pickInRound": 4,
+        "playerId": "04pse",
+        "teamId": "9w4p0krkltgmlh4q",
+        "time": 1710430379000
+      },
+      {
+        "pick": 158,
+        "round": 14,
+        "pickInRound": 2,
+        "playerId": "04pst",
+        "teamId": "cjb7bp2klthf7po3",
+        "time": 1710272554000
+      },
+      {
+        "pick": 157,
+        "round": 14,
+        "pickInRound": 1,
+        "playerId": "04psu",
+        "teamId": "7933gdmpltgmbujv",
+        "time": 1710271856000
+      },
+      {
+        "pick": 167,
+        "round": 14,
+        "pickInRound": 11,
+        "playerId": "04pt2",
+        "teamId": "t0p4cu19ltgm55gz",
+        "time": 1710285450000
+      },
+      {
+        "pick": 36,
+        "round": 3,
+        "pickInRound": 12,
+        "playerId": "04ptt",
+        "teamId": "7933gdmpltgmbujv",
+        "time": 1710088176000
+      },
+      {
+        "pick": 253,
+        "round": 22,
+        "pickInRound": 1,
+        "playerId": "04px8",
+        "teamId": "7933gdmpltgmbujv",
+        "time": 1710375742000
+      },
+      {
+        "pick": 42,
+        "round": 4,
+        "pickInRound": 6,
+        "playerId": "04q2n",
+        "teamId": "y9ynobgnltgoeucx",
+        "time": 1710096307000
+      },
+      {
+        "pick": 250,
+        "round": 21,
+        "pickInRound": 10,
+        "playerId": "04q56",
+        "teamId": "ta4yujxdltgmmg51",
+        "time": 1710374967000
+      },
+      {
+        "pick": 52,
+        "round": 5,
+        "pickInRound": 4,
+        "playerId": "04qk8",
+        "teamId": "u8846kl5ltgs4w3l",
+        "time": 1710101331000
+      },
+      {
+        "pick": 173,
+        "round": 15,
+        "pickInRound": 5,
+        "playerId": "04qnc",
+        "teamId": "1tt6sk6dlti5h60f",
+        "time": 1710287870000
+      },
+      {
+        "pick": 335,
+        "round": 28,
+        "pickInRound": 11,
+        "playerId": "04qnd",
+        "teamId": "t0p4cu19ltgm55gz",
+        "time": 1710530390000
+      },
+      {
+        "pick": 239,
+        "round": 20,
+        "pickInRound": 11,
+        "playerId": "04s1g",
+        "teamId": "t0p4cu19ltgm55gz",
+        "time": 1710368036000
+      },
+      {
+        "pick": 309,
+        "round": 26,
+        "pickInRound": 9,
+        "playerId": "04s1h",
+        "teamId": "u8846kl5ltgs4w3l",
+        "time": 1710517620000
+      },
+      {
+        "pick": 227,
+        "round": 19,
+        "pickInRound": 11,
+        "playerId": "04si2",
+        "teamId": "cjb7bp2klthf7po3",
+        "time": 1710360412000
+      },
+      {
+        "pick": 325,
+        "round": 28,
+        "pickInRound": 1,
+        "playerId": "04t3y",
+        "teamId": "7933gdmpltgmbujv",
+        "time": 1710527192000
+      },
+      {
+        "pick": 164,
+        "round": 14,
+        "pickInRound": 8,
+        "playerId": "04t40",
+        "teamId": "1tt6sk6dlti5h60f",
+        "time": 1710285260000
+      },
+      {
+        "pick": 215,
+        "round": 18,
+        "pickInRound": 11,
+        "playerId": "04tlv",
+        "teamId": "t0p4cu19ltgm55gz",
+        "time": 1710354387000
+      },
+      {
+        "pick": 97,
+        "round": 9,
+        "pickInRound": 1,
+        "playerId": "04ug5",
+        "teamId": "e5i9qm01lthlo8pi",
+        "time": 1710184606000
+      },
+      {
+        "pick": 108,
+        "round": 9,
+        "pickInRound": 12,
+        "playerId": "04y44",
+        "teamId": "7933gdmpltgmbujv",
+        "time": 1710201940000
+      },
+      {
+        "pick": 3,
+        "round": 1,
+        "pickInRound": 3,
+        "playerId": "04y4e",
+        "teamId": "8wwxog8sltgmj4g9",
+        "time": 1710001937000
+      },
+      {
+        "pick": 121,
+        "round": 11,
+        "pickInRound": 1,
+        "playerId": "04y9p",
+        "teamId": "e5i9qm01lthlo8pi",
+        "time": 1710215971000
+      },
+      {
+        "pick": 283,
+        "round": 24,
+        "pickInRound": 7,
+        "playerId": "04yfw",
+        "teamId": "zilor28gltgs6khl",
+        "time": 1710439773000
+      },
+      {
+        "pick": 323,
+        "round": 27,
+        "pickInRound": 11,
+        "playerId": "04yib",
+        "teamId": "cjb7bp2klthf7po3",
+        "time": 1710527051000
+      },
+      {
+        "pick": 47,
+        "round": 4,
+        "pickInRound": 11,
+        "playerId": "04yie",
+        "teamId": "t0p4cu19ltgm55gz",
+        "time": 1710100022000
+      },
+      {
+        "pick": 77,
+        "round": 7,
+        "pickInRound": 5,
+        "playerId": "04yk2",
+        "teamId": "1tt6sk6dlti5h60f",
+        "time": 1710171672000
+      },
+      {
+        "pick": 308,
+        "round": 26,
+        "pickInRound": 8,
+        "playerId": "050c3",
+        "teamId": "1tt6sk6dlti5h60f",
+        "time": 1710517105000
+      },
+      {
+        "pick": 260,
+        "round": 22,
+        "pickInRound": 8,
+        "playerId": "050ok",
+        "teamId": "1tt6sk6dlti5h60f",
+        "time": 1710381931000
+      },
+      {
+        "pick": 31,
+        "round": 3,
+        "pickInRound": 7,
+        "playerId": "050w9",
+        "teamId": "y9ynobgnltgoeucx",
+        "time": 1710049387000
+      },
+      {
+        "pick": 116,
+        "round": 10,
+        "pickInRound": 8,
+        "playerId": "0512e",
+        "teamId": "1tt6sk6dlti5h60f",
+        "time": 1710214049000
+      },
+      {
+        "pick": 191,
+        "round": 16,
+        "pickInRound": 11,
+        "playerId": "0512m",
+        "teamId": "t0p4cu19ltgm55gz",
+        "time": 1710297338000
+      },
+      {
+        "pick": 44,
+        "round": 4,
+        "pickInRound": 8,
+        "playerId": "0512v",
+        "teamId": "1tt6sk6dlti5h60f",
+        "time": 1710096600000
+      },
+      {
+        "pick": 131,
+        "round": 11,
+        "pickInRound": 11,
+        "playerId": "05144",
+        "teamId": "cjb7bp2klthf7po3",
+        "time": 1710249419000
+      },
+      {
+        "pick": 147,
+        "round": 13,
+        "pickInRound": 3,
+        "playerId": "05184",
+        "teamId": "8wwxog8sltgmj4g9",
+        "time": 1710269402000
+      },
+      {
+        "pick": 331,
+        "round": 28,
+        "pickInRound": 7,
+        "playerId": "0518n",
+        "teamId": "zilor28gltgs6khl",
+        "time": 1710527769000
+      },
+      {
+        "pick": 302,
+        "round": 26,
+        "pickInRound": 2,
+        "playerId": "051bm",
+        "teamId": "cjb7bp2klthf7po3",
+        "time": 1710461512000
+      },
+      {
+        "pick": 146,
+        "round": 13,
+        "pickInRound": 2,
+        "playerId": "051dl",
+        "teamId": "t0p4cu19ltgm55gz",
+        "time": 1710269058000
+      },
+      {
+        "pick": 140,
+        "round": 12,
+        "pickInRound": 8,
+        "playerId": "051em",
+        "teamId": "1tt6sk6dlti5h60f",
+        "time": 1710267509000
+      },
+      {
+        "pick": 107,
+        "round": 9,
+        "pickInRound": 11,
+        "playerId": "0524l",
+        "teamId": "cjb7bp2klthf7po3",
+        "time": 1710201513000
+      },
+      {
+        "pick": 232,
+        "round": 20,
+        "pickInRound": 4,
+        "playerId": "052c8",
+        "teamId": "9w4p0krkltgmlh4q",
+        "time": 1710362544000
+      },
+      {
+        "pick": 193,
+        "round": 17,
+        "pickInRound": 1,
+        "playerId": "0596g",
+        "teamId": "e5i9qm01lthlo8pi",
+        "time": 1710304241000
+      },
+      {
+        "pick": 84,
+        "round": 7,
+        "pickInRound": 12,
+        "playerId": "05ajg",
+        "teamId": "7933gdmpltgmbujv",
+        "time": 1710179010000
+      },
+      {
+        "pick": 68,
+        "round": 6,
+        "pickInRound": 8,
+        "playerId": "05aoc",
+        "teamId": "1tt6sk6dlti5h60f",
+        "time": 1710132288000
+      },
+      {
+        "pick": 237,
+        "round": 20,
+        "pickInRound": 9,
+        "playerId": "05g3x",
+        "teamId": "u8846kl5ltgs4w3l",
+        "time": 1710366259000
+      },
+      {
+        "pick": 98,
+        "round": 9,
+        "pickInRound": 2,
+        "playerId": "05gbf",
+        "teamId": "t0p4cu19ltgm55gz",
+        "time": 1710184635000
+      },
+      {
+        "pick": 143,
+        "round": 12,
+        "pickInRound": 11,
+        "playerId": "05ge9",
+        "teamId": "t0p4cu19ltgm55gz",
+        "time": 1710268849000
+      },
+      {
+        "pick": 303,
+        "round": 26,
+        "pickInRound": 3,
+        "playerId": "05gsc",
+        "teamId": "ta4yujxdltgmmg51",
+        "time": 1710462585000
+      },
+      {
+        "pick": 64,
+        "round": 6,
+        "pickInRound": 4,
+        "playerId": "05gwz",
+        "teamId": "9w4p0krkltgmlh4q",
+        "time": 1710123118000
+      },
+      {
+        "pick": 311,
+        "round": 26,
+        "pickInRound": 11,
+        "playerId": "05h2u",
+        "teamId": "t0p4cu19ltgm55gz",
+        "time": 1710517862000
+      },
+      {
+        "pick": 304,
+        "round": 26,
+        "pickInRound": 4,
+        "playerId": "05jp3",
+        "teamId": "9w4p0krkltgmlh4q",
+        "time": 1710462608000
+      },
+      {
+        "pick": 174,
+        "round": 15,
+        "pickInRound": 6,
+        "playerId": "05jp7",
+        "teamId": "zilor28gltgs6khl",
+        "time": 1710287920000
+      },
+      {
+        "pick": 270,
+        "round": 23,
+        "pickInRound": 6,
+        "playerId": "05jpk",
+        "teamId": "zilor28gltgs6khl",
+        "time": 1710384595000
+      },
+      {
+        "pick": 259,
+        "round": 22,
+        "pickInRound": 7,
+        "playerId": "05jq2",
+        "teamId": "zilor28gltgs6khl",
+        "time": 1710377962000
+      },
+      {
+        "pick": 181,
+        "round": 16,
+        "pickInRound": 1,
+        "playerId": "05jrh",
+        "teamId": "7933gdmpltgmbujv",
+        "time": 1710292612000
+      },
+      {
+        "pick": 233,
+        "round": 20,
+        "pickInRound": 5,
+        "playerId": "05js3",
+        "teamId": "r3gve8qqltgt9fla",
+        "time": 1710362573000
+      },
+      {
+        "pick": 245,
+        "round": 21,
+        "pickInRound": 5,
+        "playerId": "05js5",
+        "teamId": "1tt6sk6dlti5h60f",
+        "time": 1710373122000
+      },
+      {
+        "pick": 204,
+        "round": 17,
+        "pickInRound": 12,
+        "playerId": "05lg3",
+        "teamId": "7933gdmpltgmbujv",
+        "time": 1710351139000
+      },
+      {
+        "pick": 117,
+        "round": 10,
+        "pickInRound": 9,
+        "playerId": "05m1e",
+        "teamId": "u8846kl5ltgs4w3l",
+        "time": 1710214208000
+      },
+      {
+        "pick": 209,
+        "round": 18,
+        "pickInRound": 5,
+        "playerId": "05m49",
+        "teamId": "r3gve8qqltgt9fla",
+        "time": 1710352208000
+      },
+      {
+        "pick": 71,
+        "round": 6,
+        "pickInRound": 11,
+        "playerId": "05mdt",
+        "teamId": "t0p4cu19ltgm55gz",
+        "time": 1710158512000
+      },
+      {
+        "pick": 7,
+        "round": 1,
+        "pickInRound": 7,
+        "playerId": "05mre",
+        "teamId": "y9ynobgnltgoeucx",
+        "time": 1710009317000
+      },
+      {
+        "pick": 244,
+        "round": 21,
+        "pickInRound": 4,
+        "playerId": "05oxc",
+        "teamId": "u8846kl5ltgs4w3l",
+        "time": 1710369433000
+      },
+      {
+        "pick": 334,
+        "round": 28,
+        "pickInRound": 10,
+        "playerId": "05r01",
+        "teamId": "8wwxog8sltgmj4g9",
+        "time": 1710530327000
+      },
+      {
+        "pick": 54,
+        "round": 5,
+        "pickInRound": 6,
+        "playerId": "05r8n",
+        "teamId": "zilor28gltgs6khl",
+        "time": 1710105016000
+      },
+      {
+        "pick": 172,
+        "round": 15,
+        "pickInRound": 4,
+        "playerId": "05rat",
+        "teamId": "u8846kl5ltgs4w3l",
+        "time": 1710285951000
+      },
+      {
+        "pick": 269,
+        "round": 23,
+        "pickInRound": 5,
+        "playerId": "05rb0",
+        "teamId": "1tt6sk6dlti5h60f",
+        "time": 1710384185000
+      },
+      {
+        "pick": 208,
+        "round": 18,
+        "pickInRound": 4,
+        "playerId": "05rb1",
+        "teamId": "9w4p0krkltgmlh4q",
+        "time": 1710352201000
+      },
+      {
+        "pick": 161,
+        "round": 14,
+        "pickInRound": 5,
+        "playerId": "05rc3",
+        "teamId": "r3gve8qqltgt9fla",
+        "time": 1710280892000
+      },
+      {
+        "pick": 314,
+        "round": 27,
+        "pickInRound": 2,
+        "playerId": "05rfu",
+        "teamId": "t0p4cu19ltgm55gz",
+        "time": 1710517867000
+      },
+      {
+        "pick": 333,
+        "round": 28,
+        "pickInRound": 9,
+        "playerId": "05u6r",
+        "teamId": "u8846kl5ltgs4w3l",
+        "time": 1710529908000
+      },
+      {
+        "pick": 218,
+        "round": 19,
+        "pickInRound": 2,
+        "playerId": "05ua7",
+        "teamId": "t0p4cu19ltgm55gz",
+        "time": 1710354930000
+      },
+      {
+        "pick": 135,
+        "round": 12,
+        "pickInRound": 3,
+        "playerId": "05ub0",
+        "teamId": "ta4yujxdltgmmg51",
+        "time": 1710260732000
+      },
+      {
+        "pick": 206,
+        "round": 18,
+        "pickInRound": 2,
+        "playerId": "05ucd",
+        "teamId": "cjb7bp2klthf7po3",
+        "time": 1710351478000
+      },
+      {
+        "pick": 25,
+        "round": 3,
+        "pickInRound": 1,
+        "playerId": "05udp",
+        "teamId": "e5i9qm01lthlo8pi",
+        "time": 1710038017000
+      },
+      {
+        "pick": 178,
+        "round": 15,
+        "pickInRound": 10,
+        "playerId": "05vy6",
+        "teamId": "ta4yujxdltgmmg51",
+        "time": 1710290280000
+      },
+      {
+        "pick": 169,
+        "round": 15,
+        "pickInRound": 1,
+        "playerId": "05wru",
+        "teamId": "e5i9qm01lthlo8pi",
+        "time": 1710285828000
+      },
+      {
+        "pick": 185,
+        "round": 16,
+        "pickInRound": 5,
+        "playerId": "05xch",
+        "teamId": "r3gve8qqltgt9fla",
+        "time": 1710293821000
+      },
+      {
+        "pick": 92,
+        "round": 8,
+        "pickInRound": 8,
+        "playerId": "05xor",
+        "teamId": "1tt6sk6dlti5h60f",
+        "time": 1710182977000
+      },
+      {
+        "pick": 310,
+        "round": 26,
+        "pickInRound": 10,
+        "playerId": "05xu5",
+        "teamId": "8wwxog8sltgmj4g9",
+        "time": 1710517809000
+      },
+      {
+        "pick": 102,
+        "round": 9,
+        "pickInRound": 6,
+        "playerId": "05y23",
+        "teamId": "zilor28gltgs6khl",
+        "time": 1710185012000
+      },
+      {
+        "pick": 307,
+        "round": 26,
+        "pickInRound": 7,
+        "playerId": "05y2l",
+        "teamId": "zilor28gltgs6khl",
+        "time": 1710509191000
+      },
+      {
+        "pick": 149,
+        "round": 13,
+        "pickInRound": 5,
+        "playerId": "05y62",
+        "teamId": "1tt6sk6dlti5h60f",
+        "time": 1710270208000
+      },
+      {
+        "pick": 126,
+        "round": 11,
+        "pickInRound": 6,
+        "playerId": "05ybv",
+        "teamId": "zilor28gltgs6khl",
+        "time": 1710217247000
+      },
+      {
+        "pick": 100,
+        "round": 9,
+        "pickInRound": 4,
+        "playerId": "060pm",
+        "teamId": "u8846kl5ltgs4w3l",
+        "time": 1710184965000
+      },
+      {
+        "pick": 248,
+        "round": 21,
+        "pickInRound": 8,
+        "playerId": "0689r",
+        "teamId": "r3gve8qqltgt9fla",
+        "time": 1710373388000
+      }
+    ]
+  }
+}
