@@ -1,0 +1,2027 @@
+{
+  "fantrax_id": "7ju63aylmm9zy9nk",
+  "name": "FBD Frank Thomas League",
+  "season_year": 2026,
+  "start_date": "2026-03-25",
+  "end_date": "2026-09-20",
+  "scoring_settings": {
+    "scoringCategories": {
+      "HITTING": {
+        "R": {
+          "Default": "1.0"
+        },
+        "RBI": {
+          "Default": "1.0"
+        },
+        "HR": {
+          "Default": "1.0"
+        },
+        "OBP": {
+          "Default": "1.0"
+        },
+        "SB": {
+          "Default": "1.0"
+        }
+      },
+      "PITCHING": {
+        "WHIP": {
+          "Default": "1.0"
+        },
+        "SVH": {
+          "Default": "1.0"
+        },
+        "ERA": {
+          "Default": "1.0"
+        },
+        "K": {
+          "Default": "1.0"
+        },
+        "W+QS": {
+          "Default": "1.0"
+        }
+      }
+    },
+    "scoringCategorySettings": [
+      {
+        "configs": [
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_HOME_RUNS",
+              "name": "Home Runs",
+              "id": "0200",
+              "shortName": "HR"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_RBIS",
+              "name": "RBI",
+              "id": "0310",
+              "shortName": "RBI"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_RUNS_SCORED",
+              "name": "Runs Scored",
+              "id": "0330",
+              "shortName": "R"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_STOLEN_BASES",
+              "name": "Stolen Bases",
+              "id": "0380",
+              "shortName": "SB"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_ON_BASE_PERCENTAGE",
+              "name": "On Base Percentage",
+              "id": "0510",
+              "shortName": "OBP"
+            }
+          }
+        ],
+        "group": {
+          "code": "BASEBALL_HITTING",
+          "name": "Hitting",
+          "id": "10",
+          "shortName": "Hit"
+        }
+      },
+      {
+        "configs": [
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_STRIKE_OUTS_PITCHED",
+              "name": "Strikeouts Pitched",
+              "id": "0410",
+              "shortName": "K"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_EARNED_RUN_AVERAGE",
+              "name": "Earned Run Average",
+              "id": "0490",
+              "shortName": "ERA"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_SAVES_PLUS_HOLDS",
+              "name": "Saves + Holds",
+              "id": "051i",
+              "shortName": "SVH"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_WHIP_RATIO",
+              "name": "WHIP Ratio",
+              "id": "0580",
+              "shortName": "WHIP"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_WINS_PLUS_QUALITY_STARTS",
+              "name": "Wins + Quality Starts",
+              "id": "0593",
+              "shortName": "W+QS"
+            }
+          }
+        ],
+        "group": {
+          "code": "BASEBALL_PITCHING",
+          "name": "Pitching",
+          "id": "20",
+          "shortName": "Pit"
+        }
+      }
+    ],
+    "type": "rotisserie"
+  },
+  "teams": {
+    "u9lg4kavmmarmmpe": {
+      "name": "Trey B",
+      "id": "u9lg4kavmmarmmpe"
+    },
+    "tmygd5cbmmarm5dm": {
+      "name": "foulballs",
+      "id": "tmygd5cbmmarm5dm"
+    },
+    "xpmc7vrvmmarshvb": {
+      "name": "divoo",
+      "id": "xpmc7vrvmmarshvb"
+    },
+    "ihncvrvvmmaslo1s": {
+      "name": "Ghost in the Machine",
+      "id": "ihncvrvvmmaslo1s"
+    },
+    "fjz8shwkmmb0ucw0": {
+      "name": "skyhawk75860",
+      "id": "fjz8shwkmmb0ucw0"
+    },
+    "xj5y6al5mmaro9as": {
+      "name": "CBonk24",
+      "id": "xj5y6al5mmaro9as"
+    },
+    "194hijupmmb3ea47": {
+      "name": "bmoser160",
+      "id": "194hijupmmb3ea47"
+    },
+    "8q8fcv04mmazer31": {
+      "name": "drkarma",
+      "id": "8q8fcv04mmazer31"
+    },
+    "4yy97r6nmmb9ffq1": {
+      "name": "Ed090809",
+      "id": "4yy97r6nmmb9ffq1"
+    },
+    "qh0nrm79mmarib37": {
+      "name": "Team Teleport",
+      "id": "qh0nrm79mmarib37"
+    },
+    "nqsi01dpmmaymw77": {
+      "name": "DoctorNeko",
+      "id": "nqsi01dpmmaymw77"
+    }
+  },
+  "matchups": [
+    {
+      "period": 1,
+      "matchupList": [
+        {
+          "away": {
+            "name": "drkarma",
+            "id": "8q8fcv04mmazer31",
+            "shortName": "drkarma"
+          },
+          "home": {
+            "name": "skyhawk75860",
+            "id": "fjz8shwkmmb0ucw0",
+            "shortName": "skyhawk7"
+          }
+        },
+        {
+          "away": {
+            "name": "CBonk24",
+            "id": "xj5y6al5mmaro9as",
+            "shortName": "CBonk24"
+          },
+          "home": {
+            "name": "Team Teleport",
+            "id": "qh0nrm79mmarib37",
+            "shortName": "teleport"
+          }
+        },
+        {
+          "away": {
+            "name": "foulballs",
+            "id": "tmygd5cbmmarm5dm",
+            "shortName": "foulie"
+          },
+          "home": {
+            "name": "Ghost in the Machine",
+            "id": "ihncvrvvmmaslo1s",
+            "shortName": "Ghost"
+          }
+        },
+        {
+          "away": {
+            "name": "bmoser160",
+            "id": "194hijupmmb3ea47",
+            "shortName": "bmoser16"
+          },
+          "home": {
+            "name": "DoctorNeko",
+            "id": "nqsi01dpmmaymw77",
+            "shortName": "DoctorNe"
+          }
+        },
+        {
+          "away": {
+            "name": "Ed090809",
+            "id": "4yy97r6nmmb9ffq1",
+            "shortName": "Ed090809"
+          },
+          "home": {
+            "name": "Trey B",
+            "id": "u9lg4kavmmarmmpe",
+            "shortName": "TREY"
+          }
+        },
+        {
+          "away": {
+            "name": "divoo",
+            "id": "xpmc7vrvmmarshvb",
+            "shortName": "divoo"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 2,
+      "matchupList": [
+        {
+          "away": {
+            "name": "drkarma",
+            "id": "8q8fcv04mmazer31",
+            "shortName": "drkarma"
+          },
+          "home": {
+            "name": "CBonk24",
+            "id": "xj5y6al5mmaro9as",
+            "shortName": "CBonk24"
+          }
+        },
+        {
+          "away": {
+            "name": "divoo",
+            "id": "xpmc7vrvmmarshvb",
+            "shortName": "divoo"
+          },
+          "home": {
+            "name": "foulballs",
+            "id": "tmygd5cbmmarm5dm",
+            "shortName": "foulie"
+          }
+        },
+        {
+          "away": {
+            "name": "Team Teleport",
+            "id": "qh0nrm79mmarib37",
+            "shortName": "teleport"
+          },
+          "home": {
+            "name": "bmoser160",
+            "id": "194hijupmmb3ea47",
+            "shortName": "bmoser16"
+          }
+        },
+        {
+          "away": {
+            "name": "Ghost in the Machine",
+            "id": "ihncvrvvmmaslo1s",
+            "shortName": "Ghost"
+          },
+          "home": {
+            "name": "Ed090809",
+            "id": "4yy97r6nmmb9ffq1",
+            "shortName": "Ed090809"
+          }
+        },
+        {
+          "away": {
+            "name": "DoctorNeko",
+            "id": "nqsi01dpmmaymw77",
+            "shortName": "DoctorNe"
+          },
+          "home": {
+            "name": "Trey B",
+            "id": "u9lg4kavmmarmmpe",
+            "shortName": "TREY"
+          }
+        },
+        {
+          "away": {
+            "name": "foulballs",
+            "id": "tmygd5cbmmarm5dm",
+            "shortName": "foulie"
+          },
+          "home": {
+            "name": "Ghost in the Machine",
+            "id": "ihncvrvvmmaslo1s",
+            "shortName": "Ghost"
+          }
+        },
+        {
+          "away": {
+            "name": "skyhawk75860",
+            "id": "fjz8shwkmmb0ucw0",
+            "shortName": "skyhawk7"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 3,
+      "matchupList": [
+        {
+          "away": {
+            "name": "CBonk24",
+            "id": "xj5y6al5mmaro9as",
+            "shortName": "CBonk24"
+          },
+          "home": {
+            "name": "skyhawk75860",
+            "id": "fjz8shwkmmb0ucw0",
+            "shortName": "skyhawk7"
+          }
+        },
+        {
+          "away": {
+            "name": "bmoser160",
+            "id": "194hijupmmb3ea47",
+            "shortName": "bmoser16"
+          },
+          "home": {
+            "name": "drkarma",
+            "id": "8q8fcv04mmazer31",
+            "shortName": "drkarma"
+          }
+        },
+        {
+          "away": {
+            "name": "Ed090809",
+            "id": "4yy97r6nmmb9ffq1",
+            "shortName": "Ed090809"
+          },
+          "home": {
+            "name": "divoo",
+            "id": "xpmc7vrvmmarshvb",
+            "shortName": "divoo"
+          }
+        },
+        {
+          "away": {
+            "name": "Trey B",
+            "id": "u9lg4kavmmarmmpe",
+            "shortName": "TREY"
+          },
+          "home": {
+            "name": "Team Teleport",
+            "id": "qh0nrm79mmarib37",
+            "shortName": "teleport"
+          }
+        },
+        {
+          "away": {
+            "name": "DoctorNeko",
+            "id": "nqsi01dpmmaymw77",
+            "shortName": "DoctorNe"
+          },
+          "home": {
+            "name": "Ghost in the Machine",
+            "id": "ihncvrvvmmaslo1s",
+            "shortName": "Ghost"
+          }
+        },
+        {
+          "away": {
+            "name": "foulballs",
+            "id": "tmygd5cbmmarm5dm",
+            "shortName": "foulie"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 4,
+      "matchupList": [
+        {
+          "away": {
+            "name": "skyhawk75860",
+            "id": "fjz8shwkmmb0ucw0",
+            "shortName": "skyhawk7"
+          },
+          "home": {
+            "name": "foulballs",
+            "id": "tmygd5cbmmarm5dm",
+            "shortName": "foulie"
+          }
+        },
+        {
+          "away": {
+            "name": "CBonk24",
+            "id": "xj5y6al5mmaro9as",
+            "shortName": "CBonk24"
+          },
+          "home": {
+            "name": "bmoser160",
+            "id": "194hijupmmb3ea47",
+            "shortName": "bmoser16"
+          }
+        },
+        {
+          "away": {
+            "name": "drkarma",
+            "id": "8q8fcv04mmazer31",
+            "shortName": "drkarma"
+          },
+          "home": {
+            "name": "Trey B",
+            "id": "u9lg4kavmmarmmpe",
+            "shortName": "TREY"
+          }
+        },
+        {
+          "away": {
+            "name": "divoo",
+            "id": "xpmc7vrvmmarshvb",
+            "shortName": "divoo"
+          },
+          "home": {
+            "name": "DoctorNeko",
+            "id": "nqsi01dpmmaymw77",
+            "shortName": "DoctorNe"
+          }
+        },
+        {
+          "away": {
+            "name": "Team Teleport",
+            "id": "qh0nrm79mmarib37",
+            "shortName": "teleport"
+          },
+          "home": {
+            "name": "Ghost in the Machine",
+            "id": "ihncvrvvmmaslo1s",
+            "shortName": "Ghost"
+          }
+        },
+        {
+          "away": {
+            "name": "Ed090809",
+            "id": "4yy97r6nmmb9ffq1",
+            "shortName": "Ed090809"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 5,
+      "matchupList": [
+        {
+          "away": {
+            "name": "bmoser160",
+            "id": "194hijupmmb3ea47",
+            "shortName": "bmoser16"
+          },
+          "home": {
+            "name": "skyhawk75860",
+            "id": "fjz8shwkmmb0ucw0",
+            "shortName": "skyhawk7"
+          }
+        },
+        {
+          "away": {
+            "name": "Ed090809",
+            "id": "4yy97r6nmmb9ffq1",
+            "shortName": "Ed090809"
+          },
+          "home": {
+            "name": "foulballs",
+            "id": "tmygd5cbmmarm5dm",
+            "shortName": "foulie"
+          }
+        },
+        {
+          "away": {
+            "name": "Trey B",
+            "id": "u9lg4kavmmarmmpe",
+            "shortName": "TREY"
+          },
+          "home": {
+            "name": "CBonk24",
+            "id": "xj5y6al5mmaro9as",
+            "shortName": "CBonk24"
+          }
+        },
+        {
+          "away": {
+            "name": "Ghost in the Machine",
+            "id": "ihncvrvvmmaslo1s",
+            "shortName": "Ghost"
+          },
+          "home": {
+            "name": "drkarma",
+            "id": "8q8fcv04mmazer31",
+            "shortName": "drkarma"
+          }
+        },
+        {
+          "away": {
+            "name": "Team Teleport",
+            "id": "qh0nrm79mmarib37",
+            "shortName": "teleport"
+          },
+          "home": {
+            "name": "divoo",
+            "id": "xpmc7vrvmmarshvb",
+            "shortName": "divoo"
+          }
+        },
+        {
+          "away": {
+            "name": "divoo",
+            "id": "xpmc7vrvmmarshvb",
+            "shortName": "divoo"
+          },
+          "home": {
+            "name": "skyhawk75860",
+            "id": "fjz8shwkmmb0ucw0",
+            "shortName": "skyhawk7"
+          }
+        },
+        {
+          "away": {
+            "name": "DoctorNeko",
+            "id": "nqsi01dpmmaymw77",
+            "shortName": "DoctorNe"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 6,
+      "matchupList": [
+        {
+          "away": {
+            "name": "skyhawk75860",
+            "id": "fjz8shwkmmb0ucw0",
+            "shortName": "skyhawk7"
+          },
+          "home": {
+            "name": "Ed090809",
+            "id": "4yy97r6nmmb9ffq1",
+            "shortName": "Ed090809"
+          }
+        },
+        {
+          "away": {
+            "name": "bmoser160",
+            "id": "194hijupmmb3ea47",
+            "shortName": "bmoser16"
+          },
+          "home": {
+            "name": "Trey B",
+            "id": "u9lg4kavmmarmmpe",
+            "shortName": "TREY"
+          }
+        },
+        {
+          "away": {
+            "name": "foulballs",
+            "id": "tmygd5cbmmarm5dm",
+            "shortName": "foulie"
+          },
+          "home": {
+            "name": "DoctorNeko",
+            "id": "nqsi01dpmmaymw77",
+            "shortName": "DoctorNe"
+          }
+        },
+        {
+          "away": {
+            "name": "CBonk24",
+            "id": "xj5y6al5mmaro9as",
+            "shortName": "CBonk24"
+          },
+          "home": {
+            "name": "Ghost in the Machine",
+            "id": "ihncvrvvmmaslo1s",
+            "shortName": "Ghost"
+          }
+        },
+        {
+          "away": {
+            "name": "drkarma",
+            "id": "8q8fcv04mmazer31",
+            "shortName": "drkarma"
+          },
+          "home": {
+            "name": "divoo",
+            "id": "xpmc7vrvmmarshvb",
+            "shortName": "divoo"
+          }
+        },
+        {
+          "away": {
+            "name": "Team Teleport",
+            "id": "qh0nrm79mmarib37",
+            "shortName": "teleport"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 7,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Trey B",
+            "id": "u9lg4kavmmarmmpe",
+            "shortName": "TREY"
+          },
+          "home": {
+            "name": "skyhawk75860",
+            "id": "fjz8shwkmmb0ucw0",
+            "shortName": "skyhawk7"
+          }
+        },
+        {
+          "away": {
+            "name": "DoctorNeko",
+            "id": "nqsi01dpmmaymw77",
+            "shortName": "DoctorNe"
+          },
+          "home": {
+            "name": "Ed090809",
+            "id": "4yy97r6nmmb9ffq1",
+            "shortName": "Ed090809"
+          }
+        },
+        {
+          "away": {
+            "name": "Ghost in the Machine",
+            "id": "ihncvrvvmmaslo1s",
+            "shortName": "Ghost"
+          },
+          "home": {
+            "name": "bmoser160",
+            "id": "194hijupmmb3ea47",
+            "shortName": "bmoser16"
+          }
+        },
+        {
+          "away": {
+            "name": "Team Teleport",
+            "id": "qh0nrm79mmarib37",
+            "shortName": "teleport"
+          },
+          "home": {
+            "name": "foulballs",
+            "id": "tmygd5cbmmarm5dm",
+            "shortName": "foulie"
+          }
+        },
+        {
+          "away": {
+            "name": "divoo",
+            "id": "xpmc7vrvmmarshvb",
+            "shortName": "divoo"
+          },
+          "home": {
+            "name": "CBonk24",
+            "id": "xj5y6al5mmaro9as",
+            "shortName": "CBonk24"
+          }
+        },
+        {
+          "away": {
+            "name": "Trey B",
+            "id": "u9lg4kavmmarmmpe",
+            "shortName": "TREY"
+          },
+          "home": {
+            "name": "foulballs",
+            "id": "tmygd5cbmmarm5dm",
+            "shortName": "foulie"
+          }
+        },
+        {
+          "away": {
+            "name": "drkarma",
+            "id": "8q8fcv04mmazer31",
+            "shortName": "drkarma"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 8,
+      "matchupList": [
+        {
+          "away": {
+            "name": "skyhawk75860",
+            "id": "fjz8shwkmmb0ucw0",
+            "shortName": "skyhawk7"
+          },
+          "home": {
+            "name": "DoctorNeko",
+            "id": "nqsi01dpmmaymw77",
+            "shortName": "DoctorNe"
+          }
+        },
+        {
+          "away": {
+            "name": "Trey B",
+            "id": "u9lg4kavmmarmmpe",
+            "shortName": "TREY"
+          },
+          "home": {
+            "name": "Ghost in the Machine",
+            "id": "ihncvrvvmmaslo1s",
+            "shortName": "Ghost"
+          }
+        },
+        {
+          "away": {
+            "name": "Ed090809",
+            "id": "4yy97r6nmmb9ffq1",
+            "shortName": "Ed090809"
+          },
+          "home": {
+            "name": "Team Teleport",
+            "id": "qh0nrm79mmarib37",
+            "shortName": "teleport"
+          }
+        },
+        {
+          "away": {
+            "name": "bmoser160",
+            "id": "194hijupmmb3ea47",
+            "shortName": "bmoser16"
+          },
+          "home": {
+            "name": "divoo",
+            "id": "xpmc7vrvmmarshvb",
+            "shortName": "divoo"
+          }
+        },
+        {
+          "away": {
+            "name": "foulballs",
+            "id": "tmygd5cbmmarm5dm",
+            "shortName": "foulie"
+          },
+          "home": {
+            "name": "drkarma",
+            "id": "8q8fcv04mmazer31",
+            "shortName": "drkarma"
+          }
+        },
+        {
+          "away": {
+            "name": "CBonk24",
+            "id": "xj5y6al5mmaro9as",
+            "shortName": "CBonk24"
+          },
+          "home": {
+            "name": "bmoser160",
+            "id": "194hijupmmb3ea47",
+            "shortName": "bmoser16"
+          }
+        }
+      ]
+    },
+    {
+      "period": 9,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Ghost in the Machine",
+            "id": "ihncvrvvmmaslo1s",
+            "shortName": "Ghost"
+          },
+          "home": {
+            "name": "skyhawk75860",
+            "id": "fjz8shwkmmb0ucw0",
+            "shortName": "skyhawk7"
+          }
+        },
+        {
+          "away": {
+            "name": "Team Teleport",
+            "id": "qh0nrm79mmarib37",
+            "shortName": "teleport"
+          },
+          "home": {
+            "name": "DoctorNeko",
+            "id": "nqsi01dpmmaymw77",
+            "shortName": "DoctorNe"
+          }
+        },
+        {
+          "away": {
+            "name": "divoo",
+            "id": "xpmc7vrvmmarshvb",
+            "shortName": "divoo"
+          },
+          "home": {
+            "name": "Trey B",
+            "id": "u9lg4kavmmarmmpe",
+            "shortName": "TREY"
+          }
+        },
+        {
+          "away": {
+            "name": "drkarma",
+            "id": "8q8fcv04mmazer31",
+            "shortName": "drkarma"
+          },
+          "home": {
+            "name": "Ed090809",
+            "id": "4yy97r6nmmb9ffq1",
+            "shortName": "Ed090809"
+          }
+        },
+        {
+          "away": {
+            "name": "CBonk24",
+            "id": "xj5y6al5mmaro9as",
+            "shortName": "CBonk24"
+          },
+          "home": {
+            "name": "foulballs",
+            "id": "tmygd5cbmmarm5dm",
+            "shortName": "foulie"
+          }
+        },
+        {
+          "away": {
+            "name": "bmoser160",
+            "id": "194hijupmmb3ea47",
+            "shortName": "bmoser16"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 10,
+      "matchupList": [
+        {
+          "away": {
+            "name": "skyhawk75860",
+            "id": "fjz8shwkmmb0ucw0",
+            "shortName": "skyhawk7"
+          },
+          "home": {
+            "name": "Team Teleport",
+            "id": "qh0nrm79mmarib37",
+            "shortName": "teleport"
+          }
+        },
+        {
+          "away": {
+            "name": "Ghost in the Machine",
+            "id": "ihncvrvvmmaslo1s",
+            "shortName": "Ghost"
+          },
+          "home": {
+            "name": "divoo",
+            "id": "xpmc7vrvmmarshvb",
+            "shortName": "divoo"
+          }
+        },
+        {
+          "away": {
+            "name": "DoctorNeko",
+            "id": "nqsi01dpmmaymw77",
+            "shortName": "DoctorNe"
+          },
+          "home": {
+            "name": "drkarma",
+            "id": "8q8fcv04mmazer31",
+            "shortName": "drkarma"
+          }
+        },
+        {
+          "away": {
+            "name": "Ed090809",
+            "id": "4yy97r6nmmb9ffq1",
+            "shortName": "Ed090809"
+          },
+          "home": {
+            "name": "CBonk24",
+            "id": "xj5y6al5mmaro9as",
+            "shortName": "CBonk24"
+          }
+        },
+        {
+          "away": {
+            "name": "bmoser160",
+            "id": "194hijupmmb3ea47",
+            "shortName": "bmoser16"
+          },
+          "home": {
+            "name": "foulballs",
+            "id": "tmygd5cbmmarm5dm",
+            "shortName": "foulie"
+          }
+        },
+        {
+          "away": {
+            "name": "drkarma",
+            "id": "8q8fcv04mmazer31",
+            "shortName": "drkarma"
+          },
+          "home": {
+            "name": "Ed090809",
+            "id": "4yy97r6nmmb9ffq1",
+            "shortName": "Ed090809"
+          }
+        },
+        {
+          "away": {
+            "name": "Trey B",
+            "id": "u9lg4kavmmarmmpe",
+            "shortName": "TREY"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 11,
+      "matchupList": [
+        {
+          "away": {
+            "name": "divoo",
+            "id": "xpmc7vrvmmarshvb",
+            "shortName": "divoo"
+          },
+          "home": {
+            "name": "skyhawk75860",
+            "id": "fjz8shwkmmb0ucw0",
+            "shortName": "skyhawk7"
+          }
+        },
+        {
+          "away": {
+            "name": "drkarma",
+            "id": "8q8fcv04mmazer31",
+            "shortName": "drkarma"
+          },
+          "home": {
+            "name": "Team Teleport",
+            "id": "qh0nrm79mmarib37",
+            "shortName": "teleport"
+          }
+        },
+        {
+          "away": {
+            "name": "CBonk24",
+            "id": "xj5y6al5mmaro9as",
+            "shortName": "CBonk24"
+          },
+          "home": {
+            "name": "DoctorNeko",
+            "id": "nqsi01dpmmaymw77",
+            "shortName": "DoctorNe"
+          }
+        },
+        {
+          "away": {
+            "name": "foulballs",
+            "id": "tmygd5cbmmarm5dm",
+            "shortName": "foulie"
+          },
+          "home": {
+            "name": "Trey B",
+            "id": "u9lg4kavmmarmmpe",
+            "shortName": "TREY"
+          }
+        },
+        {
+          "away": {
+            "name": "bmoser160",
+            "id": "194hijupmmb3ea47",
+            "shortName": "bmoser16"
+          },
+          "home": {
+            "name": "Ed090809",
+            "id": "4yy97r6nmmb9ffq1",
+            "shortName": "Ed090809"
+          }
+        },
+        {
+          "away": {
+            "name": "CBonk24",
+            "id": "xj5y6al5mmaro9as",
+            "shortName": "CBonk24"
+          },
+          "home": {
+            "name": "bmoser160",
+            "id": "194hijupmmb3ea47",
+            "shortName": "bmoser16"
+          }
+        },
+        {
+          "away": {
+            "name": "Ghost in the Machine",
+            "id": "ihncvrvvmmaslo1s",
+            "shortName": "Ghost"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 12,
+      "matchupList": [
+        {
+          "away": {
+            "name": "skyhawk75860",
+            "id": "fjz8shwkmmb0ucw0",
+            "shortName": "skyhawk7"
+          },
+          "home": {
+            "name": "drkarma",
+            "id": "8q8fcv04mmazer31",
+            "shortName": "drkarma"
+          }
+        },
+        {
+          "away": {
+            "name": "Team Teleport",
+            "id": "qh0nrm79mmarib37",
+            "shortName": "teleport"
+          },
+          "home": {
+            "name": "CBonk24",
+            "id": "xj5y6al5mmaro9as",
+            "shortName": "CBonk24"
+          }
+        },
+        {
+          "away": {
+            "name": "Ghost in the Machine",
+            "id": "ihncvrvvmmaslo1s",
+            "shortName": "Ghost"
+          },
+          "home": {
+            "name": "foulballs",
+            "id": "tmygd5cbmmarm5dm",
+            "shortName": "foulie"
+          }
+        },
+        {
+          "away": {
+            "name": "DoctorNeko",
+            "id": "nqsi01dpmmaymw77",
+            "shortName": "DoctorNe"
+          },
+          "home": {
+            "name": "bmoser160",
+            "id": "194hijupmmb3ea47",
+            "shortName": "bmoser16"
+          }
+        },
+        {
+          "away": {
+            "name": "Trey B",
+            "id": "u9lg4kavmmarmmpe",
+            "shortName": "TREY"
+          },
+          "home": {
+            "name": "Ed090809",
+            "id": "4yy97r6nmmb9ffq1",
+            "shortName": "Ed090809"
+          }
+        },
+        {
+          "away": {
+            "name": "divoo",
+            "id": "xpmc7vrvmmarshvb",
+            "shortName": "divoo"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 13,
+      "matchupList": [
+        {
+          "away": {
+            "name": "CBonk24",
+            "id": "xj5y6al5mmaro9as",
+            "shortName": "CBonk24"
+          },
+          "home": {
+            "name": "drkarma",
+            "id": "8q8fcv04mmazer31",
+            "shortName": "drkarma"
+          }
+        },
+        {
+          "away": {
+            "name": "foulballs",
+            "id": "tmygd5cbmmarm5dm",
+            "shortName": "foulie"
+          },
+          "home": {
+            "name": "divoo",
+            "id": "xpmc7vrvmmarshvb",
+            "shortName": "divoo"
+          }
+        },
+        {
+          "away": {
+            "name": "bmoser160",
+            "id": "194hijupmmb3ea47",
+            "shortName": "bmoser16"
+          },
+          "home": {
+            "name": "Team Teleport",
+            "id": "qh0nrm79mmarib37",
+            "shortName": "teleport"
+          }
+        },
+        {
+          "away": {
+            "name": "Ed090809",
+            "id": "4yy97r6nmmb9ffq1",
+            "shortName": "Ed090809"
+          },
+          "home": {
+            "name": "Ghost in the Machine",
+            "id": "ihncvrvvmmaslo1s",
+            "shortName": "Ghost"
+          }
+        },
+        {
+          "away": {
+            "name": "Trey B",
+            "id": "u9lg4kavmmarmmpe",
+            "shortName": "TREY"
+          },
+          "home": {
+            "name": "DoctorNeko",
+            "id": "nqsi01dpmmaymw77",
+            "shortName": "DoctorNe"
+          }
+        },
+        {
+          "away": {
+            "name": "Ed090809",
+            "id": "4yy97r6nmmb9ffq1",
+            "shortName": "Ed090809"
+          },
+          "home": {
+            "name": "drkarma",
+            "id": "8q8fcv04mmazer31",
+            "shortName": "drkarma"
+          }
+        },
+        {
+          "away": {
+            "name": "skyhawk75860",
+            "id": "fjz8shwkmmb0ucw0",
+            "shortName": "skyhawk7"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 14,
+      "matchupList": [
+        {
+          "away": {
+            "name": "skyhawk75860",
+            "id": "fjz8shwkmmb0ucw0",
+            "shortName": "skyhawk7"
+          },
+          "home": {
+            "name": "CBonk24",
+            "id": "xj5y6al5mmaro9as",
+            "shortName": "CBonk24"
+          }
+        },
+        {
+          "away": {
+            "name": "drkarma",
+            "id": "8q8fcv04mmazer31",
+            "shortName": "drkarma"
+          },
+          "home": {
+            "name": "bmoser160",
+            "id": "194hijupmmb3ea47",
+            "shortName": "bmoser16"
+          }
+        },
+        {
+          "away": {
+            "name": "divoo",
+            "id": "xpmc7vrvmmarshvb",
+            "shortName": "divoo"
+          },
+          "home": {
+            "name": "Ed090809",
+            "id": "4yy97r6nmmb9ffq1",
+            "shortName": "Ed090809"
+          }
+        },
+        {
+          "away": {
+            "name": "Team Teleport",
+            "id": "qh0nrm79mmarib37",
+            "shortName": "teleport"
+          },
+          "home": {
+            "name": "Trey B",
+            "id": "u9lg4kavmmarmmpe",
+            "shortName": "TREY"
+          }
+        },
+        {
+          "away": {
+            "name": "Ghost in the Machine",
+            "id": "ihncvrvvmmaslo1s",
+            "shortName": "Ghost"
+          },
+          "home": {
+            "name": "DoctorNeko",
+            "id": "nqsi01dpmmaymw77",
+            "shortName": "DoctorNe"
+          }
+        },
+        {
+          "away": {
+            "name": "foulballs",
+            "id": "tmygd5cbmmarm5dm",
+            "shortName": "foulie"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 15,
+      "matchupList": [
+        {
+          "away": {
+            "name": "foulballs",
+            "id": "tmygd5cbmmarm5dm",
+            "shortName": "foulie"
+          },
+          "home": {
+            "name": "skyhawk75860",
+            "id": "fjz8shwkmmb0ucw0",
+            "shortName": "skyhawk7"
+          }
+        },
+        {
+          "away": {
+            "name": "bmoser160",
+            "id": "194hijupmmb3ea47",
+            "shortName": "bmoser16"
+          },
+          "home": {
+            "name": "CBonk24",
+            "id": "xj5y6al5mmaro9as",
+            "shortName": "CBonk24"
+          }
+        },
+        {
+          "away": {
+            "name": "Trey B",
+            "id": "u9lg4kavmmarmmpe",
+            "shortName": "TREY"
+          },
+          "home": {
+            "name": "drkarma",
+            "id": "8q8fcv04mmazer31",
+            "shortName": "drkarma"
+          }
+        },
+        {
+          "away": {
+            "name": "DoctorNeko",
+            "id": "nqsi01dpmmaymw77",
+            "shortName": "DoctorNe"
+          },
+          "home": {
+            "name": "divoo",
+            "id": "xpmc7vrvmmarshvb",
+            "shortName": "divoo"
+          }
+        },
+        {
+          "away": {
+            "name": "Ghost in the Machine",
+            "id": "ihncvrvvmmaslo1s",
+            "shortName": "Ghost"
+          },
+          "home": {
+            "name": "Team Teleport",
+            "id": "qh0nrm79mmarib37",
+            "shortName": "teleport"
+          }
+        },
+        {
+          "away": {
+            "name": "Team Teleport",
+            "id": "qh0nrm79mmarib37",
+            "shortName": "teleport"
+          },
+          "home": {
+            "name": "DoctorNeko",
+            "id": "nqsi01dpmmaymw77",
+            "shortName": "DoctorNe"
+          }
+        },
+        {
+          "away": {
+            "name": "Ed090809",
+            "id": "4yy97r6nmmb9ffq1",
+            "shortName": "Ed090809"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 16,
+      "matchupList": [
+        {
+          "away": {
+            "name": "skyhawk75860",
+            "id": "fjz8shwkmmb0ucw0",
+            "shortName": "skyhawk7"
+          },
+          "home": {
+            "name": "bmoser160",
+            "id": "194hijupmmb3ea47",
+            "shortName": "bmoser16"
+          }
+        },
+        {
+          "away": {
+            "name": "foulballs",
+            "id": "tmygd5cbmmarm5dm",
+            "shortName": "foulie"
+          },
+          "home": {
+            "name": "Ed090809",
+            "id": "4yy97r6nmmb9ffq1",
+            "shortName": "Ed090809"
+          }
+        },
+        {
+          "away": {
+            "name": "CBonk24",
+            "id": "xj5y6al5mmaro9as",
+            "shortName": "CBonk24"
+          },
+          "home": {
+            "name": "Trey B",
+            "id": "u9lg4kavmmarmmpe",
+            "shortName": "TREY"
+          }
+        },
+        {
+          "away": {
+            "name": "drkarma",
+            "id": "8q8fcv04mmazer31",
+            "shortName": "drkarma"
+          },
+          "home": {
+            "name": "Ghost in the Machine",
+            "id": "ihncvrvvmmaslo1s",
+            "shortName": "Ghost"
+          }
+        },
+        {
+          "away": {
+            "name": "divoo",
+            "id": "xpmc7vrvmmarshvb",
+            "shortName": "divoo"
+          },
+          "home": {
+            "name": "Team Teleport",
+            "id": "qh0nrm79mmarib37",
+            "shortName": "teleport"
+          }
+        },
+        {
+          "away": {
+            "name": "DoctorNeko",
+            "id": "nqsi01dpmmaymw77",
+            "shortName": "DoctorNe"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 17,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Ed090809",
+            "id": "4yy97r6nmmb9ffq1",
+            "shortName": "Ed090809"
+          },
+          "home": {
+            "name": "skyhawk75860",
+            "id": "fjz8shwkmmb0ucw0",
+            "shortName": "skyhawk7"
+          }
+        },
+        {
+          "away": {
+            "name": "Trey B",
+            "id": "u9lg4kavmmarmmpe",
+            "shortName": "TREY"
+          },
+          "home": {
+            "name": "bmoser160",
+            "id": "194hijupmmb3ea47",
+            "shortName": "bmoser16"
+          }
+        },
+        {
+          "away": {
+            "name": "DoctorNeko",
+            "id": "nqsi01dpmmaymw77",
+            "shortName": "DoctorNe"
+          },
+          "home": {
+            "name": "foulballs",
+            "id": "tmygd5cbmmarm5dm",
+            "shortName": "foulie"
+          }
+        },
+        {
+          "away": {
+            "name": "Ghost in the Machine",
+            "id": "ihncvrvvmmaslo1s",
+            "shortName": "Ghost"
+          },
+          "home": {
+            "name": "CBonk24",
+            "id": "xj5y6al5mmaro9as",
+            "shortName": "CBonk24"
+          }
+        },
+        {
+          "away": {
+            "name": "divoo",
+            "id": "xpmc7vrvmmarshvb",
+            "shortName": "divoo"
+          },
+          "home": {
+            "name": "drkarma",
+            "id": "8q8fcv04mmazer31",
+            "shortName": "drkarma"
+          }
+        },
+        {
+          "away": {
+            "name": "Team Teleport",
+            "id": "qh0nrm79mmarib37",
+            "shortName": "teleport"
+          },
+          "home": {
+            "name": "DoctorNeko",
+            "id": "nqsi01dpmmaymw77",
+            "shortName": "DoctorNe"
+          }
+        }
+      ]
+    },
+    {
+      "period": 18,
+      "matchupList": [
+        {
+          "away": {
+            "name": "skyhawk75860",
+            "id": "fjz8shwkmmb0ucw0",
+            "shortName": "skyhawk7"
+          },
+          "home": {
+            "name": "Trey B",
+            "id": "u9lg4kavmmarmmpe",
+            "shortName": "TREY"
+          }
+        },
+        {
+          "away": {
+            "name": "Ed090809",
+            "id": "4yy97r6nmmb9ffq1",
+            "shortName": "Ed090809"
+          },
+          "home": {
+            "name": "DoctorNeko",
+            "id": "nqsi01dpmmaymw77",
+            "shortName": "DoctorNe"
+          }
+        },
+        {
+          "away": {
+            "name": "bmoser160",
+            "id": "194hijupmmb3ea47",
+            "shortName": "bmoser16"
+          },
+          "home": {
+            "name": "Ghost in the Machine",
+            "id": "ihncvrvvmmaslo1s",
+            "shortName": "Ghost"
+          }
+        },
+        {
+          "away": {
+            "name": "foulballs",
+            "id": "tmygd5cbmmarm5dm",
+            "shortName": "foulie"
+          },
+          "home": {
+            "name": "Team Teleport",
+            "id": "qh0nrm79mmarib37",
+            "shortName": "teleport"
+          }
+        },
+        {
+          "away": {
+            "name": "CBonk24",
+            "id": "xj5y6al5mmaro9as",
+            "shortName": "CBonk24"
+          },
+          "home": {
+            "name": "divoo",
+            "id": "xpmc7vrvmmarshvb",
+            "shortName": "divoo"
+          }
+        },
+        {
+          "away": {
+            "name": "drkarma",
+            "id": "8q8fcv04mmazer31",
+            "shortName": "drkarma"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 19,
+      "matchupList": [
+        {
+          "away": {
+            "name": "DoctorNeko",
+            "id": "nqsi01dpmmaymw77",
+            "shortName": "DoctorNe"
+          },
+          "home": {
+            "name": "skyhawk75860",
+            "id": "fjz8shwkmmb0ucw0",
+            "shortName": "skyhawk7"
+          }
+        },
+        {
+          "away": {
+            "name": "Ghost in the Machine",
+            "id": "ihncvrvvmmaslo1s",
+            "shortName": "Ghost"
+          },
+          "home": {
+            "name": "Trey B",
+            "id": "u9lg4kavmmarmmpe",
+            "shortName": "TREY"
+          }
+        },
+        {
+          "away": {
+            "name": "Team Teleport",
+            "id": "qh0nrm79mmarib37",
+            "shortName": "teleport"
+          },
+          "home": {
+            "name": "Ed090809",
+            "id": "4yy97r6nmmb9ffq1",
+            "shortName": "Ed090809"
+          }
+        },
+        {
+          "away": {
+            "name": "divoo",
+            "id": "xpmc7vrvmmarshvb",
+            "shortName": "divoo"
+          },
+          "home": {
+            "name": "bmoser160",
+            "id": "194hijupmmb3ea47",
+            "shortName": "bmoser16"
+          }
+        },
+        {
+          "away": {
+            "name": "drkarma",
+            "id": "8q8fcv04mmazer31",
+            "shortName": "drkarma"
+          },
+          "home": {
+            "name": "foulballs",
+            "id": "tmygd5cbmmarm5dm",
+            "shortName": "foulie"
+          }
+        },
+        {
+          "away": {
+            "name": "CBonk24",
+            "id": "xj5y6al5mmaro9as",
+            "shortName": "CBonk24"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 20,
+      "matchupList": [
+        {
+          "away": {
+            "name": "skyhawk75860",
+            "id": "fjz8shwkmmb0ucw0",
+            "shortName": "skyhawk7"
+          },
+          "home": {
+            "name": "Ghost in the Machine",
+            "id": "ihncvrvvmmaslo1s",
+            "shortName": "Ghost"
+          }
+        },
+        {
+          "away": {
+            "name": "DoctorNeko",
+            "id": "nqsi01dpmmaymw77",
+            "shortName": "DoctorNe"
+          },
+          "home": {
+            "name": "Team Teleport",
+            "id": "qh0nrm79mmarib37",
+            "shortName": "teleport"
+          }
+        },
+        {
+          "away": {
+            "name": "Trey B",
+            "id": "u9lg4kavmmarmmpe",
+            "shortName": "TREY"
+          },
+          "home": {
+            "name": "divoo",
+            "id": "xpmc7vrvmmarshvb",
+            "shortName": "divoo"
+          }
+        },
+        {
+          "away": {
+            "name": "Ed090809",
+            "id": "4yy97r6nmmb9ffq1",
+            "shortName": "Ed090809"
+          },
+          "home": {
+            "name": "drkarma",
+            "id": "8q8fcv04mmazer31",
+            "shortName": "drkarma"
+          }
+        },
+        {
+          "away": {
+            "name": "foulballs",
+            "id": "tmygd5cbmmarm5dm",
+            "shortName": "foulie"
+          },
+          "home": {
+            "name": "CBonk24",
+            "id": "xj5y6al5mmaro9as",
+            "shortName": "CBonk24"
+          }
+        },
+        {
+          "away": {
+            "name": "skyhawk75860",
+            "id": "fjz8shwkmmb0ucw0",
+            "shortName": "skyhawk7"
+          },
+          "home": {
+            "name": "divoo",
+            "id": "xpmc7vrvmmarshvb",
+            "shortName": "divoo"
+          }
+        },
+        {
+          "away": {
+            "name": "bmoser160",
+            "id": "194hijupmmb3ea47",
+            "shortName": "bmoser16"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 21,
+      "matchupList": [
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 22,
+      "matchupList": [
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 23,
+      "matchupList": [
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    }
+  ],
+  "standings": [
+    {
+      "teamName": "skyhawk75860",
+      "teamId": "fjz8shwkmmb0ucw0",
+      "gamesBack": 0.0,
+      "rank": 1,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Ed090809",
+      "teamId": "4yy97r6nmmb9ffq1",
+      "gamesBack": 0.0,
+      "rank": 2,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "foulballs",
+      "teamId": "tmygd5cbmmarm5dm",
+      "gamesBack": 0.0,
+      "rank": 3,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Ghost in the Machine",
+      "teamId": "ihncvrvvmmaslo1s",
+      "gamesBack": 0.0,
+      "rank": 4,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "bmoser160",
+      "teamId": "194hijupmmb3ea47",
+      "gamesBack": 0.0,
+      "rank": 5,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "divoo",
+      "teamId": "xpmc7vrvmmarshvb",
+      "gamesBack": 0.0,
+      "rank": 6,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Team Teleport",
+      "teamId": "qh0nrm79mmarib37",
+      "gamesBack": 0.0,
+      "rank": 7,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "DoctorNeko",
+      "teamId": "nqsi01dpmmaymw77",
+      "gamesBack": 0.0,
+      "rank": 8,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "CBonk24",
+      "teamId": "xj5y6al5mmaro9as",
+      "gamesBack": 0.0,
+      "rank": 9,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Trey B",
+      "teamId": "u9lg4kavmmarmmpe",
+      "gamesBack": 0.0,
+      "rank": 10,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "drkarma",
+      "teamId": "8q8fcv04mmazer31",
+      "gamesBack": 0.0,
+      "rank": 11,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    }
+  ]
+}

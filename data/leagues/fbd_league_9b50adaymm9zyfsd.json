@@ -1,0 +1,1451 @@
+{
+  "fantrax_id": "9b50adaymm9zyfsd",
+  "name": "FBD Wade Boggs League",
+  "season_year": 2026,
+  "start_date": "2026-03-25",
+  "end_date": "2026-09-20",
+  "scoring_settings": {
+    "scoringCategories": {
+      "HITTING": {
+        "R": {
+          "Default": "1.0"
+        },
+        "RBI": {
+          "Default": "1.0"
+        },
+        "HR": {
+          "Default": "1.0"
+        },
+        "OBP": {
+          "Default": "1.0"
+        },
+        "SB": {
+          "Default": "1.0"
+        }
+      },
+      "PITCHING": {
+        "WHIP": {
+          "Default": "1.0"
+        },
+        "SVH": {
+          "Default": "1.0"
+        },
+        "ERA": {
+          "Default": "1.0"
+        },
+        "K": {
+          "Default": "1.0"
+        },
+        "W+QS": {
+          "Default": "1.0"
+        }
+      }
+    },
+    "scoringCategorySettings": [
+      {
+        "configs": [
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_HOME_RUNS",
+              "name": "Home Runs",
+              "id": "0200",
+              "shortName": "HR"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_RBIS",
+              "name": "RBI",
+              "id": "0310",
+              "shortName": "RBI"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_RUNS_SCORED",
+              "name": "Runs Scored",
+              "id": "0330",
+              "shortName": "R"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_STOLEN_BASES",
+              "name": "Stolen Bases",
+              "id": "0380",
+              "shortName": "SB"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_ON_BASE_PERCENTAGE",
+              "name": "On Base Percentage",
+              "id": "0510",
+              "shortName": "OBP"
+            }
+          }
+        ],
+        "group": {
+          "code": "BASEBALL_HITTING",
+          "name": "Hitting",
+          "id": "10",
+          "shortName": "Hit"
+        }
+      },
+      {
+        "configs": [
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_STRIKE_OUTS_PITCHED",
+              "name": "Strikeouts Pitched",
+              "id": "0410",
+              "shortName": "K"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_EARNED_RUN_AVERAGE",
+              "name": "Earned Run Average",
+              "id": "0490",
+              "shortName": "ERA"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_SAVES_PLUS_HOLDS",
+              "name": "Saves + Holds",
+              "id": "051i",
+              "shortName": "SVH"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_WHIP_RATIO",
+              "name": "WHIP Ratio",
+              "id": "0580",
+              "shortName": "WHIP"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_WINS_PLUS_QUALITY_STARTS",
+              "name": "Wins + Quality Starts",
+              "id": "0593",
+              "shortName": "W+QS"
+            }
+          }
+        ],
+        "group": {
+          "code": "BASEBALL_PITCHING",
+          "name": "Pitching",
+          "id": "20",
+          "shortName": "Pit"
+        }
+      }
+    ],
+    "type": "rotisserie"
+  },
+  "teams": {
+    "b4bylilmmmavanrp": {
+      "name": "TBD",
+      "id": "b4bylilmmmavanrp"
+    },
+    "fyz6etetmmb7zy5p": {
+      "name": "oogadebob",
+      "id": "fyz6etetmmb7zy5p"
+    },
+    "uoa53yztmmau65k3": {
+      "name": "HutzNutz",
+      "id": "uoa53yztmmau65k3"
+    },
+    "fb6i9btcmmasjgik": {
+      "name": "Milwaukee Beers",
+      "id": "fb6i9btcmmasjgik"
+    },
+    "mikhnav9mmas192v": {
+      "name": "crink",
+      "id": "mikhnav9mmas192v"
+    },
+    "n1agd66tmmasqvmz": {
+      "name": "enrico45",
+      "id": "n1agd66tmmasqvmz"
+    },
+    "0gwngg8tmmau36rh": {
+      "name": "dreines",
+      "id": "0gwngg8tmmau36rh"
+    },
+    "9ppbkywpmmarj3e0": {
+      "name": "Fitzy37",
+      "id": "9ppbkywpmmarj3e0"
+    }
+  },
+  "matchups": [
+    {
+      "period": 1,
+      "matchupList": [
+        {
+          "away": {
+            "name": "enrico45",
+            "id": "n1agd66tmmasqvmz",
+            "shortName": "enrico45"
+          },
+          "home": {
+            "name": "oogadebob",
+            "id": "fyz6etetmmb7zy5p",
+            "shortName": "oogadebo"
+          }
+        },
+        {
+          "away": {
+            "name": "dreines",
+            "id": "0gwngg8tmmau36rh",
+            "shortName": "dreines"
+          },
+          "home": {
+            "name": "Milwaukee Beers",
+            "id": "fb6i9btcmmasjgik",
+            "shortName": "MB"
+          }
+        },
+        {
+          "away": {
+            "name": "crink",
+            "id": "mikhnav9mmas192v",
+            "shortName": "crink"
+          },
+          "home": {
+            "name": "TBD",
+            "id": "b4bylilmmmavanrp",
+            "shortName": "KK"
+          }
+        },
+        {
+          "away": {
+            "name": "HutzNutz",
+            "id": "uoa53yztmmau65k3",
+            "shortName": "HutzNutz"
+          },
+          "home": {
+            "name": "Fitzy37",
+            "id": "9ppbkywpmmarj3e0",
+            "shortName": "Fitzy37"
+          }
+        }
+      ]
+    },
+    {
+      "period": 2,
+      "matchupList": [
+        {
+          "away": {
+            "name": "oogadebob",
+            "id": "fyz6etetmmb7zy5p",
+            "shortName": "oogadebo"
+          },
+          "home": {
+            "name": "dreines",
+            "id": "0gwngg8tmmau36rh",
+            "shortName": "dreines"
+          }
+        },
+        {
+          "away": {
+            "name": "enrico45",
+            "id": "n1agd66tmmasqvmz",
+            "shortName": "enrico45"
+          },
+          "home": {
+            "name": "crink",
+            "id": "mikhnav9mmas192v",
+            "shortName": "crink"
+          }
+        },
+        {
+          "away": {
+            "name": "Milwaukee Beers",
+            "id": "fb6i9btcmmasjgik",
+            "shortName": "MB"
+          },
+          "home": {
+            "name": "HutzNutz",
+            "id": "uoa53yztmmau65k3",
+            "shortName": "HutzNutz"
+          }
+        },
+        {
+          "away": {
+            "name": "TBD",
+            "id": "b4bylilmmmavanrp",
+            "shortName": "KK"
+          },
+          "home": {
+            "name": "Fitzy37",
+            "id": "9ppbkywpmmarj3e0",
+            "shortName": "Fitzy37"
+          }
+        }
+      ]
+    },
+    {
+      "period": 3,
+      "matchupList": [
+        {
+          "away": {
+            "name": "crink",
+            "id": "mikhnav9mmas192v",
+            "shortName": "crink"
+          },
+          "home": {
+            "name": "oogadebob",
+            "id": "fyz6etetmmb7zy5p",
+            "shortName": "oogadebo"
+          }
+        },
+        {
+          "away": {
+            "name": "HutzNutz",
+            "id": "uoa53yztmmau65k3",
+            "shortName": "HutzNutz"
+          },
+          "home": {
+            "name": "dreines",
+            "id": "0gwngg8tmmau36rh",
+            "shortName": "dreines"
+          }
+        },
+        {
+          "away": {
+            "name": "Fitzy37",
+            "id": "9ppbkywpmmarj3e0",
+            "shortName": "Fitzy37"
+          },
+          "home": {
+            "name": "enrico45",
+            "id": "n1agd66tmmasqvmz",
+            "shortName": "enrico45"
+          }
+        },
+        {
+          "away": {
+            "name": "TBD",
+            "id": "b4bylilmmmavanrp",
+            "shortName": "KK"
+          },
+          "home": {
+            "name": "Milwaukee Beers",
+            "id": "fb6i9btcmmasjgik",
+            "shortName": "MB"
+          }
+        }
+      ]
+    },
+    {
+      "period": 4,
+      "matchupList": [
+        {
+          "away": {
+            "name": "oogadebob",
+            "id": "fyz6etetmmb7zy5p",
+            "shortName": "oogadebo"
+          },
+          "home": {
+            "name": "HutzNutz",
+            "id": "uoa53yztmmau65k3",
+            "shortName": "HutzNutz"
+          }
+        },
+        {
+          "away": {
+            "name": "crink",
+            "id": "mikhnav9mmas192v",
+            "shortName": "crink"
+          },
+          "home": {
+            "name": "Fitzy37",
+            "id": "9ppbkywpmmarj3e0",
+            "shortName": "Fitzy37"
+          }
+        },
+        {
+          "away": {
+            "name": "dreines",
+            "id": "0gwngg8tmmau36rh",
+            "shortName": "dreines"
+          },
+          "home": {
+            "name": "TBD",
+            "id": "b4bylilmmmavanrp",
+            "shortName": "KK"
+          }
+        },
+        {
+          "away": {
+            "name": "enrico45",
+            "id": "n1agd66tmmasqvmz",
+            "shortName": "enrico45"
+          },
+          "home": {
+            "name": "Milwaukee Beers",
+            "id": "fb6i9btcmmasjgik",
+            "shortName": "MB"
+          }
+        }
+      ]
+    },
+    {
+      "period": 5,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Fitzy37",
+            "id": "9ppbkywpmmarj3e0",
+            "shortName": "Fitzy37"
+          },
+          "home": {
+            "name": "oogadebob",
+            "id": "fyz6etetmmb7zy5p",
+            "shortName": "oogadebo"
+          }
+        },
+        {
+          "away": {
+            "name": "TBD",
+            "id": "b4bylilmmmavanrp",
+            "shortName": "KK"
+          },
+          "home": {
+            "name": "HutzNutz",
+            "id": "uoa53yztmmau65k3",
+            "shortName": "HutzNutz"
+          }
+        },
+        {
+          "away": {
+            "name": "Milwaukee Beers",
+            "id": "fb6i9btcmmasjgik",
+            "shortName": "MB"
+          },
+          "home": {
+            "name": "crink",
+            "id": "mikhnav9mmas192v",
+            "shortName": "crink"
+          }
+        },
+        {
+          "away": {
+            "name": "enrico45",
+            "id": "n1agd66tmmasqvmz",
+            "shortName": "enrico45"
+          },
+          "home": {
+            "name": "dreines",
+            "id": "0gwngg8tmmau36rh",
+            "shortName": "dreines"
+          }
+        }
+      ]
+    },
+    {
+      "period": 6,
+      "matchupList": [
+        {
+          "away": {
+            "name": "oogadebob",
+            "id": "fyz6etetmmb7zy5p",
+            "shortName": "oogadebo"
+          },
+          "home": {
+            "name": "TBD",
+            "id": "b4bylilmmmavanrp",
+            "shortName": "KK"
+          }
+        },
+        {
+          "away": {
+            "name": "Fitzy37",
+            "id": "9ppbkywpmmarj3e0",
+            "shortName": "Fitzy37"
+          },
+          "home": {
+            "name": "Milwaukee Beers",
+            "id": "fb6i9btcmmasjgik",
+            "shortName": "MB"
+          }
+        },
+        {
+          "away": {
+            "name": "HutzNutz",
+            "id": "uoa53yztmmau65k3",
+            "shortName": "HutzNutz"
+          },
+          "home": {
+            "name": "enrico45",
+            "id": "n1agd66tmmasqvmz",
+            "shortName": "enrico45"
+          }
+        },
+        {
+          "away": {
+            "name": "crink",
+            "id": "mikhnav9mmas192v",
+            "shortName": "crink"
+          },
+          "home": {
+            "name": "dreines",
+            "id": "0gwngg8tmmau36rh",
+            "shortName": "dreines"
+          }
+        }
+      ]
+    },
+    {
+      "period": 7,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Milwaukee Beers",
+            "id": "fb6i9btcmmasjgik",
+            "shortName": "MB"
+          },
+          "home": {
+            "name": "oogadebob",
+            "id": "fyz6etetmmb7zy5p",
+            "shortName": "oogadebo"
+          }
+        },
+        {
+          "away": {
+            "name": "enrico45",
+            "id": "n1agd66tmmasqvmz",
+            "shortName": "enrico45"
+          },
+          "home": {
+            "name": "TBD",
+            "id": "b4bylilmmmavanrp",
+            "shortName": "KK"
+          }
+        },
+        {
+          "away": {
+            "name": "dreines",
+            "id": "0gwngg8tmmau36rh",
+            "shortName": "dreines"
+          },
+          "home": {
+            "name": "Fitzy37",
+            "id": "9ppbkywpmmarj3e0",
+            "shortName": "Fitzy37"
+          }
+        },
+        {
+          "away": {
+            "name": "crink",
+            "id": "mikhnav9mmas192v",
+            "shortName": "crink"
+          },
+          "home": {
+            "name": "HutzNutz",
+            "id": "uoa53yztmmau65k3",
+            "shortName": "HutzNutz"
+          }
+        }
+      ]
+    },
+    {
+      "period": 8,
+      "matchupList": [
+        {
+          "away": {
+            "name": "oogadebob",
+            "id": "fyz6etetmmb7zy5p",
+            "shortName": "oogadebo"
+          },
+          "home": {
+            "name": "enrico45",
+            "id": "n1agd66tmmasqvmz",
+            "shortName": "enrico45"
+          }
+        },
+        {
+          "away": {
+            "name": "Milwaukee Beers",
+            "id": "fb6i9btcmmasjgik",
+            "shortName": "MB"
+          },
+          "home": {
+            "name": "dreines",
+            "id": "0gwngg8tmmau36rh",
+            "shortName": "dreines"
+          }
+        },
+        {
+          "away": {
+            "name": "TBD",
+            "id": "b4bylilmmmavanrp",
+            "shortName": "KK"
+          },
+          "home": {
+            "name": "crink",
+            "id": "mikhnav9mmas192v",
+            "shortName": "crink"
+          }
+        },
+        {
+          "away": {
+            "name": "Fitzy37",
+            "id": "9ppbkywpmmarj3e0",
+            "shortName": "Fitzy37"
+          },
+          "home": {
+            "name": "HutzNutz",
+            "id": "uoa53yztmmau65k3",
+            "shortName": "HutzNutz"
+          }
+        }
+      ]
+    },
+    {
+      "period": 9,
+      "matchupList": [
+        {
+          "away": {
+            "name": "dreines",
+            "id": "0gwngg8tmmau36rh",
+            "shortName": "dreines"
+          },
+          "home": {
+            "name": "oogadebob",
+            "id": "fyz6etetmmb7zy5p",
+            "shortName": "oogadebo"
+          }
+        },
+        {
+          "away": {
+            "name": "crink",
+            "id": "mikhnav9mmas192v",
+            "shortName": "crink"
+          },
+          "home": {
+            "name": "enrico45",
+            "id": "n1agd66tmmasqvmz",
+            "shortName": "enrico45"
+          }
+        },
+        {
+          "away": {
+            "name": "HutzNutz",
+            "id": "uoa53yztmmau65k3",
+            "shortName": "HutzNutz"
+          },
+          "home": {
+            "name": "Milwaukee Beers",
+            "id": "fb6i9btcmmasjgik",
+            "shortName": "MB"
+          }
+        },
+        {
+          "away": {
+            "name": "Fitzy37",
+            "id": "9ppbkywpmmarj3e0",
+            "shortName": "Fitzy37"
+          },
+          "home": {
+            "name": "TBD",
+            "id": "b4bylilmmmavanrp",
+            "shortName": "KK"
+          }
+        }
+      ]
+    },
+    {
+      "period": 10,
+      "matchupList": [
+        {
+          "away": {
+            "name": "oogadebob",
+            "id": "fyz6etetmmb7zy5p",
+            "shortName": "oogadebo"
+          },
+          "home": {
+            "name": "crink",
+            "id": "mikhnav9mmas192v",
+            "shortName": "crink"
+          }
+        },
+        {
+          "away": {
+            "name": "dreines",
+            "id": "0gwngg8tmmau36rh",
+            "shortName": "dreines"
+          },
+          "home": {
+            "name": "HutzNutz",
+            "id": "uoa53yztmmau65k3",
+            "shortName": "HutzNutz"
+          }
+        },
+        {
+          "away": {
+            "name": "enrico45",
+            "id": "n1agd66tmmasqvmz",
+            "shortName": "enrico45"
+          },
+          "home": {
+            "name": "Fitzy37",
+            "id": "9ppbkywpmmarj3e0",
+            "shortName": "Fitzy37"
+          }
+        },
+        {
+          "away": {
+            "name": "Milwaukee Beers",
+            "id": "fb6i9btcmmasjgik",
+            "shortName": "MB"
+          },
+          "home": {
+            "name": "TBD",
+            "id": "b4bylilmmmavanrp",
+            "shortName": "KK"
+          }
+        }
+      ]
+    },
+    {
+      "period": 11,
+      "matchupList": [
+        {
+          "away": {
+            "name": "HutzNutz",
+            "id": "uoa53yztmmau65k3",
+            "shortName": "HutzNutz"
+          },
+          "home": {
+            "name": "oogadebob",
+            "id": "fyz6etetmmb7zy5p",
+            "shortName": "oogadebo"
+          }
+        },
+        {
+          "away": {
+            "name": "Fitzy37",
+            "id": "9ppbkywpmmarj3e0",
+            "shortName": "Fitzy37"
+          },
+          "home": {
+            "name": "crink",
+            "id": "mikhnav9mmas192v",
+            "shortName": "crink"
+          }
+        },
+        {
+          "away": {
+            "name": "TBD",
+            "id": "b4bylilmmmavanrp",
+            "shortName": "KK"
+          },
+          "home": {
+            "name": "dreines",
+            "id": "0gwngg8tmmau36rh",
+            "shortName": "dreines"
+          }
+        },
+        {
+          "away": {
+            "name": "Milwaukee Beers",
+            "id": "fb6i9btcmmasjgik",
+            "shortName": "MB"
+          },
+          "home": {
+            "name": "enrico45",
+            "id": "n1agd66tmmasqvmz",
+            "shortName": "enrico45"
+          }
+        }
+      ]
+    },
+    {
+      "period": 12,
+      "matchupList": [
+        {
+          "away": {
+            "name": "oogadebob",
+            "id": "fyz6etetmmb7zy5p",
+            "shortName": "oogadebo"
+          },
+          "home": {
+            "name": "Fitzy37",
+            "id": "9ppbkywpmmarj3e0",
+            "shortName": "Fitzy37"
+          }
+        },
+        {
+          "away": {
+            "name": "HutzNutz",
+            "id": "uoa53yztmmau65k3",
+            "shortName": "HutzNutz"
+          },
+          "home": {
+            "name": "TBD",
+            "id": "b4bylilmmmavanrp",
+            "shortName": "KK"
+          }
+        },
+        {
+          "away": {
+            "name": "crink",
+            "id": "mikhnav9mmas192v",
+            "shortName": "crink"
+          },
+          "home": {
+            "name": "Milwaukee Beers",
+            "id": "fb6i9btcmmasjgik",
+            "shortName": "MB"
+          }
+        },
+        {
+          "away": {
+            "name": "dreines",
+            "id": "0gwngg8tmmau36rh",
+            "shortName": "dreines"
+          },
+          "home": {
+            "name": "enrico45",
+            "id": "n1agd66tmmasqvmz",
+            "shortName": "enrico45"
+          }
+        }
+      ]
+    },
+    {
+      "period": 13,
+      "matchupList": [
+        {
+          "away": {
+            "name": "TBD",
+            "id": "b4bylilmmmavanrp",
+            "shortName": "KK"
+          },
+          "home": {
+            "name": "oogadebob",
+            "id": "fyz6etetmmb7zy5p",
+            "shortName": "oogadebo"
+          }
+        },
+        {
+          "away": {
+            "name": "Milwaukee Beers",
+            "id": "fb6i9btcmmasjgik",
+            "shortName": "MB"
+          },
+          "home": {
+            "name": "Fitzy37",
+            "id": "9ppbkywpmmarj3e0",
+            "shortName": "Fitzy37"
+          }
+        },
+        {
+          "away": {
+            "name": "enrico45",
+            "id": "n1agd66tmmasqvmz",
+            "shortName": "enrico45"
+          },
+          "home": {
+            "name": "HutzNutz",
+            "id": "uoa53yztmmau65k3",
+            "shortName": "HutzNutz"
+          }
+        },
+        {
+          "away": {
+            "name": "dreines",
+            "id": "0gwngg8tmmau36rh",
+            "shortName": "dreines"
+          },
+          "home": {
+            "name": "crink",
+            "id": "mikhnav9mmas192v",
+            "shortName": "crink"
+          }
+        }
+      ]
+    },
+    {
+      "period": 14,
+      "matchupList": [
+        {
+          "away": {
+            "name": "oogadebob",
+            "id": "fyz6etetmmb7zy5p",
+            "shortName": "oogadebo"
+          },
+          "home": {
+            "name": "Milwaukee Beers",
+            "id": "fb6i9btcmmasjgik",
+            "shortName": "MB"
+          }
+        },
+        {
+          "away": {
+            "name": "TBD",
+            "id": "b4bylilmmmavanrp",
+            "shortName": "KK"
+          },
+          "home": {
+            "name": "enrico45",
+            "id": "n1agd66tmmasqvmz",
+            "shortName": "enrico45"
+          }
+        },
+        {
+          "away": {
+            "name": "Fitzy37",
+            "id": "9ppbkywpmmarj3e0",
+            "shortName": "Fitzy37"
+          },
+          "home": {
+            "name": "dreines",
+            "id": "0gwngg8tmmau36rh",
+            "shortName": "dreines"
+          }
+        },
+        {
+          "away": {
+            "name": "HutzNutz",
+            "id": "uoa53yztmmau65k3",
+            "shortName": "HutzNutz"
+          },
+          "home": {
+            "name": "crink",
+            "id": "mikhnav9mmas192v",
+            "shortName": "crink"
+          }
+        }
+      ]
+    },
+    {
+      "period": 15,
+      "matchupList": [
+        {
+          "away": {
+            "name": "enrico45",
+            "id": "n1agd66tmmasqvmz",
+            "shortName": "enrico45"
+          },
+          "home": {
+            "name": "oogadebob",
+            "id": "fyz6etetmmb7zy5p",
+            "shortName": "oogadebo"
+          }
+        },
+        {
+          "away": {
+            "name": "dreines",
+            "id": "0gwngg8tmmau36rh",
+            "shortName": "dreines"
+          },
+          "home": {
+            "name": "Milwaukee Beers",
+            "id": "fb6i9btcmmasjgik",
+            "shortName": "MB"
+          }
+        },
+        {
+          "away": {
+            "name": "crink",
+            "id": "mikhnav9mmas192v",
+            "shortName": "crink"
+          },
+          "home": {
+            "name": "TBD",
+            "id": "b4bylilmmmavanrp",
+            "shortName": "KK"
+          }
+        },
+        {
+          "away": {
+            "name": "HutzNutz",
+            "id": "uoa53yztmmau65k3",
+            "shortName": "HutzNutz"
+          },
+          "home": {
+            "name": "Fitzy37",
+            "id": "9ppbkywpmmarj3e0",
+            "shortName": "Fitzy37"
+          }
+        }
+      ]
+    },
+    {
+      "period": 16,
+      "matchupList": [
+        {
+          "away": {
+            "name": "oogadebob",
+            "id": "fyz6etetmmb7zy5p",
+            "shortName": "oogadebo"
+          },
+          "home": {
+            "name": "dreines",
+            "id": "0gwngg8tmmau36rh",
+            "shortName": "dreines"
+          }
+        },
+        {
+          "away": {
+            "name": "enrico45",
+            "id": "n1agd66tmmasqvmz",
+            "shortName": "enrico45"
+          },
+          "home": {
+            "name": "crink",
+            "id": "mikhnav9mmas192v",
+            "shortName": "crink"
+          }
+        },
+        {
+          "away": {
+            "name": "Milwaukee Beers",
+            "id": "fb6i9btcmmasjgik",
+            "shortName": "MB"
+          },
+          "home": {
+            "name": "HutzNutz",
+            "id": "uoa53yztmmau65k3",
+            "shortName": "HutzNutz"
+          }
+        },
+        {
+          "away": {
+            "name": "TBD",
+            "id": "b4bylilmmmavanrp",
+            "shortName": "KK"
+          },
+          "home": {
+            "name": "Fitzy37",
+            "id": "9ppbkywpmmarj3e0",
+            "shortName": "Fitzy37"
+          }
+        }
+      ]
+    },
+    {
+      "period": 17,
+      "matchupList": [
+        {
+          "away": {
+            "name": "crink",
+            "id": "mikhnav9mmas192v",
+            "shortName": "crink"
+          },
+          "home": {
+            "name": "oogadebob",
+            "id": "fyz6etetmmb7zy5p",
+            "shortName": "oogadebo"
+          }
+        },
+        {
+          "away": {
+            "name": "HutzNutz",
+            "id": "uoa53yztmmau65k3",
+            "shortName": "HutzNutz"
+          },
+          "home": {
+            "name": "dreines",
+            "id": "0gwngg8tmmau36rh",
+            "shortName": "dreines"
+          }
+        },
+        {
+          "away": {
+            "name": "Fitzy37",
+            "id": "9ppbkywpmmarj3e0",
+            "shortName": "Fitzy37"
+          },
+          "home": {
+            "name": "enrico45",
+            "id": "n1agd66tmmasqvmz",
+            "shortName": "enrico45"
+          }
+        },
+        {
+          "away": {
+            "name": "TBD",
+            "id": "b4bylilmmmavanrp",
+            "shortName": "KK"
+          },
+          "home": {
+            "name": "Milwaukee Beers",
+            "id": "fb6i9btcmmasjgik",
+            "shortName": "MB"
+          }
+        }
+      ]
+    },
+    {
+      "period": 18,
+      "matchupList": [
+        {
+          "away": {
+            "name": "oogadebob",
+            "id": "fyz6etetmmb7zy5p",
+            "shortName": "oogadebo"
+          },
+          "home": {
+            "name": "HutzNutz",
+            "id": "uoa53yztmmau65k3",
+            "shortName": "HutzNutz"
+          }
+        },
+        {
+          "away": {
+            "name": "crink",
+            "id": "mikhnav9mmas192v",
+            "shortName": "crink"
+          },
+          "home": {
+            "name": "Fitzy37",
+            "id": "9ppbkywpmmarj3e0",
+            "shortName": "Fitzy37"
+          }
+        },
+        {
+          "away": {
+            "name": "dreines",
+            "id": "0gwngg8tmmau36rh",
+            "shortName": "dreines"
+          },
+          "home": {
+            "name": "TBD",
+            "id": "b4bylilmmmavanrp",
+            "shortName": "KK"
+          }
+        },
+        {
+          "away": {
+            "name": "enrico45",
+            "id": "n1agd66tmmasqvmz",
+            "shortName": "enrico45"
+          },
+          "home": {
+            "name": "Milwaukee Beers",
+            "id": "fb6i9btcmmasjgik",
+            "shortName": "MB"
+          }
+        }
+      ]
+    },
+    {
+      "period": 19,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Fitzy37",
+            "id": "9ppbkywpmmarj3e0",
+            "shortName": "Fitzy37"
+          },
+          "home": {
+            "name": "oogadebob",
+            "id": "fyz6etetmmb7zy5p",
+            "shortName": "oogadebo"
+          }
+        },
+        {
+          "away": {
+            "name": "TBD",
+            "id": "b4bylilmmmavanrp",
+            "shortName": "KK"
+          },
+          "home": {
+            "name": "HutzNutz",
+            "id": "uoa53yztmmau65k3",
+            "shortName": "HutzNutz"
+          }
+        },
+        {
+          "away": {
+            "name": "Milwaukee Beers",
+            "id": "fb6i9btcmmasjgik",
+            "shortName": "MB"
+          },
+          "home": {
+            "name": "crink",
+            "id": "mikhnav9mmas192v",
+            "shortName": "crink"
+          }
+        },
+        {
+          "away": {
+            "name": "enrico45",
+            "id": "n1agd66tmmasqvmz",
+            "shortName": "enrico45"
+          },
+          "home": {
+            "name": "dreines",
+            "id": "0gwngg8tmmau36rh",
+            "shortName": "dreines"
+          }
+        }
+      ]
+    },
+    {
+      "period": 20,
+      "matchupList": [
+        {
+          "away": {
+            "name": "oogadebob",
+            "id": "fyz6etetmmb7zy5p",
+            "shortName": "oogadebo"
+          },
+          "home": {
+            "name": "TBD",
+            "id": "b4bylilmmmavanrp",
+            "shortName": "KK"
+          }
+        },
+        {
+          "away": {
+            "name": "Fitzy37",
+            "id": "9ppbkywpmmarj3e0",
+            "shortName": "Fitzy37"
+          },
+          "home": {
+            "name": "Milwaukee Beers",
+            "id": "fb6i9btcmmasjgik",
+            "shortName": "MB"
+          }
+        },
+        {
+          "away": {
+            "name": "HutzNutz",
+            "id": "uoa53yztmmau65k3",
+            "shortName": "HutzNutz"
+          },
+          "home": {
+            "name": "enrico45",
+            "id": "n1agd66tmmasqvmz",
+            "shortName": "enrico45"
+          }
+        },
+        {
+          "away": {
+            "name": "crink",
+            "id": "mikhnav9mmas192v",
+            "shortName": "crink"
+          },
+          "home": {
+            "name": "dreines",
+            "id": "0gwngg8tmmau36rh",
+            "shortName": "dreines"
+          }
+        }
+      ]
+    },
+    {
+      "period": 21,
+      "matchupList": [
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 22,
+      "matchupList": [
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 23,
+      "matchupList": [
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    }
+  ],
+  "standings": [
+    {
+      "teamName": "oogadebob",
+      "teamId": "fyz6etetmmb7zy5p",
+      "gamesBack": 0.0,
+      "rank": 1,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "crink",
+      "teamId": "mikhnav9mmas192v",
+      "gamesBack": 0.0,
+      "rank": 2,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "HutzNutz",
+      "teamId": "uoa53yztmmau65k3",
+      "gamesBack": 0.0,
+      "rank": 3,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "enrico45",
+      "teamId": "n1agd66tmmasqvmz",
+      "gamesBack": 0.0,
+      "rank": 4,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "TBD",
+      "teamId": "b4bylilmmmavanrp",
+      "gamesBack": 0.0,
+      "rank": 5,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Fitzy37",
+      "teamId": "9ppbkywpmmarj3e0",
+      "gamesBack": 0.0,
+      "rank": 6,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Milwaukee Beers",
+      "teamId": "fb6i9btcmmasjgik",
+      "gamesBack": 0.0,
+      "rank": 7,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "dreines",
+      "teamId": "0gwngg8tmmau36rh",
+      "gamesBack": 0.0,
+      "rank": 8,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    }
+  ]
+}

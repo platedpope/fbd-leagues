@@ -1,0 +1,1997 @@
+{
+  "fantrax_id": "fvu9emy2mm9zylzp",
+  "name": "FBD Al Kaline League",
+  "season_year": 2026,
+  "start_date": "2026-03-25",
+  "end_date": "2026-09-20",
+  "scoring_settings": {
+    "scoringCategories": {
+      "HITTING": {
+        "R": {
+          "Default": "1.0"
+        },
+        "RBI": {
+          "Default": "1.0"
+        },
+        "HR": {
+          "Default": "1.0"
+        },
+        "OBP": {
+          "Default": "1.0"
+        },
+        "SB": {
+          "Default": "1.0"
+        }
+      },
+      "PITCHING": {
+        "WHIP": {
+          "Default": "1.0"
+        },
+        "SVH": {
+          "Default": "1.0"
+        },
+        "ERA": {
+          "Default": "1.0"
+        },
+        "K": {
+          "Default": "1.0"
+        },
+        "W+QS": {
+          "Default": "1.0"
+        }
+      }
+    },
+    "scoringCategorySettings": [
+      {
+        "configs": [
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_HOME_RUNS",
+              "name": "Home Runs",
+              "id": "0200",
+              "shortName": "HR"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_RBIS",
+              "name": "RBI",
+              "id": "0310",
+              "shortName": "RBI"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_RUNS_SCORED",
+              "name": "Runs Scored",
+              "id": "0330",
+              "shortName": "R"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_STOLEN_BASES",
+              "name": "Stolen Bases",
+              "id": "0380",
+              "shortName": "SB"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_ON_BASE_PERCENTAGE",
+              "name": "On Base Percentage",
+              "id": "0510",
+              "shortName": "OBP"
+            }
+          }
+        ],
+        "group": {
+          "code": "BASEBALL_HITTING",
+          "name": "Hitting",
+          "id": "10",
+          "shortName": "Hit"
+        }
+      },
+      {
+        "configs": [
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_STRIKE_OUTS_PITCHED",
+              "name": "Strikeouts Pitched",
+              "id": "0410",
+              "shortName": "K"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_EARNED_RUN_AVERAGE",
+              "name": "Earned Run Average",
+              "id": "0490",
+              "shortName": "ERA"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_SAVES_PLUS_HOLDS",
+              "name": "Saves + Holds",
+              "id": "051i",
+              "shortName": "SVH"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_WHIP_RATIO",
+              "name": "WHIP Ratio",
+              "id": "0580",
+              "shortName": "WHIP"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_WINS_PLUS_QUALITY_STARTS",
+              "name": "Wins + Quality Starts",
+              "id": "0593",
+              "shortName": "W+QS"
+            }
+          }
+        ],
+        "group": {
+          "code": "BASEBALL_PITCHING",
+          "name": "Pitching",
+          "id": "20",
+          "shortName": "Pit"
+        }
+      }
+    ],
+    "type": "rotisserie"
+  },
+  "teams": {
+    "nuwfdx1ummarnliq": {
+      "name": "PX_warrior",
+      "id": "nuwfdx1ummarnliq"
+    },
+    "jhfniubemmasfshz": {
+      "name": "Ihaveit",
+      "id": "jhfniubemmasfshz"
+    },
+    "xyrbtuvcmmasz5n4": {
+      "name": "Joliet Jakes",
+      "id": "xyrbtuvcmmasz5n4"
+    },
+    "ncqt0ugdmmarmcjt": {
+      "name": "justTheShotgun",
+      "id": "ncqt0ugdmmarmcjt"
+    },
+    "99p5rqcymmaz4d1j": {
+      "name": "WErunSF",
+      "id": "99p5rqcymmaz4d1j"
+    },
+    "pwn2ti2smmas150r": {
+      "name": "SanManuelCurse",
+      "id": "pwn2ti2smmas150r"
+    },
+    "c0e2zzwgmmasdq17": {
+      "name": "onemanthrillride",
+      "id": "c0e2zzwgmmasdq17"
+    },
+    "9axvemv4mmas2e9x": {
+      "name": "NK430",
+      "id": "9axvemv4mmas2e9x"
+    },
+    "n9u99yg2mmaunkec": {
+      "name": "Tepig4321",
+      "id": "n9u99yg2mmaunkec"
+    },
+    "kkc7902jmmayhiu0": {
+      "name": "Jigs4w",
+      "id": "kkc7902jmmayhiu0"
+    },
+    "azutu450mmaw0xhr": {
+      "name": "Scooterkid",
+      "id": "azutu450mmaw0xhr"
+    }
+  },
+  "matchups": [
+    {
+      "period": 1,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Scooterkid",
+            "id": "azutu450mmaw0xhr",
+            "shortName": "Scooterk"
+          },
+          "home": {
+            "name": "Tepig4321",
+            "id": "n9u99yg2mmaunkec",
+            "shortName": "Tepig432"
+          }
+        },
+        {
+          "away": {
+            "name": "NK430",
+            "id": "9axvemv4mmas2e9x",
+            "shortName": "NK430"
+          },
+          "home": {
+            "name": "PX_warrior",
+            "id": "nuwfdx1ummarnliq",
+            "shortName": "PX_warri"
+          }
+        },
+        {
+          "away": {
+            "name": "WErunSF",
+            "id": "99p5rqcymmaz4d1j",
+            "shortName": "WErunSF"
+          },
+          "home": {
+            "name": "Jigs4w",
+            "id": "kkc7902jmmayhiu0",
+            "shortName": "Jigs4w"
+          }
+        },
+        {
+          "away": {
+            "name": "justTheShotgun",
+            "id": "ncqt0ugdmmarmcjt",
+            "shortName": "justTheS"
+          },
+          "home": {
+            "name": "Joliet Jakes",
+            "id": "xyrbtuvcmmasz5n4",
+            "shortName": "JJ"
+          }
+        },
+        {
+          "away": {
+            "name": "onemanthrillride",
+            "id": "c0e2zzwgmmasdq17",
+            "shortName": "onemanth"
+          },
+          "home": {
+            "name": "SanManuelCurse",
+            "id": "pwn2ti2smmas150r",
+            "shortName": "SanManue"
+          }
+        },
+        {
+          "away": {
+            "name": "Tepig4321",
+            "id": "n9u99yg2mmaunkec",
+            "shortName": "Tepig432"
+          },
+          "home": {
+            "name": "SanManuelCurse",
+            "id": "pwn2ti2smmas150r",
+            "shortName": "SanManue"
+          }
+        },
+        {
+          "away": {
+            "name": "Ihaveit",
+            "id": "jhfniubemmasfshz",
+            "shortName": "Ihaveit"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 2,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Ihaveit",
+            "id": "jhfniubemmasfshz",
+            "shortName": "Ihaveit"
+          },
+          "home": {
+            "name": "NK430",
+            "id": "9axvemv4mmas2e9x",
+            "shortName": "NK430"
+          }
+        },
+        {
+          "away": {
+            "name": "Tepig4321",
+            "id": "n9u99yg2mmaunkec",
+            "shortName": "Tepig432"
+          },
+          "home": {
+            "name": "WErunSF",
+            "id": "99p5rqcymmaz4d1j",
+            "shortName": "WErunSF"
+          }
+        },
+        {
+          "away": {
+            "name": "PX_warrior",
+            "id": "nuwfdx1ummarnliq",
+            "shortName": "PX_warri"
+          },
+          "home": {
+            "name": "justTheShotgun",
+            "id": "ncqt0ugdmmarmcjt",
+            "shortName": "justTheS"
+          }
+        },
+        {
+          "away": {
+            "name": "Jigs4w",
+            "id": "kkc7902jmmayhiu0",
+            "shortName": "Jigs4w"
+          },
+          "home": {
+            "name": "onemanthrillride",
+            "id": "c0e2zzwgmmasdq17",
+            "shortName": "onemanth"
+          }
+        },
+        {
+          "away": {
+            "name": "Joliet Jakes",
+            "id": "xyrbtuvcmmasz5n4",
+            "shortName": "JJ"
+          },
+          "home": {
+            "name": "SanManuelCurse",
+            "id": "pwn2ti2smmas150r",
+            "shortName": "SanManue"
+          }
+        },
+        {
+          "away": {
+            "name": "PX_warrior",
+            "id": "nuwfdx1ummarnliq",
+            "shortName": "PX_warri"
+          },
+          "home": {
+            "name": "SanManuelCurse",
+            "id": "pwn2ti2smmas150r",
+            "shortName": "SanManue"
+          }
+        },
+        {
+          "away": {
+            "name": "Scooterkid",
+            "id": "azutu450mmaw0xhr",
+            "shortName": "Scooterk"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 3,
+      "matchupList": [
+        {
+          "away": {
+            "name": "WErunSF",
+            "id": "99p5rqcymmaz4d1j",
+            "shortName": "WErunSF"
+          },
+          "home": {
+            "name": "Scooterkid",
+            "id": "azutu450mmaw0xhr",
+            "shortName": "Scooterk"
+          }
+        },
+        {
+          "away": {
+            "name": "justTheShotgun",
+            "id": "ncqt0ugdmmarmcjt",
+            "shortName": "justTheS"
+          },
+          "home": {
+            "name": "Ihaveit",
+            "id": "jhfniubemmasfshz",
+            "shortName": "Ihaveit"
+          }
+        },
+        {
+          "away": {
+            "name": "onemanthrillride",
+            "id": "c0e2zzwgmmasdq17",
+            "shortName": "onemanth"
+          },
+          "home": {
+            "name": "Tepig4321",
+            "id": "n9u99yg2mmaunkec",
+            "shortName": "Tepig432"
+          }
+        },
+        {
+          "away": {
+            "name": "SanManuelCurse",
+            "id": "pwn2ti2smmas150r",
+            "shortName": "SanManue"
+          },
+          "home": {
+            "name": "PX_warrior",
+            "id": "nuwfdx1ummarnliq",
+            "shortName": "PX_warri"
+          }
+        },
+        {
+          "away": {
+            "name": "Joliet Jakes",
+            "id": "xyrbtuvcmmasz5n4",
+            "shortName": "JJ"
+          },
+          "home": {
+            "name": "Jigs4w",
+            "id": "kkc7902jmmayhiu0",
+            "shortName": "Jigs4w"
+          }
+        },
+        {
+          "away": {
+            "name": "NK430",
+            "id": "9axvemv4mmas2e9x",
+            "shortName": "NK430"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 4,
+      "matchupList": [
+        {
+          "away": {
+            "name": "NK430",
+            "id": "9axvemv4mmas2e9x",
+            "shortName": "NK430"
+          },
+          "home": {
+            "name": "justTheShotgun",
+            "id": "ncqt0ugdmmarmcjt",
+            "shortName": "justTheS"
+          }
+        },
+        {
+          "away": {
+            "name": "Scooterkid",
+            "id": "azutu450mmaw0xhr",
+            "shortName": "Scooterk"
+          },
+          "home": {
+            "name": "onemanthrillride",
+            "id": "c0e2zzwgmmasdq17",
+            "shortName": "onemanth"
+          }
+        },
+        {
+          "away": {
+            "name": "Ihaveit",
+            "id": "jhfniubemmasfshz",
+            "shortName": "Ihaveit"
+          },
+          "home": {
+            "name": "SanManuelCurse",
+            "id": "pwn2ti2smmas150r",
+            "shortName": "SanManue"
+          }
+        },
+        {
+          "away": {
+            "name": "Tepig4321",
+            "id": "n9u99yg2mmaunkec",
+            "shortName": "Tepig432"
+          },
+          "home": {
+            "name": "Joliet Jakes",
+            "id": "xyrbtuvcmmasz5n4",
+            "shortName": "JJ"
+          }
+        },
+        {
+          "away": {
+            "name": "PX_warrior",
+            "id": "nuwfdx1ummarnliq",
+            "shortName": "PX_warri"
+          },
+          "home": {
+            "name": "Jigs4w",
+            "id": "kkc7902jmmayhiu0",
+            "shortName": "Jigs4w"
+          }
+        },
+        {
+          "away": {
+            "name": "WErunSF",
+            "id": "99p5rqcymmaz4d1j",
+            "shortName": "WErunSF"
+          },
+          "home": {
+            "name": "NK430",
+            "id": "9axvemv4mmas2e9x",
+            "shortName": "NK430"
+          }
+        }
+      ]
+    },
+    {
+      "period": 5,
+      "matchupList": [
+        {
+          "away": {
+            "name": "onemanthrillride",
+            "id": "c0e2zzwgmmasdq17",
+            "shortName": "onemanth"
+          },
+          "home": {
+            "name": "WErunSF",
+            "id": "99p5rqcymmaz4d1j",
+            "shortName": "WErunSF"
+          }
+        },
+        {
+          "away": {
+            "name": "SanManuelCurse",
+            "id": "pwn2ti2smmas150r",
+            "shortName": "SanManue"
+          },
+          "home": {
+            "name": "NK430",
+            "id": "9axvemv4mmas2e9x",
+            "shortName": "NK430"
+          }
+        },
+        {
+          "away": {
+            "name": "Joliet Jakes",
+            "id": "xyrbtuvcmmasz5n4",
+            "shortName": "JJ"
+          },
+          "home": {
+            "name": "Scooterkid",
+            "id": "azutu450mmaw0xhr",
+            "shortName": "Scooterk"
+          }
+        },
+        {
+          "away": {
+            "name": "Jigs4w",
+            "id": "kkc7902jmmayhiu0",
+            "shortName": "Jigs4w"
+          },
+          "home": {
+            "name": "Ihaveit",
+            "id": "jhfniubemmasfshz",
+            "shortName": "Ihaveit"
+          }
+        },
+        {
+          "away": {
+            "name": "PX_warrior",
+            "id": "nuwfdx1ummarnliq",
+            "shortName": "PX_warri"
+          },
+          "home": {
+            "name": "Tepig4321",
+            "id": "n9u99yg2mmaunkec",
+            "shortName": "Tepig432"
+          }
+        },
+        {
+          "away": {
+            "name": "justTheShotgun",
+            "id": "ncqt0ugdmmarmcjt",
+            "shortName": "justTheS"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 6,
+      "matchupList": [
+        {
+          "away": {
+            "name": "justTheShotgun",
+            "id": "ncqt0ugdmmarmcjt",
+            "shortName": "justTheS"
+          },
+          "home": {
+            "name": "SanManuelCurse",
+            "id": "pwn2ti2smmas150r",
+            "shortName": "SanManue"
+          }
+        },
+        {
+          "away": {
+            "name": "WErunSF",
+            "id": "99p5rqcymmaz4d1j",
+            "shortName": "WErunSF"
+          },
+          "home": {
+            "name": "Joliet Jakes",
+            "id": "xyrbtuvcmmasz5n4",
+            "shortName": "JJ"
+          }
+        },
+        {
+          "away": {
+            "name": "NK430",
+            "id": "9axvemv4mmas2e9x",
+            "shortName": "NK430"
+          },
+          "home": {
+            "name": "Jigs4w",
+            "id": "kkc7902jmmayhiu0",
+            "shortName": "Jigs4w"
+          }
+        },
+        {
+          "away": {
+            "name": "Scooterkid",
+            "id": "azutu450mmaw0xhr",
+            "shortName": "Scooterk"
+          },
+          "home": {
+            "name": "PX_warrior",
+            "id": "nuwfdx1ummarnliq",
+            "shortName": "PX_warri"
+          }
+        },
+        {
+          "away": {
+            "name": "Ihaveit",
+            "id": "jhfniubemmasfshz",
+            "shortName": "Ihaveit"
+          },
+          "home": {
+            "name": "Tepig4321",
+            "id": "n9u99yg2mmaunkec",
+            "shortName": "Tepig432"
+          }
+        },
+        {
+          "away": {
+            "name": "onemanthrillride",
+            "id": "c0e2zzwgmmasdq17",
+            "shortName": "onemanth"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 7,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Joliet Jakes",
+            "id": "xyrbtuvcmmasz5n4",
+            "shortName": "JJ"
+          },
+          "home": {
+            "name": "onemanthrillride",
+            "id": "c0e2zzwgmmasdq17",
+            "shortName": "onemanth"
+          }
+        },
+        {
+          "away": {
+            "name": "Jigs4w",
+            "id": "kkc7902jmmayhiu0",
+            "shortName": "Jigs4w"
+          },
+          "home": {
+            "name": "justTheShotgun",
+            "id": "ncqt0ugdmmarmcjt",
+            "shortName": "justTheS"
+          }
+        },
+        {
+          "away": {
+            "name": "PX_warrior",
+            "id": "nuwfdx1ummarnliq",
+            "shortName": "PX_warri"
+          },
+          "home": {
+            "name": "WErunSF",
+            "id": "99p5rqcymmaz4d1j",
+            "shortName": "WErunSF"
+          }
+        },
+        {
+          "away": {
+            "name": "Tepig4321",
+            "id": "n9u99yg2mmaunkec",
+            "shortName": "Tepig432"
+          },
+          "home": {
+            "name": "NK430",
+            "id": "9axvemv4mmas2e9x",
+            "shortName": "NK430"
+          }
+        },
+        {
+          "away": {
+            "name": "Ihaveit",
+            "id": "jhfniubemmasfshz",
+            "shortName": "Ihaveit"
+          },
+          "home": {
+            "name": "Scooterkid",
+            "id": "azutu450mmaw0xhr",
+            "shortName": "Scooterk"
+          }
+        },
+        {
+          "away": {
+            "name": "SanManuelCurse",
+            "id": "pwn2ti2smmas150r",
+            "shortName": "SanManue"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 8,
+      "matchupList": [
+        {
+          "away": {
+            "name": "SanManuelCurse",
+            "id": "pwn2ti2smmas150r",
+            "shortName": "SanManue"
+          },
+          "home": {
+            "name": "Jigs4w",
+            "id": "kkc7902jmmayhiu0",
+            "shortName": "Jigs4w"
+          }
+        },
+        {
+          "away": {
+            "name": "onemanthrillride",
+            "id": "c0e2zzwgmmasdq17",
+            "shortName": "onemanth"
+          },
+          "home": {
+            "name": "PX_warrior",
+            "id": "nuwfdx1ummarnliq",
+            "shortName": "PX_warri"
+          }
+        },
+        {
+          "away": {
+            "name": "justTheShotgun",
+            "id": "ncqt0ugdmmarmcjt",
+            "shortName": "justTheS"
+          },
+          "home": {
+            "name": "Tepig4321",
+            "id": "n9u99yg2mmaunkec",
+            "shortName": "Tepig432"
+          }
+        },
+        {
+          "away": {
+            "name": "WErunSF",
+            "id": "99p5rqcymmaz4d1j",
+            "shortName": "WErunSF"
+          },
+          "home": {
+            "name": "Ihaveit",
+            "id": "jhfniubemmasfshz",
+            "shortName": "Ihaveit"
+          }
+        },
+        {
+          "away": {
+            "name": "NK430",
+            "id": "9axvemv4mmas2e9x",
+            "shortName": "NK430"
+          },
+          "home": {
+            "name": "Scooterkid",
+            "id": "azutu450mmaw0xhr",
+            "shortName": "Scooterk"
+          }
+        },
+        {
+          "away": {
+            "name": "Scooterkid",
+            "id": "azutu450mmaw0xhr",
+            "shortName": "Scooterk"
+          },
+          "home": {
+            "name": "onemanthrillride",
+            "id": "c0e2zzwgmmasdq17",
+            "shortName": "onemanth"
+          }
+        },
+        {
+          "away": {
+            "name": "Joliet Jakes",
+            "id": "xyrbtuvcmmasz5n4",
+            "shortName": "JJ"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 9,
+      "matchupList": [
+        {
+          "away": {
+            "name": "PX_warrior",
+            "id": "nuwfdx1ummarnliq",
+            "shortName": "PX_warri"
+          },
+          "home": {
+            "name": "Joliet Jakes",
+            "id": "xyrbtuvcmmasz5n4",
+            "shortName": "JJ"
+          }
+        },
+        {
+          "away": {
+            "name": "Tepig4321",
+            "id": "n9u99yg2mmaunkec",
+            "shortName": "Tepig432"
+          },
+          "home": {
+            "name": "SanManuelCurse",
+            "id": "pwn2ti2smmas150r",
+            "shortName": "SanManue"
+          }
+        },
+        {
+          "away": {
+            "name": "Ihaveit",
+            "id": "jhfniubemmasfshz",
+            "shortName": "Ihaveit"
+          },
+          "home": {
+            "name": "onemanthrillride",
+            "id": "c0e2zzwgmmasdq17",
+            "shortName": "onemanth"
+          }
+        },
+        {
+          "away": {
+            "name": "Scooterkid",
+            "id": "azutu450mmaw0xhr",
+            "shortName": "Scooterk"
+          },
+          "home": {
+            "name": "justTheShotgun",
+            "id": "ncqt0ugdmmarmcjt",
+            "shortName": "justTheS"
+          }
+        },
+        {
+          "away": {
+            "name": "NK430",
+            "id": "9axvemv4mmas2e9x",
+            "shortName": "NK430"
+          },
+          "home": {
+            "name": "WErunSF",
+            "id": "99p5rqcymmaz4d1j",
+            "shortName": "WErunSF"
+          }
+        },
+        {
+          "away": {
+            "name": "Jigs4w",
+            "id": "kkc7902jmmayhiu0",
+            "shortName": "Jigs4w"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 10,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Jigs4w",
+            "id": "kkc7902jmmayhiu0",
+            "shortName": "Jigs4w"
+          },
+          "home": {
+            "name": "Tepig4321",
+            "id": "n9u99yg2mmaunkec",
+            "shortName": "Tepig432"
+          }
+        },
+        {
+          "away": {
+            "name": "Joliet Jakes",
+            "id": "xyrbtuvcmmasz5n4",
+            "shortName": "JJ"
+          },
+          "home": {
+            "name": "Ihaveit",
+            "id": "jhfniubemmasfshz",
+            "shortName": "Ihaveit"
+          }
+        },
+        {
+          "away": {
+            "name": "SanManuelCurse",
+            "id": "pwn2ti2smmas150r",
+            "shortName": "SanManue"
+          },
+          "home": {
+            "name": "Scooterkid",
+            "id": "azutu450mmaw0xhr",
+            "shortName": "Scooterk"
+          }
+        },
+        {
+          "away": {
+            "name": "onemanthrillride",
+            "id": "c0e2zzwgmmasdq17",
+            "shortName": "onemanth"
+          },
+          "home": {
+            "name": "NK430",
+            "id": "9axvemv4mmas2e9x",
+            "shortName": "NK430"
+          }
+        },
+        {
+          "away": {
+            "name": "justTheShotgun",
+            "id": "ncqt0ugdmmarmcjt",
+            "shortName": "justTheS"
+          },
+          "home": {
+            "name": "WErunSF",
+            "id": "99p5rqcymmaz4d1j",
+            "shortName": "WErunSF"
+          }
+        },
+        {
+          "away": {
+            "name": "PX_warrior",
+            "id": "nuwfdx1ummarnliq",
+            "shortName": "PX_warri"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 11,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Ihaveit",
+            "id": "jhfniubemmasfshz",
+            "shortName": "Ihaveit"
+          },
+          "home": {
+            "name": "PX_warrior",
+            "id": "nuwfdx1ummarnliq",
+            "shortName": "PX_warri"
+          }
+        },
+        {
+          "away": {
+            "name": "Scooterkid",
+            "id": "azutu450mmaw0xhr",
+            "shortName": "Scooterk"
+          },
+          "home": {
+            "name": "Jigs4w",
+            "id": "kkc7902jmmayhiu0",
+            "shortName": "Jigs4w"
+          }
+        },
+        {
+          "away": {
+            "name": "NK430",
+            "id": "9axvemv4mmas2e9x",
+            "shortName": "NK430"
+          },
+          "home": {
+            "name": "Joliet Jakes",
+            "id": "xyrbtuvcmmasz5n4",
+            "shortName": "JJ"
+          }
+        },
+        {
+          "away": {
+            "name": "WErunSF",
+            "id": "99p5rqcymmaz4d1j",
+            "shortName": "WErunSF"
+          },
+          "home": {
+            "name": "SanManuelCurse",
+            "id": "pwn2ti2smmas150r",
+            "shortName": "SanManue"
+          }
+        },
+        {
+          "away": {
+            "name": "justTheShotgun",
+            "id": "ncqt0ugdmmarmcjt",
+            "shortName": "justTheS"
+          },
+          "home": {
+            "name": "onemanthrillride",
+            "id": "c0e2zzwgmmasdq17",
+            "shortName": "onemanth"
+          }
+        },
+        {
+          "away": {
+            "name": "Ihaveit",
+            "id": "jhfniubemmasfshz",
+            "shortName": "Ihaveit"
+          },
+          "home": {
+            "name": "Jigs4w",
+            "id": "kkc7902jmmayhiu0",
+            "shortName": "Jigs4w"
+          }
+        },
+        {
+          "away": {
+            "name": "Tepig4321",
+            "id": "n9u99yg2mmaunkec",
+            "shortName": "Tepig432"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 12,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Tepig4321",
+            "id": "n9u99yg2mmaunkec",
+            "shortName": "Tepig432"
+          },
+          "home": {
+            "name": "Scooterkid",
+            "id": "azutu450mmaw0xhr",
+            "shortName": "Scooterk"
+          }
+        },
+        {
+          "away": {
+            "name": "PX_warrior",
+            "id": "nuwfdx1ummarnliq",
+            "shortName": "PX_warri"
+          },
+          "home": {
+            "name": "NK430",
+            "id": "9axvemv4mmas2e9x",
+            "shortName": "NK430"
+          }
+        },
+        {
+          "away": {
+            "name": "Jigs4w",
+            "id": "kkc7902jmmayhiu0",
+            "shortName": "Jigs4w"
+          },
+          "home": {
+            "name": "WErunSF",
+            "id": "99p5rqcymmaz4d1j",
+            "shortName": "WErunSF"
+          }
+        },
+        {
+          "away": {
+            "name": "Joliet Jakes",
+            "id": "xyrbtuvcmmasz5n4",
+            "shortName": "JJ"
+          },
+          "home": {
+            "name": "justTheShotgun",
+            "id": "ncqt0ugdmmarmcjt",
+            "shortName": "justTheS"
+          }
+        },
+        {
+          "away": {
+            "name": "SanManuelCurse",
+            "id": "pwn2ti2smmas150r",
+            "shortName": "SanManue"
+          },
+          "home": {
+            "name": "onemanthrillride",
+            "id": "c0e2zzwgmmasdq17",
+            "shortName": "onemanth"
+          }
+        },
+        {
+          "away": {
+            "name": "Ihaveit",
+            "id": "jhfniubemmasfshz",
+            "shortName": "Ihaveit"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 13,
+      "matchupList": [
+        {
+          "away": {
+            "name": "NK430",
+            "id": "9axvemv4mmas2e9x",
+            "shortName": "NK430"
+          },
+          "home": {
+            "name": "Ihaveit",
+            "id": "jhfniubemmasfshz",
+            "shortName": "Ihaveit"
+          }
+        },
+        {
+          "away": {
+            "name": "WErunSF",
+            "id": "99p5rqcymmaz4d1j",
+            "shortName": "WErunSF"
+          },
+          "home": {
+            "name": "Tepig4321",
+            "id": "n9u99yg2mmaunkec",
+            "shortName": "Tepig432"
+          }
+        },
+        {
+          "away": {
+            "name": "justTheShotgun",
+            "id": "ncqt0ugdmmarmcjt",
+            "shortName": "justTheS"
+          },
+          "home": {
+            "name": "PX_warrior",
+            "id": "nuwfdx1ummarnliq",
+            "shortName": "PX_warri"
+          }
+        },
+        {
+          "away": {
+            "name": "onemanthrillride",
+            "id": "c0e2zzwgmmasdq17",
+            "shortName": "onemanth"
+          },
+          "home": {
+            "name": "Jigs4w",
+            "id": "kkc7902jmmayhiu0",
+            "shortName": "Jigs4w"
+          }
+        },
+        {
+          "away": {
+            "name": "SanManuelCurse",
+            "id": "pwn2ti2smmas150r",
+            "shortName": "SanManue"
+          },
+          "home": {
+            "name": "Joliet Jakes",
+            "id": "xyrbtuvcmmasz5n4",
+            "shortName": "JJ"
+          }
+        },
+        {
+          "away": {
+            "name": "Scooterkid",
+            "id": "azutu450mmaw0xhr",
+            "shortName": "Scooterk"
+          },
+          "home": {
+            "name": "justTheShotgun",
+            "id": "ncqt0ugdmmarmcjt",
+            "shortName": "justTheS"
+          }
+        }
+      ]
+    },
+    {
+      "period": 14,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Scooterkid",
+            "id": "azutu450mmaw0xhr",
+            "shortName": "Scooterk"
+          },
+          "home": {
+            "name": "WErunSF",
+            "id": "99p5rqcymmaz4d1j",
+            "shortName": "WErunSF"
+          }
+        },
+        {
+          "away": {
+            "name": "Ihaveit",
+            "id": "jhfniubemmasfshz",
+            "shortName": "Ihaveit"
+          },
+          "home": {
+            "name": "justTheShotgun",
+            "id": "ncqt0ugdmmarmcjt",
+            "shortName": "justTheS"
+          }
+        },
+        {
+          "away": {
+            "name": "Tepig4321",
+            "id": "n9u99yg2mmaunkec",
+            "shortName": "Tepig432"
+          },
+          "home": {
+            "name": "onemanthrillride",
+            "id": "c0e2zzwgmmasdq17",
+            "shortName": "onemanth"
+          }
+        },
+        {
+          "away": {
+            "name": "PX_warrior",
+            "id": "nuwfdx1ummarnliq",
+            "shortName": "PX_warri"
+          },
+          "home": {
+            "name": "SanManuelCurse",
+            "id": "pwn2ti2smmas150r",
+            "shortName": "SanManue"
+          }
+        },
+        {
+          "away": {
+            "name": "Jigs4w",
+            "id": "kkc7902jmmayhiu0",
+            "shortName": "Jigs4w"
+          },
+          "home": {
+            "name": "Joliet Jakes",
+            "id": "xyrbtuvcmmasz5n4",
+            "shortName": "JJ"
+          }
+        },
+        {
+          "away": {
+            "name": "NK430",
+            "id": "9axvemv4mmas2e9x",
+            "shortName": "NK430"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 15,
+      "matchupList": [
+        {
+          "away": {
+            "name": "justTheShotgun",
+            "id": "ncqt0ugdmmarmcjt",
+            "shortName": "justTheS"
+          },
+          "home": {
+            "name": "NK430",
+            "id": "9axvemv4mmas2e9x",
+            "shortName": "NK430"
+          }
+        },
+        {
+          "away": {
+            "name": "onemanthrillride",
+            "id": "c0e2zzwgmmasdq17",
+            "shortName": "onemanth"
+          },
+          "home": {
+            "name": "Scooterkid",
+            "id": "azutu450mmaw0xhr",
+            "shortName": "Scooterk"
+          }
+        },
+        {
+          "away": {
+            "name": "SanManuelCurse",
+            "id": "pwn2ti2smmas150r",
+            "shortName": "SanManue"
+          },
+          "home": {
+            "name": "Ihaveit",
+            "id": "jhfniubemmasfshz",
+            "shortName": "Ihaveit"
+          }
+        },
+        {
+          "away": {
+            "name": "Joliet Jakes",
+            "id": "xyrbtuvcmmasz5n4",
+            "shortName": "JJ"
+          },
+          "home": {
+            "name": "Tepig4321",
+            "id": "n9u99yg2mmaunkec",
+            "shortName": "Tepig432"
+          }
+        },
+        {
+          "away": {
+            "name": "Jigs4w",
+            "id": "kkc7902jmmayhiu0",
+            "shortName": "Jigs4w"
+          },
+          "home": {
+            "name": "PX_warrior",
+            "id": "nuwfdx1ummarnliq",
+            "shortName": "PX_warri"
+          }
+        },
+        {
+          "away": {
+            "name": "onemanthrillride",
+            "id": "c0e2zzwgmmasdq17",
+            "shortName": "onemanth"
+          },
+          "home": {
+            "name": "WErunSF",
+            "id": "99p5rqcymmaz4d1j",
+            "shortName": "WErunSF"
+          }
+        }
+      ]
+    },
+    {
+      "period": 16,
+      "matchupList": [
+        {
+          "away": {
+            "name": "WErunSF",
+            "id": "99p5rqcymmaz4d1j",
+            "shortName": "WErunSF"
+          },
+          "home": {
+            "name": "onemanthrillride",
+            "id": "c0e2zzwgmmasdq17",
+            "shortName": "onemanth"
+          }
+        },
+        {
+          "away": {
+            "name": "NK430",
+            "id": "9axvemv4mmas2e9x",
+            "shortName": "NK430"
+          },
+          "home": {
+            "name": "SanManuelCurse",
+            "id": "pwn2ti2smmas150r",
+            "shortName": "SanManue"
+          }
+        },
+        {
+          "away": {
+            "name": "Scooterkid",
+            "id": "azutu450mmaw0xhr",
+            "shortName": "Scooterk"
+          },
+          "home": {
+            "name": "Joliet Jakes",
+            "id": "xyrbtuvcmmasz5n4",
+            "shortName": "JJ"
+          }
+        },
+        {
+          "away": {
+            "name": "Ihaveit",
+            "id": "jhfniubemmasfshz",
+            "shortName": "Ihaveit"
+          },
+          "home": {
+            "name": "Jigs4w",
+            "id": "kkc7902jmmayhiu0",
+            "shortName": "Jigs4w"
+          }
+        },
+        {
+          "away": {
+            "name": "Tepig4321",
+            "id": "n9u99yg2mmaunkec",
+            "shortName": "Tepig432"
+          },
+          "home": {
+            "name": "PX_warrior",
+            "id": "nuwfdx1ummarnliq",
+            "shortName": "PX_warri"
+          }
+        },
+        {
+          "away": {
+            "name": "NK430",
+            "id": "9axvemv4mmas2e9x",
+            "shortName": "NK430"
+          },
+          "home": {
+            "name": "Ihaveit",
+            "id": "jhfniubemmasfshz",
+            "shortName": "Ihaveit"
+          }
+        },
+        {
+          "away": {
+            "name": "justTheShotgun",
+            "id": "ncqt0ugdmmarmcjt",
+            "shortName": "justTheS"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 17,
+      "matchupList": [
+        {
+          "away": {
+            "name": "SanManuelCurse",
+            "id": "pwn2ti2smmas150r",
+            "shortName": "SanManue"
+          },
+          "home": {
+            "name": "justTheShotgun",
+            "id": "ncqt0ugdmmarmcjt",
+            "shortName": "justTheS"
+          }
+        },
+        {
+          "away": {
+            "name": "Joliet Jakes",
+            "id": "xyrbtuvcmmasz5n4",
+            "shortName": "JJ"
+          },
+          "home": {
+            "name": "WErunSF",
+            "id": "99p5rqcymmaz4d1j",
+            "shortName": "WErunSF"
+          }
+        },
+        {
+          "away": {
+            "name": "Jigs4w",
+            "id": "kkc7902jmmayhiu0",
+            "shortName": "Jigs4w"
+          },
+          "home": {
+            "name": "NK430",
+            "id": "9axvemv4mmas2e9x",
+            "shortName": "NK430"
+          }
+        },
+        {
+          "away": {
+            "name": "PX_warrior",
+            "id": "nuwfdx1ummarnliq",
+            "shortName": "PX_warri"
+          },
+          "home": {
+            "name": "Scooterkid",
+            "id": "azutu450mmaw0xhr",
+            "shortName": "Scooterk"
+          }
+        },
+        {
+          "away": {
+            "name": "Tepig4321",
+            "id": "n9u99yg2mmaunkec",
+            "shortName": "Tepig432"
+          },
+          "home": {
+            "name": "Ihaveit",
+            "id": "jhfniubemmasfshz",
+            "shortName": "Ihaveit"
+          }
+        },
+        {
+          "away": {
+            "name": "onemanthrillride",
+            "id": "c0e2zzwgmmasdq17",
+            "shortName": "onemanth"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 18,
+      "matchupList": [
+        {
+          "away": {
+            "name": "onemanthrillride",
+            "id": "c0e2zzwgmmasdq17",
+            "shortName": "onemanth"
+          },
+          "home": {
+            "name": "Joliet Jakes",
+            "id": "xyrbtuvcmmasz5n4",
+            "shortName": "JJ"
+          }
+        },
+        {
+          "away": {
+            "name": "justTheShotgun",
+            "id": "ncqt0ugdmmarmcjt",
+            "shortName": "justTheS"
+          },
+          "home": {
+            "name": "Jigs4w",
+            "id": "kkc7902jmmayhiu0",
+            "shortName": "Jigs4w"
+          }
+        },
+        {
+          "away": {
+            "name": "WErunSF",
+            "id": "99p5rqcymmaz4d1j",
+            "shortName": "WErunSF"
+          },
+          "home": {
+            "name": "PX_warrior",
+            "id": "nuwfdx1ummarnliq",
+            "shortName": "PX_warri"
+          }
+        },
+        {
+          "away": {
+            "name": "NK430",
+            "id": "9axvemv4mmas2e9x",
+            "shortName": "NK430"
+          },
+          "home": {
+            "name": "Tepig4321",
+            "id": "n9u99yg2mmaunkec",
+            "shortName": "Tepig432"
+          }
+        },
+        {
+          "away": {
+            "name": "Scooterkid",
+            "id": "azutu450mmaw0xhr",
+            "shortName": "Scooterk"
+          },
+          "home": {
+            "name": "Ihaveit",
+            "id": "jhfniubemmasfshz",
+            "shortName": "Ihaveit"
+          }
+        },
+        {
+          "away": {
+            "name": "SanManuelCurse",
+            "id": "pwn2ti2smmas150r",
+            "shortName": "SanManue"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 19,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Jigs4w",
+            "id": "kkc7902jmmayhiu0",
+            "shortName": "Jigs4w"
+          },
+          "home": {
+            "name": "SanManuelCurse",
+            "id": "pwn2ti2smmas150r",
+            "shortName": "SanManue"
+          }
+        },
+        {
+          "away": {
+            "name": "PX_warrior",
+            "id": "nuwfdx1ummarnliq",
+            "shortName": "PX_warri"
+          },
+          "home": {
+            "name": "onemanthrillride",
+            "id": "c0e2zzwgmmasdq17",
+            "shortName": "onemanth"
+          }
+        },
+        {
+          "away": {
+            "name": "Tepig4321",
+            "id": "n9u99yg2mmaunkec",
+            "shortName": "Tepig432"
+          },
+          "home": {
+            "name": "justTheShotgun",
+            "id": "ncqt0ugdmmarmcjt",
+            "shortName": "justTheS"
+          }
+        },
+        {
+          "away": {
+            "name": "Ihaveit",
+            "id": "jhfniubemmasfshz",
+            "shortName": "Ihaveit"
+          },
+          "home": {
+            "name": "WErunSF",
+            "id": "99p5rqcymmaz4d1j",
+            "shortName": "WErunSF"
+          }
+        },
+        {
+          "away": {
+            "name": "Scooterkid",
+            "id": "azutu450mmaw0xhr",
+            "shortName": "Scooterk"
+          },
+          "home": {
+            "name": "NK430",
+            "id": "9axvemv4mmas2e9x",
+            "shortName": "NK430"
+          }
+        },
+        {
+          "away": {
+            "name": "Joliet Jakes",
+            "id": "xyrbtuvcmmasz5n4",
+            "shortName": "JJ"
+          },
+          "home": {
+            "name": "justTheShotgun",
+            "id": "ncqt0ugdmmarmcjt",
+            "shortName": "justTheS"
+          }
+        }
+      ]
+    },
+    {
+      "period": 20,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Joliet Jakes",
+            "id": "xyrbtuvcmmasz5n4",
+            "shortName": "JJ"
+          },
+          "home": {
+            "name": "PX_warrior",
+            "id": "nuwfdx1ummarnliq",
+            "shortName": "PX_warri"
+          }
+        },
+        {
+          "away": {
+            "name": "SanManuelCurse",
+            "id": "pwn2ti2smmas150r",
+            "shortName": "SanManue"
+          },
+          "home": {
+            "name": "Tepig4321",
+            "id": "n9u99yg2mmaunkec",
+            "shortName": "Tepig432"
+          }
+        },
+        {
+          "away": {
+            "name": "onemanthrillride",
+            "id": "c0e2zzwgmmasdq17",
+            "shortName": "onemanth"
+          },
+          "home": {
+            "name": "Ihaveit",
+            "id": "jhfniubemmasfshz",
+            "shortName": "Ihaveit"
+          }
+        },
+        {
+          "away": {
+            "name": "justTheShotgun",
+            "id": "ncqt0ugdmmarmcjt",
+            "shortName": "justTheS"
+          },
+          "home": {
+            "name": "Scooterkid",
+            "id": "azutu450mmaw0xhr",
+            "shortName": "Scooterk"
+          }
+        },
+        {
+          "away": {
+            "name": "WErunSF",
+            "id": "99p5rqcymmaz4d1j",
+            "shortName": "WErunSF"
+          },
+          "home": {
+            "name": "NK430",
+            "id": "9axvemv4mmas2e9x",
+            "shortName": "NK430"
+          }
+        },
+        {
+          "away": {
+            "name": "Jigs4w",
+            "id": "kkc7902jmmayhiu0",
+            "shortName": "Jigs4w"
+          },
+          "home": {
+            "name": "Joliet Jakes",
+            "id": "xyrbtuvcmmasz5n4",
+            "shortName": "JJ"
+          }
+        }
+      ]
+    },
+    {
+      "period": 21,
+      "matchupList": [
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 22,
+      "matchupList": [
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 23,
+      "matchupList": [
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    }
+  ],
+  "standings": [
+    {
+      "teamName": "Ihaveit",
+      "teamId": "jhfniubemmasfshz",
+      "gamesBack": 0.0,
+      "rank": 1,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "SanManuelCurse",
+      "teamId": "pwn2ti2smmas150r",
+      "gamesBack": 0.0,
+      "rank": 2,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Joliet Jakes",
+      "teamId": "xyrbtuvcmmasz5n4",
+      "gamesBack": 0.0,
+      "rank": 3,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "onemanthrillride",
+      "teamId": "c0e2zzwgmmasdq17",
+      "gamesBack": 0.0,
+      "rank": 4,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Jigs4w",
+      "teamId": "kkc7902jmmayhiu0",
+      "gamesBack": 0.0,
+      "rank": 5,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "NK430",
+      "teamId": "9axvemv4mmas2e9x",
+      "gamesBack": 0.0,
+      "rank": 6,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Tepig4321",
+      "teamId": "n9u99yg2mmaunkec",
+      "gamesBack": 0.0,
+      "rank": 7,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Scooterkid",
+      "teamId": "azutu450mmaw0xhr",
+      "gamesBack": 0.0,
+      "rank": 8,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "WErunSF",
+      "teamId": "99p5rqcymmaz4d1j",
+      "gamesBack": 0.0,
+      "rank": 9,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "justTheShotgun",
+      "teamId": "ncqt0ugdmmarmcjt",
+      "gamesBack": 0.0,
+      "rank": 10,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "PX_warrior",
+      "teamId": "nuwfdx1ummarnliq",
+      "gamesBack": 0.0,
+      "rank": 11,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    }
+  ]
+}

@@ -1,0 +1,2037 @@
+{
+  "fantrax_id": "0shqqj54mm9zyjxy",
+  "name": "FBD Cal Ripken League",
+  "season_year": 2026,
+  "start_date": "2026-03-25",
+  "end_date": "2026-09-20",
+  "scoring_settings": {
+    "scoringCategories": {
+      "HITTING": {
+        "R": {
+          "Default": "1.0"
+        },
+        "RBI": {
+          "Default": "1.0"
+        },
+        "HR": {
+          "Default": "1.0"
+        },
+        "OBP": {
+          "Default": "1.0"
+        },
+        "SB": {
+          "Default": "1.0"
+        }
+      },
+      "PITCHING": {
+        "WHIP": {
+          "Default": "1.0"
+        },
+        "SVH": {
+          "Default": "1.0"
+        },
+        "ERA": {
+          "Default": "1.0"
+        },
+        "K": {
+          "Default": "1.0"
+        },
+        "W+QS": {
+          "Default": "1.0"
+        }
+      }
+    },
+    "scoringCategorySettings": [
+      {
+        "configs": [
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_HOME_RUNS",
+              "name": "Home Runs",
+              "id": "0200",
+              "shortName": "HR"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_RBIS",
+              "name": "RBI",
+              "id": "0310",
+              "shortName": "RBI"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_RUNS_SCORED",
+              "name": "Runs Scored",
+              "id": "0330",
+              "shortName": "R"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_STOLEN_BASES",
+              "name": "Stolen Bases",
+              "id": "0380",
+              "shortName": "SB"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_ON_BASE_PERCENTAGE",
+              "name": "On Base Percentage",
+              "id": "0510",
+              "shortName": "OBP"
+            }
+          }
+        ],
+        "group": {
+          "code": "BASEBALL_HITTING",
+          "name": "Hitting",
+          "id": "10",
+          "shortName": "Hit"
+        }
+      },
+      {
+        "configs": [
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_STRIKE_OUTS_PITCHED",
+              "name": "Strikeouts Pitched",
+              "id": "0410",
+              "shortName": "K"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_EARNED_RUN_AVERAGE",
+              "name": "Earned Run Average",
+              "id": "0490",
+              "shortName": "ERA"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_SAVES_PLUS_HOLDS",
+              "name": "Saves + Holds",
+              "id": "051i",
+              "shortName": "SVH"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_WHIP_RATIO",
+              "name": "WHIP Ratio",
+              "id": "0580",
+              "shortName": "WHIP"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_WINS_PLUS_QUALITY_STARTS",
+              "name": "Wins + Quality Starts",
+              "id": "0593",
+              "shortName": "W+QS"
+            }
+          }
+        ],
+        "group": {
+          "code": "BASEBALL_PITCHING",
+          "name": "Pitching",
+          "id": "20",
+          "shortName": "Pit"
+        }
+      }
+    ],
+    "type": "rotisserie"
+  },
+  "teams": {
+    "o4kzmmdgmmarljre": {
+      "name": "PanarinBread72",
+      "id": "o4kzmmdgmmarljre"
+    },
+    "d1ix1q5cmmarl8gc": {
+      "name": "platedpope",
+      "id": "d1ix1q5cmmarl8gc"
+    },
+    "3wllcin6mmarymje": {
+      "name": "Mcphale",
+      "id": "3wllcin6mmarymje"
+    },
+    "lveuiwk5mmarrn9l": {
+      "name": "SuperYam",
+      "id": "lveuiwk5mmarrn9l"
+    },
+    "chxpa1ynmmav7kdo": {
+      "name": "yoshirider2709",
+      "id": "chxpa1ynmmav7kdo"
+    },
+    "fcacc2k7mmaszsnt": {
+      "name": "PharmerJack",
+      "id": "fcacc2k7mmaszsnt"
+    },
+    "77z9o7ztmmb2hz51": {
+      "name": "matthilgenkamp",
+      "id": "77z9o7ztmmb2hz51"
+    },
+    "hzg6xmwdmmartzxf": {
+      "name": "LOS POLLOS HERMANOS",
+      "id": "hzg6xmwdmmartzxf"
+    },
+    "3ndw9gmjmmat360m": {
+      "name": "Doge26",
+      "id": "3ndw9gmjmmat360m"
+    },
+    "r2kdv1gqmmasheka": {
+      "name": "YouWillTry",
+      "id": "r2kdv1gqmmasheka"
+    },
+    "y91gj0qmmmat96m3": {
+      "name": "Calendoc",
+      "id": "y91gj0qmmmat96m3"
+    }
+  },
+  "matchups": [
+    {
+      "period": 1,
+      "matchupList": [
+        {
+          "away": {
+            "name": "PanarinBread72",
+            "id": "o4kzmmdgmmarljre",
+            "shortName": "PanarinB"
+          },
+          "home": {
+            "name": "LOS POLLOS HERMANOS",
+            "id": "hzg6xmwdmmartzxf",
+            "shortName": "LPH"
+          }
+        },
+        {
+          "away": {
+            "name": "matthilgenkamp",
+            "id": "77z9o7ztmmb2hz51",
+            "shortName": "matthilg"
+          },
+          "home": {
+            "name": "platedpope",
+            "id": "d1ix1q5cmmarl8gc",
+            "shortName": "platedpo"
+          }
+        },
+        {
+          "away": {
+            "name": "Mcphale",
+            "id": "3wllcin6mmarymje",
+            "shortName": "Mcphale"
+          },
+          "home": {
+            "name": "SuperYam",
+            "id": "lveuiwk5mmarrn9l",
+            "shortName": "SuperYam"
+          }
+        },
+        {
+          "away": {
+            "name": "Doge26",
+            "id": "3ndw9gmjmmat360m",
+            "shortName": "Doge26"
+          },
+          "home": {
+            "name": "Calendoc",
+            "id": "y91gj0qmmmat96m3",
+            "shortName": "Calendoc"
+          }
+        },
+        {
+          "away": {
+            "name": "yoshirider2709",
+            "id": "chxpa1ynmmav7kdo",
+            "shortName": "yoshirid"
+          },
+          "home": {
+            "name": "YouWillTry",
+            "id": "r2kdv1gqmmasheka",
+            "shortName": "YouWillT"
+          }
+        },
+        {
+          "away": {
+            "name": "Mcphale",
+            "id": "3wllcin6mmarymje",
+            "shortName": "Mcphale"
+          },
+          "home": {
+            "name": "PanarinBread72",
+            "id": "o4kzmmdgmmarljre",
+            "shortName": "PanarinB"
+          }
+        },
+        {
+          "away": {
+            "name": "PharmerJack",
+            "id": "fcacc2k7mmaszsnt",
+            "shortName": "PharmerJ"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 2,
+      "matchupList": [
+        {
+          "away": {
+            "name": "LOS POLLOS HERMANOS",
+            "id": "hzg6xmwdmmartzxf",
+            "shortName": "LPH"
+          },
+          "home": {
+            "name": "matthilgenkamp",
+            "id": "77z9o7ztmmb2hz51",
+            "shortName": "matthilg"
+          }
+        },
+        {
+          "away": {
+            "name": "PanarinBread72",
+            "id": "o4kzmmdgmmarljre",
+            "shortName": "PanarinB"
+          },
+          "home": {
+            "name": "PharmerJack",
+            "id": "fcacc2k7mmaszsnt",
+            "shortName": "PharmerJ"
+          }
+        },
+        {
+          "away": {
+            "name": "platedpope",
+            "id": "d1ix1q5cmmarl8gc",
+            "shortName": "platedpo"
+          },
+          "home": {
+            "name": "Mcphale",
+            "id": "3wllcin6mmarymje",
+            "shortName": "Mcphale"
+          }
+        },
+        {
+          "away": {
+            "name": "SuperYam",
+            "id": "lveuiwk5mmarrn9l",
+            "shortName": "SuperYam"
+          },
+          "home": {
+            "name": "yoshirider2709",
+            "id": "chxpa1ynmmav7kdo",
+            "shortName": "yoshirid"
+          }
+        },
+        {
+          "away": {
+            "name": "Calendoc",
+            "id": "y91gj0qmmmat96m3",
+            "shortName": "Calendoc"
+          },
+          "home": {
+            "name": "YouWillTry",
+            "id": "r2kdv1gqmmasheka",
+            "shortName": "YouWillT"
+          }
+        },
+        {
+          "away": {
+            "name": "SuperYam",
+            "id": "lveuiwk5mmarrn9l",
+            "shortName": "SuperYam"
+          },
+          "home": {
+            "name": "Doge26",
+            "id": "3ndw9gmjmmat360m",
+            "shortName": "Doge26"
+          }
+        }
+      ]
+    },
+    {
+      "period": 3,
+      "matchupList": [
+        {
+          "away": {
+            "name": "PharmerJack",
+            "id": "fcacc2k7mmaszsnt",
+            "shortName": "PharmerJ"
+          },
+          "home": {
+            "name": "LOS POLLOS HERMANOS",
+            "id": "hzg6xmwdmmartzxf",
+            "shortName": "LPH"
+          }
+        },
+        {
+          "away": {
+            "name": "Mcphale",
+            "id": "3wllcin6mmarymje",
+            "shortName": "Mcphale"
+          },
+          "home": {
+            "name": "matthilgenkamp",
+            "id": "77z9o7ztmmb2hz51",
+            "shortName": "matthilg"
+          }
+        },
+        {
+          "away": {
+            "name": "Doge26",
+            "id": "3ndw9gmjmmat360m",
+            "shortName": "Doge26"
+          },
+          "home": {
+            "name": "PanarinBread72",
+            "id": "o4kzmmdgmmarljre",
+            "shortName": "PanarinB"
+          }
+        },
+        {
+          "away": {
+            "name": "yoshirider2709",
+            "id": "chxpa1ynmmav7kdo",
+            "shortName": "yoshirid"
+          },
+          "home": {
+            "name": "platedpope",
+            "id": "d1ix1q5cmmarl8gc",
+            "shortName": "platedpo"
+          }
+        },
+        {
+          "away": {
+            "name": "Calendoc",
+            "id": "y91gj0qmmmat96m3",
+            "shortName": "Calendoc"
+          },
+          "home": {
+            "name": "SuperYam",
+            "id": "lveuiwk5mmarrn9l",
+            "shortName": "SuperYam"
+          }
+        },
+        {
+          "away": {
+            "name": "Doge26",
+            "id": "3ndw9gmjmmat360m",
+            "shortName": "Doge26"
+          },
+          "home": {
+            "name": "PharmerJack",
+            "id": "fcacc2k7mmaszsnt",
+            "shortName": "PharmerJ"
+          }
+        },
+        {
+          "away": {
+            "name": "YouWillTry",
+            "id": "r2kdv1gqmmasheka",
+            "shortName": "YouWillT"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 4,
+      "matchupList": [
+        {
+          "away": {
+            "name": "LOS POLLOS HERMANOS",
+            "id": "hzg6xmwdmmartzxf",
+            "shortName": "LPH"
+          },
+          "home": {
+            "name": "Mcphale",
+            "id": "3wllcin6mmarymje",
+            "shortName": "Mcphale"
+          }
+        },
+        {
+          "away": {
+            "name": "PharmerJack",
+            "id": "fcacc2k7mmaszsnt",
+            "shortName": "PharmerJ"
+          },
+          "home": {
+            "name": "Doge26",
+            "id": "3ndw9gmjmmat360m",
+            "shortName": "Doge26"
+          }
+        },
+        {
+          "away": {
+            "name": "matthilgenkamp",
+            "id": "77z9o7ztmmb2hz51",
+            "shortName": "matthilg"
+          },
+          "home": {
+            "name": "yoshirider2709",
+            "id": "chxpa1ynmmav7kdo",
+            "shortName": "yoshirid"
+          }
+        },
+        {
+          "away": {
+            "name": "PanarinBread72",
+            "id": "o4kzmmdgmmarljre",
+            "shortName": "PanarinB"
+          },
+          "home": {
+            "name": "YouWillTry",
+            "id": "r2kdv1gqmmasheka",
+            "shortName": "YouWillT"
+          }
+        },
+        {
+          "away": {
+            "name": "platedpope",
+            "id": "d1ix1q5cmmarl8gc",
+            "shortName": "platedpo"
+          },
+          "home": {
+            "name": "Calendoc",
+            "id": "y91gj0qmmmat96m3",
+            "shortName": "Calendoc"
+          }
+        },
+        {
+          "away": {
+            "name": "PharmerJack",
+            "id": "fcacc2k7mmaszsnt",
+            "shortName": "PharmerJ"
+          },
+          "home": {
+            "name": "Mcphale",
+            "id": "3wllcin6mmarymje",
+            "shortName": "Mcphale"
+          }
+        },
+        {
+          "away": {
+            "name": "SuperYam",
+            "id": "lveuiwk5mmarrn9l",
+            "shortName": "SuperYam"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 5,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Doge26",
+            "id": "3ndw9gmjmmat360m",
+            "shortName": "Doge26"
+          },
+          "home": {
+            "name": "LOS POLLOS HERMANOS",
+            "id": "hzg6xmwdmmartzxf",
+            "shortName": "LPH"
+          }
+        },
+        {
+          "away": {
+            "name": "yoshirider2709",
+            "id": "chxpa1ynmmav7kdo",
+            "shortName": "yoshirid"
+          },
+          "home": {
+            "name": "Mcphale",
+            "id": "3wllcin6mmarymje",
+            "shortName": "Mcphale"
+          }
+        },
+        {
+          "away": {
+            "name": "YouWillTry",
+            "id": "r2kdv1gqmmasheka",
+            "shortName": "YouWillT"
+          },
+          "home": {
+            "name": "PharmerJack",
+            "id": "fcacc2k7mmaszsnt",
+            "shortName": "PharmerJ"
+          }
+        },
+        {
+          "away": {
+            "name": "Calendoc",
+            "id": "y91gj0qmmmat96m3",
+            "shortName": "Calendoc"
+          },
+          "home": {
+            "name": "matthilgenkamp",
+            "id": "77z9o7ztmmb2hz51",
+            "shortName": "matthilg"
+          }
+        },
+        {
+          "away": {
+            "name": "SuperYam",
+            "id": "lveuiwk5mmarrn9l",
+            "shortName": "SuperYam"
+          },
+          "home": {
+            "name": "PanarinBread72",
+            "id": "o4kzmmdgmmarljre",
+            "shortName": "PanarinB"
+          }
+        },
+        {
+          "away": {
+            "name": "matthilgenkamp",
+            "id": "77z9o7ztmmb2hz51",
+            "shortName": "matthilg"
+          },
+          "home": {
+            "name": "yoshirider2709",
+            "id": "chxpa1ynmmav7kdo",
+            "shortName": "yoshirid"
+          }
+        },
+        {
+          "away": {
+            "name": "platedpope",
+            "id": "d1ix1q5cmmarl8gc",
+            "shortName": "platedpo"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 6,
+      "matchupList": [
+        {
+          "away": {
+            "name": "LOS POLLOS HERMANOS",
+            "id": "hzg6xmwdmmartzxf",
+            "shortName": "LPH"
+          },
+          "home": {
+            "name": "yoshirider2709",
+            "id": "chxpa1ynmmav7kdo",
+            "shortName": "yoshirid"
+          }
+        },
+        {
+          "away": {
+            "name": "Doge26",
+            "id": "3ndw9gmjmmat360m",
+            "shortName": "Doge26"
+          },
+          "home": {
+            "name": "YouWillTry",
+            "id": "r2kdv1gqmmasheka",
+            "shortName": "YouWillT"
+          }
+        },
+        {
+          "away": {
+            "name": "Mcphale",
+            "id": "3wllcin6mmarymje",
+            "shortName": "Mcphale"
+          },
+          "home": {
+            "name": "Calendoc",
+            "id": "y91gj0qmmmat96m3",
+            "shortName": "Calendoc"
+          }
+        },
+        {
+          "away": {
+            "name": "PharmerJack",
+            "id": "fcacc2k7mmaszsnt",
+            "shortName": "PharmerJ"
+          },
+          "home": {
+            "name": "SuperYam",
+            "id": "lveuiwk5mmarrn9l",
+            "shortName": "SuperYam"
+          }
+        },
+        {
+          "away": {
+            "name": "PanarinBread72",
+            "id": "o4kzmmdgmmarljre",
+            "shortName": "PanarinB"
+          },
+          "home": {
+            "name": "platedpope",
+            "id": "d1ix1q5cmmarl8gc",
+            "shortName": "platedpo"
+          }
+        },
+        {
+          "away": {
+            "name": "matthilgenkamp",
+            "id": "77z9o7ztmmb2hz51",
+            "shortName": "matthilg"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 7,
+      "matchupList": [
+        {
+          "away": {
+            "name": "YouWillTry",
+            "id": "r2kdv1gqmmasheka",
+            "shortName": "YouWillT"
+          },
+          "home": {
+            "name": "LOS POLLOS HERMANOS",
+            "id": "hzg6xmwdmmartzxf",
+            "shortName": "LPH"
+          }
+        },
+        {
+          "away": {
+            "name": "Calendoc",
+            "id": "y91gj0qmmmat96m3",
+            "shortName": "Calendoc"
+          },
+          "home": {
+            "name": "yoshirider2709",
+            "id": "chxpa1ynmmav7kdo",
+            "shortName": "yoshirid"
+          }
+        },
+        {
+          "away": {
+            "name": "SuperYam",
+            "id": "lveuiwk5mmarrn9l",
+            "shortName": "SuperYam"
+          },
+          "home": {
+            "name": "Doge26",
+            "id": "3ndw9gmjmmat360m",
+            "shortName": "Doge26"
+          }
+        },
+        {
+          "away": {
+            "name": "platedpope",
+            "id": "d1ix1q5cmmarl8gc",
+            "shortName": "platedpo"
+          },
+          "home": {
+            "name": "PharmerJack",
+            "id": "fcacc2k7mmaszsnt",
+            "shortName": "PharmerJ"
+          }
+        },
+        {
+          "away": {
+            "name": "PanarinBread72",
+            "id": "o4kzmmdgmmarljre",
+            "shortName": "PanarinB"
+          },
+          "home": {
+            "name": "matthilgenkamp",
+            "id": "77z9o7ztmmb2hz51",
+            "shortName": "matthilg"
+          }
+        },
+        {
+          "away": {
+            "name": "Mcphale",
+            "id": "3wllcin6mmarymje",
+            "shortName": "Mcphale"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 8,
+      "matchupList": [
+        {
+          "away": {
+            "name": "LOS POLLOS HERMANOS",
+            "id": "hzg6xmwdmmartzxf",
+            "shortName": "LPH"
+          },
+          "home": {
+            "name": "Calendoc",
+            "id": "y91gj0qmmmat96m3",
+            "shortName": "Calendoc"
+          }
+        },
+        {
+          "away": {
+            "name": "YouWillTry",
+            "id": "r2kdv1gqmmasheka",
+            "shortName": "YouWillT"
+          },
+          "home": {
+            "name": "SuperYam",
+            "id": "lveuiwk5mmarrn9l",
+            "shortName": "SuperYam"
+          }
+        },
+        {
+          "away": {
+            "name": "Doge26",
+            "id": "3ndw9gmjmmat360m",
+            "shortName": "Doge26"
+          },
+          "home": {
+            "name": "platedpope",
+            "id": "d1ix1q5cmmarl8gc",
+            "shortName": "platedpo"
+          }
+        },
+        {
+          "away": {
+            "name": "Mcphale",
+            "id": "3wllcin6mmarymje",
+            "shortName": "Mcphale"
+          },
+          "home": {
+            "name": "PanarinBread72",
+            "id": "o4kzmmdgmmarljre",
+            "shortName": "PanarinB"
+          }
+        },
+        {
+          "away": {
+            "name": "PharmerJack",
+            "id": "fcacc2k7mmaszsnt",
+            "shortName": "PharmerJ"
+          },
+          "home": {
+            "name": "matthilgenkamp",
+            "id": "77z9o7ztmmb2hz51",
+            "shortName": "matthilg"
+          }
+        },
+        {
+          "away": {
+            "name": "Calendoc",
+            "id": "y91gj0qmmmat96m3",
+            "shortName": "Calendoc"
+          },
+          "home": {
+            "name": "platedpope",
+            "id": "d1ix1q5cmmarl8gc",
+            "shortName": "platedpo"
+          }
+        },
+        {
+          "away": {
+            "name": "yoshirider2709",
+            "id": "chxpa1ynmmav7kdo",
+            "shortName": "yoshirid"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 9,
+      "matchupList": [
+        {
+          "away": {
+            "name": "SuperYam",
+            "id": "lveuiwk5mmarrn9l",
+            "shortName": "SuperYam"
+          },
+          "home": {
+            "name": "LOS POLLOS HERMANOS",
+            "id": "hzg6xmwdmmartzxf",
+            "shortName": "LPH"
+          }
+        },
+        {
+          "away": {
+            "name": "platedpope",
+            "id": "d1ix1q5cmmarl8gc",
+            "shortName": "platedpo"
+          },
+          "home": {
+            "name": "YouWillTry",
+            "id": "r2kdv1gqmmasheka",
+            "shortName": "YouWillT"
+          }
+        },
+        {
+          "away": {
+            "name": "PanarinBread72",
+            "id": "o4kzmmdgmmarljre",
+            "shortName": "PanarinB"
+          },
+          "home": {
+            "name": "yoshirider2709",
+            "id": "chxpa1ynmmav7kdo",
+            "shortName": "yoshirid"
+          }
+        },
+        {
+          "away": {
+            "name": "matthilgenkamp",
+            "id": "77z9o7ztmmb2hz51",
+            "shortName": "matthilg"
+          },
+          "home": {
+            "name": "Doge26",
+            "id": "3ndw9gmjmmat360m",
+            "shortName": "Doge26"
+          }
+        },
+        {
+          "away": {
+            "name": "PharmerJack",
+            "id": "fcacc2k7mmaszsnt",
+            "shortName": "PharmerJ"
+          },
+          "home": {
+            "name": "Mcphale",
+            "id": "3wllcin6mmarymje",
+            "shortName": "Mcphale"
+          }
+        },
+        {
+          "away": {
+            "name": "SuperYam",
+            "id": "lveuiwk5mmarrn9l",
+            "shortName": "SuperYam"
+          },
+          "home": {
+            "name": "YouWillTry",
+            "id": "r2kdv1gqmmasheka",
+            "shortName": "YouWillT"
+          }
+        },
+        {
+          "away": {
+            "name": "Calendoc",
+            "id": "y91gj0qmmmat96m3",
+            "shortName": "Calendoc"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 10,
+      "matchupList": [
+        {
+          "away": {
+            "name": "SuperYam",
+            "id": "lveuiwk5mmarrn9l",
+            "shortName": "SuperYam"
+          },
+          "home": {
+            "name": "platedpope",
+            "id": "d1ix1q5cmmarl8gc",
+            "shortName": "platedpo"
+          }
+        },
+        {
+          "away": {
+            "name": "Calendoc",
+            "id": "y91gj0qmmmat96m3",
+            "shortName": "Calendoc"
+          },
+          "home": {
+            "name": "PanarinBread72",
+            "id": "o4kzmmdgmmarljre",
+            "shortName": "PanarinB"
+          }
+        },
+        {
+          "away": {
+            "name": "YouWillTry",
+            "id": "r2kdv1gqmmasheka",
+            "shortName": "YouWillT"
+          },
+          "home": {
+            "name": "matthilgenkamp",
+            "id": "77z9o7ztmmb2hz51",
+            "shortName": "matthilg"
+          }
+        },
+        {
+          "away": {
+            "name": "yoshirider2709",
+            "id": "chxpa1ynmmav7kdo",
+            "shortName": "yoshirid"
+          },
+          "home": {
+            "name": "PharmerJack",
+            "id": "fcacc2k7mmaszsnt",
+            "shortName": "PharmerJ"
+          }
+        },
+        {
+          "away": {
+            "name": "Doge26",
+            "id": "3ndw9gmjmmat360m",
+            "shortName": "Doge26"
+          },
+          "home": {
+            "name": "Mcphale",
+            "id": "3wllcin6mmarymje",
+            "shortName": "Mcphale"
+          }
+        },
+        {
+          "away": {
+            "name": "LOS POLLOS HERMANOS",
+            "id": "hzg6xmwdmmartzxf",
+            "shortName": "LPH"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 11,
+      "matchupList": [
+        {
+          "away": {
+            "name": "platedpope",
+            "id": "d1ix1q5cmmarl8gc",
+            "shortName": "platedpo"
+          },
+          "home": {
+            "name": "LOS POLLOS HERMANOS",
+            "id": "hzg6xmwdmmartzxf",
+            "shortName": "LPH"
+          }
+        },
+        {
+          "away": {
+            "name": "matthilgenkamp",
+            "id": "77z9o7ztmmb2hz51",
+            "shortName": "matthilg"
+          },
+          "home": {
+            "name": "SuperYam",
+            "id": "lveuiwk5mmarrn9l",
+            "shortName": "SuperYam"
+          }
+        },
+        {
+          "away": {
+            "name": "PharmerJack",
+            "id": "fcacc2k7mmaszsnt",
+            "shortName": "PharmerJ"
+          },
+          "home": {
+            "name": "Calendoc",
+            "id": "y91gj0qmmmat96m3",
+            "shortName": "Calendoc"
+          }
+        },
+        {
+          "away": {
+            "name": "Mcphale",
+            "id": "3wllcin6mmarymje",
+            "shortName": "Mcphale"
+          },
+          "home": {
+            "name": "YouWillTry",
+            "id": "r2kdv1gqmmasheka",
+            "shortName": "YouWillT"
+          }
+        },
+        {
+          "away": {
+            "name": "Doge26",
+            "id": "3ndw9gmjmmat360m",
+            "shortName": "Doge26"
+          },
+          "home": {
+            "name": "yoshirider2709",
+            "id": "chxpa1ynmmav7kdo",
+            "shortName": "yoshirid"
+          }
+        },
+        {
+          "away": {
+            "name": "PanarinBread72",
+            "id": "o4kzmmdgmmarljre",
+            "shortName": "PanarinB"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 12,
+      "matchupList": [
+        {
+          "away": {
+            "name": "LOS POLLOS HERMANOS",
+            "id": "hzg6xmwdmmartzxf",
+            "shortName": "LPH"
+          },
+          "home": {
+            "name": "PanarinBread72",
+            "id": "o4kzmmdgmmarljre",
+            "shortName": "PanarinB"
+          }
+        },
+        {
+          "away": {
+            "name": "platedpope",
+            "id": "d1ix1q5cmmarl8gc",
+            "shortName": "platedpo"
+          },
+          "home": {
+            "name": "matthilgenkamp",
+            "id": "77z9o7ztmmb2hz51",
+            "shortName": "matthilg"
+          }
+        },
+        {
+          "away": {
+            "name": "SuperYam",
+            "id": "lveuiwk5mmarrn9l",
+            "shortName": "SuperYam"
+          },
+          "home": {
+            "name": "Mcphale",
+            "id": "3wllcin6mmarymje",
+            "shortName": "Mcphale"
+          }
+        },
+        {
+          "away": {
+            "name": "Calendoc",
+            "id": "y91gj0qmmmat96m3",
+            "shortName": "Calendoc"
+          },
+          "home": {
+            "name": "Doge26",
+            "id": "3ndw9gmjmmat360m",
+            "shortName": "Doge26"
+          }
+        },
+        {
+          "away": {
+            "name": "YouWillTry",
+            "id": "r2kdv1gqmmasheka",
+            "shortName": "YouWillT"
+          },
+          "home": {
+            "name": "yoshirider2709",
+            "id": "chxpa1ynmmav7kdo",
+            "shortName": "yoshirid"
+          }
+        },
+        {
+          "away": {
+            "name": "yoshirider2709",
+            "id": "chxpa1ynmmav7kdo",
+            "shortName": "yoshirid"
+          },
+          "home": {
+            "name": "platedpope",
+            "id": "d1ix1q5cmmarl8gc",
+            "shortName": "platedpo"
+          }
+        },
+        {
+          "away": {
+            "name": "PharmerJack",
+            "id": "fcacc2k7mmaszsnt",
+            "shortName": "PharmerJ"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 13,
+      "matchupList": [
+        {
+          "away": {
+            "name": "matthilgenkamp",
+            "id": "77z9o7ztmmb2hz51",
+            "shortName": "matthilg"
+          },
+          "home": {
+            "name": "LOS POLLOS HERMANOS",
+            "id": "hzg6xmwdmmartzxf",
+            "shortName": "LPH"
+          }
+        },
+        {
+          "away": {
+            "name": "PharmerJack",
+            "id": "fcacc2k7mmaszsnt",
+            "shortName": "PharmerJ"
+          },
+          "home": {
+            "name": "PanarinBread72",
+            "id": "o4kzmmdgmmarljre",
+            "shortName": "PanarinB"
+          }
+        },
+        {
+          "away": {
+            "name": "Mcphale",
+            "id": "3wllcin6mmarymje",
+            "shortName": "Mcphale"
+          },
+          "home": {
+            "name": "platedpope",
+            "id": "d1ix1q5cmmarl8gc",
+            "shortName": "platedpo"
+          }
+        },
+        {
+          "away": {
+            "name": "yoshirider2709",
+            "id": "chxpa1ynmmav7kdo",
+            "shortName": "yoshirid"
+          },
+          "home": {
+            "name": "SuperYam",
+            "id": "lveuiwk5mmarrn9l",
+            "shortName": "SuperYam"
+          }
+        },
+        {
+          "away": {
+            "name": "YouWillTry",
+            "id": "r2kdv1gqmmasheka",
+            "shortName": "YouWillT"
+          },
+          "home": {
+            "name": "Calendoc",
+            "id": "y91gj0qmmmat96m3",
+            "shortName": "Calendoc"
+          }
+        },
+        {
+          "away": {
+            "name": "Doge26",
+            "id": "3ndw9gmjmmat360m",
+            "shortName": "Doge26"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 14,
+      "matchupList": [
+        {
+          "away": {
+            "name": "LOS POLLOS HERMANOS",
+            "id": "hzg6xmwdmmartzxf",
+            "shortName": "LPH"
+          },
+          "home": {
+            "name": "PharmerJack",
+            "id": "fcacc2k7mmaszsnt",
+            "shortName": "PharmerJ"
+          }
+        },
+        {
+          "away": {
+            "name": "matthilgenkamp",
+            "id": "77z9o7ztmmb2hz51",
+            "shortName": "matthilg"
+          },
+          "home": {
+            "name": "Mcphale",
+            "id": "3wllcin6mmarymje",
+            "shortName": "Mcphale"
+          }
+        },
+        {
+          "away": {
+            "name": "PanarinBread72",
+            "id": "o4kzmmdgmmarljre",
+            "shortName": "PanarinB"
+          },
+          "home": {
+            "name": "Doge26",
+            "id": "3ndw9gmjmmat360m",
+            "shortName": "Doge26"
+          }
+        },
+        {
+          "away": {
+            "name": "platedpope",
+            "id": "d1ix1q5cmmarl8gc",
+            "shortName": "platedpo"
+          },
+          "home": {
+            "name": "yoshirider2709",
+            "id": "chxpa1ynmmav7kdo",
+            "shortName": "yoshirid"
+          }
+        },
+        {
+          "away": {
+            "name": "SuperYam",
+            "id": "lveuiwk5mmarrn9l",
+            "shortName": "SuperYam"
+          },
+          "home": {
+            "name": "Calendoc",
+            "id": "y91gj0qmmmat96m3",
+            "shortName": "Calendoc"
+          }
+        },
+        {
+          "away": {
+            "name": "YouWillTry",
+            "id": "r2kdv1gqmmasheka",
+            "shortName": "YouWillT"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 15,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Mcphale",
+            "id": "3wllcin6mmarymje",
+            "shortName": "Mcphale"
+          },
+          "home": {
+            "name": "LOS POLLOS HERMANOS",
+            "id": "hzg6xmwdmmartzxf",
+            "shortName": "LPH"
+          }
+        },
+        {
+          "away": {
+            "name": "Doge26",
+            "id": "3ndw9gmjmmat360m",
+            "shortName": "Doge26"
+          },
+          "home": {
+            "name": "PharmerJack",
+            "id": "fcacc2k7mmaszsnt",
+            "shortName": "PharmerJ"
+          }
+        },
+        {
+          "away": {
+            "name": "yoshirider2709",
+            "id": "chxpa1ynmmav7kdo",
+            "shortName": "yoshirid"
+          },
+          "home": {
+            "name": "matthilgenkamp",
+            "id": "77z9o7ztmmb2hz51",
+            "shortName": "matthilg"
+          }
+        },
+        {
+          "away": {
+            "name": "YouWillTry",
+            "id": "r2kdv1gqmmasheka",
+            "shortName": "YouWillT"
+          },
+          "home": {
+            "name": "PanarinBread72",
+            "id": "o4kzmmdgmmarljre",
+            "shortName": "PanarinB"
+          }
+        },
+        {
+          "away": {
+            "name": "Calendoc",
+            "id": "y91gj0qmmmat96m3",
+            "shortName": "Calendoc"
+          },
+          "home": {
+            "name": "platedpope",
+            "id": "d1ix1q5cmmarl8gc",
+            "shortName": "platedpo"
+          }
+        },
+        {
+          "away": {
+            "name": "YouWillTry",
+            "id": "r2kdv1gqmmasheka",
+            "shortName": "YouWillT"
+          },
+          "home": {
+            "name": "matthilgenkamp",
+            "id": "77z9o7ztmmb2hz51",
+            "shortName": "matthilg"
+          }
+        },
+        {
+          "away": {
+            "name": "SuperYam",
+            "id": "lveuiwk5mmarrn9l",
+            "shortName": "SuperYam"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 16,
+      "matchupList": [
+        {
+          "away": {
+            "name": "LOS POLLOS HERMANOS",
+            "id": "hzg6xmwdmmartzxf",
+            "shortName": "LPH"
+          },
+          "home": {
+            "name": "Doge26",
+            "id": "3ndw9gmjmmat360m",
+            "shortName": "Doge26"
+          }
+        },
+        {
+          "away": {
+            "name": "Mcphale",
+            "id": "3wllcin6mmarymje",
+            "shortName": "Mcphale"
+          },
+          "home": {
+            "name": "yoshirider2709",
+            "id": "chxpa1ynmmav7kdo",
+            "shortName": "yoshirid"
+          }
+        },
+        {
+          "away": {
+            "name": "PharmerJack",
+            "id": "fcacc2k7mmaszsnt",
+            "shortName": "PharmerJ"
+          },
+          "home": {
+            "name": "YouWillTry",
+            "id": "r2kdv1gqmmasheka",
+            "shortName": "YouWillT"
+          }
+        },
+        {
+          "away": {
+            "name": "matthilgenkamp",
+            "id": "77z9o7ztmmb2hz51",
+            "shortName": "matthilg"
+          },
+          "home": {
+            "name": "Calendoc",
+            "id": "y91gj0qmmmat96m3",
+            "shortName": "Calendoc"
+          }
+        },
+        {
+          "away": {
+            "name": "PanarinBread72",
+            "id": "o4kzmmdgmmarljre",
+            "shortName": "PanarinB"
+          },
+          "home": {
+            "name": "SuperYam",
+            "id": "lveuiwk5mmarrn9l",
+            "shortName": "SuperYam"
+          }
+        },
+        {
+          "away": {
+            "name": "LOS POLLOS HERMANOS",
+            "id": "hzg6xmwdmmartzxf",
+            "shortName": "LPH"
+          },
+          "home": {
+            "name": "Calendoc",
+            "id": "y91gj0qmmmat96m3",
+            "shortName": "Calendoc"
+          }
+        },
+        {
+          "away": {
+            "name": "platedpope",
+            "id": "d1ix1q5cmmarl8gc",
+            "shortName": "platedpo"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 17,
+      "matchupList": [
+        {
+          "away": {
+            "name": "yoshirider2709",
+            "id": "chxpa1ynmmav7kdo",
+            "shortName": "yoshirid"
+          },
+          "home": {
+            "name": "LOS POLLOS HERMANOS",
+            "id": "hzg6xmwdmmartzxf",
+            "shortName": "LPH"
+          }
+        },
+        {
+          "away": {
+            "name": "YouWillTry",
+            "id": "r2kdv1gqmmasheka",
+            "shortName": "YouWillT"
+          },
+          "home": {
+            "name": "Doge26",
+            "id": "3ndw9gmjmmat360m",
+            "shortName": "Doge26"
+          }
+        },
+        {
+          "away": {
+            "name": "Calendoc",
+            "id": "y91gj0qmmmat96m3",
+            "shortName": "Calendoc"
+          },
+          "home": {
+            "name": "Mcphale",
+            "id": "3wllcin6mmarymje",
+            "shortName": "Mcphale"
+          }
+        },
+        {
+          "away": {
+            "name": "SuperYam",
+            "id": "lveuiwk5mmarrn9l",
+            "shortName": "SuperYam"
+          },
+          "home": {
+            "name": "PharmerJack",
+            "id": "fcacc2k7mmaszsnt",
+            "shortName": "PharmerJ"
+          }
+        },
+        {
+          "away": {
+            "name": "platedpope",
+            "id": "d1ix1q5cmmarl8gc",
+            "shortName": "platedpo"
+          },
+          "home": {
+            "name": "PanarinBread72",
+            "id": "o4kzmmdgmmarljre",
+            "shortName": "PanarinB"
+          }
+        },
+        {
+          "away": {
+            "name": "matthilgenkamp",
+            "id": "77z9o7ztmmb2hz51",
+            "shortName": "matthilg"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 18,
+      "matchupList": [
+        {
+          "away": {
+            "name": "LOS POLLOS HERMANOS",
+            "id": "hzg6xmwdmmartzxf",
+            "shortName": "LPH"
+          },
+          "home": {
+            "name": "YouWillTry",
+            "id": "r2kdv1gqmmasheka",
+            "shortName": "YouWillT"
+          }
+        },
+        {
+          "away": {
+            "name": "yoshirider2709",
+            "id": "chxpa1ynmmav7kdo",
+            "shortName": "yoshirid"
+          },
+          "home": {
+            "name": "Calendoc",
+            "id": "y91gj0qmmmat96m3",
+            "shortName": "Calendoc"
+          }
+        },
+        {
+          "away": {
+            "name": "Doge26",
+            "id": "3ndw9gmjmmat360m",
+            "shortName": "Doge26"
+          },
+          "home": {
+            "name": "SuperYam",
+            "id": "lveuiwk5mmarrn9l",
+            "shortName": "SuperYam"
+          }
+        },
+        {
+          "away": {
+            "name": "PharmerJack",
+            "id": "fcacc2k7mmaszsnt",
+            "shortName": "PharmerJ"
+          },
+          "home": {
+            "name": "platedpope",
+            "id": "d1ix1q5cmmarl8gc",
+            "shortName": "platedpo"
+          }
+        },
+        {
+          "away": {
+            "name": "matthilgenkamp",
+            "id": "77z9o7ztmmb2hz51",
+            "shortName": "matthilg"
+          },
+          "home": {
+            "name": "PanarinBread72",
+            "id": "o4kzmmdgmmarljre",
+            "shortName": "PanarinB"
+          }
+        },
+        {
+          "away": {
+            "name": "Mcphale",
+            "id": "3wllcin6mmarymje",
+            "shortName": "Mcphale"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 19,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Calendoc",
+            "id": "y91gj0qmmmat96m3",
+            "shortName": "Calendoc"
+          },
+          "home": {
+            "name": "LOS POLLOS HERMANOS",
+            "id": "hzg6xmwdmmartzxf",
+            "shortName": "LPH"
+          }
+        },
+        {
+          "away": {
+            "name": "SuperYam",
+            "id": "lveuiwk5mmarrn9l",
+            "shortName": "SuperYam"
+          },
+          "home": {
+            "name": "YouWillTry",
+            "id": "r2kdv1gqmmasheka",
+            "shortName": "YouWillT"
+          }
+        },
+        {
+          "away": {
+            "name": "platedpope",
+            "id": "d1ix1q5cmmarl8gc",
+            "shortName": "platedpo"
+          },
+          "home": {
+            "name": "Doge26",
+            "id": "3ndw9gmjmmat360m",
+            "shortName": "Doge26"
+          }
+        },
+        {
+          "away": {
+            "name": "PanarinBread72",
+            "id": "o4kzmmdgmmarljre",
+            "shortName": "PanarinB"
+          },
+          "home": {
+            "name": "Mcphale",
+            "id": "3wllcin6mmarymje",
+            "shortName": "Mcphale"
+          }
+        },
+        {
+          "away": {
+            "name": "matthilgenkamp",
+            "id": "77z9o7ztmmb2hz51",
+            "shortName": "matthilg"
+          },
+          "home": {
+            "name": "PharmerJack",
+            "id": "fcacc2k7mmaszsnt",
+            "shortName": "PharmerJ"
+          }
+        },
+        {
+          "away": {
+            "name": "yoshirider2709",
+            "id": "chxpa1ynmmav7kdo",
+            "shortName": "yoshirid"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 20,
+      "matchupList": [
+        {
+          "away": {
+            "name": "LOS POLLOS HERMANOS",
+            "id": "hzg6xmwdmmartzxf",
+            "shortName": "LPH"
+          },
+          "home": {
+            "name": "SuperYam",
+            "id": "lveuiwk5mmarrn9l",
+            "shortName": "SuperYam"
+          }
+        },
+        {
+          "away": {
+            "name": "YouWillTry",
+            "id": "r2kdv1gqmmasheka",
+            "shortName": "YouWillT"
+          },
+          "home": {
+            "name": "platedpope",
+            "id": "d1ix1q5cmmarl8gc",
+            "shortName": "platedpo"
+          }
+        },
+        {
+          "away": {
+            "name": "yoshirider2709",
+            "id": "chxpa1ynmmav7kdo",
+            "shortName": "yoshirid"
+          },
+          "home": {
+            "name": "PanarinBread72",
+            "id": "o4kzmmdgmmarljre",
+            "shortName": "PanarinB"
+          }
+        },
+        {
+          "away": {
+            "name": "Doge26",
+            "id": "3ndw9gmjmmat360m",
+            "shortName": "Doge26"
+          },
+          "home": {
+            "name": "matthilgenkamp",
+            "id": "77z9o7ztmmb2hz51",
+            "shortName": "matthilg"
+          }
+        },
+        {
+          "away": {
+            "name": "Mcphale",
+            "id": "3wllcin6mmarymje",
+            "shortName": "Mcphale"
+          },
+          "home": {
+            "name": "PharmerJack",
+            "id": "fcacc2k7mmaszsnt",
+            "shortName": "PharmerJ"
+          }
+        },
+        {
+          "away": {
+            "name": "Calendoc",
+            "id": "y91gj0qmmmat96m3",
+            "shortName": "Calendoc"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 21,
+      "matchupList": [
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 22,
+      "matchupList": [
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 23,
+      "matchupList": [
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    }
+  ],
+  "standings": [
+    {
+      "teamName": "Doge26",
+      "teamId": "3ndw9gmjmmat360m",
+      "gamesBack": 0.0,
+      "rank": 1,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "matthilgenkamp",
+      "teamId": "77z9o7ztmmb2hz51",
+      "gamesBack": 0.0,
+      "rank": 2,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "YouWillTry",
+      "teamId": "r2kdv1gqmmasheka",
+      "gamesBack": 0.0,
+      "rank": 3,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "LOS POLLOS HERMANOS",
+      "teamId": "hzg6xmwdmmartzxf",
+      "gamesBack": 0.0,
+      "rank": 4,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "PharmerJack",
+      "teamId": "fcacc2k7mmaszsnt",
+      "gamesBack": 0.0,
+      "rank": 5,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Mcphale",
+      "teamId": "3wllcin6mmarymje",
+      "gamesBack": 0.0,
+      "rank": 6,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "yoshirider2709",
+      "teamId": "chxpa1ynmmav7kdo",
+      "gamesBack": 0.0,
+      "rank": 7,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "platedpope",
+      "teamId": "d1ix1q5cmmarl8gc",
+      "gamesBack": 0.0,
+      "rank": 8,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "SuperYam",
+      "teamId": "lveuiwk5mmarrn9l",
+      "gamesBack": 0.0,
+      "rank": 9,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Calendoc",
+      "teamId": "y91gj0qmmmat96m3",
+      "gamesBack": 0.0,
+      "rank": 10,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "PanarinBread72",
+      "teamId": "o4kzmmdgmmarljre",
+      "gamesBack": 0.0,
+      "rank": 11,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    }
+  ]
+}

@@ -1,0 +1,1715 @@
+{
+  "fantrax_id": "tuiwwarrmm9zypsb",
+  "name": "FBD Tom Glavine League",
+  "season_year": 2026,
+  "start_date": "2026-03-25",
+  "end_date": "2026-09-20",
+  "scoring_settings": {
+    "scoringCategories": {
+      "HITTING": {
+        "R": {
+          "Default": "1.0"
+        },
+        "RBI": {
+          "Default": "1.0"
+        },
+        "HR": {
+          "Default": "1.0"
+        },
+        "OBP": {
+          "Default": "1.0"
+        },
+        "SB": {
+          "Default": "1.0"
+        }
+      },
+      "PITCHING": {
+        "WHIP": {
+          "Default": "1.0"
+        },
+        "SVH": {
+          "Default": "1.0"
+        },
+        "ERA": {
+          "Default": "1.0"
+        },
+        "K": {
+          "Default": "1.0"
+        },
+        "W+QS": {
+          "Default": "1.0"
+        }
+      }
+    },
+    "scoringCategorySettings": [
+      {
+        "configs": [
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_HOME_RUNS",
+              "name": "Home Runs",
+              "id": "0200",
+              "shortName": "HR"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_RBIS",
+              "name": "RBI",
+              "id": "0310",
+              "shortName": "RBI"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_RUNS_SCORED",
+              "name": "Runs Scored",
+              "id": "0330",
+              "shortName": "R"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_STOLEN_BASES",
+              "name": "Stolen Bases",
+              "id": "0380",
+              "shortName": "SB"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_ON_BASE_PERCENTAGE",
+              "name": "On Base Percentage",
+              "id": "0510",
+              "shortName": "OBP"
+            }
+          }
+        ],
+        "group": {
+          "code": "BASEBALL_HITTING",
+          "name": "Hitting",
+          "id": "10",
+          "shortName": "Hit"
+        }
+      },
+      {
+        "configs": [
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_STRIKE_OUTS_PITCHED",
+              "name": "Strikeouts Pitched",
+              "id": "0410",
+              "shortName": "K"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_EARNED_RUN_AVERAGE",
+              "name": "Earned Run Average",
+              "id": "0490",
+              "shortName": "ERA"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_SAVES_PLUS_HOLDS",
+              "name": "Saves + Holds",
+              "id": "051i",
+              "shortName": "SVH"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_WHIP_RATIO",
+              "name": "WHIP Ratio",
+              "id": "0580",
+              "shortName": "WHIP"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_WINS_PLUS_QUALITY_STARTS",
+              "name": "Wins + Quality Starts",
+              "id": "0593",
+              "shortName": "W+QS"
+            }
+          }
+        ],
+        "group": {
+          "code": "BASEBALL_PITCHING",
+          "name": "Pitching",
+          "id": "20",
+          "shortName": "Pit"
+        }
+      }
+    ],
+    "type": "rotisserie"
+  },
+  "teams": {
+    "gdsccsbdmmawei9e": {
+      "name": "seanbaseball",
+      "id": "gdsccsbdmmawei9e"
+    },
+    "zfbgxkj2mmau5ycz": {
+      "name": "Anjs7",
+      "id": "zfbgxkj2mmau5ycz"
+    },
+    "28wnt2r7mmatavz3": {
+      "name": "FlameisW",
+      "id": "28wnt2r7mmatavz3"
+    },
+    "0z7y13uxmmaxc4rs": {
+      "name": "paskel",
+      "id": "0z7y13uxmmaxc4rs"
+    },
+    "3iqiv5bhmmav04bw": {
+      "name": "UncleLuke22",
+      "id": "3iqiv5bhmmav04bw"
+    },
+    "tfl6p4n8mmas0ldi": {
+      "name": "Robbanks225",
+      "id": "tfl6p4n8mmas0ldi"
+    },
+    "wtgw7yp2mmau2otn": {
+      "name": "kpclarke7",
+      "id": "wtgw7yp2mmau2otn"
+    },
+    "hkhy806smmb2d6vq": {
+      "name": "Let's Get Baked",
+      "id": "hkhy806smmb2d6vq"
+    },
+    "s077zwhvmmas0ijm": {
+      "name": "TalentedPizza90",
+      "id": "s077zwhvmmas0ijm"
+    },
+    "j9rg182immat7nz5": {
+      "name": "SapDoz",
+      "id": "j9rg182immat7nz5"
+    }
+  },
+  "matchups": [
+    {
+      "period": 1,
+      "matchupList": [
+        {
+          "away": {
+            "name": "TalentedPizza90",
+            "id": "s077zwhvmmas0ijm",
+            "shortName": "Talented"
+          },
+          "home": {
+            "name": "UncleLuke22",
+            "id": "3iqiv5bhmmav04bw",
+            "shortName": "UncleLuk"
+          }
+        },
+        {
+          "away": {
+            "name": "kpclarke7",
+            "id": "wtgw7yp2mmau2otn",
+            "shortName": "kpclarke"
+          },
+          "home": {
+            "name": "seanbaseball",
+            "id": "gdsccsbdmmawei9e",
+            "shortName": "seanbase"
+          }
+        },
+        {
+          "away": {
+            "name": "Let's Get Baked",
+            "id": "hkhy806smmb2d6vq",
+            "shortName": "bake"
+          },
+          "home": {
+            "name": "Robbanks225",
+            "id": "tfl6p4n8mmas0ldi",
+            "shortName": "Robbanks"
+          }
+        },
+        {
+          "away": {
+            "name": "Anjs7",
+            "id": "zfbgxkj2mmau5ycz",
+            "shortName": "Anjs7"
+          },
+          "home": {
+            "name": "paskel",
+            "id": "0z7y13uxmmaxc4rs",
+            "shortName": "paskel"
+          }
+        },
+        {
+          "away": {
+            "name": "SapDoz",
+            "id": "j9rg182immat7nz5",
+            "shortName": "SapDoz"
+          },
+          "home": {
+            "name": "FlameisW",
+            "id": "28wnt2r7mmatavz3",
+            "shortName": "FlameisW"
+          }
+        }
+      ]
+    },
+    {
+      "period": 2,
+      "matchupList": [
+        {
+          "away": {
+            "name": "UncleLuke22",
+            "id": "3iqiv5bhmmav04bw",
+            "shortName": "UncleLuk"
+          },
+          "home": {
+            "name": "kpclarke7",
+            "id": "wtgw7yp2mmau2otn",
+            "shortName": "kpclarke"
+          }
+        },
+        {
+          "away": {
+            "name": "TalentedPizza90",
+            "id": "s077zwhvmmas0ijm",
+            "shortName": "Talented"
+          },
+          "home": {
+            "name": "Let's Get Baked",
+            "id": "hkhy806smmb2d6vq",
+            "shortName": "bake"
+          }
+        },
+        {
+          "away": {
+            "name": "seanbaseball",
+            "id": "gdsccsbdmmawei9e",
+            "shortName": "seanbase"
+          },
+          "home": {
+            "name": "Anjs7",
+            "id": "zfbgxkj2mmau5ycz",
+            "shortName": "Anjs7"
+          }
+        },
+        {
+          "away": {
+            "name": "Robbanks225",
+            "id": "tfl6p4n8mmas0ldi",
+            "shortName": "Robbanks"
+          },
+          "home": {
+            "name": "SapDoz",
+            "id": "j9rg182immat7nz5",
+            "shortName": "SapDoz"
+          }
+        },
+        {
+          "away": {
+            "name": "paskel",
+            "id": "0z7y13uxmmaxc4rs",
+            "shortName": "paskel"
+          },
+          "home": {
+            "name": "FlameisW",
+            "id": "28wnt2r7mmatavz3",
+            "shortName": "FlameisW"
+          }
+        }
+      ]
+    },
+    {
+      "period": 3,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Let's Get Baked",
+            "id": "hkhy806smmb2d6vq",
+            "shortName": "bake"
+          },
+          "home": {
+            "name": "UncleLuke22",
+            "id": "3iqiv5bhmmav04bw",
+            "shortName": "UncleLuk"
+          }
+        },
+        {
+          "away": {
+            "name": "Anjs7",
+            "id": "zfbgxkj2mmau5ycz",
+            "shortName": "Anjs7"
+          },
+          "home": {
+            "name": "kpclarke7",
+            "id": "wtgw7yp2mmau2otn",
+            "shortName": "kpclarke"
+          }
+        },
+        {
+          "away": {
+            "name": "SapDoz",
+            "id": "j9rg182immat7nz5",
+            "shortName": "SapDoz"
+          },
+          "home": {
+            "name": "TalentedPizza90",
+            "id": "s077zwhvmmas0ijm",
+            "shortName": "Talented"
+          }
+        },
+        {
+          "away": {
+            "name": "FlameisW",
+            "id": "28wnt2r7mmatavz3",
+            "shortName": "FlameisW"
+          },
+          "home": {
+            "name": "seanbaseball",
+            "id": "gdsccsbdmmawei9e",
+            "shortName": "seanbase"
+          }
+        },
+        {
+          "away": {
+            "name": "paskel",
+            "id": "0z7y13uxmmaxc4rs",
+            "shortName": "paskel"
+          },
+          "home": {
+            "name": "Robbanks225",
+            "id": "tfl6p4n8mmas0ldi",
+            "shortName": "Robbanks"
+          }
+        }
+      ]
+    },
+    {
+      "period": 4,
+      "matchupList": [
+        {
+          "away": {
+            "name": "UncleLuke22",
+            "id": "3iqiv5bhmmav04bw",
+            "shortName": "UncleLuk"
+          },
+          "home": {
+            "name": "Anjs7",
+            "id": "zfbgxkj2mmau5ycz",
+            "shortName": "Anjs7"
+          }
+        },
+        {
+          "away": {
+            "name": "Let's Get Baked",
+            "id": "hkhy806smmb2d6vq",
+            "shortName": "bake"
+          },
+          "home": {
+            "name": "SapDoz",
+            "id": "j9rg182immat7nz5",
+            "shortName": "SapDoz"
+          }
+        },
+        {
+          "away": {
+            "name": "kpclarke7",
+            "id": "wtgw7yp2mmau2otn",
+            "shortName": "kpclarke"
+          },
+          "home": {
+            "name": "FlameisW",
+            "id": "28wnt2r7mmatavz3",
+            "shortName": "FlameisW"
+          }
+        },
+        {
+          "away": {
+            "name": "TalentedPizza90",
+            "id": "s077zwhvmmas0ijm",
+            "shortName": "Talented"
+          },
+          "home": {
+            "name": "paskel",
+            "id": "0z7y13uxmmaxc4rs",
+            "shortName": "paskel"
+          }
+        },
+        {
+          "away": {
+            "name": "seanbaseball",
+            "id": "gdsccsbdmmawei9e",
+            "shortName": "seanbase"
+          },
+          "home": {
+            "name": "Robbanks225",
+            "id": "tfl6p4n8mmas0ldi",
+            "shortName": "Robbanks"
+          }
+        }
+      ]
+    },
+    {
+      "period": 5,
+      "matchupList": [
+        {
+          "away": {
+            "name": "SapDoz",
+            "id": "j9rg182immat7nz5",
+            "shortName": "SapDoz"
+          },
+          "home": {
+            "name": "UncleLuke22",
+            "id": "3iqiv5bhmmav04bw",
+            "shortName": "UncleLuk"
+          }
+        },
+        {
+          "away": {
+            "name": "FlameisW",
+            "id": "28wnt2r7mmatavz3",
+            "shortName": "FlameisW"
+          },
+          "home": {
+            "name": "Anjs7",
+            "id": "zfbgxkj2mmau5ycz",
+            "shortName": "Anjs7"
+          }
+        },
+        {
+          "away": {
+            "name": "paskel",
+            "id": "0z7y13uxmmaxc4rs",
+            "shortName": "paskel"
+          },
+          "home": {
+            "name": "Let's Get Baked",
+            "id": "hkhy806smmb2d6vq",
+            "shortName": "bake"
+          }
+        },
+        {
+          "away": {
+            "name": "Robbanks225",
+            "id": "tfl6p4n8mmas0ldi",
+            "shortName": "Robbanks"
+          },
+          "home": {
+            "name": "kpclarke7",
+            "id": "wtgw7yp2mmau2otn",
+            "shortName": "kpclarke"
+          }
+        },
+        {
+          "away": {
+            "name": "seanbaseball",
+            "id": "gdsccsbdmmawei9e",
+            "shortName": "seanbase"
+          },
+          "home": {
+            "name": "TalentedPizza90",
+            "id": "s077zwhvmmas0ijm",
+            "shortName": "Talented"
+          }
+        }
+      ]
+    },
+    {
+      "period": 6,
+      "matchupList": [
+        {
+          "away": {
+            "name": "UncleLuke22",
+            "id": "3iqiv5bhmmav04bw",
+            "shortName": "UncleLuk"
+          },
+          "home": {
+            "name": "FlameisW",
+            "id": "28wnt2r7mmatavz3",
+            "shortName": "FlameisW"
+          }
+        },
+        {
+          "away": {
+            "name": "SapDoz",
+            "id": "j9rg182immat7nz5",
+            "shortName": "SapDoz"
+          },
+          "home": {
+            "name": "paskel",
+            "id": "0z7y13uxmmaxc4rs",
+            "shortName": "paskel"
+          }
+        },
+        {
+          "away": {
+            "name": "Anjs7",
+            "id": "zfbgxkj2mmau5ycz",
+            "shortName": "Anjs7"
+          },
+          "home": {
+            "name": "Robbanks225",
+            "id": "tfl6p4n8mmas0ldi",
+            "shortName": "Robbanks"
+          }
+        },
+        {
+          "away": {
+            "name": "Let's Get Baked",
+            "id": "hkhy806smmb2d6vq",
+            "shortName": "bake"
+          },
+          "home": {
+            "name": "seanbaseball",
+            "id": "gdsccsbdmmawei9e",
+            "shortName": "seanbase"
+          }
+        },
+        {
+          "away": {
+            "name": "kpclarke7",
+            "id": "wtgw7yp2mmau2otn",
+            "shortName": "kpclarke"
+          },
+          "home": {
+            "name": "TalentedPizza90",
+            "id": "s077zwhvmmas0ijm",
+            "shortName": "Talented"
+          }
+        }
+      ]
+    },
+    {
+      "period": 7,
+      "matchupList": [
+        {
+          "away": {
+            "name": "paskel",
+            "id": "0z7y13uxmmaxc4rs",
+            "shortName": "paskel"
+          },
+          "home": {
+            "name": "UncleLuke22",
+            "id": "3iqiv5bhmmav04bw",
+            "shortName": "UncleLuk"
+          }
+        },
+        {
+          "away": {
+            "name": "Robbanks225",
+            "id": "tfl6p4n8mmas0ldi",
+            "shortName": "Robbanks"
+          },
+          "home": {
+            "name": "FlameisW",
+            "id": "28wnt2r7mmatavz3",
+            "shortName": "FlameisW"
+          }
+        },
+        {
+          "away": {
+            "name": "seanbaseball",
+            "id": "gdsccsbdmmawei9e",
+            "shortName": "seanbase"
+          },
+          "home": {
+            "name": "SapDoz",
+            "id": "j9rg182immat7nz5",
+            "shortName": "SapDoz"
+          }
+        },
+        {
+          "away": {
+            "name": "TalentedPizza90",
+            "id": "s077zwhvmmas0ijm",
+            "shortName": "Talented"
+          },
+          "home": {
+            "name": "Anjs7",
+            "id": "zfbgxkj2mmau5ycz",
+            "shortName": "Anjs7"
+          }
+        },
+        {
+          "away": {
+            "name": "kpclarke7",
+            "id": "wtgw7yp2mmau2otn",
+            "shortName": "kpclarke"
+          },
+          "home": {
+            "name": "Let's Get Baked",
+            "id": "hkhy806smmb2d6vq",
+            "shortName": "bake"
+          }
+        }
+      ]
+    },
+    {
+      "period": 8,
+      "matchupList": [
+        {
+          "away": {
+            "name": "UncleLuke22",
+            "id": "3iqiv5bhmmav04bw",
+            "shortName": "UncleLuk"
+          },
+          "home": {
+            "name": "Robbanks225",
+            "id": "tfl6p4n8mmas0ldi",
+            "shortName": "Robbanks"
+          }
+        },
+        {
+          "away": {
+            "name": "paskel",
+            "id": "0z7y13uxmmaxc4rs",
+            "shortName": "paskel"
+          },
+          "home": {
+            "name": "seanbaseball",
+            "id": "gdsccsbdmmawei9e",
+            "shortName": "seanbase"
+          }
+        },
+        {
+          "away": {
+            "name": "FlameisW",
+            "id": "28wnt2r7mmatavz3",
+            "shortName": "FlameisW"
+          },
+          "home": {
+            "name": "TalentedPizza90",
+            "id": "s077zwhvmmas0ijm",
+            "shortName": "Talented"
+          }
+        },
+        {
+          "away": {
+            "name": "SapDoz",
+            "id": "j9rg182immat7nz5",
+            "shortName": "SapDoz"
+          },
+          "home": {
+            "name": "kpclarke7",
+            "id": "wtgw7yp2mmau2otn",
+            "shortName": "kpclarke"
+          }
+        },
+        {
+          "away": {
+            "name": "Anjs7",
+            "id": "zfbgxkj2mmau5ycz",
+            "shortName": "Anjs7"
+          },
+          "home": {
+            "name": "Let's Get Baked",
+            "id": "hkhy806smmb2d6vq",
+            "shortName": "bake"
+          }
+        }
+      ]
+    },
+    {
+      "period": 9,
+      "matchupList": [
+        {
+          "away": {
+            "name": "seanbaseball",
+            "id": "gdsccsbdmmawei9e",
+            "shortName": "seanbase"
+          },
+          "home": {
+            "name": "UncleLuke22",
+            "id": "3iqiv5bhmmav04bw",
+            "shortName": "UncleLuk"
+          }
+        },
+        {
+          "away": {
+            "name": "TalentedPizza90",
+            "id": "s077zwhvmmas0ijm",
+            "shortName": "Talented"
+          },
+          "home": {
+            "name": "Robbanks225",
+            "id": "tfl6p4n8mmas0ldi",
+            "shortName": "Robbanks"
+          }
+        },
+        {
+          "away": {
+            "name": "kpclarke7",
+            "id": "wtgw7yp2mmau2otn",
+            "shortName": "kpclarke"
+          },
+          "home": {
+            "name": "paskel",
+            "id": "0z7y13uxmmaxc4rs",
+            "shortName": "paskel"
+          }
+        },
+        {
+          "away": {
+            "name": "Let's Get Baked",
+            "id": "hkhy806smmb2d6vq",
+            "shortName": "bake"
+          },
+          "home": {
+            "name": "FlameisW",
+            "id": "28wnt2r7mmatavz3",
+            "shortName": "FlameisW"
+          }
+        },
+        {
+          "away": {
+            "name": "Anjs7",
+            "id": "zfbgxkj2mmau5ycz",
+            "shortName": "Anjs7"
+          },
+          "home": {
+            "name": "SapDoz",
+            "id": "j9rg182immat7nz5",
+            "shortName": "SapDoz"
+          }
+        }
+      ]
+    },
+    {
+      "period": 10,
+      "matchupList": [
+        {
+          "away": {
+            "name": "UncleLuke22",
+            "id": "3iqiv5bhmmav04bw",
+            "shortName": "UncleLuk"
+          },
+          "home": {
+            "name": "TalentedPizza90",
+            "id": "s077zwhvmmas0ijm",
+            "shortName": "Talented"
+          }
+        },
+        {
+          "away": {
+            "name": "seanbaseball",
+            "id": "gdsccsbdmmawei9e",
+            "shortName": "seanbase"
+          },
+          "home": {
+            "name": "kpclarke7",
+            "id": "wtgw7yp2mmau2otn",
+            "shortName": "kpclarke"
+          }
+        },
+        {
+          "away": {
+            "name": "Robbanks225",
+            "id": "tfl6p4n8mmas0ldi",
+            "shortName": "Robbanks"
+          },
+          "home": {
+            "name": "Let's Get Baked",
+            "id": "hkhy806smmb2d6vq",
+            "shortName": "bake"
+          }
+        },
+        {
+          "away": {
+            "name": "paskel",
+            "id": "0z7y13uxmmaxc4rs",
+            "shortName": "paskel"
+          },
+          "home": {
+            "name": "Anjs7",
+            "id": "zfbgxkj2mmau5ycz",
+            "shortName": "Anjs7"
+          }
+        },
+        {
+          "away": {
+            "name": "FlameisW",
+            "id": "28wnt2r7mmatavz3",
+            "shortName": "FlameisW"
+          },
+          "home": {
+            "name": "SapDoz",
+            "id": "j9rg182immat7nz5",
+            "shortName": "SapDoz"
+          }
+        }
+      ]
+    },
+    {
+      "period": 11,
+      "matchupList": [
+        {
+          "away": {
+            "name": "kpclarke7",
+            "id": "wtgw7yp2mmau2otn",
+            "shortName": "kpclarke"
+          },
+          "home": {
+            "name": "UncleLuke22",
+            "id": "3iqiv5bhmmav04bw",
+            "shortName": "UncleLuk"
+          }
+        },
+        {
+          "away": {
+            "name": "Let's Get Baked",
+            "id": "hkhy806smmb2d6vq",
+            "shortName": "bake"
+          },
+          "home": {
+            "name": "TalentedPizza90",
+            "id": "s077zwhvmmas0ijm",
+            "shortName": "Talented"
+          }
+        },
+        {
+          "away": {
+            "name": "Anjs7",
+            "id": "zfbgxkj2mmau5ycz",
+            "shortName": "Anjs7"
+          },
+          "home": {
+            "name": "seanbaseball",
+            "id": "gdsccsbdmmawei9e",
+            "shortName": "seanbase"
+          }
+        },
+        {
+          "away": {
+            "name": "SapDoz",
+            "id": "j9rg182immat7nz5",
+            "shortName": "SapDoz"
+          },
+          "home": {
+            "name": "Robbanks225",
+            "id": "tfl6p4n8mmas0ldi",
+            "shortName": "Robbanks"
+          }
+        },
+        {
+          "away": {
+            "name": "FlameisW",
+            "id": "28wnt2r7mmatavz3",
+            "shortName": "FlameisW"
+          },
+          "home": {
+            "name": "paskel",
+            "id": "0z7y13uxmmaxc4rs",
+            "shortName": "paskel"
+          }
+        }
+      ]
+    },
+    {
+      "period": 12,
+      "matchupList": [
+        {
+          "away": {
+            "name": "UncleLuke22",
+            "id": "3iqiv5bhmmav04bw",
+            "shortName": "UncleLuk"
+          },
+          "home": {
+            "name": "Let's Get Baked",
+            "id": "hkhy806smmb2d6vq",
+            "shortName": "bake"
+          }
+        },
+        {
+          "away": {
+            "name": "kpclarke7",
+            "id": "wtgw7yp2mmau2otn",
+            "shortName": "kpclarke"
+          },
+          "home": {
+            "name": "Anjs7",
+            "id": "zfbgxkj2mmau5ycz",
+            "shortName": "Anjs7"
+          }
+        },
+        {
+          "away": {
+            "name": "TalentedPizza90",
+            "id": "s077zwhvmmas0ijm",
+            "shortName": "Talented"
+          },
+          "home": {
+            "name": "SapDoz",
+            "id": "j9rg182immat7nz5",
+            "shortName": "SapDoz"
+          }
+        },
+        {
+          "away": {
+            "name": "seanbaseball",
+            "id": "gdsccsbdmmawei9e",
+            "shortName": "seanbase"
+          },
+          "home": {
+            "name": "FlameisW",
+            "id": "28wnt2r7mmatavz3",
+            "shortName": "FlameisW"
+          }
+        },
+        {
+          "away": {
+            "name": "Robbanks225",
+            "id": "tfl6p4n8mmas0ldi",
+            "shortName": "Robbanks"
+          },
+          "home": {
+            "name": "paskel",
+            "id": "0z7y13uxmmaxc4rs",
+            "shortName": "paskel"
+          }
+        }
+      ]
+    },
+    {
+      "period": 13,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Anjs7",
+            "id": "zfbgxkj2mmau5ycz",
+            "shortName": "Anjs7"
+          },
+          "home": {
+            "name": "UncleLuke22",
+            "id": "3iqiv5bhmmav04bw",
+            "shortName": "UncleLuk"
+          }
+        },
+        {
+          "away": {
+            "name": "SapDoz",
+            "id": "j9rg182immat7nz5",
+            "shortName": "SapDoz"
+          },
+          "home": {
+            "name": "Let's Get Baked",
+            "id": "hkhy806smmb2d6vq",
+            "shortName": "bake"
+          }
+        },
+        {
+          "away": {
+            "name": "FlameisW",
+            "id": "28wnt2r7mmatavz3",
+            "shortName": "FlameisW"
+          },
+          "home": {
+            "name": "kpclarke7",
+            "id": "wtgw7yp2mmau2otn",
+            "shortName": "kpclarke"
+          }
+        },
+        {
+          "away": {
+            "name": "paskel",
+            "id": "0z7y13uxmmaxc4rs",
+            "shortName": "paskel"
+          },
+          "home": {
+            "name": "TalentedPizza90",
+            "id": "s077zwhvmmas0ijm",
+            "shortName": "Talented"
+          }
+        },
+        {
+          "away": {
+            "name": "Robbanks225",
+            "id": "tfl6p4n8mmas0ldi",
+            "shortName": "Robbanks"
+          },
+          "home": {
+            "name": "seanbaseball",
+            "id": "gdsccsbdmmawei9e",
+            "shortName": "seanbase"
+          }
+        }
+      ]
+    },
+    {
+      "period": 14,
+      "matchupList": [
+        {
+          "away": {
+            "name": "UncleLuke22",
+            "id": "3iqiv5bhmmav04bw",
+            "shortName": "UncleLuk"
+          },
+          "home": {
+            "name": "SapDoz",
+            "id": "j9rg182immat7nz5",
+            "shortName": "SapDoz"
+          }
+        },
+        {
+          "away": {
+            "name": "Anjs7",
+            "id": "zfbgxkj2mmau5ycz",
+            "shortName": "Anjs7"
+          },
+          "home": {
+            "name": "FlameisW",
+            "id": "28wnt2r7mmatavz3",
+            "shortName": "FlameisW"
+          }
+        },
+        {
+          "away": {
+            "name": "Let's Get Baked",
+            "id": "hkhy806smmb2d6vq",
+            "shortName": "bake"
+          },
+          "home": {
+            "name": "paskel",
+            "id": "0z7y13uxmmaxc4rs",
+            "shortName": "paskel"
+          }
+        },
+        {
+          "away": {
+            "name": "kpclarke7",
+            "id": "wtgw7yp2mmau2otn",
+            "shortName": "kpclarke"
+          },
+          "home": {
+            "name": "Robbanks225",
+            "id": "tfl6p4n8mmas0ldi",
+            "shortName": "Robbanks"
+          }
+        },
+        {
+          "away": {
+            "name": "TalentedPizza90",
+            "id": "s077zwhvmmas0ijm",
+            "shortName": "Talented"
+          },
+          "home": {
+            "name": "seanbaseball",
+            "id": "gdsccsbdmmawei9e",
+            "shortName": "seanbase"
+          }
+        }
+      ]
+    },
+    {
+      "period": 15,
+      "matchupList": [
+        {
+          "away": {
+            "name": "FlameisW",
+            "id": "28wnt2r7mmatavz3",
+            "shortName": "FlameisW"
+          },
+          "home": {
+            "name": "UncleLuke22",
+            "id": "3iqiv5bhmmav04bw",
+            "shortName": "UncleLuk"
+          }
+        },
+        {
+          "away": {
+            "name": "paskel",
+            "id": "0z7y13uxmmaxc4rs",
+            "shortName": "paskel"
+          },
+          "home": {
+            "name": "SapDoz",
+            "id": "j9rg182immat7nz5",
+            "shortName": "SapDoz"
+          }
+        },
+        {
+          "away": {
+            "name": "Robbanks225",
+            "id": "tfl6p4n8mmas0ldi",
+            "shortName": "Robbanks"
+          },
+          "home": {
+            "name": "Anjs7",
+            "id": "zfbgxkj2mmau5ycz",
+            "shortName": "Anjs7"
+          }
+        },
+        {
+          "away": {
+            "name": "seanbaseball",
+            "id": "gdsccsbdmmawei9e",
+            "shortName": "seanbase"
+          },
+          "home": {
+            "name": "Let's Get Baked",
+            "id": "hkhy806smmb2d6vq",
+            "shortName": "bake"
+          }
+        },
+        {
+          "away": {
+            "name": "TalentedPizza90",
+            "id": "s077zwhvmmas0ijm",
+            "shortName": "Talented"
+          },
+          "home": {
+            "name": "kpclarke7",
+            "id": "wtgw7yp2mmau2otn",
+            "shortName": "kpclarke"
+          }
+        }
+      ]
+    },
+    {
+      "period": 16,
+      "matchupList": [
+        {
+          "away": {
+            "name": "UncleLuke22",
+            "id": "3iqiv5bhmmav04bw",
+            "shortName": "UncleLuk"
+          },
+          "home": {
+            "name": "paskel",
+            "id": "0z7y13uxmmaxc4rs",
+            "shortName": "paskel"
+          }
+        },
+        {
+          "away": {
+            "name": "FlameisW",
+            "id": "28wnt2r7mmatavz3",
+            "shortName": "FlameisW"
+          },
+          "home": {
+            "name": "Robbanks225",
+            "id": "tfl6p4n8mmas0ldi",
+            "shortName": "Robbanks"
+          }
+        },
+        {
+          "away": {
+            "name": "SapDoz",
+            "id": "j9rg182immat7nz5",
+            "shortName": "SapDoz"
+          },
+          "home": {
+            "name": "seanbaseball",
+            "id": "gdsccsbdmmawei9e",
+            "shortName": "seanbase"
+          }
+        },
+        {
+          "away": {
+            "name": "Anjs7",
+            "id": "zfbgxkj2mmau5ycz",
+            "shortName": "Anjs7"
+          },
+          "home": {
+            "name": "TalentedPizza90",
+            "id": "s077zwhvmmas0ijm",
+            "shortName": "Talented"
+          }
+        },
+        {
+          "away": {
+            "name": "Let's Get Baked",
+            "id": "hkhy806smmb2d6vq",
+            "shortName": "bake"
+          },
+          "home": {
+            "name": "kpclarke7",
+            "id": "wtgw7yp2mmau2otn",
+            "shortName": "kpclarke"
+          }
+        }
+      ]
+    },
+    {
+      "period": 17,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Robbanks225",
+            "id": "tfl6p4n8mmas0ldi",
+            "shortName": "Robbanks"
+          },
+          "home": {
+            "name": "UncleLuke22",
+            "id": "3iqiv5bhmmav04bw",
+            "shortName": "UncleLuk"
+          }
+        },
+        {
+          "away": {
+            "name": "seanbaseball",
+            "id": "gdsccsbdmmawei9e",
+            "shortName": "seanbase"
+          },
+          "home": {
+            "name": "paskel",
+            "id": "0z7y13uxmmaxc4rs",
+            "shortName": "paskel"
+          }
+        },
+        {
+          "away": {
+            "name": "TalentedPizza90",
+            "id": "s077zwhvmmas0ijm",
+            "shortName": "Talented"
+          },
+          "home": {
+            "name": "FlameisW",
+            "id": "28wnt2r7mmatavz3",
+            "shortName": "FlameisW"
+          }
+        },
+        {
+          "away": {
+            "name": "kpclarke7",
+            "id": "wtgw7yp2mmau2otn",
+            "shortName": "kpclarke"
+          },
+          "home": {
+            "name": "SapDoz",
+            "id": "j9rg182immat7nz5",
+            "shortName": "SapDoz"
+          }
+        },
+        {
+          "away": {
+            "name": "Let's Get Baked",
+            "id": "hkhy806smmb2d6vq",
+            "shortName": "bake"
+          },
+          "home": {
+            "name": "Anjs7",
+            "id": "zfbgxkj2mmau5ycz",
+            "shortName": "Anjs7"
+          }
+        }
+      ]
+    },
+    {
+      "period": 18,
+      "matchupList": [
+        {
+          "away": {
+            "name": "UncleLuke22",
+            "id": "3iqiv5bhmmav04bw",
+            "shortName": "UncleLuk"
+          },
+          "home": {
+            "name": "seanbaseball",
+            "id": "gdsccsbdmmawei9e",
+            "shortName": "seanbase"
+          }
+        },
+        {
+          "away": {
+            "name": "Robbanks225",
+            "id": "tfl6p4n8mmas0ldi",
+            "shortName": "Robbanks"
+          },
+          "home": {
+            "name": "TalentedPizza90",
+            "id": "s077zwhvmmas0ijm",
+            "shortName": "Talented"
+          }
+        },
+        {
+          "away": {
+            "name": "paskel",
+            "id": "0z7y13uxmmaxc4rs",
+            "shortName": "paskel"
+          },
+          "home": {
+            "name": "kpclarke7",
+            "id": "wtgw7yp2mmau2otn",
+            "shortName": "kpclarke"
+          }
+        },
+        {
+          "away": {
+            "name": "FlameisW",
+            "id": "28wnt2r7mmatavz3",
+            "shortName": "FlameisW"
+          },
+          "home": {
+            "name": "Let's Get Baked",
+            "id": "hkhy806smmb2d6vq",
+            "shortName": "bake"
+          }
+        },
+        {
+          "away": {
+            "name": "SapDoz",
+            "id": "j9rg182immat7nz5",
+            "shortName": "SapDoz"
+          },
+          "home": {
+            "name": "Anjs7",
+            "id": "zfbgxkj2mmau5ycz",
+            "shortName": "Anjs7"
+          }
+        }
+      ]
+    },
+    {
+      "period": 19,
+      "matchupList": [
+        {
+          "away": {
+            "name": "TalentedPizza90",
+            "id": "s077zwhvmmas0ijm",
+            "shortName": "Talented"
+          },
+          "home": {
+            "name": "UncleLuke22",
+            "id": "3iqiv5bhmmav04bw",
+            "shortName": "UncleLuk"
+          }
+        },
+        {
+          "away": {
+            "name": "kpclarke7",
+            "id": "wtgw7yp2mmau2otn",
+            "shortName": "kpclarke"
+          },
+          "home": {
+            "name": "seanbaseball",
+            "id": "gdsccsbdmmawei9e",
+            "shortName": "seanbase"
+          }
+        },
+        {
+          "away": {
+            "name": "Let's Get Baked",
+            "id": "hkhy806smmb2d6vq",
+            "shortName": "bake"
+          },
+          "home": {
+            "name": "Robbanks225",
+            "id": "tfl6p4n8mmas0ldi",
+            "shortName": "Robbanks"
+          }
+        },
+        {
+          "away": {
+            "name": "Anjs7",
+            "id": "zfbgxkj2mmau5ycz",
+            "shortName": "Anjs7"
+          },
+          "home": {
+            "name": "paskel",
+            "id": "0z7y13uxmmaxc4rs",
+            "shortName": "paskel"
+          }
+        },
+        {
+          "away": {
+            "name": "SapDoz",
+            "id": "j9rg182immat7nz5",
+            "shortName": "SapDoz"
+          },
+          "home": {
+            "name": "FlameisW",
+            "id": "28wnt2r7mmatavz3",
+            "shortName": "FlameisW"
+          }
+        }
+      ]
+    },
+    {
+      "period": 20,
+      "matchupList": [
+        {
+          "away": {
+            "name": "UncleLuke22",
+            "id": "3iqiv5bhmmav04bw",
+            "shortName": "UncleLuk"
+          },
+          "home": {
+            "name": "kpclarke7",
+            "id": "wtgw7yp2mmau2otn",
+            "shortName": "kpclarke"
+          }
+        },
+        {
+          "away": {
+            "name": "TalentedPizza90",
+            "id": "s077zwhvmmas0ijm",
+            "shortName": "Talented"
+          },
+          "home": {
+            "name": "Let's Get Baked",
+            "id": "hkhy806smmb2d6vq",
+            "shortName": "bake"
+          }
+        },
+        {
+          "away": {
+            "name": "seanbaseball",
+            "id": "gdsccsbdmmawei9e",
+            "shortName": "seanbase"
+          },
+          "home": {
+            "name": "Anjs7",
+            "id": "zfbgxkj2mmau5ycz",
+            "shortName": "Anjs7"
+          }
+        },
+        {
+          "away": {
+            "name": "Robbanks225",
+            "id": "tfl6p4n8mmas0ldi",
+            "shortName": "Robbanks"
+          },
+          "home": {
+            "name": "SapDoz",
+            "id": "j9rg182immat7nz5",
+            "shortName": "SapDoz"
+          }
+        },
+        {
+          "away": {
+            "name": "paskel",
+            "id": "0z7y13uxmmaxc4rs",
+            "shortName": "paskel"
+          },
+          "home": {
+            "name": "FlameisW",
+            "id": "28wnt2r7mmatavz3",
+            "shortName": "FlameisW"
+          }
+        }
+      ]
+    },
+    {
+      "period": 21,
+      "matchupList": [
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 22,
+      "matchupList": [
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 23,
+      "matchupList": [
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    }
+  ],
+  "standings": [
+    {
+      "teamName": "FlameisW",
+      "teamId": "28wnt2r7mmatavz3",
+      "gamesBack": 0.0,
+      "rank": 1,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "seanbaseball",
+      "teamId": "gdsccsbdmmawei9e",
+      "gamesBack": 0.0,
+      "rank": 2,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "SapDoz",
+      "teamId": "j9rg182immat7nz5",
+      "gamesBack": 0.0,
+      "rank": 3,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Robbanks225",
+      "teamId": "tfl6p4n8mmas0ldi",
+      "gamesBack": 0.0,
+      "rank": 4,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "TalentedPizza90",
+      "teamId": "s077zwhvmmas0ijm",
+      "gamesBack": 0.0,
+      "rank": 5,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "paskel",
+      "teamId": "0z7y13uxmmaxc4rs",
+      "gamesBack": 0.0,
+      "rank": 6,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "UncleLuke22",
+      "teamId": "3iqiv5bhmmav04bw",
+      "gamesBack": 0.0,
+      "rank": 7,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "kpclarke7",
+      "teamId": "wtgw7yp2mmau2otn",
+      "gamesBack": 0.0,
+      "rank": 8,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Let's Get Baked",
+      "teamId": "hkhy806smmb2d6vq",
+      "gamesBack": 0.0,
+      "rank": 9,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Anjs7",
+      "teamId": "zfbgxkj2mmau5ycz",
+      "gamesBack": 0.0,
+      "rank": 10,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    }
+  ]
+}

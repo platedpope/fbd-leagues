@@ -211,6 +211,18 @@ class FBDLeague(BaseModel):
 # endregion
 
 _knownLeagues = [
+    # 2026
+    '13kc5gwkmm7vhodw',  # Champs League
+    'pugo59rhmm9vjmkz',  # Andrew Dawson League
+    '63ifg15omm9zyufk',  # Willie Stargell League
+    '7ju63aylmm9zy9nk',  # Frank Thomas League
+    '9b50adaymm9zyfsd',  # Wade Boggs League
+    'fn3v32w0mm9zyi4a',  # Bob Gibson League
+    '0shqqj54mm9zyjxy',  # Cal Ripken League
+    'fvu9emy2mm9zylzp',  # Al Kaline League
+    '79pycxfymm9zynyk',  # Jackie Robinson League
+    'tuiwwarrmm9zypsb',  # Tom Glavine League
+    '8x07mfzxmm9zyrk9',  # Roy Halladay League
     # 2025
     'tcayla26m7uvbd9j',  # Carl Yastrzemski League
     'efr7mfsfm7uulh5z',  # Champs League

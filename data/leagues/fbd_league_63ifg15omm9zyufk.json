@@ -1,0 +1,1715 @@
+{
+  "fantrax_id": "63ifg15omm9zyufk",
+  "name": "FBD Willie Stargell League",
+  "season_year": 2026,
+  "start_date": "2026-03-25",
+  "end_date": "2026-09-20",
+  "scoring_settings": {
+    "scoringCategories": {
+      "HITTING": {
+        "R": {
+          "Default": "1.0"
+        },
+        "RBI": {
+          "Default": "1.0"
+        },
+        "HR": {
+          "Default": "1.0"
+        },
+        "OBP": {
+          "Default": "1.0"
+        },
+        "SB": {
+          "Default": "1.0"
+        }
+      },
+      "PITCHING": {
+        "WHIP": {
+          "Default": "1.0"
+        },
+        "SVH": {
+          "Default": "1.0"
+        },
+        "ERA": {
+          "Default": "1.0"
+        },
+        "K": {
+          "Default": "1.0"
+        },
+        "W+QS": {
+          "Default": "1.0"
+        }
+      }
+    },
+    "scoringCategorySettings": [
+      {
+        "configs": [
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_HOME_RUNS",
+              "name": "Home Runs",
+              "id": "0200",
+              "shortName": "HR"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_RBIS",
+              "name": "RBI",
+              "id": "0310",
+              "shortName": "RBI"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_RUNS_SCORED",
+              "name": "Runs Scored",
+              "id": "0330",
+              "shortName": "R"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_STOLEN_BASES",
+              "name": "Stolen Bases",
+              "id": "0380",
+              "shortName": "SB"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_ON_BASE_PERCENTAGE",
+              "name": "On Base Percentage",
+              "id": "0510",
+              "shortName": "OBP"
+            }
+          }
+        ],
+        "group": {
+          "code": "BASEBALL_HITTING",
+          "name": "Hitting",
+          "id": "10",
+          "shortName": "Hit"
+        }
+      },
+      {
+        "configs": [
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_STRIKE_OUTS_PITCHED",
+              "name": "Strikeouts Pitched",
+              "id": "0410",
+              "shortName": "K"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_EARNED_RUN_AVERAGE",
+              "name": "Earned Run Average",
+              "id": "0490",
+              "shortName": "ERA"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_SAVES_PLUS_HOLDS",
+              "name": "Saves + Holds",
+              "id": "051i",
+              "shortName": "SVH"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_WHIP_RATIO",
+              "name": "WHIP Ratio",
+              "id": "0580",
+              "shortName": "WHIP"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_WINS_PLUS_QUALITY_STARTS",
+              "name": "Wins + Quality Starts",
+              "id": "0593",
+              "shortName": "W+QS"
+            }
+          }
+        ],
+        "group": {
+          "code": "BASEBALL_PITCHING",
+          "name": "Pitching",
+          "id": "20",
+          "shortName": "Pit"
+        }
+      }
+    ],
+    "type": "rotisserie"
+  },
+  "teams": {
+    "cn6wgojymmarim8x": {
+      "name": "CadeNap",
+      "id": "cn6wgojymmarim8x"
+    },
+    "rovm8zf5mmarfs23": {
+      "name": "AllOhio311",
+      "id": "rovm8zf5mmarfs23"
+    },
+    "oysf5q7mmmarkr5d": {
+      "name": "Bdubs1212",
+      "id": "oysf5q7mmmarkr5d"
+    },
+    "klx9ixlfmmarr9lp": {
+      "name": "Ryan",
+      "id": "klx9ixlfmmarr9lp"
+    },
+    "dc0gag9cmmas0req": {
+      "name": "BillsHead",
+      "id": "dc0gag9cmmas0req"
+    },
+    "i1dkcseemmauznah": {
+      "name": "Werkz",
+      "id": "i1dkcseemmauznah"
+    },
+    "xqwasglymmav6x9q": {
+      "name": "Ceoddry",
+      "id": "xqwasglymmav6x9q"
+    },
+    "oynbdfakmmare4e2": {
+      "name": "Chad Innings Eaters",
+      "id": "oynbdfakmmare4e2"
+    },
+    "x1jqw600mmarn4yw": {
+      "name": "cross_off_fantasy",
+      "id": "x1jqw600mmarn4yw"
+    },
+    "vxj10at1mmaz3hz3": {
+      "name": "Andy_p",
+      "id": "vxj10at1mmaz3hz3"
+    }
+  },
+  "matchups": [
+    {
+      "period": 1,
+      "matchupList": [
+        {
+          "away": {
+            "name": "AllOhio311",
+            "id": "rovm8zf5mmarfs23",
+            "shortName": "AllOhio3"
+          },
+          "home": {
+            "name": "Ryan",
+            "id": "klx9ixlfmmarr9lp",
+            "shortName": "RyRy"
+          }
+        },
+        {
+          "away": {
+            "name": "BillsHead",
+            "id": "dc0gag9cmmas0req",
+            "shortName": "BillsHea"
+          },
+          "home": {
+            "name": "Ceoddry",
+            "id": "xqwasglymmav6x9q",
+            "shortName": "Ceoddry"
+          }
+        },
+        {
+          "away": {
+            "name": "Bdubs1212",
+            "id": "oysf5q7mmmarkr5d",
+            "shortName": "Bdubs121"
+          },
+          "home": {
+            "name": "Andy_p",
+            "id": "vxj10at1mmaz3hz3",
+            "shortName": "Andy_p"
+          }
+        },
+        {
+          "away": {
+            "name": "cross_off_fantasy",
+            "id": "x1jqw600mmarn4yw",
+            "shortName": "cross_of"
+          },
+          "home": {
+            "name": "CadeNap",
+            "id": "cn6wgojymmarim8x",
+            "shortName": "CN"
+          }
+        },
+        {
+          "away": {
+            "name": "Werkz",
+            "id": "i1dkcseemmauznah",
+            "shortName": "Werkz"
+          },
+          "home": {
+            "name": "Chad Innings Eaters",
+            "id": "oynbdfakmmare4e2",
+            "shortName": "CHA"
+          }
+        }
+      ]
+    },
+    {
+      "period": 2,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Ryan",
+            "id": "klx9ixlfmmarr9lp",
+            "shortName": "RyRy"
+          },
+          "home": {
+            "name": "BillsHead",
+            "id": "dc0gag9cmmas0req",
+            "shortName": "BillsHea"
+          }
+        },
+        {
+          "away": {
+            "name": "AllOhio311",
+            "id": "rovm8zf5mmarfs23",
+            "shortName": "AllOhio3"
+          },
+          "home": {
+            "name": "Bdubs1212",
+            "id": "oysf5q7mmmarkr5d",
+            "shortName": "Bdubs121"
+          }
+        },
+        {
+          "away": {
+            "name": "Ceoddry",
+            "id": "xqwasglymmav6x9q",
+            "shortName": "Ceoddry"
+          },
+          "home": {
+            "name": "cross_off_fantasy",
+            "id": "x1jqw600mmarn4yw",
+            "shortName": "cross_of"
+          }
+        },
+        {
+          "away": {
+            "name": "Andy_p",
+            "id": "vxj10at1mmaz3hz3",
+            "shortName": "Andy_p"
+          },
+          "home": {
+            "name": "Werkz",
+            "id": "i1dkcseemmauznah",
+            "shortName": "Werkz"
+          }
+        },
+        {
+          "away": {
+            "name": "CadeNap",
+            "id": "cn6wgojymmarim8x",
+            "shortName": "CN"
+          },
+          "home": {
+            "name": "Chad Innings Eaters",
+            "id": "oynbdfakmmare4e2",
+            "shortName": "CHA"
+          }
+        }
+      ]
+    },
+    {
+      "period": 3,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Bdubs1212",
+            "id": "oysf5q7mmmarkr5d",
+            "shortName": "Bdubs121"
+          },
+          "home": {
+            "name": "Ryan",
+            "id": "klx9ixlfmmarr9lp",
+            "shortName": "RyRy"
+          }
+        },
+        {
+          "away": {
+            "name": "cross_off_fantasy",
+            "id": "x1jqw600mmarn4yw",
+            "shortName": "cross_of"
+          },
+          "home": {
+            "name": "BillsHead",
+            "id": "dc0gag9cmmas0req",
+            "shortName": "BillsHea"
+          }
+        },
+        {
+          "away": {
+            "name": "Werkz",
+            "id": "i1dkcseemmauznah",
+            "shortName": "Werkz"
+          },
+          "home": {
+            "name": "AllOhio311",
+            "id": "rovm8zf5mmarfs23",
+            "shortName": "AllOhio3"
+          }
+        },
+        {
+          "away": {
+            "name": "Chad Innings Eaters",
+            "id": "oynbdfakmmare4e2",
+            "shortName": "CHA"
+          },
+          "home": {
+            "name": "Ceoddry",
+            "id": "xqwasglymmav6x9q",
+            "shortName": "Ceoddry"
+          }
+        },
+        {
+          "away": {
+            "name": "CadeNap",
+            "id": "cn6wgojymmarim8x",
+            "shortName": "CN"
+          },
+          "home": {
+            "name": "Andy_p",
+            "id": "vxj10at1mmaz3hz3",
+            "shortName": "Andy_p"
+          }
+        }
+      ]
+    },
+    {
+      "period": 4,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Ryan",
+            "id": "klx9ixlfmmarr9lp",
+            "shortName": "RyRy"
+          },
+          "home": {
+            "name": "cross_off_fantasy",
+            "id": "x1jqw600mmarn4yw",
+            "shortName": "cross_of"
+          }
+        },
+        {
+          "away": {
+            "name": "Bdubs1212",
+            "id": "oysf5q7mmmarkr5d",
+            "shortName": "Bdubs121"
+          },
+          "home": {
+            "name": "Werkz",
+            "id": "i1dkcseemmauznah",
+            "shortName": "Werkz"
+          }
+        },
+        {
+          "away": {
+            "name": "BillsHead",
+            "id": "dc0gag9cmmas0req",
+            "shortName": "BillsHea"
+          },
+          "home": {
+            "name": "Chad Innings Eaters",
+            "id": "oynbdfakmmare4e2",
+            "shortName": "CHA"
+          }
+        },
+        {
+          "away": {
+            "name": "AllOhio311",
+            "id": "rovm8zf5mmarfs23",
+            "shortName": "AllOhio3"
+          },
+          "home": {
+            "name": "CadeNap",
+            "id": "cn6wgojymmarim8x",
+            "shortName": "CN"
+          }
+        },
+        {
+          "away": {
+            "name": "Ceoddry",
+            "id": "xqwasglymmav6x9q",
+            "shortName": "Ceoddry"
+          },
+          "home": {
+            "name": "Andy_p",
+            "id": "vxj10at1mmaz3hz3",
+            "shortName": "Andy_p"
+          }
+        }
+      ]
+    },
+    {
+      "period": 5,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Werkz",
+            "id": "i1dkcseemmauznah",
+            "shortName": "Werkz"
+          },
+          "home": {
+            "name": "Ryan",
+            "id": "klx9ixlfmmarr9lp",
+            "shortName": "RyRy"
+          }
+        },
+        {
+          "away": {
+            "name": "Chad Innings Eaters",
+            "id": "oynbdfakmmare4e2",
+            "shortName": "CHA"
+          },
+          "home": {
+            "name": "cross_off_fantasy",
+            "id": "x1jqw600mmarn4yw",
+            "shortName": "cross_of"
+          }
+        },
+        {
+          "away": {
+            "name": "CadeNap",
+            "id": "cn6wgojymmarim8x",
+            "shortName": "CN"
+          },
+          "home": {
+            "name": "Bdubs1212",
+            "id": "oysf5q7mmmarkr5d",
+            "shortName": "Bdubs121"
+          }
+        },
+        {
+          "away": {
+            "name": "Andy_p",
+            "id": "vxj10at1mmaz3hz3",
+            "shortName": "Andy_p"
+          },
+          "home": {
+            "name": "BillsHead",
+            "id": "dc0gag9cmmas0req",
+            "shortName": "BillsHea"
+          }
+        },
+        {
+          "away": {
+            "name": "Ceoddry",
+            "id": "xqwasglymmav6x9q",
+            "shortName": "Ceoddry"
+          },
+          "home": {
+            "name": "AllOhio311",
+            "id": "rovm8zf5mmarfs23",
+            "shortName": "AllOhio3"
+          }
+        }
+      ]
+    },
+    {
+      "period": 6,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Ryan",
+            "id": "klx9ixlfmmarr9lp",
+            "shortName": "RyRy"
+          },
+          "home": {
+            "name": "Chad Innings Eaters",
+            "id": "oynbdfakmmare4e2",
+            "shortName": "CHA"
+          }
+        },
+        {
+          "away": {
+            "name": "Werkz",
+            "id": "i1dkcseemmauznah",
+            "shortName": "Werkz"
+          },
+          "home": {
+            "name": "CadeNap",
+            "id": "cn6wgojymmarim8x",
+            "shortName": "CN"
+          }
+        },
+        {
+          "away": {
+            "name": "cross_off_fantasy",
+            "id": "x1jqw600mmarn4yw",
+            "shortName": "cross_of"
+          },
+          "home": {
+            "name": "Andy_p",
+            "id": "vxj10at1mmaz3hz3",
+            "shortName": "Andy_p"
+          }
+        },
+        {
+          "away": {
+            "name": "Bdubs1212",
+            "id": "oysf5q7mmmarkr5d",
+            "shortName": "Bdubs121"
+          },
+          "home": {
+            "name": "Ceoddry",
+            "id": "xqwasglymmav6x9q",
+            "shortName": "Ceoddry"
+          }
+        },
+        {
+          "away": {
+            "name": "BillsHead",
+            "id": "dc0gag9cmmas0req",
+            "shortName": "BillsHea"
+          },
+          "home": {
+            "name": "AllOhio311",
+            "id": "rovm8zf5mmarfs23",
+            "shortName": "AllOhio3"
+          }
+        }
+      ]
+    },
+    {
+      "period": 7,
+      "matchupList": [
+        {
+          "away": {
+            "name": "CadeNap",
+            "id": "cn6wgojymmarim8x",
+            "shortName": "CN"
+          },
+          "home": {
+            "name": "Ryan",
+            "id": "klx9ixlfmmarr9lp",
+            "shortName": "RyRy"
+          }
+        },
+        {
+          "away": {
+            "name": "Andy_p",
+            "id": "vxj10at1mmaz3hz3",
+            "shortName": "Andy_p"
+          },
+          "home": {
+            "name": "Chad Innings Eaters",
+            "id": "oynbdfakmmare4e2",
+            "shortName": "CHA"
+          }
+        },
+        {
+          "away": {
+            "name": "Ceoddry",
+            "id": "xqwasglymmav6x9q",
+            "shortName": "Ceoddry"
+          },
+          "home": {
+            "name": "Werkz",
+            "id": "i1dkcseemmauznah",
+            "shortName": "Werkz"
+          }
+        },
+        {
+          "away": {
+            "name": "AllOhio311",
+            "id": "rovm8zf5mmarfs23",
+            "shortName": "AllOhio3"
+          },
+          "home": {
+            "name": "cross_off_fantasy",
+            "id": "x1jqw600mmarn4yw",
+            "shortName": "cross_of"
+          }
+        },
+        {
+          "away": {
+            "name": "BillsHead",
+            "id": "dc0gag9cmmas0req",
+            "shortName": "BillsHea"
+          },
+          "home": {
+            "name": "Bdubs1212",
+            "id": "oysf5q7mmmarkr5d",
+            "shortName": "Bdubs121"
+          }
+        }
+      ]
+    },
+    {
+      "period": 8,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Ryan",
+            "id": "klx9ixlfmmarr9lp",
+            "shortName": "RyRy"
+          },
+          "home": {
+            "name": "Andy_p",
+            "id": "vxj10at1mmaz3hz3",
+            "shortName": "Andy_p"
+          }
+        },
+        {
+          "away": {
+            "name": "CadeNap",
+            "id": "cn6wgojymmarim8x",
+            "shortName": "CN"
+          },
+          "home": {
+            "name": "Ceoddry",
+            "id": "xqwasglymmav6x9q",
+            "shortName": "Ceoddry"
+          }
+        },
+        {
+          "away": {
+            "name": "Chad Innings Eaters",
+            "id": "oynbdfakmmare4e2",
+            "shortName": "CHA"
+          },
+          "home": {
+            "name": "AllOhio311",
+            "id": "rovm8zf5mmarfs23",
+            "shortName": "AllOhio3"
+          }
+        },
+        {
+          "away": {
+            "name": "Werkz",
+            "id": "i1dkcseemmauznah",
+            "shortName": "Werkz"
+          },
+          "home": {
+            "name": "BillsHead",
+            "id": "dc0gag9cmmas0req",
+            "shortName": "BillsHea"
+          }
+        },
+        {
+          "away": {
+            "name": "cross_off_fantasy",
+            "id": "x1jqw600mmarn4yw",
+            "shortName": "cross_of"
+          },
+          "home": {
+            "name": "Bdubs1212",
+            "id": "oysf5q7mmmarkr5d",
+            "shortName": "Bdubs121"
+          }
+        }
+      ]
+    },
+    {
+      "period": 9,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Ceoddry",
+            "id": "xqwasglymmav6x9q",
+            "shortName": "Ceoddry"
+          },
+          "home": {
+            "name": "Ryan",
+            "id": "klx9ixlfmmarr9lp",
+            "shortName": "RyRy"
+          }
+        },
+        {
+          "away": {
+            "name": "AllOhio311",
+            "id": "rovm8zf5mmarfs23",
+            "shortName": "AllOhio3"
+          },
+          "home": {
+            "name": "Andy_p",
+            "id": "vxj10at1mmaz3hz3",
+            "shortName": "Andy_p"
+          }
+        },
+        {
+          "away": {
+            "name": "BillsHead",
+            "id": "dc0gag9cmmas0req",
+            "shortName": "BillsHea"
+          },
+          "home": {
+            "name": "CadeNap",
+            "id": "cn6wgojymmarim8x",
+            "shortName": "CN"
+          }
+        },
+        {
+          "away": {
+            "name": "Bdubs1212",
+            "id": "oysf5q7mmmarkr5d",
+            "shortName": "Bdubs121"
+          },
+          "home": {
+            "name": "Chad Innings Eaters",
+            "id": "oynbdfakmmare4e2",
+            "shortName": "CHA"
+          }
+        },
+        {
+          "away": {
+            "name": "cross_off_fantasy",
+            "id": "x1jqw600mmarn4yw",
+            "shortName": "cross_of"
+          },
+          "home": {
+            "name": "Werkz",
+            "id": "i1dkcseemmauznah",
+            "shortName": "Werkz"
+          }
+        }
+      ]
+    },
+    {
+      "period": 10,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Ryan",
+            "id": "klx9ixlfmmarr9lp",
+            "shortName": "RyRy"
+          },
+          "home": {
+            "name": "AllOhio311",
+            "id": "rovm8zf5mmarfs23",
+            "shortName": "AllOhio3"
+          }
+        },
+        {
+          "away": {
+            "name": "Ceoddry",
+            "id": "xqwasglymmav6x9q",
+            "shortName": "Ceoddry"
+          },
+          "home": {
+            "name": "BillsHead",
+            "id": "dc0gag9cmmas0req",
+            "shortName": "BillsHea"
+          }
+        },
+        {
+          "away": {
+            "name": "Andy_p",
+            "id": "vxj10at1mmaz3hz3",
+            "shortName": "Andy_p"
+          },
+          "home": {
+            "name": "Bdubs1212",
+            "id": "oysf5q7mmmarkr5d",
+            "shortName": "Bdubs121"
+          }
+        },
+        {
+          "away": {
+            "name": "CadeNap",
+            "id": "cn6wgojymmarim8x",
+            "shortName": "CN"
+          },
+          "home": {
+            "name": "cross_off_fantasy",
+            "id": "x1jqw600mmarn4yw",
+            "shortName": "cross_of"
+          }
+        },
+        {
+          "away": {
+            "name": "Chad Innings Eaters",
+            "id": "oynbdfakmmare4e2",
+            "shortName": "CHA"
+          },
+          "home": {
+            "name": "Werkz",
+            "id": "i1dkcseemmauznah",
+            "shortName": "Werkz"
+          }
+        }
+      ]
+    },
+    {
+      "period": 11,
+      "matchupList": [
+        {
+          "away": {
+            "name": "BillsHead",
+            "id": "dc0gag9cmmas0req",
+            "shortName": "BillsHea"
+          },
+          "home": {
+            "name": "Ryan",
+            "id": "klx9ixlfmmarr9lp",
+            "shortName": "RyRy"
+          }
+        },
+        {
+          "away": {
+            "name": "Bdubs1212",
+            "id": "oysf5q7mmmarkr5d",
+            "shortName": "Bdubs121"
+          },
+          "home": {
+            "name": "AllOhio311",
+            "id": "rovm8zf5mmarfs23",
+            "shortName": "AllOhio3"
+          }
+        },
+        {
+          "away": {
+            "name": "cross_off_fantasy",
+            "id": "x1jqw600mmarn4yw",
+            "shortName": "cross_of"
+          },
+          "home": {
+            "name": "Ceoddry",
+            "id": "xqwasglymmav6x9q",
+            "shortName": "Ceoddry"
+          }
+        },
+        {
+          "away": {
+            "name": "Werkz",
+            "id": "i1dkcseemmauznah",
+            "shortName": "Werkz"
+          },
+          "home": {
+            "name": "Andy_p",
+            "id": "vxj10at1mmaz3hz3",
+            "shortName": "Andy_p"
+          }
+        },
+        {
+          "away": {
+            "name": "Chad Innings Eaters",
+            "id": "oynbdfakmmare4e2",
+            "shortName": "CHA"
+          },
+          "home": {
+            "name": "CadeNap",
+            "id": "cn6wgojymmarim8x",
+            "shortName": "CN"
+          }
+        }
+      ]
+    },
+    {
+      "period": 12,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Ryan",
+            "id": "klx9ixlfmmarr9lp",
+            "shortName": "RyRy"
+          },
+          "home": {
+            "name": "Bdubs1212",
+            "id": "oysf5q7mmmarkr5d",
+            "shortName": "Bdubs121"
+          }
+        },
+        {
+          "away": {
+            "name": "BillsHead",
+            "id": "dc0gag9cmmas0req",
+            "shortName": "BillsHea"
+          },
+          "home": {
+            "name": "cross_off_fantasy",
+            "id": "x1jqw600mmarn4yw",
+            "shortName": "cross_of"
+          }
+        },
+        {
+          "away": {
+            "name": "AllOhio311",
+            "id": "rovm8zf5mmarfs23",
+            "shortName": "AllOhio3"
+          },
+          "home": {
+            "name": "Werkz",
+            "id": "i1dkcseemmauznah",
+            "shortName": "Werkz"
+          }
+        },
+        {
+          "away": {
+            "name": "Ceoddry",
+            "id": "xqwasglymmav6x9q",
+            "shortName": "Ceoddry"
+          },
+          "home": {
+            "name": "Chad Innings Eaters",
+            "id": "oynbdfakmmare4e2",
+            "shortName": "CHA"
+          }
+        },
+        {
+          "away": {
+            "name": "Andy_p",
+            "id": "vxj10at1mmaz3hz3",
+            "shortName": "Andy_p"
+          },
+          "home": {
+            "name": "CadeNap",
+            "id": "cn6wgojymmarim8x",
+            "shortName": "CN"
+          }
+        }
+      ]
+    },
+    {
+      "period": 13,
+      "matchupList": [
+        {
+          "away": {
+            "name": "cross_off_fantasy",
+            "id": "x1jqw600mmarn4yw",
+            "shortName": "cross_of"
+          },
+          "home": {
+            "name": "Ryan",
+            "id": "klx9ixlfmmarr9lp",
+            "shortName": "RyRy"
+          }
+        },
+        {
+          "away": {
+            "name": "Werkz",
+            "id": "i1dkcseemmauznah",
+            "shortName": "Werkz"
+          },
+          "home": {
+            "name": "Bdubs1212",
+            "id": "oysf5q7mmmarkr5d",
+            "shortName": "Bdubs121"
+          }
+        },
+        {
+          "away": {
+            "name": "Chad Innings Eaters",
+            "id": "oynbdfakmmare4e2",
+            "shortName": "CHA"
+          },
+          "home": {
+            "name": "BillsHead",
+            "id": "dc0gag9cmmas0req",
+            "shortName": "BillsHea"
+          }
+        },
+        {
+          "away": {
+            "name": "CadeNap",
+            "id": "cn6wgojymmarim8x",
+            "shortName": "CN"
+          },
+          "home": {
+            "name": "AllOhio311",
+            "id": "rovm8zf5mmarfs23",
+            "shortName": "AllOhio3"
+          }
+        },
+        {
+          "away": {
+            "name": "Andy_p",
+            "id": "vxj10at1mmaz3hz3",
+            "shortName": "Andy_p"
+          },
+          "home": {
+            "name": "Ceoddry",
+            "id": "xqwasglymmav6x9q",
+            "shortName": "Ceoddry"
+          }
+        }
+      ]
+    },
+    {
+      "period": 14,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Ryan",
+            "id": "klx9ixlfmmarr9lp",
+            "shortName": "RyRy"
+          },
+          "home": {
+            "name": "Werkz",
+            "id": "i1dkcseemmauznah",
+            "shortName": "Werkz"
+          }
+        },
+        {
+          "away": {
+            "name": "cross_off_fantasy",
+            "id": "x1jqw600mmarn4yw",
+            "shortName": "cross_of"
+          },
+          "home": {
+            "name": "Chad Innings Eaters",
+            "id": "oynbdfakmmare4e2",
+            "shortName": "CHA"
+          }
+        },
+        {
+          "away": {
+            "name": "Bdubs1212",
+            "id": "oysf5q7mmmarkr5d",
+            "shortName": "Bdubs121"
+          },
+          "home": {
+            "name": "CadeNap",
+            "id": "cn6wgojymmarim8x",
+            "shortName": "CN"
+          }
+        },
+        {
+          "away": {
+            "name": "BillsHead",
+            "id": "dc0gag9cmmas0req",
+            "shortName": "BillsHea"
+          },
+          "home": {
+            "name": "Andy_p",
+            "id": "vxj10at1mmaz3hz3",
+            "shortName": "Andy_p"
+          }
+        },
+        {
+          "away": {
+            "name": "AllOhio311",
+            "id": "rovm8zf5mmarfs23",
+            "shortName": "AllOhio3"
+          },
+          "home": {
+            "name": "Ceoddry",
+            "id": "xqwasglymmav6x9q",
+            "shortName": "Ceoddry"
+          }
+        }
+      ]
+    },
+    {
+      "period": 15,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Chad Innings Eaters",
+            "id": "oynbdfakmmare4e2",
+            "shortName": "CHA"
+          },
+          "home": {
+            "name": "Ryan",
+            "id": "klx9ixlfmmarr9lp",
+            "shortName": "RyRy"
+          }
+        },
+        {
+          "away": {
+            "name": "CadeNap",
+            "id": "cn6wgojymmarim8x",
+            "shortName": "CN"
+          },
+          "home": {
+            "name": "Werkz",
+            "id": "i1dkcseemmauznah",
+            "shortName": "Werkz"
+          }
+        },
+        {
+          "away": {
+            "name": "Andy_p",
+            "id": "vxj10at1mmaz3hz3",
+            "shortName": "Andy_p"
+          },
+          "home": {
+            "name": "cross_off_fantasy",
+            "id": "x1jqw600mmarn4yw",
+            "shortName": "cross_of"
+          }
+        },
+        {
+          "away": {
+            "name": "Ceoddry",
+            "id": "xqwasglymmav6x9q",
+            "shortName": "Ceoddry"
+          },
+          "home": {
+            "name": "Bdubs1212",
+            "id": "oysf5q7mmmarkr5d",
+            "shortName": "Bdubs121"
+          }
+        },
+        {
+          "away": {
+            "name": "AllOhio311",
+            "id": "rovm8zf5mmarfs23",
+            "shortName": "AllOhio3"
+          },
+          "home": {
+            "name": "BillsHead",
+            "id": "dc0gag9cmmas0req",
+            "shortName": "BillsHea"
+          }
+        }
+      ]
+    },
+    {
+      "period": 16,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Ryan",
+            "id": "klx9ixlfmmarr9lp",
+            "shortName": "RyRy"
+          },
+          "home": {
+            "name": "CadeNap",
+            "id": "cn6wgojymmarim8x",
+            "shortName": "CN"
+          }
+        },
+        {
+          "away": {
+            "name": "Chad Innings Eaters",
+            "id": "oynbdfakmmare4e2",
+            "shortName": "CHA"
+          },
+          "home": {
+            "name": "Andy_p",
+            "id": "vxj10at1mmaz3hz3",
+            "shortName": "Andy_p"
+          }
+        },
+        {
+          "away": {
+            "name": "Werkz",
+            "id": "i1dkcseemmauznah",
+            "shortName": "Werkz"
+          },
+          "home": {
+            "name": "Ceoddry",
+            "id": "xqwasglymmav6x9q",
+            "shortName": "Ceoddry"
+          }
+        },
+        {
+          "away": {
+            "name": "cross_off_fantasy",
+            "id": "x1jqw600mmarn4yw",
+            "shortName": "cross_of"
+          },
+          "home": {
+            "name": "AllOhio311",
+            "id": "rovm8zf5mmarfs23",
+            "shortName": "AllOhio3"
+          }
+        },
+        {
+          "away": {
+            "name": "Bdubs1212",
+            "id": "oysf5q7mmmarkr5d",
+            "shortName": "Bdubs121"
+          },
+          "home": {
+            "name": "BillsHead",
+            "id": "dc0gag9cmmas0req",
+            "shortName": "BillsHea"
+          }
+        }
+      ]
+    },
+    {
+      "period": 17,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Andy_p",
+            "id": "vxj10at1mmaz3hz3",
+            "shortName": "Andy_p"
+          },
+          "home": {
+            "name": "Ryan",
+            "id": "klx9ixlfmmarr9lp",
+            "shortName": "RyRy"
+          }
+        },
+        {
+          "away": {
+            "name": "Ceoddry",
+            "id": "xqwasglymmav6x9q",
+            "shortName": "Ceoddry"
+          },
+          "home": {
+            "name": "CadeNap",
+            "id": "cn6wgojymmarim8x",
+            "shortName": "CN"
+          }
+        },
+        {
+          "away": {
+            "name": "AllOhio311",
+            "id": "rovm8zf5mmarfs23",
+            "shortName": "AllOhio3"
+          },
+          "home": {
+            "name": "Chad Innings Eaters",
+            "id": "oynbdfakmmare4e2",
+            "shortName": "CHA"
+          }
+        },
+        {
+          "away": {
+            "name": "BillsHead",
+            "id": "dc0gag9cmmas0req",
+            "shortName": "BillsHea"
+          },
+          "home": {
+            "name": "Werkz",
+            "id": "i1dkcseemmauznah",
+            "shortName": "Werkz"
+          }
+        },
+        {
+          "away": {
+            "name": "Bdubs1212",
+            "id": "oysf5q7mmmarkr5d",
+            "shortName": "Bdubs121"
+          },
+          "home": {
+            "name": "cross_off_fantasy",
+            "id": "x1jqw600mmarn4yw",
+            "shortName": "cross_of"
+          }
+        }
+      ]
+    },
+    {
+      "period": 18,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Ryan",
+            "id": "klx9ixlfmmarr9lp",
+            "shortName": "RyRy"
+          },
+          "home": {
+            "name": "Ceoddry",
+            "id": "xqwasglymmav6x9q",
+            "shortName": "Ceoddry"
+          }
+        },
+        {
+          "away": {
+            "name": "Andy_p",
+            "id": "vxj10at1mmaz3hz3",
+            "shortName": "Andy_p"
+          },
+          "home": {
+            "name": "AllOhio311",
+            "id": "rovm8zf5mmarfs23",
+            "shortName": "AllOhio3"
+          }
+        },
+        {
+          "away": {
+            "name": "CadeNap",
+            "id": "cn6wgojymmarim8x",
+            "shortName": "CN"
+          },
+          "home": {
+            "name": "BillsHead",
+            "id": "dc0gag9cmmas0req",
+            "shortName": "BillsHea"
+          }
+        },
+        {
+          "away": {
+            "name": "Chad Innings Eaters",
+            "id": "oynbdfakmmare4e2",
+            "shortName": "CHA"
+          },
+          "home": {
+            "name": "Bdubs1212",
+            "id": "oysf5q7mmmarkr5d",
+            "shortName": "Bdubs121"
+          }
+        },
+        {
+          "away": {
+            "name": "Werkz",
+            "id": "i1dkcseemmauznah",
+            "shortName": "Werkz"
+          },
+          "home": {
+            "name": "cross_off_fantasy",
+            "id": "x1jqw600mmarn4yw",
+            "shortName": "cross_of"
+          }
+        }
+      ]
+    },
+    {
+      "period": 19,
+      "matchupList": [
+        {
+          "away": {
+            "name": "AllOhio311",
+            "id": "rovm8zf5mmarfs23",
+            "shortName": "AllOhio3"
+          },
+          "home": {
+            "name": "Ryan",
+            "id": "klx9ixlfmmarr9lp",
+            "shortName": "RyRy"
+          }
+        },
+        {
+          "away": {
+            "name": "BillsHead",
+            "id": "dc0gag9cmmas0req",
+            "shortName": "BillsHea"
+          },
+          "home": {
+            "name": "Ceoddry",
+            "id": "xqwasglymmav6x9q",
+            "shortName": "Ceoddry"
+          }
+        },
+        {
+          "away": {
+            "name": "Bdubs1212",
+            "id": "oysf5q7mmmarkr5d",
+            "shortName": "Bdubs121"
+          },
+          "home": {
+            "name": "Andy_p",
+            "id": "vxj10at1mmaz3hz3",
+            "shortName": "Andy_p"
+          }
+        },
+        {
+          "away": {
+            "name": "cross_off_fantasy",
+            "id": "x1jqw600mmarn4yw",
+            "shortName": "cross_of"
+          },
+          "home": {
+            "name": "CadeNap",
+            "id": "cn6wgojymmarim8x",
+            "shortName": "CN"
+          }
+        },
+        {
+          "away": {
+            "name": "Werkz",
+            "id": "i1dkcseemmauznah",
+            "shortName": "Werkz"
+          },
+          "home": {
+            "name": "Chad Innings Eaters",
+            "id": "oynbdfakmmare4e2",
+            "shortName": "CHA"
+          }
+        }
+      ]
+    },
+    {
+      "period": 20,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Ryan",
+            "id": "klx9ixlfmmarr9lp",
+            "shortName": "RyRy"
+          },
+          "home": {
+            "name": "BillsHead",
+            "id": "dc0gag9cmmas0req",
+            "shortName": "BillsHea"
+          }
+        },
+        {
+          "away": {
+            "name": "AllOhio311",
+            "id": "rovm8zf5mmarfs23",
+            "shortName": "AllOhio3"
+          },
+          "home": {
+            "name": "Bdubs1212",
+            "id": "oysf5q7mmmarkr5d",
+            "shortName": "Bdubs121"
+          }
+        },
+        {
+          "away": {
+            "name": "Ceoddry",
+            "id": "xqwasglymmav6x9q",
+            "shortName": "Ceoddry"
+          },
+          "home": {
+            "name": "cross_off_fantasy",
+            "id": "x1jqw600mmarn4yw",
+            "shortName": "cross_of"
+          }
+        },
+        {
+          "away": {
+            "name": "Andy_p",
+            "id": "vxj10at1mmaz3hz3",
+            "shortName": "Andy_p"
+          },
+          "home": {
+            "name": "Werkz",
+            "id": "i1dkcseemmauznah",
+            "shortName": "Werkz"
+          }
+        },
+        {
+          "away": {
+            "name": "CadeNap",
+            "id": "cn6wgojymmarim8x",
+            "shortName": "CN"
+          },
+          "home": {
+            "name": "Chad Innings Eaters",
+            "id": "oynbdfakmmare4e2",
+            "shortName": "CHA"
+          }
+        }
+      ]
+    },
+    {
+      "period": 21,
+      "matchupList": [
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 22,
+      "matchupList": [
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 23,
+      "matchupList": [
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    }
+  ],
+  "standings": [
+    {
+      "teamName": "Ceoddry",
+      "teamId": "xqwasglymmav6x9q",
+      "gamesBack": 0.0,
+      "rank": 1,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "CadeNap",
+      "teamId": "cn6wgojymmarim8x",
+      "gamesBack": 0.0,
+      "rank": 2,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Andy_p",
+      "teamId": "vxj10at1mmaz3hz3",
+      "gamesBack": 0.0,
+      "rank": 3,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "cross_off_fantasy",
+      "teamId": "x1jqw600mmarn4yw",
+      "gamesBack": 0.0,
+      "rank": 4,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Werkz",
+      "teamId": "i1dkcseemmauznah",
+      "gamesBack": 0.0,
+      "rank": 5,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Chad Innings Eaters",
+      "teamId": "oynbdfakmmare4e2",
+      "gamesBack": 0.0,
+      "rank": 6,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Bdubs1212",
+      "teamId": "oysf5q7mmmarkr5d",
+      "gamesBack": 0.0,
+      "rank": 7,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "AllOhio311",
+      "teamId": "rovm8zf5mmarfs23",
+      "gamesBack": 0.0,
+      "rank": 8,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Ryan",
+      "teamId": "klx9ixlfmmarr9lp",
+      "gamesBack": 0.0,
+      "rank": 9,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "BillsHead",
+      "teamId": "dc0gag9cmmas0req",
+      "gamesBack": 0.0,
+      "rank": 10,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    }
+  ]
+}

@@ -1,0 +1,1425 @@
+{
+  "fantrax_id": "8x07mfzxmm9zyrk9",
+  "name": "FBD Roy Halladay League",
+  "season_year": 2026,
+  "start_date": "2026-03-25",
+  "end_date": "2026-09-20",
+  "scoring_settings": {
+    "scoringCategories": {
+      "HITTING": {
+        "R": {
+          "Default": "1.0"
+        },
+        "RBI": {
+          "Default": "1.0"
+        },
+        "HR": {
+          "Default": "1.0"
+        },
+        "OBP": {
+          "Default": "1.0"
+        },
+        "SB": {
+          "Default": "1.0"
+        }
+      },
+      "PITCHING": {
+        "WHIP": {
+          "Default": "1.0"
+        },
+        "SVH": {
+          "Default": "1.0"
+        },
+        "ERA": {
+          "Default": "1.0"
+        },
+        "K": {
+          "Default": "1.0"
+        },
+        "W+QS": {
+          "Default": "1.0"
+        }
+      }
+    },
+    "scoringCategorySettings": [
+      {
+        "configs": [
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_HOME_RUNS",
+              "name": "Home Runs",
+              "id": "0200",
+              "shortName": "HR"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_RBIS",
+              "name": "RBI",
+              "id": "0310",
+              "shortName": "RBI"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_RUNS_SCORED",
+              "name": "Runs Scored",
+              "id": "0330",
+              "shortName": "R"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_STOLEN_BASES",
+              "name": "Stolen Bases",
+              "id": "0380",
+              "shortName": "SB"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_ON_BASE_PERCENTAGE",
+              "name": "On Base Percentage",
+              "id": "0510",
+              "shortName": "OBP"
+            }
+          }
+        ],
+        "group": {
+          "code": "BASEBALL_HITTING",
+          "name": "Hitting",
+          "id": "10",
+          "shortName": "Hit"
+        }
+      },
+      {
+        "configs": [
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_STRIKE_OUTS_PITCHED",
+              "name": "Strikeouts Pitched",
+              "id": "0410",
+              "shortName": "K"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_EARNED_RUN_AVERAGE",
+              "name": "Earned Run Average",
+              "id": "0490",
+              "shortName": "ERA"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_SAVES_PLUS_HOLDS",
+              "name": "Saves + Holds",
+              "id": "051i",
+              "shortName": "SVH"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_WHIP_RATIO",
+              "name": "WHIP Ratio",
+              "id": "0580",
+              "shortName": "WHIP"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_WINS_PLUS_QUALITY_STARTS",
+              "name": "Wins + Quality Starts",
+              "id": "0593",
+              "shortName": "W+QS"
+            }
+          }
+        ],
+        "group": {
+          "code": "BASEBALL_PITCHING",
+          "name": "Pitching",
+          "id": "20",
+          "shortName": "Pit"
+        }
+      }
+    ],
+    "type": "rotisserie"
+  },
+  "teams": {
+    "zyti9u6ommazjnqc": {
+      "name": "DarthRaider555",
+      "id": "zyti9u6ommazjnqc"
+    },
+    "lhkty0mvmmauhzjs": {
+      "name": "ecoboe",
+      "id": "lhkty0mvmmauhzjs"
+    },
+    "f60kr17immaryir7": {
+      "name": "Sonny",
+      "id": "f60kr17immaryir7"
+    },
+    "8jlqqg56mmas684c": {
+      "name": "owend5",
+      "id": "8jlqqg56mmas684c"
+    },
+    "wj0zh16ymmau0s5p": {
+      "name": "Sox_Fan24",
+      "id": "wj0zh16ymmau0s5p"
+    },
+    "1kvj574gmmaut117": {
+      "name": "Carey3037",
+      "id": "1kvj574gmmaut117"
+    },
+    "ig56b4vmmmatfbcs": {
+      "name": "MickeyMantles7",
+      "id": "ig56b4vmmmatfbcs"
+    }
+  },
+  "matchups": [
+    {
+      "period": 1,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Sox_Fan24",
+            "id": "wj0zh16ymmau0s5p",
+            "shortName": "Sox_Fan2"
+          },
+          "home": {
+            "name": "owend5",
+            "id": "8jlqqg56mmas684c",
+            "shortName": "owen"
+          }
+        },
+        {
+          "away": {
+            "name": "MickeyMantles7",
+            "id": "ig56b4vmmmatfbcs",
+            "shortName": "MM7"
+          },
+          "home": {
+            "name": "ecoboe",
+            "id": "lhkty0mvmmauhzjs",
+            "shortName": "ecoboe"
+          }
+        },
+        {
+          "away": {
+            "name": "Carey3037",
+            "id": "1kvj574gmmaut117",
+            "shortName": "Carey303"
+          },
+          "home": {
+            "name": "Sonny",
+            "id": "f60kr17immaryir7",
+            "shortName": "Sonny"
+          }
+        },
+        {
+          "away": {
+            "name": "DarthRaider555",
+            "id": "zyti9u6ommazjnqc",
+            "shortName": "DarthRai"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 2,
+      "matchupList": [
+        {
+          "away": {
+            "name": "owend5",
+            "id": "8jlqqg56mmas684c",
+            "shortName": "owen"
+          },
+          "home": {
+            "name": "MickeyMantles7",
+            "id": "ig56b4vmmmatfbcs",
+            "shortName": "MM7"
+          }
+        },
+        {
+          "away": {
+            "name": "Sox_Fan24",
+            "id": "wj0zh16ymmau0s5p",
+            "shortName": "Sox_Fan2"
+          },
+          "home": {
+            "name": "DarthRaider555",
+            "id": "zyti9u6ommazjnqc",
+            "shortName": "DarthRai"
+          }
+        },
+        {
+          "away": {
+            "name": "ecoboe",
+            "id": "lhkty0mvmmauhzjs",
+            "shortName": "ecoboe"
+          },
+          "home": {
+            "name": "Carey3037",
+            "id": "1kvj574gmmaut117",
+            "shortName": "Carey303"
+          }
+        },
+        {
+          "away": {
+            "name": "MickeyMantles7",
+            "id": "ig56b4vmmmatfbcs",
+            "shortName": "MM7"
+          },
+          "home": {
+            "name": "Carey3037",
+            "id": "1kvj574gmmaut117",
+            "shortName": "Carey303"
+          }
+        },
+        {
+          "away": {
+            "name": "Sonny",
+            "id": "f60kr17immaryir7",
+            "shortName": "Sonny"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 3,
+      "matchupList": [
+        {
+          "away": {
+            "name": "DarthRaider555",
+            "id": "zyti9u6ommazjnqc",
+            "shortName": "DarthRai"
+          },
+          "home": {
+            "name": "owend5",
+            "id": "8jlqqg56mmas684c",
+            "shortName": "owen"
+          }
+        },
+        {
+          "away": {
+            "name": "Carey3037",
+            "id": "1kvj574gmmaut117",
+            "shortName": "Carey303"
+          },
+          "home": {
+            "name": "MickeyMantles7",
+            "id": "ig56b4vmmmatfbcs",
+            "shortName": "MM7"
+          }
+        },
+        {
+          "away": {
+            "name": "Sonny",
+            "id": "f60kr17immaryir7",
+            "shortName": "Sonny"
+          },
+          "home": {
+            "name": "Sox_Fan24",
+            "id": "wj0zh16ymmau0s5p",
+            "shortName": "Sox_Fan2"
+          }
+        },
+        {
+          "away": {
+            "name": "ecoboe",
+            "id": "lhkty0mvmmauhzjs",
+            "shortName": "ecoboe"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 4,
+      "matchupList": [
+        {
+          "away": {
+            "name": "owend5",
+            "id": "8jlqqg56mmas684c",
+            "shortName": "owen"
+          },
+          "home": {
+            "name": "Carey3037",
+            "id": "1kvj574gmmaut117",
+            "shortName": "Carey303"
+          }
+        },
+        {
+          "away": {
+            "name": "DarthRaider555",
+            "id": "zyti9u6ommazjnqc",
+            "shortName": "DarthRai"
+          },
+          "home": {
+            "name": "Sonny",
+            "id": "f60kr17immaryir7",
+            "shortName": "Sonny"
+          }
+        },
+        {
+          "away": {
+            "name": "Sox_Fan24",
+            "id": "wj0zh16ymmau0s5p",
+            "shortName": "Sox_Fan2"
+          },
+          "home": {
+            "name": "ecoboe",
+            "id": "lhkty0mvmmauhzjs",
+            "shortName": "ecoboe"
+          }
+        },
+        {
+          "away": {
+            "name": "MickeyMantles7",
+            "id": "ig56b4vmmmatfbcs",
+            "shortName": "MM7"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 5,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Sonny",
+            "id": "f60kr17immaryir7",
+            "shortName": "Sonny"
+          },
+          "home": {
+            "name": "owend5",
+            "id": "8jlqqg56mmas684c",
+            "shortName": "owen"
+          }
+        },
+        {
+          "away": {
+            "name": "ecoboe",
+            "id": "lhkty0mvmmauhzjs",
+            "shortName": "ecoboe"
+          },
+          "home": {
+            "name": "DarthRaider555",
+            "id": "zyti9u6ommazjnqc",
+            "shortName": "DarthRai"
+          }
+        },
+        {
+          "away": {
+            "name": "Sox_Fan24",
+            "id": "wj0zh16ymmau0s5p",
+            "shortName": "Sox_Fan2"
+          },
+          "home": {
+            "name": "MickeyMantles7",
+            "id": "ig56b4vmmmatfbcs",
+            "shortName": "MM7"
+          }
+        },
+        {
+          "away": {
+            "name": "Carey3037",
+            "id": "1kvj574gmmaut117",
+            "shortName": "Carey303"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 6,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Sonny",
+            "id": "f60kr17immaryir7",
+            "shortName": "Sonny"
+          },
+          "home": {
+            "name": "ecoboe",
+            "id": "lhkty0mvmmauhzjs",
+            "shortName": "ecoboe"
+          }
+        },
+        {
+          "away": {
+            "name": "Carey3037",
+            "id": "1kvj574gmmaut117",
+            "shortName": "Carey303"
+          },
+          "home": {
+            "name": "Sox_Fan24",
+            "id": "wj0zh16ymmau0s5p",
+            "shortName": "Sox_Fan2"
+          }
+        },
+        {
+          "away": {
+            "name": "DarthRaider555",
+            "id": "zyti9u6ommazjnqc",
+            "shortName": "DarthRai"
+          },
+          "home": {
+            "name": "MickeyMantles7",
+            "id": "ig56b4vmmmatfbcs",
+            "shortName": "MM7"
+          }
+        },
+        {
+          "away": {
+            "name": "owend5",
+            "id": "8jlqqg56mmas684c",
+            "shortName": "owen"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 7,
+      "matchupList": [
+        {
+          "away": {
+            "name": "ecoboe",
+            "id": "lhkty0mvmmauhzjs",
+            "shortName": "ecoboe"
+          },
+          "home": {
+            "name": "owend5",
+            "id": "8jlqqg56mmas684c",
+            "shortName": "owen"
+          }
+        },
+        {
+          "away": {
+            "name": "MickeyMantles7",
+            "id": "ig56b4vmmmatfbcs",
+            "shortName": "MM7"
+          },
+          "home": {
+            "name": "Sonny",
+            "id": "f60kr17immaryir7",
+            "shortName": "Sonny"
+          }
+        },
+        {
+          "away": {
+            "name": "DarthRaider555",
+            "id": "zyti9u6ommazjnqc",
+            "shortName": "DarthRai"
+          },
+          "home": {
+            "name": "Carey3037",
+            "id": "1kvj574gmmaut117",
+            "shortName": "Carey303"
+          }
+        },
+        {
+          "away": {
+            "name": "Sox_Fan24",
+            "id": "wj0zh16ymmau0s5p",
+            "shortName": "Sox_Fan2"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 8,
+      "matchupList": [
+        {
+          "away": {
+            "name": "owend5",
+            "id": "8jlqqg56mmas684c",
+            "shortName": "owen"
+          },
+          "home": {
+            "name": "Sox_Fan24",
+            "id": "wj0zh16ymmau0s5p",
+            "shortName": "Sox_Fan2"
+          }
+        },
+        {
+          "away": {
+            "name": "ecoboe",
+            "id": "lhkty0mvmmauhzjs",
+            "shortName": "ecoboe"
+          },
+          "home": {
+            "name": "MickeyMantles7",
+            "id": "ig56b4vmmmatfbcs",
+            "shortName": "MM7"
+          }
+        },
+        {
+          "away": {
+            "name": "Sonny",
+            "id": "f60kr17immaryir7",
+            "shortName": "Sonny"
+          },
+          "home": {
+            "name": "Carey3037",
+            "id": "1kvj574gmmaut117",
+            "shortName": "Carey303"
+          }
+        },
+        {
+          "away": {
+            "name": "DarthRaider555",
+            "id": "zyti9u6ommazjnqc",
+            "shortName": "DarthRai"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 9,
+      "matchupList": [
+        {
+          "away": {
+            "name": "MickeyMantles7",
+            "id": "ig56b4vmmmatfbcs",
+            "shortName": "MM7"
+          },
+          "home": {
+            "name": "owend5",
+            "id": "8jlqqg56mmas684c",
+            "shortName": "owen"
+          }
+        },
+        {
+          "away": {
+            "name": "DarthRaider555",
+            "id": "zyti9u6ommazjnqc",
+            "shortName": "DarthRai"
+          },
+          "home": {
+            "name": "Sox_Fan24",
+            "id": "wj0zh16ymmau0s5p",
+            "shortName": "Sox_Fan2"
+          }
+        },
+        {
+          "away": {
+            "name": "Carey3037",
+            "id": "1kvj574gmmaut117",
+            "shortName": "Carey303"
+          },
+          "home": {
+            "name": "ecoboe",
+            "id": "lhkty0mvmmauhzjs",
+            "shortName": "ecoboe"
+          }
+        },
+        {
+          "away": {
+            "name": "ecoboe",
+            "id": "lhkty0mvmmauhzjs",
+            "shortName": "ecoboe"
+          },
+          "home": {
+            "name": "DarthRaider555",
+            "id": "zyti9u6ommazjnqc",
+            "shortName": "DarthRai"
+          }
+        },
+        {
+          "away": {
+            "name": "Sonny",
+            "id": "f60kr17immaryir7",
+            "shortName": "Sonny"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 10,
+      "matchupList": [
+        {
+          "away": {
+            "name": "owend5",
+            "id": "8jlqqg56mmas684c",
+            "shortName": "owen"
+          },
+          "home": {
+            "name": "DarthRaider555",
+            "id": "zyti9u6ommazjnqc",
+            "shortName": "DarthRai"
+          }
+        },
+        {
+          "away": {
+            "name": "MickeyMantles7",
+            "id": "ig56b4vmmmatfbcs",
+            "shortName": "MM7"
+          },
+          "home": {
+            "name": "Carey3037",
+            "id": "1kvj574gmmaut117",
+            "shortName": "Carey303"
+          }
+        },
+        {
+          "away": {
+            "name": "Sox_Fan24",
+            "id": "wj0zh16ymmau0s5p",
+            "shortName": "Sox_Fan2"
+          },
+          "home": {
+            "name": "Sonny",
+            "id": "f60kr17immaryir7",
+            "shortName": "Sonny"
+          }
+        },
+        {
+          "away": {
+            "name": "ecoboe",
+            "id": "lhkty0mvmmauhzjs",
+            "shortName": "ecoboe"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 11,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Carey3037",
+            "id": "1kvj574gmmaut117",
+            "shortName": "Carey303"
+          },
+          "home": {
+            "name": "owend5",
+            "id": "8jlqqg56mmas684c",
+            "shortName": "owen"
+          }
+        },
+        {
+          "away": {
+            "name": "Sonny",
+            "id": "f60kr17immaryir7",
+            "shortName": "Sonny"
+          },
+          "home": {
+            "name": "DarthRaider555",
+            "id": "zyti9u6ommazjnqc",
+            "shortName": "DarthRai"
+          }
+        },
+        {
+          "away": {
+            "name": "ecoboe",
+            "id": "lhkty0mvmmauhzjs",
+            "shortName": "ecoboe"
+          },
+          "home": {
+            "name": "Sox_Fan24",
+            "id": "wj0zh16ymmau0s5p",
+            "shortName": "Sox_Fan2"
+          }
+        },
+        {
+          "away": {
+            "name": "MickeyMantles7",
+            "id": "ig56b4vmmmatfbcs",
+            "shortName": "MM7"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 12,
+      "matchupList": [
+        {
+          "away": {
+            "name": "owend5",
+            "id": "8jlqqg56mmas684c",
+            "shortName": "owen"
+          },
+          "home": {
+            "name": "Sonny",
+            "id": "f60kr17immaryir7",
+            "shortName": "Sonny"
+          }
+        },
+        {
+          "away": {
+            "name": "DarthRaider555",
+            "id": "zyti9u6ommazjnqc",
+            "shortName": "DarthRai"
+          },
+          "home": {
+            "name": "ecoboe",
+            "id": "lhkty0mvmmauhzjs",
+            "shortName": "ecoboe"
+          }
+        },
+        {
+          "away": {
+            "name": "MickeyMantles7",
+            "id": "ig56b4vmmmatfbcs",
+            "shortName": "MM7"
+          },
+          "home": {
+            "name": "Sox_Fan24",
+            "id": "wj0zh16ymmau0s5p",
+            "shortName": "Sox_Fan2"
+          }
+        },
+        {
+          "away": {
+            "name": "Carey3037",
+            "id": "1kvj574gmmaut117",
+            "shortName": "Carey303"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 13,
+      "matchupList": [
+        {
+          "away": {
+            "name": "ecoboe",
+            "id": "lhkty0mvmmauhzjs",
+            "shortName": "ecoboe"
+          },
+          "home": {
+            "name": "Sonny",
+            "id": "f60kr17immaryir7",
+            "shortName": "Sonny"
+          }
+        },
+        {
+          "away": {
+            "name": "Sox_Fan24",
+            "id": "wj0zh16ymmau0s5p",
+            "shortName": "Sox_Fan2"
+          },
+          "home": {
+            "name": "Carey3037",
+            "id": "1kvj574gmmaut117",
+            "shortName": "Carey303"
+          }
+        },
+        {
+          "away": {
+            "name": "MickeyMantles7",
+            "id": "ig56b4vmmmatfbcs",
+            "shortName": "MM7"
+          },
+          "home": {
+            "name": "DarthRaider555",
+            "id": "zyti9u6ommazjnqc",
+            "shortName": "DarthRai"
+          }
+        },
+        {
+          "away": {
+            "name": "owend5",
+            "id": "8jlqqg56mmas684c",
+            "shortName": "owen"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 14,
+      "matchupList": [
+        {
+          "away": {
+            "name": "owend5",
+            "id": "8jlqqg56mmas684c",
+            "shortName": "owen"
+          },
+          "home": {
+            "name": "ecoboe",
+            "id": "lhkty0mvmmauhzjs",
+            "shortName": "ecoboe"
+          }
+        },
+        {
+          "away": {
+            "name": "Sonny",
+            "id": "f60kr17immaryir7",
+            "shortName": "Sonny"
+          },
+          "home": {
+            "name": "MickeyMantles7",
+            "id": "ig56b4vmmmatfbcs",
+            "shortName": "MM7"
+          }
+        },
+        {
+          "away": {
+            "name": "Carey3037",
+            "id": "1kvj574gmmaut117",
+            "shortName": "Carey303"
+          },
+          "home": {
+            "name": "DarthRaider555",
+            "id": "zyti9u6ommazjnqc",
+            "shortName": "DarthRai"
+          }
+        },
+        {
+          "away": {
+            "name": "Sox_Fan24",
+            "id": "wj0zh16ymmau0s5p",
+            "shortName": "Sox_Fan2"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 15,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Sox_Fan24",
+            "id": "wj0zh16ymmau0s5p",
+            "shortName": "Sox_Fan2"
+          },
+          "home": {
+            "name": "owend5",
+            "id": "8jlqqg56mmas684c",
+            "shortName": "owen"
+          }
+        },
+        {
+          "away": {
+            "name": "MickeyMantles7",
+            "id": "ig56b4vmmmatfbcs",
+            "shortName": "MM7"
+          },
+          "home": {
+            "name": "ecoboe",
+            "id": "lhkty0mvmmauhzjs",
+            "shortName": "ecoboe"
+          }
+        },
+        {
+          "away": {
+            "name": "Carey3037",
+            "id": "1kvj574gmmaut117",
+            "shortName": "Carey303"
+          },
+          "home": {
+            "name": "Sonny",
+            "id": "f60kr17immaryir7",
+            "shortName": "Sonny"
+          }
+        },
+        {
+          "away": {
+            "name": "DarthRaider555",
+            "id": "zyti9u6ommazjnqc",
+            "shortName": "DarthRai"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 16,
+      "matchupList": [
+        {
+          "away": {
+            "name": "owend5",
+            "id": "8jlqqg56mmas684c",
+            "shortName": "owen"
+          },
+          "home": {
+            "name": "MickeyMantles7",
+            "id": "ig56b4vmmmatfbcs",
+            "shortName": "MM7"
+          }
+        },
+        {
+          "away": {
+            "name": "Sox_Fan24",
+            "id": "wj0zh16ymmau0s5p",
+            "shortName": "Sox_Fan2"
+          },
+          "home": {
+            "name": "DarthRaider555",
+            "id": "zyti9u6ommazjnqc",
+            "shortName": "DarthRai"
+          }
+        },
+        {
+          "away": {
+            "name": "ecoboe",
+            "id": "lhkty0mvmmauhzjs",
+            "shortName": "ecoboe"
+          },
+          "home": {
+            "name": "Carey3037",
+            "id": "1kvj574gmmaut117",
+            "shortName": "Carey303"
+          }
+        },
+        {
+          "away": {
+            "name": "Sonny",
+            "id": "f60kr17immaryir7",
+            "shortName": "Sonny"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 17,
+      "matchupList": [
+        {
+          "away": {
+            "name": "DarthRaider555",
+            "id": "zyti9u6ommazjnqc",
+            "shortName": "DarthRai"
+          },
+          "home": {
+            "name": "owend5",
+            "id": "8jlqqg56mmas684c",
+            "shortName": "owen"
+          }
+        },
+        {
+          "away": {
+            "name": "Carey3037",
+            "id": "1kvj574gmmaut117",
+            "shortName": "Carey303"
+          },
+          "home": {
+            "name": "MickeyMantles7",
+            "id": "ig56b4vmmmatfbcs",
+            "shortName": "MM7"
+          }
+        },
+        {
+          "away": {
+            "name": "Sonny",
+            "id": "f60kr17immaryir7",
+            "shortName": "Sonny"
+          },
+          "home": {
+            "name": "Sox_Fan24",
+            "id": "wj0zh16ymmau0s5p",
+            "shortName": "Sox_Fan2"
+          }
+        },
+        {
+          "away": {
+            "name": "ecoboe",
+            "id": "lhkty0mvmmauhzjs",
+            "shortName": "ecoboe"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 18,
+      "matchupList": [
+        {
+          "away": {
+            "name": "owend5",
+            "id": "8jlqqg56mmas684c",
+            "shortName": "owen"
+          },
+          "home": {
+            "name": "Carey3037",
+            "id": "1kvj574gmmaut117",
+            "shortName": "Carey303"
+          }
+        },
+        {
+          "away": {
+            "name": "DarthRaider555",
+            "id": "zyti9u6ommazjnqc",
+            "shortName": "DarthRai"
+          },
+          "home": {
+            "name": "Sonny",
+            "id": "f60kr17immaryir7",
+            "shortName": "Sonny"
+          }
+        },
+        {
+          "away": {
+            "name": "Sox_Fan24",
+            "id": "wj0zh16ymmau0s5p",
+            "shortName": "Sox_Fan2"
+          },
+          "home": {
+            "name": "ecoboe",
+            "id": "lhkty0mvmmauhzjs",
+            "shortName": "ecoboe"
+          }
+        },
+        {
+          "away": {
+            "name": "MickeyMantles7",
+            "id": "ig56b4vmmmatfbcs",
+            "shortName": "MM7"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 19,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Sonny",
+            "id": "f60kr17immaryir7",
+            "shortName": "Sonny"
+          },
+          "home": {
+            "name": "owend5",
+            "id": "8jlqqg56mmas684c",
+            "shortName": "owen"
+          }
+        },
+        {
+          "away": {
+            "name": "ecoboe",
+            "id": "lhkty0mvmmauhzjs",
+            "shortName": "ecoboe"
+          },
+          "home": {
+            "name": "DarthRaider555",
+            "id": "zyti9u6ommazjnqc",
+            "shortName": "DarthRai"
+          }
+        },
+        {
+          "away": {
+            "name": "Sox_Fan24",
+            "id": "wj0zh16ymmau0s5p",
+            "shortName": "Sox_Fan2"
+          },
+          "home": {
+            "name": "MickeyMantles7",
+            "id": "ig56b4vmmmatfbcs",
+            "shortName": "MM7"
+          }
+        },
+        {
+          "away": {
+            "name": "Carey3037",
+            "id": "1kvj574gmmaut117",
+            "shortName": "Carey303"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 20,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Sonny",
+            "id": "f60kr17immaryir7",
+            "shortName": "Sonny"
+          },
+          "home": {
+            "name": "ecoboe",
+            "id": "lhkty0mvmmauhzjs",
+            "shortName": "ecoboe"
+          }
+        },
+        {
+          "away": {
+            "name": "Carey3037",
+            "id": "1kvj574gmmaut117",
+            "shortName": "Carey303"
+          },
+          "home": {
+            "name": "Sox_Fan24",
+            "id": "wj0zh16ymmau0s5p",
+            "shortName": "Sox_Fan2"
+          }
+        },
+        {
+          "away": {
+            "name": "DarthRaider555",
+            "id": "zyti9u6ommazjnqc",
+            "shortName": "DarthRai"
+          },
+          "home": {
+            "name": "MickeyMantles7",
+            "id": "ig56b4vmmmatfbcs",
+            "shortName": "MM7"
+          }
+        },
+        {
+          "away": {
+            "name": "owend5",
+            "id": "8jlqqg56mmas684c",
+            "shortName": "owen"
+          },
+          "home": {
+            "name": "Sonny",
+            "id": "f60kr17immaryir7",
+            "shortName": "Sonny"
+          }
+        }
+      ]
+    },
+    {
+      "period": 21,
+      "matchupList": [
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 22,
+      "matchupList": [
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 23,
+      "matchupList": [
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    }
+  ],
+  "standings": [
+    {
+      "teamName": "Carey3037",
+      "teamId": "1kvj574gmmaut117",
+      "gamesBack": 0.0,
+      "rank": 1,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "DarthRaider555",
+      "teamId": "zyti9u6ommazjnqc",
+      "gamesBack": 0.0,
+      "rank": 2,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "MickeyMantles7",
+      "teamId": "ig56b4vmmmatfbcs",
+      "gamesBack": 0.0,
+      "rank": 3,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "ecoboe",
+      "teamId": "lhkty0mvmmauhzjs",
+      "gamesBack": 0.0,
+      "rank": 4,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Sonny",
+      "teamId": "f60kr17immaryir7",
+      "gamesBack": 0.0,
+      "rank": 5,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Sox_Fan24",
+      "teamId": "wj0zh16ymmau0s5p",
+      "gamesBack": 0.0,
+      "rank": 6,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "owend5",
+      "teamId": "8jlqqg56mmas684c",
+      "gamesBack": 0.0,
+      "rank": 7,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    }
+  ]
+}

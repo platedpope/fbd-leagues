@@ -1,0 +1,1715 @@
+{
+  "fantrax_id": "13kc5gwkmm7vhodw",
+  "name": "FBD Champs League",
+  "season_year": 2026,
+  "start_date": "2026-03-25",
+  "end_date": "2026-09-20",
+  "scoring_settings": {
+    "scoringCategories": {
+      "HITTING": {
+        "R": {
+          "Default": "1.0"
+        },
+        "RBI": {
+          "Default": "1.0"
+        },
+        "HR": {
+          "Default": "1.0"
+        },
+        "OBP": {
+          "Default": "1.0"
+        },
+        "SB": {
+          "Default": "1.0"
+        }
+      },
+      "PITCHING": {
+        "WHIP": {
+          "Default": "1.0"
+        },
+        "SVH": {
+          "Default": "1.0"
+        },
+        "ERA": {
+          "Default": "1.0"
+        },
+        "K": {
+          "Default": "1.0"
+        },
+        "W+QS": {
+          "Default": "1.0"
+        }
+      }
+    },
+    "scoringCategorySettings": [
+      {
+        "configs": [
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_HOME_RUNS",
+              "name": "Home Runs",
+              "id": "0200",
+              "shortName": "HR"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_RBIS",
+              "name": "RBI",
+              "id": "0310",
+              "shortName": "RBI"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_RUNS_SCORED",
+              "name": "Runs Scored",
+              "id": "0330",
+              "shortName": "R"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_STOLEN_BASES",
+              "name": "Stolen Bases",
+              "id": "0380",
+              "shortName": "SB"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_ON_BASE_PERCENTAGE",
+              "name": "On Base Percentage",
+              "id": "0510",
+              "shortName": "OBP"
+            }
+          }
+        ],
+        "group": {
+          "code": "BASEBALL_HITTING",
+          "name": "Hitting",
+          "id": "10",
+          "shortName": "Hit"
+        }
+      },
+      {
+        "configs": [
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_STRIKE_OUTS_PITCHED",
+              "name": "Strikeouts Pitched",
+              "id": "0410",
+              "shortName": "K"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_EARNED_RUN_AVERAGE",
+              "name": "Earned Run Average",
+              "id": "0490",
+              "shortName": "ERA"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_SAVES_PLUS_HOLDS",
+              "name": "Saves + Holds",
+              "id": "051i",
+              "shortName": "SVH"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_WHIP_RATIO",
+              "name": "WHIP Ratio",
+              "id": "0580",
+              "shortName": "WHIP"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_WINS_PLUS_QUALITY_STARTS",
+              "name": "Wins + Quality Starts",
+              "id": "0593",
+              "shortName": "W+QS"
+            }
+          }
+        ],
+        "group": {
+          "code": "BASEBALL_PITCHING",
+          "name": "Pitching",
+          "id": "20",
+          "shortName": "Pit"
+        }
+      }
+    ],
+    "type": "rotisserie"
+  },
+  "teams": {
+    "m569lju9mmaywg1y": {
+      "name": "dumbpot destroyers",
+      "id": "m569lju9mmaywg1y"
+    },
+    "sg7udcxrmmb1zyid": {
+      "name": "Sports_Fan267",
+      "id": "sg7udcxrmmb1zyid"
+    },
+    "4y68k774mmap6c1t": {
+      "name": "Barzyyx13",
+      "id": "4y68k774mmap6c1t"
+    },
+    "nfyzxgwpmmb5521t": {
+      "name": "pr38",
+      "id": "nfyzxgwpmmb5521t"
+    },
+    "ftx5hb6mmmaqfxox": {
+      "name": "Generic Team",
+      "id": "ftx5hb6mmmaqfxox"
+    },
+    "pv8qzbormmasqfcn": {
+      "name": "Blu_",
+      "id": "pv8qzbormmasqfcn"
+    },
+    "1c4r2w9ommax48mj": {
+      "name": "The Electabuzz",
+      "id": "1c4r2w9ommax48mj"
+    },
+    "9vb1wd29mmb86ng8": {
+      "name": "Gabed",
+      "id": "9vb1wd29mmb86ng8"
+    },
+    "n7v57rtfmmas7c0i": {
+      "name": "markymarc767",
+      "id": "n7v57rtfmmas7c0i"
+    },
+    "wrxxpmhnmmap5a3a": {
+      "name": "Sniveling Slothrops",
+      "id": "wrxxpmhnmmap5a3a"
+    }
+  },
+  "matchups": [
+    {
+      "period": 1,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Sports_Fan267",
+            "id": "sg7udcxrmmb1zyid",
+            "shortName": "Sports_F"
+          },
+          "home": {
+            "name": "markymarc767",
+            "id": "n7v57rtfmmas7c0i",
+            "shortName": "markymar"
+          }
+        },
+        {
+          "away": {
+            "name": "dumbpot destroyers",
+            "id": "m569lju9mmaywg1y",
+            "shortName": "SpencerT"
+          },
+          "home": {
+            "name": "Blu_",
+            "id": "pv8qzbormmasqfcn",
+            "shortName": "Blu_"
+          }
+        },
+        {
+          "away": {
+            "name": "pr38",
+            "id": "nfyzxgwpmmb5521t",
+            "shortName": "pr38"
+          },
+          "home": {
+            "name": "The Electabuzz",
+            "id": "1c4r2w9ommax48mj",
+            "shortName": "BUZZ"
+          }
+        },
+        {
+          "away": {
+            "name": "Gabed",
+            "id": "9vb1wd29mmb86ng8",
+            "shortName": "Gabed"
+          },
+          "home": {
+            "name": "Sniveling Slothrops",
+            "id": "wrxxpmhnmmap5a3a",
+            "shortName": "TS"
+          }
+        },
+        {
+          "away": {
+            "name": "Generic Team",
+            "id": "ftx5hb6mmmaqfxox",
+            "shortName": "GT"
+          },
+          "home": {
+            "name": "Barzyyx13",
+            "id": "4y68k774mmap6c1t",
+            "shortName": "Barzyyx1"
+          }
+        }
+      ]
+    },
+    {
+      "period": 2,
+      "matchupList": [
+        {
+          "away": {
+            "name": "markymarc767",
+            "id": "n7v57rtfmmas7c0i",
+            "shortName": "markymar"
+          },
+          "home": {
+            "name": "dumbpot destroyers",
+            "id": "m569lju9mmaywg1y",
+            "shortName": "SpencerT"
+          }
+        },
+        {
+          "away": {
+            "name": "Sports_Fan267",
+            "id": "sg7udcxrmmb1zyid",
+            "shortName": "Sports_F"
+          },
+          "home": {
+            "name": "pr38",
+            "id": "nfyzxgwpmmb5521t",
+            "shortName": "pr38"
+          }
+        },
+        {
+          "away": {
+            "name": "Blu_",
+            "id": "pv8qzbormmasqfcn",
+            "shortName": "Blu_"
+          },
+          "home": {
+            "name": "Gabed",
+            "id": "9vb1wd29mmb86ng8",
+            "shortName": "Gabed"
+          }
+        },
+        {
+          "away": {
+            "name": "The Electabuzz",
+            "id": "1c4r2w9ommax48mj",
+            "shortName": "BUZZ"
+          },
+          "home": {
+            "name": "Generic Team",
+            "id": "ftx5hb6mmmaqfxox",
+            "shortName": "GT"
+          }
+        },
+        {
+          "away": {
+            "name": "Sniveling Slothrops",
+            "id": "wrxxpmhnmmap5a3a",
+            "shortName": "TS"
+          },
+          "home": {
+            "name": "Barzyyx13",
+            "id": "4y68k774mmap6c1t",
+            "shortName": "Barzyyx1"
+          }
+        }
+      ]
+    },
+    {
+      "period": 3,
+      "matchupList": [
+        {
+          "away": {
+            "name": "pr38",
+            "id": "nfyzxgwpmmb5521t",
+            "shortName": "pr38"
+          },
+          "home": {
+            "name": "markymarc767",
+            "id": "n7v57rtfmmas7c0i",
+            "shortName": "markymar"
+          }
+        },
+        {
+          "away": {
+            "name": "Gabed",
+            "id": "9vb1wd29mmb86ng8",
+            "shortName": "Gabed"
+          },
+          "home": {
+            "name": "dumbpot destroyers",
+            "id": "m569lju9mmaywg1y",
+            "shortName": "SpencerT"
+          }
+        },
+        {
+          "away": {
+            "name": "Generic Team",
+            "id": "ftx5hb6mmmaqfxox",
+            "shortName": "GT"
+          },
+          "home": {
+            "name": "Sports_Fan267",
+            "id": "sg7udcxrmmb1zyid",
+            "shortName": "Sports_F"
+          }
+        },
+        {
+          "away": {
+            "name": "Barzyyx13",
+            "id": "4y68k774mmap6c1t",
+            "shortName": "Barzyyx1"
+          },
+          "home": {
+            "name": "Blu_",
+            "id": "pv8qzbormmasqfcn",
+            "shortName": "Blu_"
+          }
+        },
+        {
+          "away": {
+            "name": "Sniveling Slothrops",
+            "id": "wrxxpmhnmmap5a3a",
+            "shortName": "TS"
+          },
+          "home": {
+            "name": "The Electabuzz",
+            "id": "1c4r2w9ommax48mj",
+            "shortName": "BUZZ"
+          }
+        }
+      ]
+    },
+    {
+      "period": 4,
+      "matchupList": [
+        {
+          "away": {
+            "name": "markymarc767",
+            "id": "n7v57rtfmmas7c0i",
+            "shortName": "markymar"
+          },
+          "home": {
+            "name": "Gabed",
+            "id": "9vb1wd29mmb86ng8",
+            "shortName": "Gabed"
+          }
+        },
+        {
+          "away": {
+            "name": "pr38",
+            "id": "nfyzxgwpmmb5521t",
+            "shortName": "pr38"
+          },
+          "home": {
+            "name": "Generic Team",
+            "id": "ftx5hb6mmmaqfxox",
+            "shortName": "GT"
+          }
+        },
+        {
+          "away": {
+            "name": "dumbpot destroyers",
+            "id": "m569lju9mmaywg1y",
+            "shortName": "SpencerT"
+          },
+          "home": {
+            "name": "Barzyyx13",
+            "id": "4y68k774mmap6c1t",
+            "shortName": "Barzyyx1"
+          }
+        },
+        {
+          "away": {
+            "name": "Sports_Fan267",
+            "id": "sg7udcxrmmb1zyid",
+            "shortName": "Sports_F"
+          },
+          "home": {
+            "name": "Sniveling Slothrops",
+            "id": "wrxxpmhnmmap5a3a",
+            "shortName": "TS"
+          }
+        },
+        {
+          "away": {
+            "name": "Blu_",
+            "id": "pv8qzbormmasqfcn",
+            "shortName": "Blu_"
+          },
+          "home": {
+            "name": "The Electabuzz",
+            "id": "1c4r2w9ommax48mj",
+            "shortName": "BUZZ"
+          }
+        }
+      ]
+    },
+    {
+      "period": 5,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Generic Team",
+            "id": "ftx5hb6mmmaqfxox",
+            "shortName": "GT"
+          },
+          "home": {
+            "name": "markymarc767",
+            "id": "n7v57rtfmmas7c0i",
+            "shortName": "markymar"
+          }
+        },
+        {
+          "away": {
+            "name": "Barzyyx13",
+            "id": "4y68k774mmap6c1t",
+            "shortName": "Barzyyx1"
+          },
+          "home": {
+            "name": "Gabed",
+            "id": "9vb1wd29mmb86ng8",
+            "shortName": "Gabed"
+          }
+        },
+        {
+          "away": {
+            "name": "Sniveling Slothrops",
+            "id": "wrxxpmhnmmap5a3a",
+            "shortName": "TS"
+          },
+          "home": {
+            "name": "pr38",
+            "id": "nfyzxgwpmmb5521t",
+            "shortName": "pr38"
+          }
+        },
+        {
+          "away": {
+            "name": "The Electabuzz",
+            "id": "1c4r2w9ommax48mj",
+            "shortName": "BUZZ"
+          },
+          "home": {
+            "name": "dumbpot destroyers",
+            "id": "m569lju9mmaywg1y",
+            "shortName": "SpencerT"
+          }
+        },
+        {
+          "away": {
+            "name": "Blu_",
+            "id": "pv8qzbormmasqfcn",
+            "shortName": "Blu_"
+          },
+          "home": {
+            "name": "Sports_Fan267",
+            "id": "sg7udcxrmmb1zyid",
+            "shortName": "Sports_F"
+          }
+        }
+      ]
+    },
+    {
+      "period": 6,
+      "matchupList": [
+        {
+          "away": {
+            "name": "markymarc767",
+            "id": "n7v57rtfmmas7c0i",
+            "shortName": "markymar"
+          },
+          "home": {
+            "name": "Barzyyx13",
+            "id": "4y68k774mmap6c1t",
+            "shortName": "Barzyyx1"
+          }
+        },
+        {
+          "away": {
+            "name": "Generic Team",
+            "id": "ftx5hb6mmmaqfxox",
+            "shortName": "GT"
+          },
+          "home": {
+            "name": "Sniveling Slothrops",
+            "id": "wrxxpmhnmmap5a3a",
+            "shortName": "TS"
+          }
+        },
+        {
+          "away": {
+            "name": "Gabed",
+            "id": "9vb1wd29mmb86ng8",
+            "shortName": "Gabed"
+          },
+          "home": {
+            "name": "The Electabuzz",
+            "id": "1c4r2w9ommax48mj",
+            "shortName": "BUZZ"
+          }
+        },
+        {
+          "away": {
+            "name": "pr38",
+            "id": "nfyzxgwpmmb5521t",
+            "shortName": "pr38"
+          },
+          "home": {
+            "name": "Blu_",
+            "id": "pv8qzbormmasqfcn",
+            "shortName": "Blu_"
+          }
+        },
+        {
+          "away": {
+            "name": "dumbpot destroyers",
+            "id": "m569lju9mmaywg1y",
+            "shortName": "SpencerT"
+          },
+          "home": {
+            "name": "Sports_Fan267",
+            "id": "sg7udcxrmmb1zyid",
+            "shortName": "Sports_F"
+          }
+        }
+      ]
+    },
+    {
+      "period": 7,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Sniveling Slothrops",
+            "id": "wrxxpmhnmmap5a3a",
+            "shortName": "TS"
+          },
+          "home": {
+            "name": "markymarc767",
+            "id": "n7v57rtfmmas7c0i",
+            "shortName": "markymar"
+          }
+        },
+        {
+          "away": {
+            "name": "The Electabuzz",
+            "id": "1c4r2w9ommax48mj",
+            "shortName": "BUZZ"
+          },
+          "home": {
+            "name": "Barzyyx13",
+            "id": "4y68k774mmap6c1t",
+            "shortName": "Barzyyx1"
+          }
+        },
+        {
+          "away": {
+            "name": "Blu_",
+            "id": "pv8qzbormmasqfcn",
+            "shortName": "Blu_"
+          },
+          "home": {
+            "name": "Generic Team",
+            "id": "ftx5hb6mmmaqfxox",
+            "shortName": "GT"
+          }
+        },
+        {
+          "away": {
+            "name": "Sports_Fan267",
+            "id": "sg7udcxrmmb1zyid",
+            "shortName": "Sports_F"
+          },
+          "home": {
+            "name": "Gabed",
+            "id": "9vb1wd29mmb86ng8",
+            "shortName": "Gabed"
+          }
+        },
+        {
+          "away": {
+            "name": "dumbpot destroyers",
+            "id": "m569lju9mmaywg1y",
+            "shortName": "SpencerT"
+          },
+          "home": {
+            "name": "pr38",
+            "id": "nfyzxgwpmmb5521t",
+            "shortName": "pr38"
+          }
+        }
+      ]
+    },
+    {
+      "period": 8,
+      "matchupList": [
+        {
+          "away": {
+            "name": "markymarc767",
+            "id": "n7v57rtfmmas7c0i",
+            "shortName": "markymar"
+          },
+          "home": {
+            "name": "The Electabuzz",
+            "id": "1c4r2w9ommax48mj",
+            "shortName": "BUZZ"
+          }
+        },
+        {
+          "away": {
+            "name": "Sniveling Slothrops",
+            "id": "wrxxpmhnmmap5a3a",
+            "shortName": "TS"
+          },
+          "home": {
+            "name": "Blu_",
+            "id": "pv8qzbormmasqfcn",
+            "shortName": "Blu_"
+          }
+        },
+        {
+          "away": {
+            "name": "Barzyyx13",
+            "id": "4y68k774mmap6c1t",
+            "shortName": "Barzyyx1"
+          },
+          "home": {
+            "name": "Sports_Fan267",
+            "id": "sg7udcxrmmb1zyid",
+            "shortName": "Sports_F"
+          }
+        },
+        {
+          "away": {
+            "name": "Generic Team",
+            "id": "ftx5hb6mmmaqfxox",
+            "shortName": "GT"
+          },
+          "home": {
+            "name": "dumbpot destroyers",
+            "id": "m569lju9mmaywg1y",
+            "shortName": "SpencerT"
+          }
+        },
+        {
+          "away": {
+            "name": "Gabed",
+            "id": "9vb1wd29mmb86ng8",
+            "shortName": "Gabed"
+          },
+          "home": {
+            "name": "pr38",
+            "id": "nfyzxgwpmmb5521t",
+            "shortName": "pr38"
+          }
+        }
+      ]
+    },
+    {
+      "period": 9,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Blu_",
+            "id": "pv8qzbormmasqfcn",
+            "shortName": "Blu_"
+          },
+          "home": {
+            "name": "markymarc767",
+            "id": "n7v57rtfmmas7c0i",
+            "shortName": "markymar"
+          }
+        },
+        {
+          "away": {
+            "name": "Sports_Fan267",
+            "id": "sg7udcxrmmb1zyid",
+            "shortName": "Sports_F"
+          },
+          "home": {
+            "name": "The Electabuzz",
+            "id": "1c4r2w9ommax48mj",
+            "shortName": "BUZZ"
+          }
+        },
+        {
+          "away": {
+            "name": "dumbpot destroyers",
+            "id": "m569lju9mmaywg1y",
+            "shortName": "SpencerT"
+          },
+          "home": {
+            "name": "Sniveling Slothrops",
+            "id": "wrxxpmhnmmap5a3a",
+            "shortName": "TS"
+          }
+        },
+        {
+          "away": {
+            "name": "pr38",
+            "id": "nfyzxgwpmmb5521t",
+            "shortName": "pr38"
+          },
+          "home": {
+            "name": "Barzyyx13",
+            "id": "4y68k774mmap6c1t",
+            "shortName": "Barzyyx1"
+          }
+        },
+        {
+          "away": {
+            "name": "Gabed",
+            "id": "9vb1wd29mmb86ng8",
+            "shortName": "Gabed"
+          },
+          "home": {
+            "name": "Generic Team",
+            "id": "ftx5hb6mmmaqfxox",
+            "shortName": "GT"
+          }
+        }
+      ]
+    },
+    {
+      "period": 10,
+      "matchupList": [
+        {
+          "away": {
+            "name": "markymarc767",
+            "id": "n7v57rtfmmas7c0i",
+            "shortName": "markymar"
+          },
+          "home": {
+            "name": "Sports_Fan267",
+            "id": "sg7udcxrmmb1zyid",
+            "shortName": "Sports_F"
+          }
+        },
+        {
+          "away": {
+            "name": "Blu_",
+            "id": "pv8qzbormmasqfcn",
+            "shortName": "Blu_"
+          },
+          "home": {
+            "name": "dumbpot destroyers",
+            "id": "m569lju9mmaywg1y",
+            "shortName": "SpencerT"
+          }
+        },
+        {
+          "away": {
+            "name": "The Electabuzz",
+            "id": "1c4r2w9ommax48mj",
+            "shortName": "BUZZ"
+          },
+          "home": {
+            "name": "pr38",
+            "id": "nfyzxgwpmmb5521t",
+            "shortName": "pr38"
+          }
+        },
+        {
+          "away": {
+            "name": "Sniveling Slothrops",
+            "id": "wrxxpmhnmmap5a3a",
+            "shortName": "TS"
+          },
+          "home": {
+            "name": "Gabed",
+            "id": "9vb1wd29mmb86ng8",
+            "shortName": "Gabed"
+          }
+        },
+        {
+          "away": {
+            "name": "Barzyyx13",
+            "id": "4y68k774mmap6c1t",
+            "shortName": "Barzyyx1"
+          },
+          "home": {
+            "name": "Generic Team",
+            "id": "ftx5hb6mmmaqfxox",
+            "shortName": "GT"
+          }
+        }
+      ]
+    },
+    {
+      "period": 11,
+      "matchupList": [
+        {
+          "away": {
+            "name": "dumbpot destroyers",
+            "id": "m569lju9mmaywg1y",
+            "shortName": "SpencerT"
+          },
+          "home": {
+            "name": "markymarc767",
+            "id": "n7v57rtfmmas7c0i",
+            "shortName": "markymar"
+          }
+        },
+        {
+          "away": {
+            "name": "pr38",
+            "id": "nfyzxgwpmmb5521t",
+            "shortName": "pr38"
+          },
+          "home": {
+            "name": "Sports_Fan267",
+            "id": "sg7udcxrmmb1zyid",
+            "shortName": "Sports_F"
+          }
+        },
+        {
+          "away": {
+            "name": "Gabed",
+            "id": "9vb1wd29mmb86ng8",
+            "shortName": "Gabed"
+          },
+          "home": {
+            "name": "Blu_",
+            "id": "pv8qzbormmasqfcn",
+            "shortName": "Blu_"
+          }
+        },
+        {
+          "away": {
+            "name": "Generic Team",
+            "id": "ftx5hb6mmmaqfxox",
+            "shortName": "GT"
+          },
+          "home": {
+            "name": "The Electabuzz",
+            "id": "1c4r2w9ommax48mj",
+            "shortName": "BUZZ"
+          }
+        },
+        {
+          "away": {
+            "name": "Barzyyx13",
+            "id": "4y68k774mmap6c1t",
+            "shortName": "Barzyyx1"
+          },
+          "home": {
+            "name": "Sniveling Slothrops",
+            "id": "wrxxpmhnmmap5a3a",
+            "shortName": "TS"
+          }
+        }
+      ]
+    },
+    {
+      "period": 12,
+      "matchupList": [
+        {
+          "away": {
+            "name": "markymarc767",
+            "id": "n7v57rtfmmas7c0i",
+            "shortName": "markymar"
+          },
+          "home": {
+            "name": "pr38",
+            "id": "nfyzxgwpmmb5521t",
+            "shortName": "pr38"
+          }
+        },
+        {
+          "away": {
+            "name": "dumbpot destroyers",
+            "id": "m569lju9mmaywg1y",
+            "shortName": "SpencerT"
+          },
+          "home": {
+            "name": "Gabed",
+            "id": "9vb1wd29mmb86ng8",
+            "shortName": "Gabed"
+          }
+        },
+        {
+          "away": {
+            "name": "Sports_Fan267",
+            "id": "sg7udcxrmmb1zyid",
+            "shortName": "Sports_F"
+          },
+          "home": {
+            "name": "Generic Team",
+            "id": "ftx5hb6mmmaqfxox",
+            "shortName": "GT"
+          }
+        },
+        {
+          "away": {
+            "name": "Blu_",
+            "id": "pv8qzbormmasqfcn",
+            "shortName": "Blu_"
+          },
+          "home": {
+            "name": "Barzyyx13",
+            "id": "4y68k774mmap6c1t",
+            "shortName": "Barzyyx1"
+          }
+        },
+        {
+          "away": {
+            "name": "The Electabuzz",
+            "id": "1c4r2w9ommax48mj",
+            "shortName": "BUZZ"
+          },
+          "home": {
+            "name": "Sniveling Slothrops",
+            "id": "wrxxpmhnmmap5a3a",
+            "shortName": "TS"
+          }
+        }
+      ]
+    },
+    {
+      "period": 13,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Gabed",
+            "id": "9vb1wd29mmb86ng8",
+            "shortName": "Gabed"
+          },
+          "home": {
+            "name": "markymarc767",
+            "id": "n7v57rtfmmas7c0i",
+            "shortName": "markymar"
+          }
+        },
+        {
+          "away": {
+            "name": "Generic Team",
+            "id": "ftx5hb6mmmaqfxox",
+            "shortName": "GT"
+          },
+          "home": {
+            "name": "pr38",
+            "id": "nfyzxgwpmmb5521t",
+            "shortName": "pr38"
+          }
+        },
+        {
+          "away": {
+            "name": "Barzyyx13",
+            "id": "4y68k774mmap6c1t",
+            "shortName": "Barzyyx1"
+          },
+          "home": {
+            "name": "dumbpot destroyers",
+            "id": "m569lju9mmaywg1y",
+            "shortName": "SpencerT"
+          }
+        },
+        {
+          "away": {
+            "name": "Sniveling Slothrops",
+            "id": "wrxxpmhnmmap5a3a",
+            "shortName": "TS"
+          },
+          "home": {
+            "name": "Sports_Fan267",
+            "id": "sg7udcxrmmb1zyid",
+            "shortName": "Sports_F"
+          }
+        },
+        {
+          "away": {
+            "name": "The Electabuzz",
+            "id": "1c4r2w9ommax48mj",
+            "shortName": "BUZZ"
+          },
+          "home": {
+            "name": "Blu_",
+            "id": "pv8qzbormmasqfcn",
+            "shortName": "Blu_"
+          }
+        }
+      ]
+    },
+    {
+      "period": 14,
+      "matchupList": [
+        {
+          "away": {
+            "name": "markymarc767",
+            "id": "n7v57rtfmmas7c0i",
+            "shortName": "markymar"
+          },
+          "home": {
+            "name": "Generic Team",
+            "id": "ftx5hb6mmmaqfxox",
+            "shortName": "GT"
+          }
+        },
+        {
+          "away": {
+            "name": "Gabed",
+            "id": "9vb1wd29mmb86ng8",
+            "shortName": "Gabed"
+          },
+          "home": {
+            "name": "Barzyyx13",
+            "id": "4y68k774mmap6c1t",
+            "shortName": "Barzyyx1"
+          }
+        },
+        {
+          "away": {
+            "name": "pr38",
+            "id": "nfyzxgwpmmb5521t",
+            "shortName": "pr38"
+          },
+          "home": {
+            "name": "Sniveling Slothrops",
+            "id": "wrxxpmhnmmap5a3a",
+            "shortName": "TS"
+          }
+        },
+        {
+          "away": {
+            "name": "dumbpot destroyers",
+            "id": "m569lju9mmaywg1y",
+            "shortName": "SpencerT"
+          },
+          "home": {
+            "name": "The Electabuzz",
+            "id": "1c4r2w9ommax48mj",
+            "shortName": "BUZZ"
+          }
+        },
+        {
+          "away": {
+            "name": "Sports_Fan267",
+            "id": "sg7udcxrmmb1zyid",
+            "shortName": "Sports_F"
+          },
+          "home": {
+            "name": "Blu_",
+            "id": "pv8qzbormmasqfcn",
+            "shortName": "Blu_"
+          }
+        }
+      ]
+    },
+    {
+      "period": 15,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Barzyyx13",
+            "id": "4y68k774mmap6c1t",
+            "shortName": "Barzyyx1"
+          },
+          "home": {
+            "name": "markymarc767",
+            "id": "n7v57rtfmmas7c0i",
+            "shortName": "markymar"
+          }
+        },
+        {
+          "away": {
+            "name": "Sniveling Slothrops",
+            "id": "wrxxpmhnmmap5a3a",
+            "shortName": "TS"
+          },
+          "home": {
+            "name": "Generic Team",
+            "id": "ftx5hb6mmmaqfxox",
+            "shortName": "GT"
+          }
+        },
+        {
+          "away": {
+            "name": "The Electabuzz",
+            "id": "1c4r2w9ommax48mj",
+            "shortName": "BUZZ"
+          },
+          "home": {
+            "name": "Gabed",
+            "id": "9vb1wd29mmb86ng8",
+            "shortName": "Gabed"
+          }
+        },
+        {
+          "away": {
+            "name": "Blu_",
+            "id": "pv8qzbormmasqfcn",
+            "shortName": "Blu_"
+          },
+          "home": {
+            "name": "pr38",
+            "id": "nfyzxgwpmmb5521t",
+            "shortName": "pr38"
+          }
+        },
+        {
+          "away": {
+            "name": "Sports_Fan267",
+            "id": "sg7udcxrmmb1zyid",
+            "shortName": "Sports_F"
+          },
+          "home": {
+            "name": "dumbpot destroyers",
+            "id": "m569lju9mmaywg1y",
+            "shortName": "SpencerT"
+          }
+        }
+      ]
+    },
+    {
+      "period": 16,
+      "matchupList": [
+        {
+          "away": {
+            "name": "markymarc767",
+            "id": "n7v57rtfmmas7c0i",
+            "shortName": "markymar"
+          },
+          "home": {
+            "name": "Sniveling Slothrops",
+            "id": "wrxxpmhnmmap5a3a",
+            "shortName": "TS"
+          }
+        },
+        {
+          "away": {
+            "name": "Barzyyx13",
+            "id": "4y68k774mmap6c1t",
+            "shortName": "Barzyyx1"
+          },
+          "home": {
+            "name": "The Electabuzz",
+            "id": "1c4r2w9ommax48mj",
+            "shortName": "BUZZ"
+          }
+        },
+        {
+          "away": {
+            "name": "Generic Team",
+            "id": "ftx5hb6mmmaqfxox",
+            "shortName": "GT"
+          },
+          "home": {
+            "name": "Blu_",
+            "id": "pv8qzbormmasqfcn",
+            "shortName": "Blu_"
+          }
+        },
+        {
+          "away": {
+            "name": "Gabed",
+            "id": "9vb1wd29mmb86ng8",
+            "shortName": "Gabed"
+          },
+          "home": {
+            "name": "Sports_Fan267",
+            "id": "sg7udcxrmmb1zyid",
+            "shortName": "Sports_F"
+          }
+        },
+        {
+          "away": {
+            "name": "pr38",
+            "id": "nfyzxgwpmmb5521t",
+            "shortName": "pr38"
+          },
+          "home": {
+            "name": "dumbpot destroyers",
+            "id": "m569lju9mmaywg1y",
+            "shortName": "SpencerT"
+          }
+        }
+      ]
+    },
+    {
+      "period": 17,
+      "matchupList": [
+        {
+          "away": {
+            "name": "The Electabuzz",
+            "id": "1c4r2w9ommax48mj",
+            "shortName": "BUZZ"
+          },
+          "home": {
+            "name": "markymarc767",
+            "id": "n7v57rtfmmas7c0i",
+            "shortName": "markymar"
+          }
+        },
+        {
+          "away": {
+            "name": "Blu_",
+            "id": "pv8qzbormmasqfcn",
+            "shortName": "Blu_"
+          },
+          "home": {
+            "name": "Sniveling Slothrops",
+            "id": "wrxxpmhnmmap5a3a",
+            "shortName": "TS"
+          }
+        },
+        {
+          "away": {
+            "name": "Sports_Fan267",
+            "id": "sg7udcxrmmb1zyid",
+            "shortName": "Sports_F"
+          },
+          "home": {
+            "name": "Barzyyx13",
+            "id": "4y68k774mmap6c1t",
+            "shortName": "Barzyyx1"
+          }
+        },
+        {
+          "away": {
+            "name": "dumbpot destroyers",
+            "id": "m569lju9mmaywg1y",
+            "shortName": "SpencerT"
+          },
+          "home": {
+            "name": "Generic Team",
+            "id": "ftx5hb6mmmaqfxox",
+            "shortName": "GT"
+          }
+        },
+        {
+          "away": {
+            "name": "pr38",
+            "id": "nfyzxgwpmmb5521t",
+            "shortName": "pr38"
+          },
+          "home": {
+            "name": "Gabed",
+            "id": "9vb1wd29mmb86ng8",
+            "shortName": "Gabed"
+          }
+        }
+      ]
+    },
+    {
+      "period": 18,
+      "matchupList": [
+        {
+          "away": {
+            "name": "markymarc767",
+            "id": "n7v57rtfmmas7c0i",
+            "shortName": "markymar"
+          },
+          "home": {
+            "name": "Blu_",
+            "id": "pv8qzbormmasqfcn",
+            "shortName": "Blu_"
+          }
+        },
+        {
+          "away": {
+            "name": "The Electabuzz",
+            "id": "1c4r2w9ommax48mj",
+            "shortName": "BUZZ"
+          },
+          "home": {
+            "name": "Sports_Fan267",
+            "id": "sg7udcxrmmb1zyid",
+            "shortName": "Sports_F"
+          }
+        },
+        {
+          "away": {
+            "name": "Sniveling Slothrops",
+            "id": "wrxxpmhnmmap5a3a",
+            "shortName": "TS"
+          },
+          "home": {
+            "name": "dumbpot destroyers",
+            "id": "m569lju9mmaywg1y",
+            "shortName": "SpencerT"
+          }
+        },
+        {
+          "away": {
+            "name": "Barzyyx13",
+            "id": "4y68k774mmap6c1t",
+            "shortName": "Barzyyx1"
+          },
+          "home": {
+            "name": "pr38",
+            "id": "nfyzxgwpmmb5521t",
+            "shortName": "pr38"
+          }
+        },
+        {
+          "away": {
+            "name": "Generic Team",
+            "id": "ftx5hb6mmmaqfxox",
+            "shortName": "GT"
+          },
+          "home": {
+            "name": "Gabed",
+            "id": "9vb1wd29mmb86ng8",
+            "shortName": "Gabed"
+          }
+        }
+      ]
+    },
+    {
+      "period": 19,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Sports_Fan267",
+            "id": "sg7udcxrmmb1zyid",
+            "shortName": "Sports_F"
+          },
+          "home": {
+            "name": "markymarc767",
+            "id": "n7v57rtfmmas7c0i",
+            "shortName": "markymar"
+          }
+        },
+        {
+          "away": {
+            "name": "dumbpot destroyers",
+            "id": "m569lju9mmaywg1y",
+            "shortName": "SpencerT"
+          },
+          "home": {
+            "name": "Blu_",
+            "id": "pv8qzbormmasqfcn",
+            "shortName": "Blu_"
+          }
+        },
+        {
+          "away": {
+            "name": "pr38",
+            "id": "nfyzxgwpmmb5521t",
+            "shortName": "pr38"
+          },
+          "home": {
+            "name": "The Electabuzz",
+            "id": "1c4r2w9ommax48mj",
+            "shortName": "BUZZ"
+          }
+        },
+        {
+          "away": {
+            "name": "Gabed",
+            "id": "9vb1wd29mmb86ng8",
+            "shortName": "Gabed"
+          },
+          "home": {
+            "name": "Sniveling Slothrops",
+            "id": "wrxxpmhnmmap5a3a",
+            "shortName": "TS"
+          }
+        },
+        {
+          "away": {
+            "name": "Generic Team",
+            "id": "ftx5hb6mmmaqfxox",
+            "shortName": "GT"
+          },
+          "home": {
+            "name": "Barzyyx13",
+            "id": "4y68k774mmap6c1t",
+            "shortName": "Barzyyx1"
+          }
+        }
+      ]
+    },
+    {
+      "period": 20,
+      "matchupList": [
+        {
+          "away": {
+            "name": "markymarc767",
+            "id": "n7v57rtfmmas7c0i",
+            "shortName": "markymar"
+          },
+          "home": {
+            "name": "dumbpot destroyers",
+            "id": "m569lju9mmaywg1y",
+            "shortName": "SpencerT"
+          }
+        },
+        {
+          "away": {
+            "name": "Sports_Fan267",
+            "id": "sg7udcxrmmb1zyid",
+            "shortName": "Sports_F"
+          },
+          "home": {
+            "name": "pr38",
+            "id": "nfyzxgwpmmb5521t",
+            "shortName": "pr38"
+          }
+        },
+        {
+          "away": {
+            "name": "Blu_",
+            "id": "pv8qzbormmasqfcn",
+            "shortName": "Blu_"
+          },
+          "home": {
+            "name": "Gabed",
+            "id": "9vb1wd29mmb86ng8",
+            "shortName": "Gabed"
+          }
+        },
+        {
+          "away": {
+            "name": "The Electabuzz",
+            "id": "1c4r2w9ommax48mj",
+            "shortName": "BUZZ"
+          },
+          "home": {
+            "name": "Generic Team",
+            "id": "ftx5hb6mmmaqfxox",
+            "shortName": "GT"
+          }
+        },
+        {
+          "away": {
+            "name": "Sniveling Slothrops",
+            "id": "wrxxpmhnmmap5a3a",
+            "shortName": "TS"
+          },
+          "home": {
+            "name": "Barzyyx13",
+            "id": "4y68k774mmap6c1t",
+            "shortName": "Barzyyx1"
+          }
+        }
+      ]
+    },
+    {
+      "period": 21,
+      "matchupList": [
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 22,
+      "matchupList": [
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 23,
+      "matchupList": [
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    }
+  ],
+  "standings": [
+    {
+      "teamName": "Blu_",
+      "teamId": "pv8qzbormmasqfcn",
+      "gamesBack": 0.0,
+      "rank": 1,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Barzyyx13",
+      "teamId": "4y68k774mmap6c1t",
+      "gamesBack": 0.0,
+      "rank": 2,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "The Electabuzz",
+      "teamId": "1c4r2w9ommax48mj",
+      "gamesBack": 0.0,
+      "rank": 3,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "dumbpot destroyers",
+      "teamId": "m569lju9mmaywg1y",
+      "gamesBack": 0.0,
+      "rank": 4,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "markymarc767",
+      "teamId": "n7v57rtfmmas7c0i",
+      "gamesBack": 0.0,
+      "rank": 5,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Generic Team",
+      "teamId": "ftx5hb6mmmaqfxox",
+      "gamesBack": 0.0,
+      "rank": 6,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Sports_Fan267",
+      "teamId": "sg7udcxrmmb1zyid",
+      "gamesBack": 0.0,
+      "rank": 7,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Sniveling Slothrops",
+      "teamId": "wrxxpmhnmmap5a3a",
+      "gamesBack": 0.0,
+      "rank": 8,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "pr38",
+      "teamId": "nfyzxgwpmmb5521t",
+      "gamesBack": 0.0,
+      "rank": 9,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Gabed",
+      "teamId": "9vb1wd29mmb86ng8",
+      "gamesBack": 0.0,
+      "rank": 10,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    }
+  ]
+}

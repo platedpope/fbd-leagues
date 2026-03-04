@@ -1,0 +1,1463 @@
+{
+  "fantrax_id": "fn3v32w0mm9zyi4a",
+  "name": "FBD Bob Gibson League",
+  "season_year": 2026,
+  "start_date": "2026-03-25",
+  "end_date": "2026-09-20",
+  "scoring_settings": {
+    "scoringCategories": {
+      "HITTING": {
+        "R": {
+          "Default": "1.0"
+        },
+        "RBI": {
+          "Default": "1.0"
+        },
+        "HR": {
+          "Default": "1.0"
+        },
+        "OBP": {
+          "Default": "1.0"
+        },
+        "SB": {
+          "Default": "1.0"
+        }
+      },
+      "PITCHING": {
+        "WHIP": {
+          "Default": "1.0"
+        },
+        "SVH": {
+          "Default": "1.0"
+        },
+        "ERA": {
+          "Default": "1.0"
+        },
+        "K": {
+          "Default": "1.0"
+        },
+        "W+QS": {
+          "Default": "1.0"
+        }
+      }
+    },
+    "scoringCategorySettings": [
+      {
+        "configs": [
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_HOME_RUNS",
+              "name": "Home Runs",
+              "id": "0200",
+              "shortName": "HR"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_RBIS",
+              "name": "RBI",
+              "id": "0310",
+              "shortName": "RBI"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_RUNS_SCORED",
+              "name": "Runs Scored",
+              "id": "0330",
+              "shortName": "R"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_STOLEN_BASES",
+              "name": "Stolen Bases",
+              "id": "0380",
+              "shortName": "SB"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_ON_BASE_PERCENTAGE",
+              "name": "On Base Percentage",
+              "id": "0510",
+              "shortName": "OBP"
+            }
+          }
+        ],
+        "group": {
+          "code": "BASEBALL_HITTING",
+          "name": "Hitting",
+          "id": "10",
+          "shortName": "Hit"
+        }
+      },
+      {
+        "configs": [
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_STRIKE_OUTS_PITCHED",
+              "name": "Strikeouts Pitched",
+              "id": "0410",
+              "shortName": "K"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_EARNED_RUN_AVERAGE",
+              "name": "Earned Run Average",
+              "id": "0490",
+              "shortName": "ERA"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_SAVES_PLUS_HOLDS",
+              "name": "Saves + Holds",
+              "id": "051i",
+              "shortName": "SVH"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_WHIP_RATIO",
+              "name": "WHIP Ratio",
+              "id": "0580",
+              "shortName": "WHIP"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_WINS_PLUS_QUALITY_STARTS",
+              "name": "Wins + Quality Starts",
+              "id": "0593",
+              "shortName": "W+QS"
+            }
+          }
+        ],
+        "group": {
+          "code": "BASEBALL_PITCHING",
+          "name": "Pitching",
+          "id": "20",
+          "shortName": "Pit"
+        }
+      }
+    ],
+    "type": "rotisserie"
+  },
+  "teams": {
+    "4hnnkoabmmarkzxe": {
+      "name": "BazookaTooth",
+      "id": "4hnnkoabmmarkzxe"
+    },
+    "0qrehmwommarl6on": {
+      "name": "Delivery_Duck",
+      "id": "0qrehmwommarl6on"
+    },
+    "n6mjgh31mmav7y65": {
+      "name": "Lerake",
+      "id": "n6mjgh31mmav7y65"
+    },
+    "xkfzlirbmmarqpqt": {
+      "name": "Snake_",
+      "id": "xkfzlirbmmarqpqt"
+    },
+    "23l1wdekmmauq9i2": {
+      "name": "MoosesDong",
+      "id": "23l1wdekmmauq9i2"
+    },
+    "m1th50tvmmatbzp4": {
+      "name": "lilsquiddy",
+      "id": "m1th50tvmmatbzp4"
+    },
+    "26lyvr2zmmaryjoe": {
+      "name": "CheesecakePower",
+      "id": "26lyvr2zmmaryjoe"
+    },
+    "rmpbj8qvmmauwnu8": {
+      "name": "walgreens",
+      "id": "rmpbj8qvmmauwnu8"
+    },
+    "ecmp84glmmarsawi": {
+      "name": "TakeOut75",
+      "id": "ecmp84glmmarsawi"
+    }
+  },
+  "matchups": [
+    {
+      "period": 1,
+      "matchupList": [
+        {
+          "away": {
+            "name": "walgreens",
+            "id": "rmpbj8qvmmauwnu8",
+            "shortName": "walg"
+          },
+          "home": {
+            "name": "Delivery_Duck",
+            "id": "0qrehmwommarl6on",
+            "shortName": "Delivery"
+          }
+        },
+        {
+          "away": {
+            "name": "lilsquiddy",
+            "id": "m1th50tvmmatbzp4",
+            "shortName": "squid"
+          },
+          "home": {
+            "name": "TakeOut75",
+            "id": "ecmp84glmmarsawi",
+            "shortName": "TakeOut7"
+          }
+        },
+        {
+          "away": {
+            "name": "MoosesDong",
+            "id": "23l1wdekmmauq9i2",
+            "shortName": "MoosesDo"
+          },
+          "home": {
+            "name": "CheesecakePower",
+            "id": "26lyvr2zmmaryjoe",
+            "shortName": "Cheeseca"
+          }
+        },
+        {
+          "away": {
+            "name": "BazookaTooth",
+            "id": "4hnnkoabmmarkzxe",
+            "shortName": "BazookaT"
+          },
+          "home": {
+            "name": "Snake_",
+            "id": "xkfzlirbmmarqpqt",
+            "shortName": "Snake_"
+          }
+        }
+      ]
+    },
+    {
+      "period": 2,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Delivery_Duck",
+            "id": "0qrehmwommarl6on",
+            "shortName": "Delivery"
+          },
+          "home": {
+            "name": "lilsquiddy",
+            "id": "m1th50tvmmatbzp4",
+            "shortName": "squid"
+          }
+        },
+        {
+          "away": {
+            "name": "walgreens",
+            "id": "rmpbj8qvmmauwnu8",
+            "shortName": "walg"
+          },
+          "home": {
+            "name": "MoosesDong",
+            "id": "23l1wdekmmauq9i2",
+            "shortName": "MoosesDo"
+          }
+        },
+        {
+          "away": {
+            "name": "TakeOut75",
+            "id": "ecmp84glmmarsawi",
+            "shortName": "TakeOut7"
+          },
+          "home": {
+            "name": "BazookaTooth",
+            "id": "4hnnkoabmmarkzxe",
+            "shortName": "BazookaT"
+          }
+        },
+        {
+          "away": {
+            "name": "CheesecakePower",
+            "id": "26lyvr2zmmaryjoe",
+            "shortName": "Cheeseca"
+          },
+          "home": {
+            "name": "Snake_",
+            "id": "xkfzlirbmmarqpqt",
+            "shortName": "Snake_"
+          }
+        }
+      ]
+    },
+    {
+      "period": 3,
+      "matchupList": [
+        {
+          "away": {
+            "name": "MoosesDong",
+            "id": "23l1wdekmmauq9i2",
+            "shortName": "MoosesDo"
+          },
+          "home": {
+            "name": "Delivery_Duck",
+            "id": "0qrehmwommarl6on",
+            "shortName": "Delivery"
+          }
+        },
+        {
+          "away": {
+            "name": "BazookaTooth",
+            "id": "4hnnkoabmmarkzxe",
+            "shortName": "BazookaT"
+          },
+          "home": {
+            "name": "lilsquiddy",
+            "id": "m1th50tvmmatbzp4",
+            "shortName": "squid"
+          }
+        },
+        {
+          "away": {
+            "name": "Snake_",
+            "id": "xkfzlirbmmarqpqt",
+            "shortName": "Snake_"
+          },
+          "home": {
+            "name": "walgreens",
+            "id": "rmpbj8qvmmauwnu8",
+            "shortName": "walg"
+          }
+        },
+        {
+          "away": {
+            "name": "CheesecakePower",
+            "id": "26lyvr2zmmaryjoe",
+            "shortName": "Cheeseca"
+          },
+          "home": {
+            "name": "TakeOut75",
+            "id": "ecmp84glmmarsawi",
+            "shortName": "TakeOut7"
+          }
+        }
+      ]
+    },
+    {
+      "period": 4,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Delivery_Duck",
+            "id": "0qrehmwommarl6on",
+            "shortName": "Delivery"
+          },
+          "home": {
+            "name": "BazookaTooth",
+            "id": "4hnnkoabmmarkzxe",
+            "shortName": "BazookaT"
+          }
+        },
+        {
+          "away": {
+            "name": "MoosesDong",
+            "id": "23l1wdekmmauq9i2",
+            "shortName": "MoosesDo"
+          },
+          "home": {
+            "name": "Snake_",
+            "id": "xkfzlirbmmarqpqt",
+            "shortName": "Snake_"
+          }
+        },
+        {
+          "away": {
+            "name": "lilsquiddy",
+            "id": "m1th50tvmmatbzp4",
+            "shortName": "squid"
+          },
+          "home": {
+            "name": "CheesecakePower",
+            "id": "26lyvr2zmmaryjoe",
+            "shortName": "Cheeseca"
+          }
+        },
+        {
+          "away": {
+            "name": "walgreens",
+            "id": "rmpbj8qvmmauwnu8",
+            "shortName": "walg"
+          },
+          "home": {
+            "name": "TakeOut75",
+            "id": "ecmp84glmmarsawi",
+            "shortName": "TakeOut7"
+          }
+        }
+      ]
+    },
+    {
+      "period": 5,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Snake_",
+            "id": "xkfzlirbmmarqpqt",
+            "shortName": "Snake_"
+          },
+          "home": {
+            "name": "Delivery_Duck",
+            "id": "0qrehmwommarl6on",
+            "shortName": "Delivery"
+          }
+        },
+        {
+          "away": {
+            "name": "CheesecakePower",
+            "id": "26lyvr2zmmaryjoe",
+            "shortName": "Cheeseca"
+          },
+          "home": {
+            "name": "BazookaTooth",
+            "id": "4hnnkoabmmarkzxe",
+            "shortName": "BazookaT"
+          }
+        },
+        {
+          "away": {
+            "name": "TakeOut75",
+            "id": "ecmp84glmmarsawi",
+            "shortName": "TakeOut7"
+          },
+          "home": {
+            "name": "MoosesDong",
+            "id": "23l1wdekmmauq9i2",
+            "shortName": "MoosesDo"
+          }
+        },
+        {
+          "away": {
+            "name": "walgreens",
+            "id": "rmpbj8qvmmauwnu8",
+            "shortName": "walg"
+          },
+          "home": {
+            "name": "lilsquiddy",
+            "id": "m1th50tvmmatbzp4",
+            "shortName": "squid"
+          }
+        }
+      ]
+    },
+    {
+      "period": 6,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Delivery_Duck",
+            "id": "0qrehmwommarl6on",
+            "shortName": "Delivery"
+          },
+          "home": {
+            "name": "CheesecakePower",
+            "id": "26lyvr2zmmaryjoe",
+            "shortName": "Cheeseca"
+          }
+        },
+        {
+          "away": {
+            "name": "Snake_",
+            "id": "xkfzlirbmmarqpqt",
+            "shortName": "Snake_"
+          },
+          "home": {
+            "name": "TakeOut75",
+            "id": "ecmp84glmmarsawi",
+            "shortName": "TakeOut7"
+          }
+        },
+        {
+          "away": {
+            "name": "BazookaTooth",
+            "id": "4hnnkoabmmarkzxe",
+            "shortName": "BazookaT"
+          },
+          "home": {
+            "name": "walgreens",
+            "id": "rmpbj8qvmmauwnu8",
+            "shortName": "walg"
+          }
+        },
+        {
+          "away": {
+            "name": "MoosesDong",
+            "id": "23l1wdekmmauq9i2",
+            "shortName": "MoosesDo"
+          },
+          "home": {
+            "name": "lilsquiddy",
+            "id": "m1th50tvmmatbzp4",
+            "shortName": "squid"
+          }
+        }
+      ]
+    },
+    {
+      "period": 7,
+      "matchupList": [
+        {
+          "away": {
+            "name": "TakeOut75",
+            "id": "ecmp84glmmarsawi",
+            "shortName": "TakeOut7"
+          },
+          "home": {
+            "name": "Delivery_Duck",
+            "id": "0qrehmwommarl6on",
+            "shortName": "Delivery"
+          }
+        },
+        {
+          "away": {
+            "name": "walgreens",
+            "id": "rmpbj8qvmmauwnu8",
+            "shortName": "walg"
+          },
+          "home": {
+            "name": "CheesecakePower",
+            "id": "26lyvr2zmmaryjoe",
+            "shortName": "Cheeseca"
+          }
+        },
+        {
+          "away": {
+            "name": "lilsquiddy",
+            "id": "m1th50tvmmatbzp4",
+            "shortName": "squid"
+          },
+          "home": {
+            "name": "Snake_",
+            "id": "xkfzlirbmmarqpqt",
+            "shortName": "Snake_"
+          }
+        },
+        {
+          "away": {
+            "name": "MoosesDong",
+            "id": "23l1wdekmmauq9i2",
+            "shortName": "MoosesDo"
+          },
+          "home": {
+            "name": "BazookaTooth",
+            "id": "4hnnkoabmmarkzxe",
+            "shortName": "BazookaT"
+          }
+        }
+      ]
+    },
+    {
+      "period": 8,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Delivery_Duck",
+            "id": "0qrehmwommarl6on",
+            "shortName": "Delivery"
+          },
+          "home": {
+            "name": "walgreens",
+            "id": "rmpbj8qvmmauwnu8",
+            "shortName": "walg"
+          }
+        },
+        {
+          "away": {
+            "name": "TakeOut75",
+            "id": "ecmp84glmmarsawi",
+            "shortName": "TakeOut7"
+          },
+          "home": {
+            "name": "lilsquiddy",
+            "id": "m1th50tvmmatbzp4",
+            "shortName": "squid"
+          }
+        },
+        {
+          "away": {
+            "name": "CheesecakePower",
+            "id": "26lyvr2zmmaryjoe",
+            "shortName": "Cheeseca"
+          },
+          "home": {
+            "name": "MoosesDong",
+            "id": "23l1wdekmmauq9i2",
+            "shortName": "MoosesDo"
+          }
+        },
+        {
+          "away": {
+            "name": "Snake_",
+            "id": "xkfzlirbmmarqpqt",
+            "shortName": "Snake_"
+          },
+          "home": {
+            "name": "BazookaTooth",
+            "id": "4hnnkoabmmarkzxe",
+            "shortName": "BazookaT"
+          }
+        }
+      ]
+    },
+    {
+      "period": 9,
+      "matchupList": [
+        {
+          "away": {
+            "name": "lilsquiddy",
+            "id": "m1th50tvmmatbzp4",
+            "shortName": "squid"
+          },
+          "home": {
+            "name": "Delivery_Duck",
+            "id": "0qrehmwommarl6on",
+            "shortName": "Delivery"
+          }
+        },
+        {
+          "away": {
+            "name": "MoosesDong",
+            "id": "23l1wdekmmauq9i2",
+            "shortName": "MoosesDo"
+          },
+          "home": {
+            "name": "walgreens",
+            "id": "rmpbj8qvmmauwnu8",
+            "shortName": "walg"
+          }
+        },
+        {
+          "away": {
+            "name": "BazookaTooth",
+            "id": "4hnnkoabmmarkzxe",
+            "shortName": "BazookaT"
+          },
+          "home": {
+            "name": "TakeOut75",
+            "id": "ecmp84glmmarsawi",
+            "shortName": "TakeOut7"
+          }
+        },
+        {
+          "away": {
+            "name": "Snake_",
+            "id": "xkfzlirbmmarqpqt",
+            "shortName": "Snake_"
+          },
+          "home": {
+            "name": "CheesecakePower",
+            "id": "26lyvr2zmmaryjoe",
+            "shortName": "Cheeseca"
+          }
+        }
+      ]
+    },
+    {
+      "period": 10,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Delivery_Duck",
+            "id": "0qrehmwommarl6on",
+            "shortName": "Delivery"
+          },
+          "home": {
+            "name": "MoosesDong",
+            "id": "23l1wdekmmauq9i2",
+            "shortName": "MoosesDo"
+          }
+        },
+        {
+          "away": {
+            "name": "lilsquiddy",
+            "id": "m1th50tvmmatbzp4",
+            "shortName": "squid"
+          },
+          "home": {
+            "name": "BazookaTooth",
+            "id": "4hnnkoabmmarkzxe",
+            "shortName": "BazookaT"
+          }
+        },
+        {
+          "away": {
+            "name": "walgreens",
+            "id": "rmpbj8qvmmauwnu8",
+            "shortName": "walg"
+          },
+          "home": {
+            "name": "Snake_",
+            "id": "xkfzlirbmmarqpqt",
+            "shortName": "Snake_"
+          }
+        },
+        {
+          "away": {
+            "name": "TakeOut75",
+            "id": "ecmp84glmmarsawi",
+            "shortName": "TakeOut7"
+          },
+          "home": {
+            "name": "CheesecakePower",
+            "id": "26lyvr2zmmaryjoe",
+            "shortName": "Cheeseca"
+          }
+        }
+      ]
+    },
+    {
+      "period": 11,
+      "matchupList": [
+        {
+          "away": {
+            "name": "BazookaTooth",
+            "id": "4hnnkoabmmarkzxe",
+            "shortName": "BazookaT"
+          },
+          "home": {
+            "name": "Delivery_Duck",
+            "id": "0qrehmwommarl6on",
+            "shortName": "Delivery"
+          }
+        },
+        {
+          "away": {
+            "name": "Snake_",
+            "id": "xkfzlirbmmarqpqt",
+            "shortName": "Snake_"
+          },
+          "home": {
+            "name": "MoosesDong",
+            "id": "23l1wdekmmauq9i2",
+            "shortName": "MoosesDo"
+          }
+        },
+        {
+          "away": {
+            "name": "CheesecakePower",
+            "id": "26lyvr2zmmaryjoe",
+            "shortName": "Cheeseca"
+          },
+          "home": {
+            "name": "lilsquiddy",
+            "id": "m1th50tvmmatbzp4",
+            "shortName": "squid"
+          }
+        },
+        {
+          "away": {
+            "name": "TakeOut75",
+            "id": "ecmp84glmmarsawi",
+            "shortName": "TakeOut7"
+          },
+          "home": {
+            "name": "walgreens",
+            "id": "rmpbj8qvmmauwnu8",
+            "shortName": "walg"
+          }
+        }
+      ]
+    },
+    {
+      "period": 12,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Delivery_Duck",
+            "id": "0qrehmwommarl6on",
+            "shortName": "Delivery"
+          },
+          "home": {
+            "name": "Snake_",
+            "id": "xkfzlirbmmarqpqt",
+            "shortName": "Snake_"
+          }
+        },
+        {
+          "away": {
+            "name": "BazookaTooth",
+            "id": "4hnnkoabmmarkzxe",
+            "shortName": "BazookaT"
+          },
+          "home": {
+            "name": "CheesecakePower",
+            "id": "26lyvr2zmmaryjoe",
+            "shortName": "Cheeseca"
+          }
+        },
+        {
+          "away": {
+            "name": "MoosesDong",
+            "id": "23l1wdekmmauq9i2",
+            "shortName": "MoosesDo"
+          },
+          "home": {
+            "name": "TakeOut75",
+            "id": "ecmp84glmmarsawi",
+            "shortName": "TakeOut7"
+          }
+        },
+        {
+          "away": {
+            "name": "lilsquiddy",
+            "id": "m1th50tvmmatbzp4",
+            "shortName": "squid"
+          },
+          "home": {
+            "name": "walgreens",
+            "id": "rmpbj8qvmmauwnu8",
+            "shortName": "walg"
+          }
+        }
+      ]
+    },
+    {
+      "period": 13,
+      "matchupList": [
+        {
+          "away": {
+            "name": "CheesecakePower",
+            "id": "26lyvr2zmmaryjoe",
+            "shortName": "Cheeseca"
+          },
+          "home": {
+            "name": "Delivery_Duck",
+            "id": "0qrehmwommarl6on",
+            "shortName": "Delivery"
+          }
+        },
+        {
+          "away": {
+            "name": "TakeOut75",
+            "id": "ecmp84glmmarsawi",
+            "shortName": "TakeOut7"
+          },
+          "home": {
+            "name": "Snake_",
+            "id": "xkfzlirbmmarqpqt",
+            "shortName": "Snake_"
+          }
+        },
+        {
+          "away": {
+            "name": "walgreens",
+            "id": "rmpbj8qvmmauwnu8",
+            "shortName": "walg"
+          },
+          "home": {
+            "name": "BazookaTooth",
+            "id": "4hnnkoabmmarkzxe",
+            "shortName": "BazookaT"
+          }
+        },
+        {
+          "away": {
+            "name": "lilsquiddy",
+            "id": "m1th50tvmmatbzp4",
+            "shortName": "squid"
+          },
+          "home": {
+            "name": "MoosesDong",
+            "id": "23l1wdekmmauq9i2",
+            "shortName": "MoosesDo"
+          }
+        }
+      ]
+    },
+    {
+      "period": 14,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Delivery_Duck",
+            "id": "0qrehmwommarl6on",
+            "shortName": "Delivery"
+          },
+          "home": {
+            "name": "TakeOut75",
+            "id": "ecmp84glmmarsawi",
+            "shortName": "TakeOut7"
+          }
+        },
+        {
+          "away": {
+            "name": "CheesecakePower",
+            "id": "26lyvr2zmmaryjoe",
+            "shortName": "Cheeseca"
+          },
+          "home": {
+            "name": "walgreens",
+            "id": "rmpbj8qvmmauwnu8",
+            "shortName": "walg"
+          }
+        },
+        {
+          "away": {
+            "name": "Snake_",
+            "id": "xkfzlirbmmarqpqt",
+            "shortName": "Snake_"
+          },
+          "home": {
+            "name": "lilsquiddy",
+            "id": "m1th50tvmmatbzp4",
+            "shortName": "squid"
+          }
+        },
+        {
+          "away": {
+            "name": "BazookaTooth",
+            "id": "4hnnkoabmmarkzxe",
+            "shortName": "BazookaT"
+          },
+          "home": {
+            "name": "MoosesDong",
+            "id": "23l1wdekmmauq9i2",
+            "shortName": "MoosesDo"
+          }
+        }
+      ]
+    },
+    {
+      "period": 15,
+      "matchupList": [
+        {
+          "away": {
+            "name": "walgreens",
+            "id": "rmpbj8qvmmauwnu8",
+            "shortName": "walg"
+          },
+          "home": {
+            "name": "Delivery_Duck",
+            "id": "0qrehmwommarl6on",
+            "shortName": "Delivery"
+          }
+        },
+        {
+          "away": {
+            "name": "lilsquiddy",
+            "id": "m1th50tvmmatbzp4",
+            "shortName": "squid"
+          },
+          "home": {
+            "name": "TakeOut75",
+            "id": "ecmp84glmmarsawi",
+            "shortName": "TakeOut7"
+          }
+        },
+        {
+          "away": {
+            "name": "MoosesDong",
+            "id": "23l1wdekmmauq9i2",
+            "shortName": "MoosesDo"
+          },
+          "home": {
+            "name": "CheesecakePower",
+            "id": "26lyvr2zmmaryjoe",
+            "shortName": "Cheeseca"
+          }
+        },
+        {
+          "away": {
+            "name": "BazookaTooth",
+            "id": "4hnnkoabmmarkzxe",
+            "shortName": "BazookaT"
+          },
+          "home": {
+            "name": "Snake_",
+            "id": "xkfzlirbmmarqpqt",
+            "shortName": "Snake_"
+          }
+        }
+      ]
+    },
+    {
+      "period": 16,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Delivery_Duck",
+            "id": "0qrehmwommarl6on",
+            "shortName": "Delivery"
+          },
+          "home": {
+            "name": "lilsquiddy",
+            "id": "m1th50tvmmatbzp4",
+            "shortName": "squid"
+          }
+        },
+        {
+          "away": {
+            "name": "walgreens",
+            "id": "rmpbj8qvmmauwnu8",
+            "shortName": "walg"
+          },
+          "home": {
+            "name": "MoosesDong",
+            "id": "23l1wdekmmauq9i2",
+            "shortName": "MoosesDo"
+          }
+        },
+        {
+          "away": {
+            "name": "TakeOut75",
+            "id": "ecmp84glmmarsawi",
+            "shortName": "TakeOut7"
+          },
+          "home": {
+            "name": "BazookaTooth",
+            "id": "4hnnkoabmmarkzxe",
+            "shortName": "BazookaT"
+          }
+        },
+        {
+          "away": {
+            "name": "CheesecakePower",
+            "id": "26lyvr2zmmaryjoe",
+            "shortName": "Cheeseca"
+          },
+          "home": {
+            "name": "Snake_",
+            "id": "xkfzlirbmmarqpqt",
+            "shortName": "Snake_"
+          }
+        }
+      ]
+    },
+    {
+      "period": 17,
+      "matchupList": [
+        {
+          "away": {
+            "name": "MoosesDong",
+            "id": "23l1wdekmmauq9i2",
+            "shortName": "MoosesDo"
+          },
+          "home": {
+            "name": "Delivery_Duck",
+            "id": "0qrehmwommarl6on",
+            "shortName": "Delivery"
+          }
+        },
+        {
+          "away": {
+            "name": "BazookaTooth",
+            "id": "4hnnkoabmmarkzxe",
+            "shortName": "BazookaT"
+          },
+          "home": {
+            "name": "lilsquiddy",
+            "id": "m1th50tvmmatbzp4",
+            "shortName": "squid"
+          }
+        },
+        {
+          "away": {
+            "name": "Snake_",
+            "id": "xkfzlirbmmarqpqt",
+            "shortName": "Snake_"
+          },
+          "home": {
+            "name": "walgreens",
+            "id": "rmpbj8qvmmauwnu8",
+            "shortName": "walg"
+          }
+        },
+        {
+          "away": {
+            "name": "CheesecakePower",
+            "id": "26lyvr2zmmaryjoe",
+            "shortName": "Cheeseca"
+          },
+          "home": {
+            "name": "TakeOut75",
+            "id": "ecmp84glmmarsawi",
+            "shortName": "TakeOut7"
+          }
+        }
+      ]
+    },
+    {
+      "period": 18,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Delivery_Duck",
+            "id": "0qrehmwommarl6on",
+            "shortName": "Delivery"
+          },
+          "home": {
+            "name": "BazookaTooth",
+            "id": "4hnnkoabmmarkzxe",
+            "shortName": "BazookaT"
+          }
+        },
+        {
+          "away": {
+            "name": "MoosesDong",
+            "id": "23l1wdekmmauq9i2",
+            "shortName": "MoosesDo"
+          },
+          "home": {
+            "name": "Snake_",
+            "id": "xkfzlirbmmarqpqt",
+            "shortName": "Snake_"
+          }
+        },
+        {
+          "away": {
+            "name": "lilsquiddy",
+            "id": "m1th50tvmmatbzp4",
+            "shortName": "squid"
+          },
+          "home": {
+            "name": "CheesecakePower",
+            "id": "26lyvr2zmmaryjoe",
+            "shortName": "Cheeseca"
+          }
+        },
+        {
+          "away": {
+            "name": "walgreens",
+            "id": "rmpbj8qvmmauwnu8",
+            "shortName": "walg"
+          },
+          "home": {
+            "name": "TakeOut75",
+            "id": "ecmp84glmmarsawi",
+            "shortName": "TakeOut7"
+          }
+        }
+      ]
+    },
+    {
+      "period": 19,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Snake_",
+            "id": "xkfzlirbmmarqpqt",
+            "shortName": "Snake_"
+          },
+          "home": {
+            "name": "Delivery_Duck",
+            "id": "0qrehmwommarl6on",
+            "shortName": "Delivery"
+          }
+        },
+        {
+          "away": {
+            "name": "CheesecakePower",
+            "id": "26lyvr2zmmaryjoe",
+            "shortName": "Cheeseca"
+          },
+          "home": {
+            "name": "BazookaTooth",
+            "id": "4hnnkoabmmarkzxe",
+            "shortName": "BazookaT"
+          }
+        },
+        {
+          "away": {
+            "name": "TakeOut75",
+            "id": "ecmp84glmmarsawi",
+            "shortName": "TakeOut7"
+          },
+          "home": {
+            "name": "MoosesDong",
+            "id": "23l1wdekmmauq9i2",
+            "shortName": "MoosesDo"
+          }
+        },
+        {
+          "away": {
+            "name": "walgreens",
+            "id": "rmpbj8qvmmauwnu8",
+            "shortName": "walg"
+          },
+          "home": {
+            "name": "lilsquiddy",
+            "id": "m1th50tvmmatbzp4",
+            "shortName": "squid"
+          }
+        }
+      ]
+    },
+    {
+      "period": 20,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Delivery_Duck",
+            "id": "0qrehmwommarl6on",
+            "shortName": "Delivery"
+          },
+          "home": {
+            "name": "CheesecakePower",
+            "id": "26lyvr2zmmaryjoe",
+            "shortName": "Cheeseca"
+          }
+        },
+        {
+          "away": {
+            "name": "Snake_",
+            "id": "xkfzlirbmmarqpqt",
+            "shortName": "Snake_"
+          },
+          "home": {
+            "name": "TakeOut75",
+            "id": "ecmp84glmmarsawi",
+            "shortName": "TakeOut7"
+          }
+        },
+        {
+          "away": {
+            "name": "BazookaTooth",
+            "id": "4hnnkoabmmarkzxe",
+            "shortName": "BazookaT"
+          },
+          "home": {
+            "name": "walgreens",
+            "id": "rmpbj8qvmmauwnu8",
+            "shortName": "walg"
+          }
+        },
+        {
+          "away": {
+            "name": "MoosesDong",
+            "id": "23l1wdekmmauq9i2",
+            "shortName": "MoosesDo"
+          },
+          "home": {
+            "name": "lilsquiddy",
+            "id": "m1th50tvmmatbzp4",
+            "shortName": "squid"
+          }
+        }
+      ]
+    },
+    {
+      "period": 21,
+      "matchupList": [
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 22,
+      "matchupList": [
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 23,
+      "matchupList": [
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    }
+  ],
+  "standings": [
+    {
+      "teamName": "BazookaTooth",
+      "teamId": "4hnnkoabmmarkzxe",
+      "gamesBack": 0.0,
+      "rank": 1,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "lilsquiddy",
+      "teamId": "m1th50tvmmatbzp4",
+      "gamesBack": 0.0,
+      "rank": 2,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Delivery_Duck",
+      "teamId": "0qrehmwommarl6on",
+      "gamesBack": 0.0,
+      "rank": 3,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "CheesecakePower",
+      "teamId": "26lyvr2zmmaryjoe",
+      "gamesBack": 0.0,
+      "rank": 4,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "TakeOut75",
+      "teamId": "ecmp84glmmarsawi",
+      "gamesBack": 0.0,
+      "rank": 5,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "walgreens",
+      "teamId": "rmpbj8qvmmauwnu8",
+      "gamesBack": 0.0,
+      "rank": 6,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "MoosesDong",
+      "teamId": "23l1wdekmmauq9i2",
+      "gamesBack": 0.0,
+      "rank": 7,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Snake_",
+      "teamId": "xkfzlirbmmarqpqt",
+      "gamesBack": 0.0,
+      "rank": 8,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Lerake",
+      "teamId": "n6mjgh31mmav7y65",
+      "gamesBack": 0.0,
+      "rank": 9,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    }
+  ]
+}

@@ -1,0 +1,1979 @@
+{
+  "fantrax_id": "79pycxfymm9zynyk",
+  "name": "FBD Jackie Robinson League",
+  "season_year": 2026,
+  "start_date": "2026-03-25",
+  "end_date": "2026-09-20",
+  "scoring_settings": {
+    "scoringCategories": {
+      "HITTING": {
+        "R": {
+          "Default": "1.0"
+        },
+        "RBI": {
+          "Default": "1.0"
+        },
+        "HR": {
+          "Default": "1.0"
+        },
+        "OBP": {
+          "Default": "1.0"
+        },
+        "SB": {
+          "Default": "1.0"
+        }
+      },
+      "PITCHING": {
+        "WHIP": {
+          "Default": "1.0"
+        },
+        "SVH": {
+          "Default": "1.0"
+        },
+        "ERA": {
+          "Default": "1.0"
+        },
+        "K": {
+          "Default": "1.0"
+        },
+        "W+QS": {
+          "Default": "1.0"
+        }
+      }
+    },
+    "scoringCategorySettings": [
+      {
+        "configs": [
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_HOME_RUNS",
+              "name": "Home Runs",
+              "id": "0200",
+              "shortName": "HR"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_RBIS",
+              "name": "RBI",
+              "id": "0310",
+              "shortName": "RBI"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_RUNS_SCORED",
+              "name": "Runs Scored",
+              "id": "0330",
+              "shortName": "R"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_STOLEN_BASES",
+              "name": "Stolen Bases",
+              "id": "0380",
+              "shortName": "SB"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_ON_BASE_PERCENTAGE",
+              "name": "On Base Percentage",
+              "id": "0510",
+              "shortName": "OBP"
+            }
+          }
+        ],
+        "group": {
+          "code": "BASEBALL_HITTING",
+          "name": "Hitting",
+          "id": "10",
+          "shortName": "Hit"
+        }
+      },
+      {
+        "configs": [
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_STRIKE_OUTS_PITCHED",
+              "name": "Strikeouts Pitched",
+              "id": "0410",
+              "shortName": "K"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_EARNED_RUN_AVERAGE",
+              "name": "Earned Run Average",
+              "id": "0490",
+              "shortName": "ERA"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_SAVES_PLUS_HOLDS",
+              "name": "Saves + Holds",
+              "id": "051i",
+              "shortName": "SVH"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_WHIP_RATIO",
+              "name": "WHIP Ratio",
+              "id": "0580",
+              "shortName": "WHIP"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_WINS_PLUS_QUALITY_STARTS",
+              "name": "Wins + Quality Starts",
+              "id": "0593",
+              "shortName": "W+QS"
+            }
+          }
+        ],
+        "group": {
+          "code": "BASEBALL_PITCHING",
+          "name": "Pitching",
+          "id": "20",
+          "shortName": "Pit"
+        }
+      }
+    ],
+    "type": "rotisserie"
+  },
+  "teams": {
+    "7sivdm9fmmas5aqf": {
+      "name": "JKJ",
+      "id": "7sivdm9fmmas5aqf"
+    },
+    "fn3anqg7mmaroo43": {
+      "name": "paynedj",
+      "id": "fn3anqg7mmaroo43"
+    },
+    "8lssbn5dmmart9e5": {
+      "name": "Nimodo",
+      "id": "8lssbn5dmmart9e5"
+    },
+    "9duog6k1mmb01duw": {
+      "name": "Tommoford",
+      "id": "9duog6k1mmb01duw"
+    },
+    "zqauajwemmb5hgzq": {
+      "name": "Cape Cod Moonshots",
+      "id": "zqauajwemmb5hgzq"
+    },
+    "vs466barmmb8lfq6": {
+      "name": "InTheSwing",
+      "id": "vs466barmmb8lfq6"
+    },
+    "jf4t50fbmmax56ir": {
+      "name": "King",
+      "id": "jf4t50fbmmax56ir"
+    },
+    "2m42b2acmmas4t1p": {
+      "name": "Deev",
+      "id": "2m42b2acmmas4t1p"
+    },
+    "k62qixnummb1tlu2": {
+      "name": "Drugs",
+      "id": "k62qixnummb1tlu2"
+    },
+    "qidt76rnmmav10zj": {
+      "name": "rng_38",
+      "id": "qidt76rnmmav10zj"
+    },
+    "4wzdeltymmart09z": {
+      "name": "Jennie918",
+      "id": "4wzdeltymmart09z"
+    },
+    "k38po2d8mmay3w1o": {
+      "name": "Beacons123",
+      "id": "k38po2d8mmay3w1o"
+    }
+  },
+  "matchups": [
+    {
+      "period": 1,
+      "matchupList": [
+        {
+          "away": {
+            "name": "King",
+            "id": "jf4t50fbmmax56ir",
+            "shortName": "KING"
+          },
+          "home": {
+            "name": "InTheSwing",
+            "id": "vs466barmmb8lfq6",
+            "shortName": "InTheSwi"
+          }
+        },
+        {
+          "away": {
+            "name": "JKJ",
+            "id": "7sivdm9fmmas5aqf",
+            "shortName": "JKJ"
+          },
+          "home": {
+            "name": "Cape Cod Moonshots",
+            "id": "zqauajwemmb5hgzq",
+            "shortName": "CCM"
+          }
+        },
+        {
+          "away": {
+            "name": "Tommoford",
+            "id": "9duog6k1mmb01duw",
+            "shortName": "Tommofor"
+          },
+          "home": {
+            "name": "Jennie918",
+            "id": "4wzdeltymmart09z",
+            "shortName": "Jennie91"
+          }
+        },
+        {
+          "away": {
+            "name": "Nimodo",
+            "id": "8lssbn5dmmart9e5",
+            "shortName": "Nimodo"
+          },
+          "home": {
+            "name": "Beacons123",
+            "id": "k38po2d8mmay3w1o",
+            "shortName": "Beacons1"
+          }
+        },
+        {
+          "away": {
+            "name": "Deev",
+            "id": "2m42b2acmmas4t1p",
+            "shortName": "Deev"
+          },
+          "home": {
+            "name": "Drugs",
+            "id": "k62qixnummb1tlu2",
+            "shortName": "Drugs"
+          }
+        },
+        {
+          "away": {
+            "name": "rng_38",
+            "id": "qidt76rnmmav10zj",
+            "shortName": "rng_38"
+          },
+          "home": {
+            "name": "paynedj",
+            "id": "fn3anqg7mmaroo43",
+            "shortName": "paynedj"
+          }
+        }
+      ]
+    },
+    {
+      "period": 2,
+      "matchupList": [
+        {
+          "away": {
+            "name": "InTheSwing",
+            "id": "vs466barmmb8lfq6",
+            "shortName": "InTheSwi"
+          },
+          "home": {
+            "name": "JKJ",
+            "id": "7sivdm9fmmas5aqf",
+            "shortName": "JKJ"
+          }
+        },
+        {
+          "away": {
+            "name": "King",
+            "id": "jf4t50fbmmax56ir",
+            "shortName": "KING"
+          },
+          "home": {
+            "name": "Tommoford",
+            "id": "9duog6k1mmb01duw",
+            "shortName": "Tommofor"
+          }
+        },
+        {
+          "away": {
+            "name": "Cape Cod Moonshots",
+            "id": "zqauajwemmb5hgzq",
+            "shortName": "CCM"
+          },
+          "home": {
+            "name": "Nimodo",
+            "id": "8lssbn5dmmart9e5",
+            "shortName": "Nimodo"
+          }
+        },
+        {
+          "away": {
+            "name": "Jennie918",
+            "id": "4wzdeltymmart09z",
+            "shortName": "Jennie91"
+          },
+          "home": {
+            "name": "Deev",
+            "id": "2m42b2acmmas4t1p",
+            "shortName": "Deev"
+          }
+        },
+        {
+          "away": {
+            "name": "Beacons123",
+            "id": "k38po2d8mmay3w1o",
+            "shortName": "Beacons1"
+          },
+          "home": {
+            "name": "rng_38",
+            "id": "qidt76rnmmav10zj",
+            "shortName": "rng_38"
+          }
+        },
+        {
+          "away": {
+            "name": "Drugs",
+            "id": "k62qixnummb1tlu2",
+            "shortName": "Drugs"
+          },
+          "home": {
+            "name": "paynedj",
+            "id": "fn3anqg7mmaroo43",
+            "shortName": "paynedj"
+          }
+        }
+      ]
+    },
+    {
+      "period": 3,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Tommoford",
+            "id": "9duog6k1mmb01duw",
+            "shortName": "Tommofor"
+          },
+          "home": {
+            "name": "InTheSwing",
+            "id": "vs466barmmb8lfq6",
+            "shortName": "InTheSwi"
+          }
+        },
+        {
+          "away": {
+            "name": "Nimodo",
+            "id": "8lssbn5dmmart9e5",
+            "shortName": "Nimodo"
+          },
+          "home": {
+            "name": "JKJ",
+            "id": "7sivdm9fmmas5aqf",
+            "shortName": "JKJ"
+          }
+        },
+        {
+          "away": {
+            "name": "Deev",
+            "id": "2m42b2acmmas4t1p",
+            "shortName": "Deev"
+          },
+          "home": {
+            "name": "King",
+            "id": "jf4t50fbmmax56ir",
+            "shortName": "KING"
+          }
+        },
+        {
+          "away": {
+            "name": "rng_38",
+            "id": "qidt76rnmmav10zj",
+            "shortName": "rng_38"
+          },
+          "home": {
+            "name": "Cape Cod Moonshots",
+            "id": "zqauajwemmb5hgzq",
+            "shortName": "CCM"
+          }
+        },
+        {
+          "away": {
+            "name": "paynedj",
+            "id": "fn3anqg7mmaroo43",
+            "shortName": "paynedj"
+          },
+          "home": {
+            "name": "Jennie918",
+            "id": "4wzdeltymmart09z",
+            "shortName": "Jennie91"
+          }
+        },
+        {
+          "away": {
+            "name": "Drugs",
+            "id": "k62qixnummb1tlu2",
+            "shortName": "Drugs"
+          },
+          "home": {
+            "name": "Beacons123",
+            "id": "k38po2d8mmay3w1o",
+            "shortName": "Beacons1"
+          }
+        }
+      ]
+    },
+    {
+      "period": 4,
+      "matchupList": [
+        {
+          "away": {
+            "name": "InTheSwing",
+            "id": "vs466barmmb8lfq6",
+            "shortName": "InTheSwi"
+          },
+          "home": {
+            "name": "Nimodo",
+            "id": "8lssbn5dmmart9e5",
+            "shortName": "Nimodo"
+          }
+        },
+        {
+          "away": {
+            "name": "Tommoford",
+            "id": "9duog6k1mmb01duw",
+            "shortName": "Tommofor"
+          },
+          "home": {
+            "name": "Deev",
+            "id": "2m42b2acmmas4t1p",
+            "shortName": "Deev"
+          }
+        },
+        {
+          "away": {
+            "name": "JKJ",
+            "id": "7sivdm9fmmas5aqf",
+            "shortName": "JKJ"
+          },
+          "home": {
+            "name": "rng_38",
+            "id": "qidt76rnmmav10zj",
+            "shortName": "rng_38"
+          }
+        },
+        {
+          "away": {
+            "name": "King",
+            "id": "jf4t50fbmmax56ir",
+            "shortName": "KING"
+          },
+          "home": {
+            "name": "paynedj",
+            "id": "fn3anqg7mmaroo43",
+            "shortName": "paynedj"
+          }
+        },
+        {
+          "away": {
+            "name": "Cape Cod Moonshots",
+            "id": "zqauajwemmb5hgzq",
+            "shortName": "CCM"
+          },
+          "home": {
+            "name": "Drugs",
+            "id": "k62qixnummb1tlu2",
+            "shortName": "Drugs"
+          }
+        },
+        {
+          "away": {
+            "name": "Jennie918",
+            "id": "4wzdeltymmart09z",
+            "shortName": "Jennie91"
+          },
+          "home": {
+            "name": "Beacons123",
+            "id": "k38po2d8mmay3w1o",
+            "shortName": "Beacons1"
+          }
+        }
+      ]
+    },
+    {
+      "period": 5,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Deev",
+            "id": "2m42b2acmmas4t1p",
+            "shortName": "Deev"
+          },
+          "home": {
+            "name": "InTheSwing",
+            "id": "vs466barmmb8lfq6",
+            "shortName": "InTheSwi"
+          }
+        },
+        {
+          "away": {
+            "name": "rng_38",
+            "id": "qidt76rnmmav10zj",
+            "shortName": "rng_38"
+          },
+          "home": {
+            "name": "Nimodo",
+            "id": "8lssbn5dmmart9e5",
+            "shortName": "Nimodo"
+          }
+        },
+        {
+          "away": {
+            "name": "paynedj",
+            "id": "fn3anqg7mmaroo43",
+            "shortName": "paynedj"
+          },
+          "home": {
+            "name": "Tommoford",
+            "id": "9duog6k1mmb01duw",
+            "shortName": "Tommofor"
+          }
+        },
+        {
+          "away": {
+            "name": "Drugs",
+            "id": "k62qixnummb1tlu2",
+            "shortName": "Drugs"
+          },
+          "home": {
+            "name": "JKJ",
+            "id": "7sivdm9fmmas5aqf",
+            "shortName": "JKJ"
+          }
+        },
+        {
+          "away": {
+            "name": "Beacons123",
+            "id": "k38po2d8mmay3w1o",
+            "shortName": "Beacons1"
+          },
+          "home": {
+            "name": "King",
+            "id": "jf4t50fbmmax56ir",
+            "shortName": "KING"
+          }
+        },
+        {
+          "away": {
+            "name": "Jennie918",
+            "id": "4wzdeltymmart09z",
+            "shortName": "Jennie91"
+          },
+          "home": {
+            "name": "Cape Cod Moonshots",
+            "id": "zqauajwemmb5hgzq",
+            "shortName": "CCM"
+          }
+        }
+      ]
+    },
+    {
+      "period": 6,
+      "matchupList": [
+        {
+          "away": {
+            "name": "InTheSwing",
+            "id": "vs466barmmb8lfq6",
+            "shortName": "InTheSwi"
+          },
+          "home": {
+            "name": "rng_38",
+            "id": "qidt76rnmmav10zj",
+            "shortName": "rng_38"
+          }
+        },
+        {
+          "away": {
+            "name": "Deev",
+            "id": "2m42b2acmmas4t1p",
+            "shortName": "Deev"
+          },
+          "home": {
+            "name": "paynedj",
+            "id": "fn3anqg7mmaroo43",
+            "shortName": "paynedj"
+          }
+        },
+        {
+          "away": {
+            "name": "Nimodo",
+            "id": "8lssbn5dmmart9e5",
+            "shortName": "Nimodo"
+          },
+          "home": {
+            "name": "Drugs",
+            "id": "k62qixnummb1tlu2",
+            "shortName": "Drugs"
+          }
+        },
+        {
+          "away": {
+            "name": "Tommoford",
+            "id": "9duog6k1mmb01duw",
+            "shortName": "Tommofor"
+          },
+          "home": {
+            "name": "Beacons123",
+            "id": "k38po2d8mmay3w1o",
+            "shortName": "Beacons1"
+          }
+        },
+        {
+          "away": {
+            "name": "JKJ",
+            "id": "7sivdm9fmmas5aqf",
+            "shortName": "JKJ"
+          },
+          "home": {
+            "name": "Jennie918",
+            "id": "4wzdeltymmart09z",
+            "shortName": "Jennie91"
+          }
+        },
+        {
+          "away": {
+            "name": "King",
+            "id": "jf4t50fbmmax56ir",
+            "shortName": "KING"
+          },
+          "home": {
+            "name": "Cape Cod Moonshots",
+            "id": "zqauajwemmb5hgzq",
+            "shortName": "CCM"
+          }
+        }
+      ]
+    },
+    {
+      "period": 7,
+      "matchupList": [
+        {
+          "away": {
+            "name": "paynedj",
+            "id": "fn3anqg7mmaroo43",
+            "shortName": "paynedj"
+          },
+          "home": {
+            "name": "InTheSwing",
+            "id": "vs466barmmb8lfq6",
+            "shortName": "InTheSwi"
+          }
+        },
+        {
+          "away": {
+            "name": "Drugs",
+            "id": "k62qixnummb1tlu2",
+            "shortName": "Drugs"
+          },
+          "home": {
+            "name": "rng_38",
+            "id": "qidt76rnmmav10zj",
+            "shortName": "rng_38"
+          }
+        },
+        {
+          "away": {
+            "name": "Beacons123",
+            "id": "k38po2d8mmay3w1o",
+            "shortName": "Beacons1"
+          },
+          "home": {
+            "name": "Deev",
+            "id": "2m42b2acmmas4t1p",
+            "shortName": "Deev"
+          }
+        },
+        {
+          "away": {
+            "name": "Jennie918",
+            "id": "4wzdeltymmart09z",
+            "shortName": "Jennie91"
+          },
+          "home": {
+            "name": "Nimodo",
+            "id": "8lssbn5dmmart9e5",
+            "shortName": "Nimodo"
+          }
+        },
+        {
+          "away": {
+            "name": "Cape Cod Moonshots",
+            "id": "zqauajwemmb5hgzq",
+            "shortName": "CCM"
+          },
+          "home": {
+            "name": "Tommoford",
+            "id": "9duog6k1mmb01duw",
+            "shortName": "Tommofor"
+          }
+        },
+        {
+          "away": {
+            "name": "King",
+            "id": "jf4t50fbmmax56ir",
+            "shortName": "KING"
+          },
+          "home": {
+            "name": "JKJ",
+            "id": "7sivdm9fmmas5aqf",
+            "shortName": "JKJ"
+          }
+        }
+      ]
+    },
+    {
+      "period": 8,
+      "matchupList": [
+        {
+          "away": {
+            "name": "InTheSwing",
+            "id": "vs466barmmb8lfq6",
+            "shortName": "InTheSwi"
+          },
+          "home": {
+            "name": "Drugs",
+            "id": "k62qixnummb1tlu2",
+            "shortName": "Drugs"
+          }
+        },
+        {
+          "away": {
+            "name": "paynedj",
+            "id": "fn3anqg7mmaroo43",
+            "shortName": "paynedj"
+          },
+          "home": {
+            "name": "Beacons123",
+            "id": "k38po2d8mmay3w1o",
+            "shortName": "Beacons1"
+          }
+        },
+        {
+          "away": {
+            "name": "rng_38",
+            "id": "qidt76rnmmav10zj",
+            "shortName": "rng_38"
+          },
+          "home": {
+            "name": "Jennie918",
+            "id": "4wzdeltymmart09z",
+            "shortName": "Jennie91"
+          }
+        },
+        {
+          "away": {
+            "name": "Deev",
+            "id": "2m42b2acmmas4t1p",
+            "shortName": "Deev"
+          },
+          "home": {
+            "name": "Cape Cod Moonshots",
+            "id": "zqauajwemmb5hgzq",
+            "shortName": "CCM"
+          }
+        },
+        {
+          "away": {
+            "name": "Nimodo",
+            "id": "8lssbn5dmmart9e5",
+            "shortName": "Nimodo"
+          },
+          "home": {
+            "name": "King",
+            "id": "jf4t50fbmmax56ir",
+            "shortName": "KING"
+          }
+        },
+        {
+          "away": {
+            "name": "Tommoford",
+            "id": "9duog6k1mmb01duw",
+            "shortName": "Tommofor"
+          },
+          "home": {
+            "name": "JKJ",
+            "id": "7sivdm9fmmas5aqf",
+            "shortName": "JKJ"
+          }
+        }
+      ]
+    },
+    {
+      "period": 9,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Beacons123",
+            "id": "k38po2d8mmay3w1o",
+            "shortName": "Beacons1"
+          },
+          "home": {
+            "name": "InTheSwing",
+            "id": "vs466barmmb8lfq6",
+            "shortName": "InTheSwi"
+          }
+        },
+        {
+          "away": {
+            "name": "Jennie918",
+            "id": "4wzdeltymmart09z",
+            "shortName": "Jennie91"
+          },
+          "home": {
+            "name": "Drugs",
+            "id": "k62qixnummb1tlu2",
+            "shortName": "Drugs"
+          }
+        },
+        {
+          "away": {
+            "name": "Cape Cod Moonshots",
+            "id": "zqauajwemmb5hgzq",
+            "shortName": "CCM"
+          },
+          "home": {
+            "name": "paynedj",
+            "id": "fn3anqg7mmaroo43",
+            "shortName": "paynedj"
+          }
+        },
+        {
+          "away": {
+            "name": "King",
+            "id": "jf4t50fbmmax56ir",
+            "shortName": "KING"
+          },
+          "home": {
+            "name": "rng_38",
+            "id": "qidt76rnmmav10zj",
+            "shortName": "rng_38"
+          }
+        },
+        {
+          "away": {
+            "name": "JKJ",
+            "id": "7sivdm9fmmas5aqf",
+            "shortName": "JKJ"
+          },
+          "home": {
+            "name": "Deev",
+            "id": "2m42b2acmmas4t1p",
+            "shortName": "Deev"
+          }
+        },
+        {
+          "away": {
+            "name": "Tommoford",
+            "id": "9duog6k1mmb01duw",
+            "shortName": "Tommofor"
+          },
+          "home": {
+            "name": "Nimodo",
+            "id": "8lssbn5dmmart9e5",
+            "shortName": "Nimodo"
+          }
+        }
+      ]
+    },
+    {
+      "period": 10,
+      "matchupList": [
+        {
+          "away": {
+            "name": "InTheSwing",
+            "id": "vs466barmmb8lfq6",
+            "shortName": "InTheSwi"
+          },
+          "home": {
+            "name": "Jennie918",
+            "id": "4wzdeltymmart09z",
+            "shortName": "Jennie91"
+          }
+        },
+        {
+          "away": {
+            "name": "Beacons123",
+            "id": "k38po2d8mmay3w1o",
+            "shortName": "Beacons1"
+          },
+          "home": {
+            "name": "Cape Cod Moonshots",
+            "id": "zqauajwemmb5hgzq",
+            "shortName": "CCM"
+          }
+        },
+        {
+          "away": {
+            "name": "Drugs",
+            "id": "k62qixnummb1tlu2",
+            "shortName": "Drugs"
+          },
+          "home": {
+            "name": "King",
+            "id": "jf4t50fbmmax56ir",
+            "shortName": "KING"
+          }
+        },
+        {
+          "away": {
+            "name": "paynedj",
+            "id": "fn3anqg7mmaroo43",
+            "shortName": "paynedj"
+          },
+          "home": {
+            "name": "JKJ",
+            "id": "7sivdm9fmmas5aqf",
+            "shortName": "JKJ"
+          }
+        },
+        {
+          "away": {
+            "name": "rng_38",
+            "id": "qidt76rnmmav10zj",
+            "shortName": "rng_38"
+          },
+          "home": {
+            "name": "Tommoford",
+            "id": "9duog6k1mmb01duw",
+            "shortName": "Tommofor"
+          }
+        },
+        {
+          "away": {
+            "name": "Deev",
+            "id": "2m42b2acmmas4t1p",
+            "shortName": "Deev"
+          },
+          "home": {
+            "name": "Nimodo",
+            "id": "8lssbn5dmmart9e5",
+            "shortName": "Nimodo"
+          }
+        }
+      ]
+    },
+    {
+      "period": 11,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Cape Cod Moonshots",
+            "id": "zqauajwemmb5hgzq",
+            "shortName": "CCM"
+          },
+          "home": {
+            "name": "InTheSwing",
+            "id": "vs466barmmb8lfq6",
+            "shortName": "InTheSwi"
+          }
+        },
+        {
+          "away": {
+            "name": "King",
+            "id": "jf4t50fbmmax56ir",
+            "shortName": "KING"
+          },
+          "home": {
+            "name": "Jennie918",
+            "id": "4wzdeltymmart09z",
+            "shortName": "Jennie91"
+          }
+        },
+        {
+          "away": {
+            "name": "JKJ",
+            "id": "7sivdm9fmmas5aqf",
+            "shortName": "JKJ"
+          },
+          "home": {
+            "name": "Beacons123",
+            "id": "k38po2d8mmay3w1o",
+            "shortName": "Beacons1"
+          }
+        },
+        {
+          "away": {
+            "name": "Tommoford",
+            "id": "9duog6k1mmb01duw",
+            "shortName": "Tommofor"
+          },
+          "home": {
+            "name": "Drugs",
+            "id": "k62qixnummb1tlu2",
+            "shortName": "Drugs"
+          }
+        },
+        {
+          "away": {
+            "name": "Nimodo",
+            "id": "8lssbn5dmmart9e5",
+            "shortName": "Nimodo"
+          },
+          "home": {
+            "name": "paynedj",
+            "id": "fn3anqg7mmaroo43",
+            "shortName": "paynedj"
+          }
+        },
+        {
+          "away": {
+            "name": "Deev",
+            "id": "2m42b2acmmas4t1p",
+            "shortName": "Deev"
+          },
+          "home": {
+            "name": "rng_38",
+            "id": "qidt76rnmmav10zj",
+            "shortName": "rng_38"
+          }
+        }
+      ]
+    },
+    {
+      "period": 12,
+      "matchupList": [
+        {
+          "away": {
+            "name": "InTheSwing",
+            "id": "vs466barmmb8lfq6",
+            "shortName": "InTheSwi"
+          },
+          "home": {
+            "name": "King",
+            "id": "jf4t50fbmmax56ir",
+            "shortName": "KING"
+          }
+        },
+        {
+          "away": {
+            "name": "Cape Cod Moonshots",
+            "id": "zqauajwemmb5hgzq",
+            "shortName": "CCM"
+          },
+          "home": {
+            "name": "JKJ",
+            "id": "7sivdm9fmmas5aqf",
+            "shortName": "JKJ"
+          }
+        },
+        {
+          "away": {
+            "name": "Jennie918",
+            "id": "4wzdeltymmart09z",
+            "shortName": "Jennie91"
+          },
+          "home": {
+            "name": "Tommoford",
+            "id": "9duog6k1mmb01duw",
+            "shortName": "Tommofor"
+          }
+        },
+        {
+          "away": {
+            "name": "Beacons123",
+            "id": "k38po2d8mmay3w1o",
+            "shortName": "Beacons1"
+          },
+          "home": {
+            "name": "Nimodo",
+            "id": "8lssbn5dmmart9e5",
+            "shortName": "Nimodo"
+          }
+        },
+        {
+          "away": {
+            "name": "Drugs",
+            "id": "k62qixnummb1tlu2",
+            "shortName": "Drugs"
+          },
+          "home": {
+            "name": "Deev",
+            "id": "2m42b2acmmas4t1p",
+            "shortName": "Deev"
+          }
+        },
+        {
+          "away": {
+            "name": "paynedj",
+            "id": "fn3anqg7mmaroo43",
+            "shortName": "paynedj"
+          },
+          "home": {
+            "name": "rng_38",
+            "id": "qidt76rnmmav10zj",
+            "shortName": "rng_38"
+          }
+        }
+      ]
+    },
+    {
+      "period": 13,
+      "matchupList": [
+        {
+          "away": {
+            "name": "JKJ",
+            "id": "7sivdm9fmmas5aqf",
+            "shortName": "JKJ"
+          },
+          "home": {
+            "name": "InTheSwing",
+            "id": "vs466barmmb8lfq6",
+            "shortName": "InTheSwi"
+          }
+        },
+        {
+          "away": {
+            "name": "Tommoford",
+            "id": "9duog6k1mmb01duw",
+            "shortName": "Tommofor"
+          },
+          "home": {
+            "name": "King",
+            "id": "jf4t50fbmmax56ir",
+            "shortName": "KING"
+          }
+        },
+        {
+          "away": {
+            "name": "Nimodo",
+            "id": "8lssbn5dmmart9e5",
+            "shortName": "Nimodo"
+          },
+          "home": {
+            "name": "Cape Cod Moonshots",
+            "id": "zqauajwemmb5hgzq",
+            "shortName": "CCM"
+          }
+        },
+        {
+          "away": {
+            "name": "Deev",
+            "id": "2m42b2acmmas4t1p",
+            "shortName": "Deev"
+          },
+          "home": {
+            "name": "Jennie918",
+            "id": "4wzdeltymmart09z",
+            "shortName": "Jennie91"
+          }
+        },
+        {
+          "away": {
+            "name": "rng_38",
+            "id": "qidt76rnmmav10zj",
+            "shortName": "rng_38"
+          },
+          "home": {
+            "name": "Beacons123",
+            "id": "k38po2d8mmay3w1o",
+            "shortName": "Beacons1"
+          }
+        },
+        {
+          "away": {
+            "name": "paynedj",
+            "id": "fn3anqg7mmaroo43",
+            "shortName": "paynedj"
+          },
+          "home": {
+            "name": "Drugs",
+            "id": "k62qixnummb1tlu2",
+            "shortName": "Drugs"
+          }
+        }
+      ]
+    },
+    {
+      "period": 14,
+      "matchupList": [
+        {
+          "away": {
+            "name": "InTheSwing",
+            "id": "vs466barmmb8lfq6",
+            "shortName": "InTheSwi"
+          },
+          "home": {
+            "name": "Tommoford",
+            "id": "9duog6k1mmb01duw",
+            "shortName": "Tommofor"
+          }
+        },
+        {
+          "away": {
+            "name": "JKJ",
+            "id": "7sivdm9fmmas5aqf",
+            "shortName": "JKJ"
+          },
+          "home": {
+            "name": "Nimodo",
+            "id": "8lssbn5dmmart9e5",
+            "shortName": "Nimodo"
+          }
+        },
+        {
+          "away": {
+            "name": "King",
+            "id": "jf4t50fbmmax56ir",
+            "shortName": "KING"
+          },
+          "home": {
+            "name": "Deev",
+            "id": "2m42b2acmmas4t1p",
+            "shortName": "Deev"
+          }
+        },
+        {
+          "away": {
+            "name": "Cape Cod Moonshots",
+            "id": "zqauajwemmb5hgzq",
+            "shortName": "CCM"
+          },
+          "home": {
+            "name": "rng_38",
+            "id": "qidt76rnmmav10zj",
+            "shortName": "rng_38"
+          }
+        },
+        {
+          "away": {
+            "name": "Jennie918",
+            "id": "4wzdeltymmart09z",
+            "shortName": "Jennie91"
+          },
+          "home": {
+            "name": "paynedj",
+            "id": "fn3anqg7mmaroo43",
+            "shortName": "paynedj"
+          }
+        },
+        {
+          "away": {
+            "name": "Beacons123",
+            "id": "k38po2d8mmay3w1o",
+            "shortName": "Beacons1"
+          },
+          "home": {
+            "name": "Drugs",
+            "id": "k62qixnummb1tlu2",
+            "shortName": "Drugs"
+          }
+        }
+      ]
+    },
+    {
+      "period": 15,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Nimodo",
+            "id": "8lssbn5dmmart9e5",
+            "shortName": "Nimodo"
+          },
+          "home": {
+            "name": "InTheSwing",
+            "id": "vs466barmmb8lfq6",
+            "shortName": "InTheSwi"
+          }
+        },
+        {
+          "away": {
+            "name": "Deev",
+            "id": "2m42b2acmmas4t1p",
+            "shortName": "Deev"
+          },
+          "home": {
+            "name": "Tommoford",
+            "id": "9duog6k1mmb01duw",
+            "shortName": "Tommofor"
+          }
+        },
+        {
+          "away": {
+            "name": "rng_38",
+            "id": "qidt76rnmmav10zj",
+            "shortName": "rng_38"
+          },
+          "home": {
+            "name": "JKJ",
+            "id": "7sivdm9fmmas5aqf",
+            "shortName": "JKJ"
+          }
+        },
+        {
+          "away": {
+            "name": "paynedj",
+            "id": "fn3anqg7mmaroo43",
+            "shortName": "paynedj"
+          },
+          "home": {
+            "name": "King",
+            "id": "jf4t50fbmmax56ir",
+            "shortName": "KING"
+          }
+        },
+        {
+          "away": {
+            "name": "Drugs",
+            "id": "k62qixnummb1tlu2",
+            "shortName": "Drugs"
+          },
+          "home": {
+            "name": "Cape Cod Moonshots",
+            "id": "zqauajwemmb5hgzq",
+            "shortName": "CCM"
+          }
+        },
+        {
+          "away": {
+            "name": "Beacons123",
+            "id": "k38po2d8mmay3w1o",
+            "shortName": "Beacons1"
+          },
+          "home": {
+            "name": "Jennie918",
+            "id": "4wzdeltymmart09z",
+            "shortName": "Jennie91"
+          }
+        }
+      ]
+    },
+    {
+      "period": 16,
+      "matchupList": [
+        {
+          "away": {
+            "name": "InTheSwing",
+            "id": "vs466barmmb8lfq6",
+            "shortName": "InTheSwi"
+          },
+          "home": {
+            "name": "Deev",
+            "id": "2m42b2acmmas4t1p",
+            "shortName": "Deev"
+          }
+        },
+        {
+          "away": {
+            "name": "Nimodo",
+            "id": "8lssbn5dmmart9e5",
+            "shortName": "Nimodo"
+          },
+          "home": {
+            "name": "rng_38",
+            "id": "qidt76rnmmav10zj",
+            "shortName": "rng_38"
+          }
+        },
+        {
+          "away": {
+            "name": "Tommoford",
+            "id": "9duog6k1mmb01duw",
+            "shortName": "Tommofor"
+          },
+          "home": {
+            "name": "paynedj",
+            "id": "fn3anqg7mmaroo43",
+            "shortName": "paynedj"
+          }
+        },
+        {
+          "away": {
+            "name": "JKJ",
+            "id": "7sivdm9fmmas5aqf",
+            "shortName": "JKJ"
+          },
+          "home": {
+            "name": "Drugs",
+            "id": "k62qixnummb1tlu2",
+            "shortName": "Drugs"
+          }
+        },
+        {
+          "away": {
+            "name": "King",
+            "id": "jf4t50fbmmax56ir",
+            "shortName": "KING"
+          },
+          "home": {
+            "name": "Beacons123",
+            "id": "k38po2d8mmay3w1o",
+            "shortName": "Beacons1"
+          }
+        },
+        {
+          "away": {
+            "name": "Cape Cod Moonshots",
+            "id": "zqauajwemmb5hgzq",
+            "shortName": "CCM"
+          },
+          "home": {
+            "name": "Jennie918",
+            "id": "4wzdeltymmart09z",
+            "shortName": "Jennie91"
+          }
+        }
+      ]
+    },
+    {
+      "period": 17,
+      "matchupList": [
+        {
+          "away": {
+            "name": "rng_38",
+            "id": "qidt76rnmmav10zj",
+            "shortName": "rng_38"
+          },
+          "home": {
+            "name": "InTheSwing",
+            "id": "vs466barmmb8lfq6",
+            "shortName": "InTheSwi"
+          }
+        },
+        {
+          "away": {
+            "name": "paynedj",
+            "id": "fn3anqg7mmaroo43",
+            "shortName": "paynedj"
+          },
+          "home": {
+            "name": "Deev",
+            "id": "2m42b2acmmas4t1p",
+            "shortName": "Deev"
+          }
+        },
+        {
+          "away": {
+            "name": "Drugs",
+            "id": "k62qixnummb1tlu2",
+            "shortName": "Drugs"
+          },
+          "home": {
+            "name": "Nimodo",
+            "id": "8lssbn5dmmart9e5",
+            "shortName": "Nimodo"
+          }
+        },
+        {
+          "away": {
+            "name": "Beacons123",
+            "id": "k38po2d8mmay3w1o",
+            "shortName": "Beacons1"
+          },
+          "home": {
+            "name": "Tommoford",
+            "id": "9duog6k1mmb01duw",
+            "shortName": "Tommofor"
+          }
+        },
+        {
+          "away": {
+            "name": "Jennie918",
+            "id": "4wzdeltymmart09z",
+            "shortName": "Jennie91"
+          },
+          "home": {
+            "name": "JKJ",
+            "id": "7sivdm9fmmas5aqf",
+            "shortName": "JKJ"
+          }
+        },
+        {
+          "away": {
+            "name": "Cape Cod Moonshots",
+            "id": "zqauajwemmb5hgzq",
+            "shortName": "CCM"
+          },
+          "home": {
+            "name": "King",
+            "id": "jf4t50fbmmax56ir",
+            "shortName": "KING"
+          }
+        }
+      ]
+    },
+    {
+      "period": 18,
+      "matchupList": [
+        {
+          "away": {
+            "name": "InTheSwing",
+            "id": "vs466barmmb8lfq6",
+            "shortName": "InTheSwi"
+          },
+          "home": {
+            "name": "paynedj",
+            "id": "fn3anqg7mmaroo43",
+            "shortName": "paynedj"
+          }
+        },
+        {
+          "away": {
+            "name": "rng_38",
+            "id": "qidt76rnmmav10zj",
+            "shortName": "rng_38"
+          },
+          "home": {
+            "name": "Drugs",
+            "id": "k62qixnummb1tlu2",
+            "shortName": "Drugs"
+          }
+        },
+        {
+          "away": {
+            "name": "Deev",
+            "id": "2m42b2acmmas4t1p",
+            "shortName": "Deev"
+          },
+          "home": {
+            "name": "Beacons123",
+            "id": "k38po2d8mmay3w1o",
+            "shortName": "Beacons1"
+          }
+        },
+        {
+          "away": {
+            "name": "Nimodo",
+            "id": "8lssbn5dmmart9e5",
+            "shortName": "Nimodo"
+          },
+          "home": {
+            "name": "Jennie918",
+            "id": "4wzdeltymmart09z",
+            "shortName": "Jennie91"
+          }
+        },
+        {
+          "away": {
+            "name": "Tommoford",
+            "id": "9duog6k1mmb01duw",
+            "shortName": "Tommofor"
+          },
+          "home": {
+            "name": "Cape Cod Moonshots",
+            "id": "zqauajwemmb5hgzq",
+            "shortName": "CCM"
+          }
+        },
+        {
+          "away": {
+            "name": "JKJ",
+            "id": "7sivdm9fmmas5aqf",
+            "shortName": "JKJ"
+          },
+          "home": {
+            "name": "King",
+            "id": "jf4t50fbmmax56ir",
+            "shortName": "KING"
+          }
+        }
+      ]
+    },
+    {
+      "period": 19,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Drugs",
+            "id": "k62qixnummb1tlu2",
+            "shortName": "Drugs"
+          },
+          "home": {
+            "name": "InTheSwing",
+            "id": "vs466barmmb8lfq6",
+            "shortName": "InTheSwi"
+          }
+        },
+        {
+          "away": {
+            "name": "Beacons123",
+            "id": "k38po2d8mmay3w1o",
+            "shortName": "Beacons1"
+          },
+          "home": {
+            "name": "paynedj",
+            "id": "fn3anqg7mmaroo43",
+            "shortName": "paynedj"
+          }
+        },
+        {
+          "away": {
+            "name": "Jennie918",
+            "id": "4wzdeltymmart09z",
+            "shortName": "Jennie91"
+          },
+          "home": {
+            "name": "rng_38",
+            "id": "qidt76rnmmav10zj",
+            "shortName": "rng_38"
+          }
+        },
+        {
+          "away": {
+            "name": "Cape Cod Moonshots",
+            "id": "zqauajwemmb5hgzq",
+            "shortName": "CCM"
+          },
+          "home": {
+            "name": "Deev",
+            "id": "2m42b2acmmas4t1p",
+            "shortName": "Deev"
+          }
+        },
+        {
+          "away": {
+            "name": "King",
+            "id": "jf4t50fbmmax56ir",
+            "shortName": "KING"
+          },
+          "home": {
+            "name": "Nimodo",
+            "id": "8lssbn5dmmart9e5",
+            "shortName": "Nimodo"
+          }
+        },
+        {
+          "away": {
+            "name": "JKJ",
+            "id": "7sivdm9fmmas5aqf",
+            "shortName": "JKJ"
+          },
+          "home": {
+            "name": "Tommoford",
+            "id": "9duog6k1mmb01duw",
+            "shortName": "Tommofor"
+          }
+        }
+      ]
+    },
+    {
+      "period": 20,
+      "matchupList": [
+        {
+          "away": {
+            "name": "InTheSwing",
+            "id": "vs466barmmb8lfq6",
+            "shortName": "InTheSwi"
+          },
+          "home": {
+            "name": "Beacons123",
+            "id": "k38po2d8mmay3w1o",
+            "shortName": "Beacons1"
+          }
+        },
+        {
+          "away": {
+            "name": "Drugs",
+            "id": "k62qixnummb1tlu2",
+            "shortName": "Drugs"
+          },
+          "home": {
+            "name": "Jennie918",
+            "id": "4wzdeltymmart09z",
+            "shortName": "Jennie91"
+          }
+        },
+        {
+          "away": {
+            "name": "paynedj",
+            "id": "fn3anqg7mmaroo43",
+            "shortName": "paynedj"
+          },
+          "home": {
+            "name": "Cape Cod Moonshots",
+            "id": "zqauajwemmb5hgzq",
+            "shortName": "CCM"
+          }
+        },
+        {
+          "away": {
+            "name": "rng_38",
+            "id": "qidt76rnmmav10zj",
+            "shortName": "rng_38"
+          },
+          "home": {
+            "name": "King",
+            "id": "jf4t50fbmmax56ir",
+            "shortName": "KING"
+          }
+        },
+        {
+          "away": {
+            "name": "Deev",
+            "id": "2m42b2acmmas4t1p",
+            "shortName": "Deev"
+          },
+          "home": {
+            "name": "JKJ",
+            "id": "7sivdm9fmmas5aqf",
+            "shortName": "JKJ"
+          }
+        },
+        {
+          "away": {
+            "name": "Nimodo",
+            "id": "8lssbn5dmmart9e5",
+            "shortName": "Nimodo"
+          },
+          "home": {
+            "name": "Tommoford",
+            "id": "9duog6k1mmb01duw",
+            "shortName": "Tommofor"
+          }
+        }
+      ]
+    },
+    {
+      "period": 21,
+      "matchupList": [
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 22,
+      "matchupList": [
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 23,
+      "matchupList": [
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    }
+  ],
+  "standings": [
+    {
+      "teamName": "InTheSwing",
+      "teamId": "vs466barmmb8lfq6",
+      "gamesBack": 0.0,
+      "rank": 1,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Cape Cod Moonshots",
+      "teamId": "zqauajwemmb5hgzq",
+      "gamesBack": 0.0,
+      "rank": 2,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Deev",
+      "teamId": "2m42b2acmmas4t1p",
+      "gamesBack": 0.0,
+      "rank": 3,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "King",
+      "teamId": "jf4t50fbmmax56ir",
+      "gamesBack": 0.0,
+      "rank": 4,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Jennie918",
+      "teamId": "4wzdeltymmart09z",
+      "gamesBack": 0.0,
+      "rank": 5,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Drugs",
+      "teamId": "k62qixnummb1tlu2",
+      "gamesBack": 0.0,
+      "rank": 6,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "paynedj",
+      "teamId": "fn3anqg7mmaroo43",
+      "gamesBack": 0.0,
+      "rank": 7,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Nimodo",
+      "teamId": "8lssbn5dmmart9e5",
+      "gamesBack": 0.0,
+      "rank": 8,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "rng_38",
+      "teamId": "qidt76rnmmav10zj",
+      "gamesBack": 0.0,
+      "rank": 9,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Tommoford",
+      "teamId": "9duog6k1mmb01duw",
+      "gamesBack": 0.0,
+      "rank": 10,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "JKJ",
+      "teamId": "7sivdm9fmmas5aqf",
+      "gamesBack": 0.0,
+      "rank": 11,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Beacons123",
+      "teamId": "k38po2d8mmay3w1o",
+      "gamesBack": 0.0,
+      "rank": 12,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    }
+  ]
+}

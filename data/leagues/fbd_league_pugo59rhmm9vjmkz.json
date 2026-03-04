@@ -1,0 +1,2017 @@
+{
+  "fantrax_id": "pugo59rhmm9vjmkz",
+  "name": "FBD Andre Dawson League",
+  "season_year": 2026,
+  "start_date": "2026-03-25",
+  "end_date": "2026-09-20",
+  "scoring_settings": {
+    "scoringCategories": {
+      "HITTING": {
+        "R": {
+          "Default": "1.0"
+        },
+        "RBI": {
+          "Default": "1.0"
+        },
+        "HR": {
+          "Default": "1.0"
+        },
+        "OBP": {
+          "Default": "1.0"
+        },
+        "SB": {
+          "Default": "1.0"
+        }
+      },
+      "PITCHING": {
+        "WHIP": {
+          "Default": "1.0"
+        },
+        "SVH": {
+          "Default": "1.0"
+        },
+        "ERA": {
+          "Default": "1.0"
+        },
+        "K": {
+          "Default": "1.0"
+        },
+        "W+QS": {
+          "Default": "1.0"
+        }
+      }
+    },
+    "scoringCategorySettings": [
+      {
+        "configs": [
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_HOME_RUNS",
+              "name": "Home Runs",
+              "id": "0200",
+              "shortName": "HR"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_RBIS",
+              "name": "RBI",
+              "id": "0310",
+              "shortName": "RBI"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_RUNS_SCORED",
+              "name": "Runs Scored",
+              "id": "0330",
+              "shortName": "R"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_STOLEN_BASES",
+              "name": "Stolen Bases",
+              "id": "0380",
+              "shortName": "SB"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_ON_BASE_PERCENTAGE",
+              "name": "On Base Percentage",
+              "id": "0510",
+              "shortName": "OBP"
+            }
+          }
+        ],
+        "group": {
+          "code": "BASEBALL_HITTING",
+          "name": "Hitting",
+          "id": "10",
+          "shortName": "Hit"
+        }
+      },
+      {
+        "configs": [
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_STRIKE_OUTS_PITCHED",
+              "name": "Strikeouts Pitched",
+              "id": "0410",
+              "shortName": "K"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_EARNED_RUN_AVERAGE",
+              "name": "Earned Run Average",
+              "id": "0490",
+              "shortName": "ERA"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_SAVES_PLUS_HOLDS",
+              "name": "Saves + Holds",
+              "id": "051i",
+              "shortName": "SVH"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_WHIP_RATIO",
+              "name": "WHIP Ratio",
+              "id": "0580",
+              "shortName": "WHIP"
+            }
+          },
+          {
+            "weight": 1.0,
+            "position": {
+              "code": "DEFAULT",
+              "name": "Default",
+              "id": "-1",
+              "shortName": "Default"
+            },
+            "scoringCategory": {
+              "code": "INDIVIDUAL_WINS_PLUS_QUALITY_STARTS",
+              "name": "Wins + Quality Starts",
+              "id": "0593",
+              "shortName": "W+QS"
+            }
+          }
+        ],
+        "group": {
+          "code": "BASEBALL_PITCHING",
+          "name": "Pitching",
+          "id": "20",
+          "shortName": "Pit"
+        }
+      }
+    ],
+    "type": "rotisserie"
+  },
+  "teams": {
+    "amlxdc43mmarh6q0": {
+      "name": "Zilla",
+      "id": "amlxdc43mmarh6q0"
+    },
+    "30edaar5mmavqfy8": {
+      "name": "Redbird III",
+      "id": "30edaar5mmavqfy8"
+    },
+    "8gfc2yxbmmaw4pjy": {
+      "name": "PCA FRAUD",
+      "id": "8gfc2yxbmmaw4pjy"
+    },
+    "3nf85l8jmmat4046": {
+      "name": "mommy",
+      "id": "3nf85l8jmmat4046"
+    },
+    "qrej9l9dmmb8jiub": {
+      "name": "MKJ95",
+      "id": "qrej9l9dmmb8jiub"
+    },
+    "ygp40vngmmauqrm2": {
+      "name": "Los Swingers",
+      "id": "ygp40vngmmauqrm2"
+    },
+    "nk3vygpqmmawoebf": {
+      "name": "Spheal Team Six",
+      "id": "nk3vygpqmmawoebf"
+    },
+    "fmgfsv0gmmb479s1": {
+      "name": "EliteWinner",
+      "id": "fmgfsv0gmmb479s1"
+    },
+    "ata9iqbwmmb4i064": {
+      "name": "Endal",
+      "id": "ata9iqbwmmb4i064"
+    },
+    "d0hry6xdmmbarukj": {
+      "name": "A-roid is the goat",
+      "id": "d0hry6xdmmbarukj"
+    },
+    "ptb8rhxammarvc77": {
+      "name": "Tyrone",
+      "id": "ptb8rhxammarvc77"
+    }
+  },
+  "matchups": [
+    {
+      "period": 1,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Zilla",
+            "id": "amlxdc43mmarh6q0",
+            "shortName": "ZLA"
+          },
+          "home": {
+            "name": "PCA FRAUD",
+            "id": "8gfc2yxbmmaw4pjy",
+            "shortName": "Downsr30"
+          }
+        },
+        {
+          "away": {
+            "name": "EliteWinner",
+            "id": "fmgfsv0gmmb479s1",
+            "shortName": "EliteWin"
+          },
+          "home": {
+            "name": "Los Swingers",
+            "id": "ygp40vngmmauqrm2",
+            "shortName": "Swingers"
+          }
+        },
+        {
+          "away": {
+            "name": "A-roid is the goat",
+            "id": "d0hry6xdmmbarukj",
+            "shortName": "Jojofrfr"
+          },
+          "home": {
+            "name": "MKJ95",
+            "id": "qrej9l9dmmb8jiub",
+            "shortName": "MKJ95"
+          }
+        },
+        {
+          "away": {
+            "name": "Endal",
+            "id": "ata9iqbwmmb4i064",
+            "shortName": "Endal"
+          },
+          "home": {
+            "name": "mommy",
+            "id": "3nf85l8jmmat4046",
+            "shortName": "mom"
+          }
+        },
+        {
+          "away": {
+            "name": "Spheal Team Six",
+            "id": "nk3vygpqmmawoebf",
+            "shortName": "SPH"
+          },
+          "home": {
+            "name": "Tyrone",
+            "id": "ptb8rhxammarvc77",
+            "shortName": "UNKNOWNM"
+          }
+        },
+        {
+          "away": {
+            "name": "Redbird III",
+            "id": "30edaar5mmavqfy8",
+            "shortName": "3rdBRD"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 2,
+      "matchupList": [
+        {
+          "away": {
+            "name": "PCA FRAUD",
+            "id": "8gfc2yxbmmaw4pjy",
+            "shortName": "Downsr30"
+          },
+          "home": {
+            "name": "EliteWinner",
+            "id": "fmgfsv0gmmb479s1",
+            "shortName": "EliteWin"
+          }
+        },
+        {
+          "away": {
+            "name": "Zilla",
+            "id": "amlxdc43mmarh6q0",
+            "shortName": "ZLA"
+          },
+          "home": {
+            "name": "A-roid is the goat",
+            "id": "d0hry6xdmmbarukj",
+            "shortName": "Jojofrfr"
+          }
+        },
+        {
+          "away": {
+            "name": "Los Swingers",
+            "id": "ygp40vngmmauqrm2",
+            "shortName": "Swingers"
+          },
+          "home": {
+            "name": "Endal",
+            "id": "ata9iqbwmmb4i064",
+            "shortName": "Endal"
+          }
+        },
+        {
+          "away": {
+            "name": "MKJ95",
+            "id": "qrej9l9dmmb8jiub",
+            "shortName": "MKJ95"
+          },
+          "home": {
+            "name": "Spheal Team Six",
+            "id": "nk3vygpqmmawoebf",
+            "shortName": "SPH"
+          }
+        },
+        {
+          "away": {
+            "name": "mommy",
+            "id": "3nf85l8jmmat4046",
+            "shortName": "mom"
+          },
+          "home": {
+            "name": "Redbird III",
+            "id": "30edaar5mmavqfy8",
+            "shortName": "3rdBRD"
+          }
+        },
+        {
+          "away": {
+            "name": "mommy",
+            "id": "3nf85l8jmmat4046",
+            "shortName": "mom"
+          },
+          "home": {
+            "name": "Los Swingers",
+            "id": "ygp40vngmmauqrm2",
+            "shortName": "Swingers"
+          }
+        },
+        {
+          "away": {
+            "name": "Tyrone",
+            "id": "ptb8rhxammarvc77",
+            "shortName": "UNKNOWNM"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 3,
+      "matchupList": [
+        {
+          "away": {
+            "name": "A-roid is the goat",
+            "id": "d0hry6xdmmbarukj",
+            "shortName": "Jojofrfr"
+          },
+          "home": {
+            "name": "PCA FRAUD",
+            "id": "8gfc2yxbmmaw4pjy",
+            "shortName": "Downsr30"
+          }
+        },
+        {
+          "away": {
+            "name": "Endal",
+            "id": "ata9iqbwmmb4i064",
+            "shortName": "Endal"
+          },
+          "home": {
+            "name": "EliteWinner",
+            "id": "fmgfsv0gmmb479s1",
+            "shortName": "EliteWin"
+          }
+        },
+        {
+          "away": {
+            "name": "Spheal Team Six",
+            "id": "nk3vygpqmmawoebf",
+            "shortName": "SPH"
+          },
+          "home": {
+            "name": "Zilla",
+            "id": "amlxdc43mmarh6q0",
+            "shortName": "ZLA"
+          }
+        },
+        {
+          "away": {
+            "name": "Redbird III",
+            "id": "30edaar5mmavqfy8",
+            "shortName": "3rdBRD"
+          },
+          "home": {
+            "name": "Los Swingers",
+            "id": "ygp40vngmmauqrm2",
+            "shortName": "Swingers"
+          }
+        },
+        {
+          "away": {
+            "name": "Tyrone",
+            "id": "ptb8rhxammarvc77",
+            "shortName": "UNKNOWNM"
+          },
+          "home": {
+            "name": "mommy",
+            "id": "3nf85l8jmmat4046",
+            "shortName": "mom"
+          }
+        },
+        {
+          "away": {
+            "name": "Endal",
+            "id": "ata9iqbwmmb4i064",
+            "shortName": "Endal"
+          },
+          "home": {
+            "name": "Spheal Team Six",
+            "id": "nk3vygpqmmawoebf",
+            "shortName": "SPH"
+          }
+        },
+        {
+          "away": {
+            "name": "MKJ95",
+            "id": "qrej9l9dmmb8jiub",
+            "shortName": "MKJ95"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 4,
+      "matchupList": [
+        {
+          "away": {
+            "name": "PCA FRAUD",
+            "id": "8gfc2yxbmmaw4pjy",
+            "shortName": "Downsr30"
+          },
+          "home": {
+            "name": "Endal",
+            "id": "ata9iqbwmmb4i064",
+            "shortName": "Endal"
+          }
+        },
+        {
+          "away": {
+            "name": "A-roid is the goat",
+            "id": "d0hry6xdmmbarukj",
+            "shortName": "Jojofrfr"
+          },
+          "home": {
+            "name": "Spheal Team Six",
+            "id": "nk3vygpqmmawoebf",
+            "shortName": "SPH"
+          }
+        },
+        {
+          "away": {
+            "name": "EliteWinner",
+            "id": "fmgfsv0gmmb479s1",
+            "shortName": "EliteWin"
+          },
+          "home": {
+            "name": "Redbird III",
+            "id": "30edaar5mmavqfy8",
+            "shortName": "3rdBRD"
+          }
+        },
+        {
+          "away": {
+            "name": "Los Swingers",
+            "id": "ygp40vngmmauqrm2",
+            "shortName": "Swingers"
+          },
+          "home": {
+            "name": "Tyrone",
+            "id": "ptb8rhxammarvc77",
+            "shortName": "UNKNOWNM"
+          }
+        },
+        {
+          "away": {
+            "name": "MKJ95",
+            "id": "qrej9l9dmmb8jiub",
+            "shortName": "MKJ95"
+          },
+          "home": {
+            "name": "mommy",
+            "id": "3nf85l8jmmat4046",
+            "shortName": "mom"
+          }
+        },
+        {
+          "away": {
+            "name": "Zilla",
+            "id": "amlxdc43mmarh6q0",
+            "shortName": "ZLA"
+          },
+          "home": {
+            "name": "Redbird III",
+            "id": "30edaar5mmavqfy8",
+            "shortName": "3rdBRD"
+          }
+        }
+      ]
+    },
+    {
+      "period": 5,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Spheal Team Six",
+            "id": "nk3vygpqmmawoebf",
+            "shortName": "SPH"
+          },
+          "home": {
+            "name": "PCA FRAUD",
+            "id": "8gfc2yxbmmaw4pjy",
+            "shortName": "Downsr30"
+          }
+        },
+        {
+          "away": {
+            "name": "Redbird III",
+            "id": "30edaar5mmavqfy8",
+            "shortName": "3rdBRD"
+          },
+          "home": {
+            "name": "Endal",
+            "id": "ata9iqbwmmb4i064",
+            "shortName": "Endal"
+          }
+        },
+        {
+          "away": {
+            "name": "Tyrone",
+            "id": "ptb8rhxammarvc77",
+            "shortName": "UNKNOWNM"
+          },
+          "home": {
+            "name": "EliteWinner",
+            "id": "fmgfsv0gmmb479s1",
+            "shortName": "EliteWin"
+          }
+        },
+        {
+          "away": {
+            "name": "mommy",
+            "id": "3nf85l8jmmat4046",
+            "shortName": "mom"
+          },
+          "home": {
+            "name": "Zilla",
+            "id": "amlxdc43mmarh6q0",
+            "shortName": "ZLA"
+          }
+        },
+        {
+          "away": {
+            "name": "MKJ95",
+            "id": "qrej9l9dmmb8jiub",
+            "shortName": "MKJ95"
+          },
+          "home": {
+            "name": "Los Swingers",
+            "id": "ygp40vngmmauqrm2",
+            "shortName": "Swingers"
+          }
+        },
+        {
+          "away": {
+            "name": "A-roid is the goat",
+            "id": "d0hry6xdmmbarukj",
+            "shortName": "Jojofrfr"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 6,
+      "matchupList": [
+        {
+          "away": {
+            "name": "PCA FRAUD",
+            "id": "8gfc2yxbmmaw4pjy",
+            "shortName": "Downsr30"
+          },
+          "home": {
+            "name": "Redbird III",
+            "id": "30edaar5mmavqfy8",
+            "shortName": "3rdBRD"
+          }
+        },
+        {
+          "away": {
+            "name": "Endal",
+            "id": "ata9iqbwmmb4i064",
+            "shortName": "Endal"
+          },
+          "home": {
+            "name": "Tyrone",
+            "id": "ptb8rhxammarvc77",
+            "shortName": "UNKNOWNM"
+          }
+        },
+        {
+          "away": {
+            "name": "A-roid is the goat",
+            "id": "d0hry6xdmmbarukj",
+            "shortName": "Jojofrfr"
+          },
+          "home": {
+            "name": "mommy",
+            "id": "3nf85l8jmmat4046",
+            "shortName": "mom"
+          }
+        },
+        {
+          "away": {
+            "name": "EliteWinner",
+            "id": "fmgfsv0gmmb479s1",
+            "shortName": "EliteWin"
+          },
+          "home": {
+            "name": "MKJ95",
+            "id": "qrej9l9dmmb8jiub",
+            "shortName": "MKJ95"
+          }
+        },
+        {
+          "away": {
+            "name": "Zilla",
+            "id": "amlxdc43mmarh6q0",
+            "shortName": "ZLA"
+          },
+          "home": {
+            "name": "Los Swingers",
+            "id": "ygp40vngmmauqrm2",
+            "shortName": "Swingers"
+          }
+        },
+        {
+          "away": {
+            "name": "Spheal Team Six",
+            "id": "nk3vygpqmmawoebf",
+            "shortName": "SPH"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 7,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Tyrone",
+            "id": "ptb8rhxammarvc77",
+            "shortName": "UNKNOWNM"
+          },
+          "home": {
+            "name": "Redbird III",
+            "id": "30edaar5mmavqfy8",
+            "shortName": "3rdBRD"
+          }
+        },
+        {
+          "away": {
+            "name": "mommy",
+            "id": "3nf85l8jmmat4046",
+            "shortName": "mom"
+          },
+          "home": {
+            "name": "Spheal Team Six",
+            "id": "nk3vygpqmmawoebf",
+            "shortName": "SPH"
+          }
+        },
+        {
+          "away": {
+            "name": "MKJ95",
+            "id": "qrej9l9dmmb8jiub",
+            "shortName": "MKJ95"
+          },
+          "home": {
+            "name": "Endal",
+            "id": "ata9iqbwmmb4i064",
+            "shortName": "Endal"
+          }
+        },
+        {
+          "away": {
+            "name": "Los Swingers",
+            "id": "ygp40vngmmauqrm2",
+            "shortName": "Swingers"
+          },
+          "home": {
+            "name": "A-roid is the goat",
+            "id": "d0hry6xdmmbarukj",
+            "shortName": "Jojofrfr"
+          }
+        },
+        {
+          "away": {
+            "name": "Zilla",
+            "id": "amlxdc43mmarh6q0",
+            "shortName": "ZLA"
+          },
+          "home": {
+            "name": "EliteWinner",
+            "id": "fmgfsv0gmmb479s1",
+            "shortName": "EliteWin"
+          }
+        },
+        {
+          "away": {
+            "name": "Redbird III",
+            "id": "30edaar5mmavqfy8",
+            "shortName": "3rdBRD"
+          },
+          "home": {
+            "name": "Zilla",
+            "id": "amlxdc43mmarh6q0",
+            "shortName": "ZLA"
+          }
+        },
+        {
+          "away": {
+            "name": "PCA FRAUD",
+            "id": "8gfc2yxbmmaw4pjy",
+            "shortName": "Downsr30"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 8,
+      "matchupList": [
+        {
+          "away": {
+            "name": "PCA FRAUD",
+            "id": "8gfc2yxbmmaw4pjy",
+            "shortName": "Downsr30"
+          },
+          "home": {
+            "name": "Tyrone",
+            "id": "ptb8rhxammarvc77",
+            "shortName": "UNKNOWNM"
+          }
+        },
+        {
+          "away": {
+            "name": "Redbird III",
+            "id": "30edaar5mmavqfy8",
+            "shortName": "3rdBRD"
+          },
+          "home": {
+            "name": "MKJ95",
+            "id": "qrej9l9dmmb8jiub",
+            "shortName": "MKJ95"
+          }
+        },
+        {
+          "away": {
+            "name": "Spheal Team Six",
+            "id": "nk3vygpqmmawoebf",
+            "shortName": "SPH"
+          },
+          "home": {
+            "name": "Los Swingers",
+            "id": "ygp40vngmmauqrm2",
+            "shortName": "Swingers"
+          }
+        },
+        {
+          "away": {
+            "name": "Endal",
+            "id": "ata9iqbwmmb4i064",
+            "shortName": "Endal"
+          },
+          "home": {
+            "name": "Zilla",
+            "id": "amlxdc43mmarh6q0",
+            "shortName": "ZLA"
+          }
+        },
+        {
+          "away": {
+            "name": "A-roid is the goat",
+            "id": "d0hry6xdmmbarukj",
+            "shortName": "Jojofrfr"
+          },
+          "home": {
+            "name": "EliteWinner",
+            "id": "fmgfsv0gmmb479s1",
+            "shortName": "EliteWin"
+          }
+        },
+        {
+          "away": {
+            "name": "mommy",
+            "id": "3nf85l8jmmat4046",
+            "shortName": "mom"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 9,
+      "matchupList": [
+        {
+          "away": {
+            "name": "mommy",
+            "id": "3nf85l8jmmat4046",
+            "shortName": "mom"
+          },
+          "home": {
+            "name": "PCA FRAUD",
+            "id": "8gfc2yxbmmaw4pjy",
+            "shortName": "Downsr30"
+          }
+        },
+        {
+          "away": {
+            "name": "MKJ95",
+            "id": "qrej9l9dmmb8jiub",
+            "shortName": "MKJ95"
+          },
+          "home": {
+            "name": "Tyrone",
+            "id": "ptb8rhxammarvc77",
+            "shortName": "UNKNOWNM"
+          }
+        },
+        {
+          "away": {
+            "name": "Zilla",
+            "id": "amlxdc43mmarh6q0",
+            "shortName": "ZLA"
+          },
+          "home": {
+            "name": "Redbird III",
+            "id": "30edaar5mmavqfy8",
+            "shortName": "3rdBRD"
+          }
+        },
+        {
+          "away": {
+            "name": "EliteWinner",
+            "id": "fmgfsv0gmmb479s1",
+            "shortName": "EliteWin"
+          },
+          "home": {
+            "name": "Spheal Team Six",
+            "id": "nk3vygpqmmawoebf",
+            "shortName": "SPH"
+          }
+        },
+        {
+          "away": {
+            "name": "A-roid is the goat",
+            "id": "d0hry6xdmmbarukj",
+            "shortName": "Jojofrfr"
+          },
+          "home": {
+            "name": "Endal",
+            "id": "ata9iqbwmmb4i064",
+            "shortName": "Endal"
+          }
+        },
+        {
+          "away": {
+            "name": "Los Swingers",
+            "id": "ygp40vngmmauqrm2",
+            "shortName": "Swingers"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 10,
+      "matchupList": [
+        {
+          "away": {
+            "name": "PCA FRAUD",
+            "id": "8gfc2yxbmmaw4pjy",
+            "shortName": "Downsr30"
+          },
+          "home": {
+            "name": "MKJ95",
+            "id": "qrej9l9dmmb8jiub",
+            "shortName": "MKJ95"
+          }
+        },
+        {
+          "away": {
+            "name": "mommy",
+            "id": "3nf85l8jmmat4046",
+            "shortName": "mom"
+          },
+          "home": {
+            "name": "Los Swingers",
+            "id": "ygp40vngmmauqrm2",
+            "shortName": "Swingers"
+          }
+        },
+        {
+          "away": {
+            "name": "Tyrone",
+            "id": "ptb8rhxammarvc77",
+            "shortName": "UNKNOWNM"
+          },
+          "home": {
+            "name": "Zilla",
+            "id": "amlxdc43mmarh6q0",
+            "shortName": "ZLA"
+          }
+        },
+        {
+          "away": {
+            "name": "Redbird III",
+            "id": "30edaar5mmavqfy8",
+            "shortName": "3rdBRD"
+          },
+          "home": {
+            "name": "A-roid is the goat",
+            "id": "d0hry6xdmmbarukj",
+            "shortName": "Jojofrfr"
+          }
+        },
+        {
+          "away": {
+            "name": "Spheal Team Six",
+            "id": "nk3vygpqmmawoebf",
+            "shortName": "SPH"
+          },
+          "home": {
+            "name": "Endal",
+            "id": "ata9iqbwmmb4i064",
+            "shortName": "Endal"
+          }
+        },
+        {
+          "away": {
+            "name": "EliteWinner",
+            "id": "fmgfsv0gmmb479s1",
+            "shortName": "EliteWin"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 11,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Los Swingers",
+            "id": "ygp40vngmmauqrm2",
+            "shortName": "Swingers"
+          },
+          "home": {
+            "name": "PCA FRAUD",
+            "id": "8gfc2yxbmmaw4pjy",
+            "shortName": "Downsr30"
+          }
+        },
+        {
+          "away": {
+            "name": "Zilla",
+            "id": "amlxdc43mmarh6q0",
+            "shortName": "ZLA"
+          },
+          "home": {
+            "name": "MKJ95",
+            "id": "qrej9l9dmmb8jiub",
+            "shortName": "MKJ95"
+          }
+        },
+        {
+          "away": {
+            "name": "EliteWinner",
+            "id": "fmgfsv0gmmb479s1",
+            "shortName": "EliteWin"
+          },
+          "home": {
+            "name": "mommy",
+            "id": "3nf85l8jmmat4046",
+            "shortName": "mom"
+          }
+        },
+        {
+          "away": {
+            "name": "A-roid is the goat",
+            "id": "d0hry6xdmmbarukj",
+            "shortName": "Jojofrfr"
+          },
+          "home": {
+            "name": "Tyrone",
+            "id": "ptb8rhxammarvc77",
+            "shortName": "UNKNOWNM"
+          }
+        },
+        {
+          "away": {
+            "name": "Spheal Team Six",
+            "id": "nk3vygpqmmawoebf",
+            "shortName": "SPH"
+          },
+          "home": {
+            "name": "Redbird III",
+            "id": "30edaar5mmavqfy8",
+            "shortName": "3rdBRD"
+          }
+        },
+        {
+          "away": {
+            "name": "Endal",
+            "id": "ata9iqbwmmb4i064",
+            "shortName": "Endal"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 12,
+      "matchupList": [
+        {
+          "away": {
+            "name": "PCA FRAUD",
+            "id": "8gfc2yxbmmaw4pjy",
+            "shortName": "Downsr30"
+          },
+          "home": {
+            "name": "Zilla",
+            "id": "amlxdc43mmarh6q0",
+            "shortName": "ZLA"
+          }
+        },
+        {
+          "away": {
+            "name": "Los Swingers",
+            "id": "ygp40vngmmauqrm2",
+            "shortName": "Swingers"
+          },
+          "home": {
+            "name": "EliteWinner",
+            "id": "fmgfsv0gmmb479s1",
+            "shortName": "EliteWin"
+          }
+        },
+        {
+          "away": {
+            "name": "MKJ95",
+            "id": "qrej9l9dmmb8jiub",
+            "shortName": "MKJ95"
+          },
+          "home": {
+            "name": "A-roid is the goat",
+            "id": "d0hry6xdmmbarukj",
+            "shortName": "Jojofrfr"
+          }
+        },
+        {
+          "away": {
+            "name": "mommy",
+            "id": "3nf85l8jmmat4046",
+            "shortName": "mom"
+          },
+          "home": {
+            "name": "Endal",
+            "id": "ata9iqbwmmb4i064",
+            "shortName": "Endal"
+          }
+        },
+        {
+          "away": {
+            "name": "Tyrone",
+            "id": "ptb8rhxammarvc77",
+            "shortName": "UNKNOWNM"
+          },
+          "home": {
+            "name": "Spheal Team Six",
+            "id": "nk3vygpqmmawoebf",
+            "shortName": "SPH"
+          }
+        },
+        {
+          "away": {
+            "name": "Los Swingers",
+            "id": "ygp40vngmmauqrm2",
+            "shortName": "Swingers"
+          },
+          "home": {
+            "name": "mommy",
+            "id": "3nf85l8jmmat4046",
+            "shortName": "mom"
+          }
+        },
+        {
+          "away": {
+            "name": "Redbird III",
+            "id": "30edaar5mmavqfy8",
+            "shortName": "3rdBRD"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 13,
+      "matchupList": [
+        {
+          "away": {
+            "name": "EliteWinner",
+            "id": "fmgfsv0gmmb479s1",
+            "shortName": "EliteWin"
+          },
+          "home": {
+            "name": "PCA FRAUD",
+            "id": "8gfc2yxbmmaw4pjy",
+            "shortName": "Downsr30"
+          }
+        },
+        {
+          "away": {
+            "name": "A-roid is the goat",
+            "id": "d0hry6xdmmbarukj",
+            "shortName": "Jojofrfr"
+          },
+          "home": {
+            "name": "Zilla",
+            "id": "amlxdc43mmarh6q0",
+            "shortName": "ZLA"
+          }
+        },
+        {
+          "away": {
+            "name": "Endal",
+            "id": "ata9iqbwmmb4i064",
+            "shortName": "Endal"
+          },
+          "home": {
+            "name": "Los Swingers",
+            "id": "ygp40vngmmauqrm2",
+            "shortName": "Swingers"
+          }
+        },
+        {
+          "away": {
+            "name": "Spheal Team Six",
+            "id": "nk3vygpqmmawoebf",
+            "shortName": "SPH"
+          },
+          "home": {
+            "name": "MKJ95",
+            "id": "qrej9l9dmmb8jiub",
+            "shortName": "MKJ95"
+          }
+        },
+        {
+          "away": {
+            "name": "Redbird III",
+            "id": "30edaar5mmavqfy8",
+            "shortName": "3rdBRD"
+          },
+          "home": {
+            "name": "mommy",
+            "id": "3nf85l8jmmat4046",
+            "shortName": "mom"
+          }
+        },
+        {
+          "away": {
+            "name": "Tyrone",
+            "id": "ptb8rhxammarvc77",
+            "shortName": "UNKNOWNM"
+          },
+          "home": {
+            "name": "A-roid is the goat",
+            "id": "d0hry6xdmmbarukj",
+            "shortName": "Jojofrfr"
+          }
+        }
+      ]
+    },
+    {
+      "period": 14,
+      "matchupList": [
+        {
+          "away": {
+            "name": "PCA FRAUD",
+            "id": "8gfc2yxbmmaw4pjy",
+            "shortName": "Downsr30"
+          },
+          "home": {
+            "name": "A-roid is the goat",
+            "id": "d0hry6xdmmbarukj",
+            "shortName": "Jojofrfr"
+          }
+        },
+        {
+          "away": {
+            "name": "EliteWinner",
+            "id": "fmgfsv0gmmb479s1",
+            "shortName": "EliteWin"
+          },
+          "home": {
+            "name": "Endal",
+            "id": "ata9iqbwmmb4i064",
+            "shortName": "Endal"
+          }
+        },
+        {
+          "away": {
+            "name": "Zilla",
+            "id": "amlxdc43mmarh6q0",
+            "shortName": "ZLA"
+          },
+          "home": {
+            "name": "Spheal Team Six",
+            "id": "nk3vygpqmmawoebf",
+            "shortName": "SPH"
+          }
+        },
+        {
+          "away": {
+            "name": "Los Swingers",
+            "id": "ygp40vngmmauqrm2",
+            "shortName": "Swingers"
+          },
+          "home": {
+            "name": "Redbird III",
+            "id": "30edaar5mmavqfy8",
+            "shortName": "3rdBRD"
+          }
+        },
+        {
+          "away": {
+            "name": "mommy",
+            "id": "3nf85l8jmmat4046",
+            "shortName": "mom"
+          },
+          "home": {
+            "name": "Tyrone",
+            "id": "ptb8rhxammarvc77",
+            "shortName": "UNKNOWNM"
+          }
+        },
+        {
+          "away": {
+            "name": "A-roid is the goat",
+            "id": "d0hry6xdmmbarukj",
+            "shortName": "Jojofrfr"
+          },
+          "home": {
+            "name": "Tyrone",
+            "id": "ptb8rhxammarvc77",
+            "shortName": "UNKNOWNM"
+          }
+        },
+        {
+          "away": {
+            "name": "MKJ95",
+            "id": "qrej9l9dmmb8jiub",
+            "shortName": "MKJ95"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 15,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Endal",
+            "id": "ata9iqbwmmb4i064",
+            "shortName": "Endal"
+          },
+          "home": {
+            "name": "PCA FRAUD",
+            "id": "8gfc2yxbmmaw4pjy",
+            "shortName": "Downsr30"
+          }
+        },
+        {
+          "away": {
+            "name": "Spheal Team Six",
+            "id": "nk3vygpqmmawoebf",
+            "shortName": "SPH"
+          },
+          "home": {
+            "name": "A-roid is the goat",
+            "id": "d0hry6xdmmbarukj",
+            "shortName": "Jojofrfr"
+          }
+        },
+        {
+          "away": {
+            "name": "Redbird III",
+            "id": "30edaar5mmavqfy8",
+            "shortName": "3rdBRD"
+          },
+          "home": {
+            "name": "EliteWinner",
+            "id": "fmgfsv0gmmb479s1",
+            "shortName": "EliteWin"
+          }
+        },
+        {
+          "away": {
+            "name": "Tyrone",
+            "id": "ptb8rhxammarvc77",
+            "shortName": "UNKNOWNM"
+          },
+          "home": {
+            "name": "Los Swingers",
+            "id": "ygp40vngmmauqrm2",
+            "shortName": "Swingers"
+          }
+        },
+        {
+          "away": {
+            "name": "mommy",
+            "id": "3nf85l8jmmat4046",
+            "shortName": "mom"
+          },
+          "home": {
+            "name": "MKJ95",
+            "id": "qrej9l9dmmb8jiub",
+            "shortName": "MKJ95"
+          }
+        },
+        {
+          "away": {
+            "name": "EliteWinner",
+            "id": "fmgfsv0gmmb479s1",
+            "shortName": "EliteWin"
+          },
+          "home": {
+            "name": "Spheal Team Six",
+            "id": "nk3vygpqmmawoebf",
+            "shortName": "SPH"
+          }
+        },
+        {
+          "away": {
+            "name": "Zilla",
+            "id": "amlxdc43mmarh6q0",
+            "shortName": "ZLA"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 16,
+      "matchupList": [
+        {
+          "away": {
+            "name": "PCA FRAUD",
+            "id": "8gfc2yxbmmaw4pjy",
+            "shortName": "Downsr30"
+          },
+          "home": {
+            "name": "Spheal Team Six",
+            "id": "nk3vygpqmmawoebf",
+            "shortName": "SPH"
+          }
+        },
+        {
+          "away": {
+            "name": "Endal",
+            "id": "ata9iqbwmmb4i064",
+            "shortName": "Endal"
+          },
+          "home": {
+            "name": "Redbird III",
+            "id": "30edaar5mmavqfy8",
+            "shortName": "3rdBRD"
+          }
+        },
+        {
+          "away": {
+            "name": "EliteWinner",
+            "id": "fmgfsv0gmmb479s1",
+            "shortName": "EliteWin"
+          },
+          "home": {
+            "name": "Tyrone",
+            "id": "ptb8rhxammarvc77",
+            "shortName": "UNKNOWNM"
+          }
+        },
+        {
+          "away": {
+            "name": "Zilla",
+            "id": "amlxdc43mmarh6q0",
+            "shortName": "ZLA"
+          },
+          "home": {
+            "name": "mommy",
+            "id": "3nf85l8jmmat4046",
+            "shortName": "mom"
+          }
+        },
+        {
+          "away": {
+            "name": "Los Swingers",
+            "id": "ygp40vngmmauqrm2",
+            "shortName": "Swingers"
+          },
+          "home": {
+            "name": "MKJ95",
+            "id": "qrej9l9dmmb8jiub",
+            "shortName": "MKJ95"
+          }
+        },
+        {
+          "away": {
+            "name": "A-roid is the goat",
+            "id": "d0hry6xdmmbarukj",
+            "shortName": "Jojofrfr"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 17,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Redbird III",
+            "id": "30edaar5mmavqfy8",
+            "shortName": "3rdBRD"
+          },
+          "home": {
+            "name": "PCA FRAUD",
+            "id": "8gfc2yxbmmaw4pjy",
+            "shortName": "Downsr30"
+          }
+        },
+        {
+          "away": {
+            "name": "Tyrone",
+            "id": "ptb8rhxammarvc77",
+            "shortName": "UNKNOWNM"
+          },
+          "home": {
+            "name": "Endal",
+            "id": "ata9iqbwmmb4i064",
+            "shortName": "Endal"
+          }
+        },
+        {
+          "away": {
+            "name": "mommy",
+            "id": "3nf85l8jmmat4046",
+            "shortName": "mom"
+          },
+          "home": {
+            "name": "A-roid is the goat",
+            "id": "d0hry6xdmmbarukj",
+            "shortName": "Jojofrfr"
+          }
+        },
+        {
+          "away": {
+            "name": "MKJ95",
+            "id": "qrej9l9dmmb8jiub",
+            "shortName": "MKJ95"
+          },
+          "home": {
+            "name": "EliteWinner",
+            "id": "fmgfsv0gmmb479s1",
+            "shortName": "EliteWin"
+          }
+        },
+        {
+          "away": {
+            "name": "Los Swingers",
+            "id": "ygp40vngmmauqrm2",
+            "shortName": "Swingers"
+          },
+          "home": {
+            "name": "Zilla",
+            "id": "amlxdc43mmarh6q0",
+            "shortName": "ZLA"
+          }
+        },
+        {
+          "away": {
+            "name": "PCA FRAUD",
+            "id": "8gfc2yxbmmaw4pjy",
+            "shortName": "Downsr30"
+          },
+          "home": {
+            "name": "MKJ95",
+            "id": "qrej9l9dmmb8jiub",
+            "shortName": "MKJ95"
+          }
+        },
+        {
+          "away": {
+            "name": "Spheal Team Six",
+            "id": "nk3vygpqmmawoebf",
+            "shortName": "SPH"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 18,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Redbird III",
+            "id": "30edaar5mmavqfy8",
+            "shortName": "3rdBRD"
+          },
+          "home": {
+            "name": "Tyrone",
+            "id": "ptb8rhxammarvc77",
+            "shortName": "UNKNOWNM"
+          }
+        },
+        {
+          "away": {
+            "name": "Spheal Team Six",
+            "id": "nk3vygpqmmawoebf",
+            "shortName": "SPH"
+          },
+          "home": {
+            "name": "mommy",
+            "id": "3nf85l8jmmat4046",
+            "shortName": "mom"
+          }
+        },
+        {
+          "away": {
+            "name": "Endal",
+            "id": "ata9iqbwmmb4i064",
+            "shortName": "Endal"
+          },
+          "home": {
+            "name": "MKJ95",
+            "id": "qrej9l9dmmb8jiub",
+            "shortName": "MKJ95"
+          }
+        },
+        {
+          "away": {
+            "name": "A-roid is the goat",
+            "id": "d0hry6xdmmbarukj",
+            "shortName": "Jojofrfr"
+          },
+          "home": {
+            "name": "Los Swingers",
+            "id": "ygp40vngmmauqrm2",
+            "shortName": "Swingers"
+          }
+        },
+        {
+          "away": {
+            "name": "EliteWinner",
+            "id": "fmgfsv0gmmb479s1",
+            "shortName": "EliteWin"
+          },
+          "home": {
+            "name": "Zilla",
+            "id": "amlxdc43mmarh6q0",
+            "shortName": "ZLA"
+          }
+        },
+        {
+          "away": {
+            "name": "MKJ95",
+            "id": "qrej9l9dmmb8jiub",
+            "shortName": "MKJ95"
+          },
+          "home": {
+            "name": "PCA FRAUD",
+            "id": "8gfc2yxbmmaw4pjy",
+            "shortName": "Downsr30"
+          }
+        }
+      ]
+    },
+    {
+      "period": 19,
+      "matchupList": [
+        {
+          "away": {
+            "name": "Tyrone",
+            "id": "ptb8rhxammarvc77",
+            "shortName": "UNKNOWNM"
+          },
+          "home": {
+            "name": "PCA FRAUD",
+            "id": "8gfc2yxbmmaw4pjy",
+            "shortName": "Downsr30"
+          }
+        },
+        {
+          "away": {
+            "name": "MKJ95",
+            "id": "qrej9l9dmmb8jiub",
+            "shortName": "MKJ95"
+          },
+          "home": {
+            "name": "Redbird III",
+            "id": "30edaar5mmavqfy8",
+            "shortName": "3rdBRD"
+          }
+        },
+        {
+          "away": {
+            "name": "Los Swingers",
+            "id": "ygp40vngmmauqrm2",
+            "shortName": "Swingers"
+          },
+          "home": {
+            "name": "Spheal Team Six",
+            "id": "nk3vygpqmmawoebf",
+            "shortName": "SPH"
+          }
+        },
+        {
+          "away": {
+            "name": "Zilla",
+            "id": "amlxdc43mmarh6q0",
+            "shortName": "ZLA"
+          },
+          "home": {
+            "name": "Endal",
+            "id": "ata9iqbwmmb4i064",
+            "shortName": "Endal"
+          }
+        },
+        {
+          "away": {
+            "name": "EliteWinner",
+            "id": "fmgfsv0gmmb479s1",
+            "shortName": "EliteWin"
+          },
+          "home": {
+            "name": "A-roid is the goat",
+            "id": "d0hry6xdmmbarukj",
+            "shortName": "Jojofrfr"
+          }
+        },
+        {
+          "away": {
+            "name": "mommy",
+            "id": "3nf85l8jmmat4046",
+            "shortName": "mom"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 20,
+      "matchupList": [
+        {
+          "away": {
+            "name": "PCA FRAUD",
+            "id": "8gfc2yxbmmaw4pjy",
+            "shortName": "Downsr30"
+          },
+          "home": {
+            "name": "mommy",
+            "id": "3nf85l8jmmat4046",
+            "shortName": "mom"
+          }
+        },
+        {
+          "away": {
+            "name": "Tyrone",
+            "id": "ptb8rhxammarvc77",
+            "shortName": "UNKNOWNM"
+          },
+          "home": {
+            "name": "MKJ95",
+            "id": "qrej9l9dmmb8jiub",
+            "shortName": "MKJ95"
+          }
+        },
+        {
+          "away": {
+            "name": "Redbird III",
+            "id": "30edaar5mmavqfy8",
+            "shortName": "3rdBRD"
+          },
+          "home": {
+            "name": "Zilla",
+            "id": "amlxdc43mmarh6q0",
+            "shortName": "ZLA"
+          }
+        },
+        {
+          "away": {
+            "name": "Spheal Team Six",
+            "id": "nk3vygpqmmawoebf",
+            "shortName": "SPH"
+          },
+          "home": {
+            "name": "EliteWinner",
+            "id": "fmgfsv0gmmb479s1",
+            "shortName": "EliteWin"
+          }
+        },
+        {
+          "away": {
+            "name": "Endal",
+            "id": "ata9iqbwmmb4i064",
+            "shortName": "Endal"
+          },
+          "home": {
+            "name": "A-roid is the goat",
+            "id": "d0hry6xdmmbarukj",
+            "shortName": "Jojofrfr"
+          }
+        },
+        {
+          "away": {
+            "name": "Los Swingers",
+            "id": "ygp40vngmmauqrm2",
+            "shortName": "Swingers"
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 21,
+      "matchupList": [
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 22,
+      "matchupList": [
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        },
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    },
+    {
+      "period": 23,
+      "matchupList": [
+        {
+          "away": {
+            "bye": true
+          },
+          "home": {
+            "bye": true
+          }
+        }
+      ]
+    }
+  ],
+  "standings": [
+    {
+      "teamName": "EliteWinner",
+      "teamId": "fmgfsv0gmmb479s1",
+      "gamesBack": 0.0,
+      "rank": 1,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "mommy",
+      "teamId": "3nf85l8jmmat4046",
+      "gamesBack": 0.0,
+      "rank": 2,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Zilla",
+      "teamId": "amlxdc43mmarh6q0",
+      "gamesBack": 0.0,
+      "rank": 3,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Redbird III",
+      "teamId": "30edaar5mmavqfy8",
+      "gamesBack": 0.0,
+      "rank": 4,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "PCA FRAUD",
+      "teamId": "8gfc2yxbmmaw4pjy",
+      "gamesBack": 0.0,
+      "rank": 5,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "MKJ95",
+      "teamId": "qrej9l9dmmb8jiub",
+      "gamesBack": 0.0,
+      "rank": 6,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Endal",
+      "teamId": "ata9iqbwmmb4i064",
+      "gamesBack": 0.0,
+      "rank": 7,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "A-roid is the goat",
+      "teamId": "d0hry6xdmmbarukj",
+      "gamesBack": 0.0,
+      "rank": 8,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Spheal Team Six",
+      "teamId": "nk3vygpqmmawoebf",
+      "gamesBack": 0.0,
+      "rank": 9,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Los Swingers",
+      "teamId": "ygp40vngmmauqrm2",
+      "gamesBack": 0.0,
+      "rank": 10,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    },
+    {
+      "teamName": "Tyrone",
+      "teamId": "ptb8rhxammarvc77",
+      "gamesBack": 0.0,
+      "rank": 11,
+      "points": "0-0-0",
+      "winPercentage": 0.0
+    }
+  ]
+}
